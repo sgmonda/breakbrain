@@ -51,7 +51,38 @@ MongoDB shell version: 2.2.3
 ````
 ### Breakbrain installation
 
+When NodeJS and MongoDB are working properly, you are ready to install Breakbrain in your machine. To do it, just follow these steps:
+
+- Download this repository as a ZIP file into a known directory. Alternatively, if you have [git](http://git-scm.com/ "Git") you can clone this repository directly.
+````
+git clone https://github.com/sgmonda/breakbrain
+````
+
+- Go into the downloaded directory with a terminal.
+````
+cd breakbrain
+````
+
 ## Usage
+
+Using Breakbrain platform now is very easy, just start the server:
+````
+$ node server.js
+Tue, 30 Jul 2013 22:48:45 (GMT) :: DATABASE: Connecting to MongoDB database...
+Tue, 30 Jul 2013 22:48:46 (GMT) :: DATABASE: Connected and authenticated successfully
+Tue, 30 Jul 2013 22:48:46 (GMT) :: EMAIL-MODULE: Email subsystem ready to send emails
+Tue, 30 Jul 2013 22:48:46 (GMT) :: GAMES-MODULE: Loading games server...
+Tue, 30 Jul 2013 22:48:46 (GMT) :: WEB SERVER: running on port 20661
+Tue, 30 Jul 2013 22:48:46 (GMT) :: GAMES-MODULE: Loading game "Un juego"... in Working memory (Memory)
+Tue, 30 Jul 2013 22:48:47 (GMT) :: WEBSOCKETS SERVER: running on port 20661
+Tue, 30 Jul 2013 22:48:47 (GMT) :: MAIN SERVER: The whole server is ready!
+````
+and open the following page in a web browser
+````
+http://localhost:20661
+````
+
+That's all. Enjoy Breakbrain!
 
 ## Game development
 
