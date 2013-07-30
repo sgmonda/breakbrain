@@ -1,7 +1,14 @@
-Características a destacar:
+#Breakbrain
 
-[ ] Inserción de juegos en caliente (sin reiniciar el servidor)
+Social network to improve mental skills by mean of mini-games
 
-TODO:
+## About Breakbrain
 
-- Corregir palabra que se corta email/ en los requisitos o casos de uso
+## Installation
+
+## Usage
+
+## Game development
+
+
+
