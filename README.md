@@ -22,8 +22,33 @@ Social aspects are really simple: you can follow other users, to see their evolu
 
 #### NodeJS
 
+First of all you need NodeJS installed on your computer. It's really easy; you can find downloads and documentation in [the official NodeJS website](http://nodejs.org/ "NodeJS").
+
+In the case you are using Ubuntu GNU/Linux, it is even easier:
+````
+$ sudo apt-get install nodejs
+````
+
+Once you have NodeJS correctly installed, you must be able to see node's version. In my case:
+````
+$ node -v
+v0.8.5
+````
+
 #### MongoDB
 
+Once NodeJS is installed on your system, the next step is to install MongoDB database. As in the previous case, it is easy to install, using [the official downloads and documentation](http://mongodb.org "MongoDB").
+
+Remember that GNU/Linux simplifies your life. With Ubuntu:
+````
+$ sudo apt-get install mongodb
+````
+
+After installing MongoDB, you must be able to check everything works ok. In my case:
+````
+$ mongo --version
+MongoDB shell version: 2.2.3
+````
 ### Breakbrain installation
 
 ## Usage
