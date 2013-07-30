@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>jmpress.js | cube example</title>
+
+    <meta name="description" content="jmpress.js is a jQuery plugin to build a website on the infinite canvas">
+      <meta name="author" content="Kyle Robinson Young @shama & Tobias Koppers @sokra" />
+      <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+      <link href="css/cube.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="css/basic-animations.css" type="text/css" media="screen" />
+
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jmpress.js"></script>
+
+    </head>
+    <body>
+
+      <div id="cube">
+
+        <!-- ################################################## -->
+
+        <div class="step" id="logo" data-up="#top" data-down="#bottom" data-scale="0"
+             data-rotate-x="0" data-rotate-y="-0" data-rotate-z="0" 
+             data-x="0" data-y="0" data-z="0">
+          <img src="img/logo.png" alt="logo" id="logo" />
+          <div id="logo-text">BreakBrain</div>
+        </div>
+
+        <!-- ################################################## -->
+
+        <div class="step" id="social" data-up="#top" data-down="#bottom" data-scale="2"
+             data-rotate-x="0" data-rotate-y="-0" data-rotate-z="0" 
+             data-x="0" data-y="-80" data-z="0">
+          <div class="square-picture free" style="left: 50px; top: 50px;" data-jmpress="fade after 1000ms step">
+            <img src="img/face08.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 80px; top: 200px;" data-jmpress="fade after 1250ms step">
+            <img src="img/face02.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 300px; top: 80px;" data-jmpress="fade after 1500ms step">
+            <img src="img/face03.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 70px; top: 500px;" data-jmpress="fade after 1750ms step">
+            <img src="img/face04.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 250px; top: 600px;" data-jmpress="fade after 2000ms step">
+            <img src="img/face05.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 800px; top: 100px;" data-jmpress="fade after 2250ms step">
+            <img src="img/face06.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 700px; top: 300px;" data-jmpress="fade after 2500ms step">
+            <img src="img/face07.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 850px; top: 600px;" data-jmpress="fade after 2750ms step">
+            <img src="img/face01.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 550px; top: 550px;" data-jmpress="fade after 3000ms step">
+            <img src="img/face09.jpg" alt="person" />
+          </div>
+          <div class="square-picture free" style="left: 570px; top: 50px;" data-jmpress="fade after 3250ms step">
+            <img src="img/face10.jpg" alt="person" />
+          </div>
+          <!-- lineas -->
+          <div data-jmpress="fade after 4000ms step">
+            <div class="line" style="width: 370px; left: 125px; top: 240px; -webkit-transform: rotate(34deg);"></div>
+            <div class="ball" style="top: 65px; left: 50px;"></div>
+            <div class="ball-inv fast" style="top: 65px; left: 50px;"></div>
+            <div class="line" style="width: 250px; left: 300px; top: 240px; -webkit-transform: rotate(58deg);"></div>
+            <div class="ball slow" style="top: 80px; left: 310px;"></div>
+            <div class="ball-inv" style="top: 80px; left: 310px;"></div>
+            <div class="line" style="width: 250px; left: 440px; top: 240px; -webkit-transform: rotate(-70deg);"></div>
+            <div class="ball slow" style="top: 80px; left: 600px;"></div>
+            <div class="ball-inv" style="top: 80px; left: 600px;"></div>
+            <div class="line" style="width: 350px; left: 500px; top: 255px; -webkit-transform: rotate(-39deg);"></div>
+            <div class="ball fast" style="top: 100px; left: 840px;"></div>
+            <div class="ball-inv fast" style="top: 100px; left: 840px;"></div>
+            <div class="line" style="width: 350px; left: 130px; top: 480px; -webkit-transform: rotate(-25deg);"></div>
+            <div class="ball slow" style="top: 570px; left: 80px;"></div>
+            <div class="ball-inv fast" style="top: 570px; left: 80px;"></div>
+            <div class="line" style="width: 350px; left: 130px; top: 300px; -webkit-transform: rotate(20deg);"></div>
+            <div class="ball slow" style="top: 210px; left: 80px;"></div>
+            <div class="ball-inv" style="top: 210px; left: 80px;"></div>
+            <div class="line" style="width: 350px; left: 260px; top: 500px; -webkit-transform: rotate(-53deg);"></div>
+            <div class="ball" style="top: 600px; left: 350px;"></div>
+            <div class="ball-inv fast" style="top: 600px; left: 350px;"></div>
+            <div class="line" style="width: 300px; left: 400px; top: 500px; -webkit-transform: rotate(70deg);"></div>
+            <div class="ball fast" style="top: 600px; left: 570px;"></div>
+            <div class="ball-inv slow" style="top: 600px; left: 570px;"></div>
+            <div class="line" style="width: 500px; left: 430px; top: 490px; -webkit-transform: rotate(35deg);"></div>
+            <div class="ball fast" style="top: 650px; left: 910px;"></div>
+            <div class="ball-inv" style="top: 650px; left: 910px;"></div>
+            <div class="line" style="width: 200px; left: 520px; top: 365px; -webkit-transform: rotate(-10deg);"></div>
+            <div class="ball" style="top: 330px; left: 760px;"></div>
+            <div class="ball-inv slow" style="top: 330px; left: 760px;"></div>
+          </div>
+        </div>
+
+        <!-- ################################################## -->
+
+        <div class="step" id="brain" data-up="#top" data-down="#bottom" data-scale="0.5"
+             data-rotate-x="0" data-rotate-y="-0" data-rotate-z="0" 
+             data-x="0" data-y="-90" data-z="0">
+
+        </div>
+
+        <!-- ################################################## -->
+
+        <div class="step semivisible" id="toc" data-up="#top" data-down="#bottom" data-scale="0.5" style=" z-index: 2;"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" 
+             data-x="-10" data-y="-100" data-z="-1000">
+          <!-- <ol class="index"> -->
+          <!--   <li data-jmpress="fade after 1500ms step">Introducción</li> -->
+          <!--   <li data-jmpress="fade after 2000ms step">Arquitectura</li> -->
+          <!--   <li data-jmpress="fade after 2500ms step">Metodología</li> -->
+          <!--   <li data-jmpress="fade after 3000ms step">Resultados</li> -->
+          <!--   <li data-jmpress="fade after 3500ms step">Conclusiones</li> -->
+          <!-- </ol> -->
+          <img src="img/brain-index.png" class="free" alt="brain" data-jmpress="fade after 1.5s step" style="width: 900px; left: 70px; top: 50px"/>
+          <div data-jmpress="fade after 2000ms step" style="font-size: 60px; text-align: center; margin-top: 200px;">
+            Introducción<br/>
+          </div>
+          <div  data-jmpress="fade after 2500ms step" style="font-size: 60px; text-align: center;">
+            Arquitectura<br/>
+          </div>
+          <div  data-jmpress="fade after 3000ms step" style="font-size: 60px; text-align: center;">
+            Metodología<br/>
+          </div>
+          <div  data-jmpress="fade after 3500ms step" style="font-size: 60px; text-align: center;">
+            Resultados<br/>
+          </div>
+          <div  data-jmpress="fade after 4000ms step" style="font-size: 60px; text-align: center;">            
+            Conclusiones<br/>
+          </div>
+        </div>
+
+        <!-- ################################################## -->
+
+        <div class="step invisible" id="intro" data-up="#top" data-down="#bottom" data-scale="0.2" style=" z-index: 2;"
+             data-rotate-x="90" data-rotate-y="0" data-rotate-z="0" 
+             data-x="-10" data-y="-165" data-z="-1010">
+          <p class="alert">introducción</p>
+        </div>
+
+        <!-- ################################################## -->
+        <!-- ################################################## -->
+
+        <div class="step semivisible" id="brain-title" data-up="#top" data-down="#bottom" data-scale="0.01" style=" z-index: 2;"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" 
+             data-x="-10" data-y="-100" data-z="0">
+          <p class="alert" data-jmpress="appear after 1500ms step">El cerebro</p>
+        </div>
+
+        <!-- ################################################## -->
+
+        <div class="step" id="brain-parts" data-up="#top" data-down="#bottom" data-scale="0.01" style=" z-index: 2;"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="90" 
+             data-x="-10" data-y="-97" data-z="0">
+          <ul style="padding-left: 300px; padding-top: 30px;" class="plainlist readable">
+            <li data-jmpress="appear after 2s step">Memoria</li>
+            <li data-jmpress="appear after 3.5s step">Resolución de problemas</li>
+            <li data-jmpress="appear after 5s step">Flexibilidad</li>
+            <li data-jmpress="appear after 6.5s step">Atención</li>
+            <li data-jmpress="appear after 8s step">Velocidad</li>
+          </ul>
+        </div>
+
+
+        <!-- ################################################## -->
+
+        <div class="step invisible" id="memory" data-up="#top" data-down="#bottom" data-scale="0.01" style=" z-index: 2;"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="90" 
+             data-x="-10" data-y="-97" data-z="-20">
+          <p class="alert">memoria</p>
+          <img data-jmpress="fade after 2s step" src="img/card.png" alt="card" class="card free" width="200" style="left: 70px; top: 70px;"/>
+          <img data-jmpress="fade after 2.8s step" src="img/card.png" alt="card" class="card free cardhide" width="200" style="left: 70px; top: 400px;"/>
+          <img data-jmpress="fade after 2.2s step" src="img/card.png" alt="card" class="card free" width="200" style="left: 300px; top: 70px;"/>
+          <img data-jmpress="fade after 3s step" src="img/card.png" alt="card" class="card free" width="200" style="left: 300px; top: 400px;"/>
+          <img data-jmpress="fade after 2.4s step" src="img/card.png" alt="card" class="card free cardhide" width="200" style="left: 530px; top: 70px;"/>
+          <img data-jmpress="fade after 3.2s step" src="img/card.png" alt="card" class="card free" width="200" style="left: 530px; top: 400px;"/>
+          <img data-jmpress="fade after 2.6s step" src="img/card.png" alt="card" class="card free" width="200" style="left: 760px; top: 70px;"/>
+          <img data-jmpress="fade after 3.4s step" src="img/card.png" alt="card" class="card free" width="200" style="left: 760px; top: 400px;"/>
+
+          <img data-jmpress="fade after 5s step" src="img/card2.png" alt="card" class="card free cardhide" width="200" style="left: 70px; top: 400px;"/>
+          <img data-jmpress="fade after 6s step" src="img/card2.png" alt="card" class="card free cardhide" width="200" style="left: 530px; top: 70px;"/>
+
+
+
+        </div>
+
+        <!-- ################################################## -->
+
+        <div class="step invisible" id="problemas" data-up="#top" data-down="#bottom" data-scale="0.01" style=" z-index: 2;"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="90" 
+             data-x="-10" data-y="-97" data-z="-20">
+          <p class="alert">Resolución de problemas</p>
+
+
+        </div>
+
+        <!-- ################################################## -->
+
+        <div class="step invisible" id="front" data-up="#top" data-down="#bottom"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" 
+             data-x="0" data-y="0" data-z="0">
+          indice
+	</div>
+	<div class="step invisible" id="front" data-up="#top" data-down="#bottom"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" 
+             data-x="0" data-y="0" data-z="0">
+          <img src="img/hombre.png" alt="hombre" />
+	</div>
+	<div class="step invisible" id="front" data-up="#top" data-down="#bottom"
+             data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" 
+             data-x="0" data-y="0" data-z="0">
+          front2
+	</div>
+	<div class="step invisible white" id="right" data-up="#top" data-down="#bottom"
+             data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" 
+             data-x="512" data-y="0" data-z="-512">
+          RIGHT
+	</div>
+
+      </div>
+
+      <script type="text/javascript" src="js/cube.js"></script>
+
+    </body>
+  </html>

@@ -1,4 +1,7 @@
-breakbrain
-==========
+Características a destacar:
 
-Social network to improve mental skills by mean of mini-games
+[ ] Inserción de juegos en caliente (sin reiniciar el servidor)
+
+TODO:
+
+- Corregir palabra que se corta email/ en los requisitos o casos de uso

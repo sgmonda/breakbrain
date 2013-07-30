@@ -1,0 +1,110 @@
+.ui-datepicker-year, 
+.ui-datepicker-month {
+    height: 2em;
+    font-size: 1em;
+}
+
+/*## No-script alert #########################################################*/
+
+.noscript {
+    width: 500px;
+    margin: auto;
+    display: block;
+    background: red;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+/* ######################################################################## */
+
+*:focus { outline: none; }
+
+body {
+    background-color: #444;
+    background: url('/img/background-dark.png') fixed;
+    overflow-y: scroll;
+}
+
+breakbrain-ref {
+    display: none;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: x-larger;
+}
+
+a {
+    font-size: small;
+    color: orange;
+}
+
+.hline {
+    height: 0.1em;
+    border-bottom: solid 0.1em #666;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.textinput {
+    border: solid 0.2em rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    font-weight: bold;
+    height: 2em;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    color: #333;
+}
+
+.textinput:focus {
+    border-color: orange;
+}
+
+input[type='checkbox'] {
+    float: left;
+}
+
+.checkbox-label {
+    font-size: small;
+    float: left;
+}
+
+button {
+    border: solid 0.2em rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    font-weight: bold;
+    height: 2.4em;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    color: #333;
+    cursor: pointer;
+    background: #aaa;
+}
+
+button:hover, button:focus {
+    border-color: orange;
+}
+
+select {
+    border: solid 0.2em rgba(0, 0, 0, 0.7);
+    border-radius: 0.5em;
+    background-color: white;
+    font-weight: bold;
+    height: 2.5em;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    color: #333;    
+    width: 100%;
+}
+
+#ui-datepicker-div {
+    display: none;
+}
+
+breakbrain-ref {
+    display: none;
+}

@@ -1,0 +1,115 @@
+\BOOKMARK [0][-]{chapter*.1}{Resumen}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{\315ndice general}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{\315ndice de cuadros}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{\315ndice de figuras}{}% 4
+\BOOKMARK [0][-]{chapter*.5}{\315ndice de listados}{}% 5
+\BOOKMARK [0][-]{chapter*.6}{Listado de acr\363nimos}{}% 6
+\BOOKMARK [0][-]{chapter*.7}{Agradecimientos}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 8
+\BOOKMARK [1][-]{section.1.1}{Redes sociales}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{El cerebro humano}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.2.1}{La neuroplasticidad}{section.1.2}% 11
+\BOOKMARK [1][-]{section.1.3}{El entrenamiento cerebral mediante juegos}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.4}{Estructura del documento}{chapter.1}% 13
+\BOOKMARK [0][-]{chapter.2}{Motivaci\363n y objetivos}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Motivaci\363n}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.1.1}{Enfermedad mental}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.2}{Prevenci\363n de la degeneraci\363n neuronal}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.3}{Mejora activa}{section.2.1}% 18
+\BOOKMARK [1][-]{section.2.2}{Objetivos}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.1}{Objetivo general}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.2}{Objetivos espec\355ficos}{section.2.2}% 21
+\BOOKMARK [0][-]{chapter.3}{Antecedentes}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Sitios web de juegos online}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Entrenamiento cerebral mediante mini juegos}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Desarrollo web moderno}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{Servidor web}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{Cliente web}{section.3.3}% 27
+\BOOKMARK [1][-]{section.3.4}{Anatom\355a y fisiolog\355a del cerebro humano}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.4.1}{Estructura cerebral}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.2}{El desarrollo cerebral}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.3}{Estructuras primarias del cerebro}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.4}{Los hemisferios cerebrales}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.5}{La corteza cerebral}{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.6}{Estructuras subcorticales. El estr\351s, las emociones y la enfermedad mental}{section.3.4}% 34
+\BOOKMARK [1][-]{section.3.5}{Neuroplasticidad}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.5.1}{Memoria \(Memory\)}{section.3.5}% 36
+\BOOKMARK [2][-]{subsection.3.5.2}{Resoluci\363n de problemas \(Problem solving\)}{section.3.5}% 37
+\BOOKMARK [2][-]{subsection.3.5.3}{Atenci\363n \(Attention\)}{section.3.5}% 38
+\BOOKMARK [2][-]{subsection.3.5.4}{Velocidad \(Speed\)}{section.3.5}% 39
+\BOOKMARK [2][-]{subsection.3.5.5}{Flexibilidad \(Flexibility\)}{section.3.5}% 40
+\BOOKMARK [0][-]{chapter.4}{M\351todo de trabajo}{}% 41
+\BOOKMARK [1][-]{section.4.1}{Proceso Unificado de Desarrollo}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.1.1}{Visi\363n global del proceso}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.1.2}{Etapas e iteraciones \(dimensi\363n din\341mica\)}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.3}{Artefactos \(dimensi\363n est\341tica\)}{section.4.1}% 45
+\BOOKMARK [1][-]{section.4.2}{Iteraciones}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.3}{An\341lisis de requisitos}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.3.1}{Primera aproximaci\363n a los requisitos}{section.4.3}% 48
+\BOOKMARK [2][-]{subsection.4.3.2}{Requisitos funcionales}{section.4.3}% 49
+\BOOKMARK [2][-]{subsection.4.3.3}{Requisitos de evoluci\363n}{section.4.3}% 50
+\BOOKMARK [2][-]{subsection.4.3.4}{Requisitos de soporte}{section.4.3}% 51
+\BOOKMARK [2][-]{subsection.4.3.5}{Requisitos de calidad}{section.4.3}% 52
+\BOOKMARK [1][-]{section.4.4}{Diagrama de despliegue}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.5}{An\341lisis de casos de uso}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.5.1}{Identificaci\363n de actores}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.2}{Identificaci\363n de casos de uso}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.3}{Especificaci\363n de casos de uso}{section.4.5}% 57
+\BOOKMARK [1][-]{section.4.6}{Dise\361o}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.7}{Implementaci\363n}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.7.1}{Tecnolog\355a}{section.4.7}% 60
+\BOOKMARK [2][-]{subsection.4.7.2}{Estructura del c\363digo fuente}{section.4.7}% 61
+\BOOKMARK [1][-]{section.4.8}{Estad\355sticas del c\363digo fuente}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.9}{Pruebas}{chapter.4}% 63
+\BOOKMARK [2][-]{subsection.4.9.1}{Pruebas unitarias}{section.4.9}% 64
+\BOOKMARK [2][-]{subsection.4.9.2}{Pruebas funcionales}{section.4.9}% 65
+\BOOKMARK [2][-]{subsection.4.9.3}{Pruebas de aceptaci\363n}{section.4.9}% 66
+\BOOKMARK [2][-]{subsection.4.9.4}{Pruebas de estr\351s del sistema}{section.4.9}% 67
+\BOOKMARK [0][-]{chapter.5}{Arquitectura}{}% 68
+\BOOKMARK [1][-]{section.5.1}{Composici\363n del sistema}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.2}{Arquitectura del sitio web}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.2.1}{Patr\363n MVC}{section.5.2}% 71
+\BOOKMARK [1][-]{section.5.3}{Arquitectura del servidor}{chapter.5}% 72
+\BOOKMARK [2][-]{subsection.5.3.1}{Patr\363n MVC}{section.5.3}% 73
+\BOOKMARK [2][-]{subsection.5.3.2}{Dise\361o modular}{section.5.3}% 74
+\BOOKMARK [2][-]{subsection.5.3.3}{Arquitectura del servidor de juegos}{section.5.3}% 75
+\BOOKMARK [1][-]{section.5.4}{Sistema Gestor de Base de Datos}{chapter.5}% 76
+\BOOKMARK [0][-]{chapter.6}{Resultados}{}% 77
+\BOOKMARK [1][-]{section.6.1}{Especificaci\363n del entrenamiento cerebral}{chapter.6}% 78
+\BOOKMARK [1][-]{section.6.2}{Medici\363n cuantitativa de la evoluci\363n cerebral mediante juegos}{chapter.6}% 79
+\BOOKMARK [2][-]{subsection.6.2.1}{Juegos, partidas y actividades puntuables}{section.6.2}% 80
+\BOOKMARK [2][-]{subsection.6.2.2}{Puntuaci\363n de partidas}{section.6.2}% 81
+\BOOKMARK [2][-]{subsection.6.2.3}{Variables de clasificaci\363n}{section.6.2}% 82
+\BOOKMARK [1][-]{section.6.3}{Sistema de recomendaci\363n}{chapter.6}% 83
+\BOOKMARK [2][-]{subsection.6.3.1}{Algoritmo de recomendaci\363n de usuarios}{section.6.3}% 84
+\BOOKMARK [2][-]{subsection.6.3.2}{Algoritmo de recomendaci\363n de juegos}{section.6.3}% 85
+\BOOKMARK [2][-]{subsection.6.3.3}{Notas personales}{section.6.3}% 86
+\BOOKMARK [0][-]{chapter.7}{Conclusiones y propuestas}{}% 87
+\BOOKMARK [0][-]{appendix.Alph1}{Iteraciones del PUD}{}% 88
+\BOOKMARK [1][-]{section.Alph1.1}{Iteraciones de inicio}{appendix.Alph1}% 89
+\BOOKMARK [1][-]{section.Alph1.2}{Iteraciones de elaboraci\363n}{appendix.Alph1}% 90
+\BOOKMARK [1][-]{section.Alph1.3}{Iteraciones de construcci\363n}{appendix.Alph1}% 91
+\BOOKMARK [1][-]{section.Alph1.4}{Etapa de transici\363n}{appendix.Alph1}% 92
+\BOOKMARK [1][-]{section.Alph1.5}{Visi\363n gr\341fica}{appendix.Alph1}% 93
+\BOOKMARK [0][-]{appendix.Alph2}{Gu\355a para el desarrollador: creaci\363n de juegos para BreakBrain}{}% 94
+\BOOKMARK [1][-]{section.Alph2.1}{Requisitos}{appendix.Alph2}% 95
+\BOOKMARK [2][-]{subsection.Alph2.1.1}{Conocimientos del desarrollador}{section.Alph2.1}% 96
+\BOOKMARK [2][-]{subsection.Alph2.1.2}{Herramientas de desarrollo}{section.Alph2.1}% 97
+\BOOKMARK [1][-]{section.Alph2.2}{Tipos de juegos}{appendix.Alph2}% 98
+\BOOKMARK [2][-]{subsection.Alph2.2.1}{Juegos monojugador}{section.Alph2.2}% 99
+\BOOKMARK [2][-]{subsection.Alph2.2.2}{Juegos multijugador}{section.Alph2.2}% 100
+\BOOKMARK [1][-]{section.Alph2.3}{El sistema de juegos de BreakBrain}{appendix.Alph2}% 101
+\BOOKMARK [2][-]{subsection.Alph2.3.1}{Componentes del sistema de juegos}{section.Alph2.3}% 102
+\BOOKMARK [2][-]{subsection.Alph2.3.2}{Componentes de un juego}{section.Alph2.3}% 103
+\BOOKMARK [1][-]{section.Alph2.4}{Creaci\363n de un juego desde cero}{appendix.Alph2}% 104
+\BOOKMARK [2][-]{subsection.Alph2.4.1}{Eligiendo una categor\355a}{section.Alph2.4}% 105
+\BOOKMARK [2][-]{subsection.Alph2.4.2}{Creando la estructura b\341sica del juego}{section.Alph2.4}% 106
+\BOOKMARK [2][-]{subsection.Alph2.4.3}{Preparando los recursos}{section.Alph2.4}% 107
+\BOOKMARK [2][-]{subsection.Alph2.4.4}{Desarrollando la parte servidora}{section.Alph2.4}% 108
+\BOOKMARK [2][-]{subsection.Alph2.4.5}{Desarrollando la parte cliente}{section.Alph2.4}% 109
+\BOOKMARK [1][-]{section.Alph2.5}{Publicaci\363n del juego en BreakBrain}{appendix.Alph2}% 110
+\BOOKMARK [0][-]{appendix.Alph3}{Manual de usuario}{}% 111
+\BOOKMARK [0][-]{appendix.Alph4}{Gu\355a de instalaci\363n}{}% 112
+\BOOKMARK [0][-]{appendix.Alph5}{Licencia de uso del software}{}% 113
+\BOOKMARK [0][-]{appendix*.19}{Bibliograf\355a}{}% 114
+\BOOKMARK [0][-]{appendix*.19}{\315ndice alfab\351tico}{}% 115

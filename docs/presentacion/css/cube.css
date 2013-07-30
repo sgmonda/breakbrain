@@ -1,0 +1,171 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/BebasNeue.otf');
+}
+@font-face {
+    font-family: 'stryde';
+    src: url('../fonts/StRyde-Regular.otf');
+}
+
+/** GENERAL **/
+body {
+    font-family: 'bebas', Verdana, sans-serif;
+    min-height: 768px;
+    background-color: #ccc;
+/*    -webkit-font-smoothing: antialiased; */
+    pointer-events: none;
+}
+
+/** STEP STYLES **/
+.step {
+    width: 1024px;
+    height: 768px;
+
+    display: block;
+
+    background: none;
+    color: #333;
+    font-size: 80px;
+
+
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+    position: relative;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.semivisible {
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#logo-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.white {
+    background: white;
+}
+.free{
+    position: absolute;
+}
+
+.square-picture {
+    z-index: 1;
+    border: solid 5px #777;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.square-picture img {
+    width: 100px;
+}
+
+.line {
+    z-index: 0;
+    position: absolute;
+    width: 500px;
+    height: 5px;
+    background-color: #777;
+}
+
+.ball{
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 10px;
+    background: #333;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name: connection;
+    -webkit-animation-duration:1s;
+}
+
+.ball-inv {
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 10px;
+    background: #888;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name: connection-inv;
+    -webkit-animation-duration:1s;
+}
+
+.fast {
+    -webkit-animation-duration:0.5s;
+}
+
+.slow {
+    -webkit-animation-duration:1.5s;
+}
+
+@-webkit-keyframes connection {
+    to {
+        top: 380px;
+        left: 512px;
+    }
+}
+
+@-webkit-keyframes connection-inv {
+    from {
+        top: 380px;
+        left: 512px;
+    }
+}
+
+.alert{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    height: 738px;
+    width: 994px;
+    padding: 15px;
+    font-size: 150px;
+}
+
+.dark {
+    background: #333;
+}
+.plainlist {
+    list-style-type: none;
+    line-height: 70px;
+}
+.plainlist li {
+    margin-bottom: 30px;
+}
+.readable{
+    font-family: 'stryde', sans-serif, Verdana;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.index {
+    font-size: 50px;
+    padding-top: 150px;
+    padding-left: 430px;
+    list-style-type:decimal;
+}

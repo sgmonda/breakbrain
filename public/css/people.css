@@ -1,0 +1,136 @@
+/* people css */
+
+#search-panel {
+    height: 750px;
+    border-bottom: solid 1px #ccc;
+}
+
+#search-left {
+    width: 500px;
+    height: 100%;
+    float: left;
+}
+
+#search-box {
+    background: white;
+    border-bottom: solid 2px #ddd;
+    width: 100%;
+    height: 50px;
+}
+
+#search-box > input {
+    width: 390px;
+    float: left;
+}
+
+#search-box > button {
+    width: 90px;
+    float: right;
+}
+
+#search-results {
+    overflow: auto;
+    height: 670px;
+    padding: 1px;
+    list-style-type: none;
+}
+
+#search-results > li {
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 75px;
+    cursor: pointer;
+    border-bottom: solid 1px #ddd;
+}
+
+#search-results > li:hover {
+    background: #f1f1f1;
+}
+
+.search-result-avatar {
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    float: left;
+}
+
+.search-result-avatar > img {
+    height: 100%;
+}
+
+.search-result-info {
+    float: left;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.search-result-name {
+    font-weight: bold;
+    color: #555;
+}
+.search-result-nick {
+    width: 100%;
+    height: 35px;
+    color: #888;
+}
+
+.search-result-country {
+    color: orange;
+    font-size: small;
+}
+
+.search-result-score {
+    float:right;
+    font-weight: bold;
+    color: #777;
+    margin-right: 1em;
+}
+
+.search-result-score > *{
+    display: inline;
+}
+
+._id {
+    display: none;
+}
+
+#search-right {
+    float: right;
+    width: 300px;
+    height: 700px;
+    background: #f1f1f1;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    padding: 20px;
+    font-size: small;
+    overflow: auto;
+}
+
+#search-right-avatar {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 10px;
+    z-index: 19;
+}
+
+#search-right-avatar > img {
+    height: 100%;
+}
+
+.search-right-label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.search-right-value {
+    color: #444;
+}
+
+#search-right-plot {
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+}
+

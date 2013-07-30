@@ -1,0 +1,15 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Web social}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Entretenimiento constructivo}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Plasticidad neuronal}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Estimulaci\IeC {\'o}n cerebral mediante videojuegos}{4}{subsection.1.4}
+\contentsline {section}{\numberline {2}Objetivos y tecnolog\IeC {\'\i }as a utilizar}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Objetivos}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Tecnolog\IeC {\'\i }as a utilizar}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Visi\IeC {\'o}n general del sistema}{7}{subsection.2.3}
+\contentsline {section}{\numberline {3}Fases de trabajo y metodolog\IeC {\'\i }a}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Estudio del estado del arte}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Investigaci\IeC {\'o}n}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Desarrollo del sistema}{8}{subsection.3.3}
+\contentsline {section}{Referencias}{9}{figure.1}

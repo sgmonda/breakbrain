@@ -1,0 +1,15 @@
+input {
+    outline: none;
+}
+
+.small-font {
+    display: inline;
+    font-size: small;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+/* Buttons */
+

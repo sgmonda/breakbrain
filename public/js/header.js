@@ -1,0 +1,1 @@
+$('#username').text(user.realname);

@@ -1,0 +1,172 @@
+\chapter{Iteraciones}
+\label{chap::iteraciones}
+
+lo que ha tardado cada una y algún detalle más
+
+\begin{minipage}[b]{0.45\linewidth}
+  \subsubsection{Iteración I1}
+
+  \begin{itemize}    
+  \item {\bf Descripción}: bla bla blabla bla blabla bla blabla bla bla sdkjfls lsjflkj ljkldjl sjlksdj sdjflj sfkljsf fj sklfsklf 
+  \item {\bf Desarrollo}:
+    \begin{itemize}
+    \item Requisitos: 60\%.
+    \item Casos de uso: 30\%.
+    \item Diseño: 5\%.
+    \item Implementación: 0\%.
+    \item Pruebas: 0\%.
+    \end{itemize}
+  \end{itemize}
+\end{minipage}
+\hspace{0.06\linewidth}
+\begin{minipage}[b]{0.45\linewidth}
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[width=6cm]{images/i1.png}
+      % http://charts.hohli.com
+
+      % http://chart.apis.google.com/chart?cht=p&chs=260x200&chd=s:DhPGD&chl=Imp|Req|UC|Dis|Pru&chco=abdbff,fab1b1,ffd391,ffa1fc,b6e0be&chf=bg,s,FFFFFF|c,s,FFFFFF
+      \caption{Iteracción I1}
+      \label{fig::i1}
+    \end{center}
+  \end{figure}
+\end{minipage}
+
+\begin{minipage}[b]{0.45\linewidth}
+  \subsubsection{Iteración I1}
+  \begin{itemize}    
+  \item {\bf Descripción}: bla bla blabla bla blabla bla blabla bla bla sdkjfls lsjflkj ljkldjl sjlksdj sdjflj sfkljsf fj sklfsklf 
+  \item {\bf Desarrollo}:
+    \begin{itemize}
+    \item Requisitos: 60\%.
+    \item Casos de uso: 30\%.
+    \item Diseño: 5\%.
+    \item Implementación: 0\%.
+    \item Pruebas: 0\%.
+    \end{itemize}
+    \end{itemize}
+\end{minipage}
+\hspace{0.06\linewidth}
+\begin{minipage}[b]{0.45\linewidth}
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[width=6cm]{images/i1.png}
+      % http://charts.hohli.com
+      % http://chart.apis.google.com/chart?cht=p&chs=260x200&chd=t:10,20,10,10&chl=Imp|Req|UC|Dis|Pru&chco=abdbff,fab1b1,ffd391,ffa1fc,b6e0be
+      \caption{Iteracción I1}
+      \label{fig::i1}
+    \end{center}
+  \end{figure}
+\end{minipage}
+
+\begin{minipage}[b]{0.45\linewidth}
+  \subsubsection{Iteración I1}
+  \begin{itemize}    
+  \item {\bf Descripción}: bla bla blabla bla blabla bla blabla bla bla sdkjfls lsjflkj ljkldjl sjlksdj sdjflj sfkljsf fj sklfsklf 
+  \item {\bf Desarrollo}:
+    \begin{itemize}
+    \item Requisitos: 60\%.
+    \item Casos de uso: 30\%.
+    \item Diseño: 5\%.
+    \item Implementación: 0\%.
+    \item Pruebas: 0\%.
+    \end{itemize}
+    \end{itemize}
+ \end{minipage}
+\hspace{0.06\linewidth}
+\begin{minipage}[b]{0.45\linewidth}
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[width=6cm]{images/i1.png}
+      % http://charts.hohli.com
+      % http://chart.apis.google.com/chart?cht=p&chs=260x200&chd=t:10,20,10,10&chl=Imp|Req|UC|Dis|Pru&chco=abdbff,fab1b1,ffd391,ffa1fc,b6e0be
+      \caption{Iteracción I1}
+      \label{fig::i1}
+    \end{center}
+  \end{figure}
+\end{minipage}
+
+
+\begin{minipage}[b]{0.45\linewidth}
+  \subsubsection{Iteración I1}
+
+  \begin{itemize}    
+  \item {\bf Descripción}: bla bla blabla bla blabla bla blabla bla bla sdkjfls lsjflkj ljkldjl sjlksdj sdjflj sfkljsf fj sklfsklf 
+  \item {\bf Desarrollo}:
+    \begin{itemize}
+    \item Requisitos: 60\%.
+    \item Casos de uso: 30\%.
+    \item Diseño: 5\%.
+    \item Implementación: 0\%.
+    \item Pruebas: 0\%.
+    \end{itemize}
+  \end{itemize}
+\end{minipage}
+\hspace{0.06\linewidth}
+\begin{minipage}[b]{0.45\linewidth}
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[width=6cm]{images/i1.png}
+      % http://charts.hohli.com
+
+      % http://chart.apis.google.com/chart?cht=p&chs=260x200&chd=s:DhPGD&chl=Imp|Req|UC|Dis|Pru&chco=abdbff,fab1b1,ffd391,ffa1fc,b6e0be&chf=bg,s,FFFFFF|c,s,FFFFFF
+      \caption{Iteracción I1}
+      \label{fig::i1}
+    \end{center}
+  \end{figure}
+\end{minipage}
+
+\begin{minipage}[b]{0.45\linewidth}
+  \subsubsection{Iteración I1}
+  \begin{itemize}    
+  \item {\bf Descripción}: bla bla blabla bla blabla bla blabla bla bla sdkjfls lsjflkj ljkldjl sjlksdj sdjflj sfkljsf fj sklfsklf 
+  \item {\bf Desarrollo}:
+    \begin{itemize}
+    \item Requisitos: 60\%.
+    \item Casos de uso: 30\%.
+    \item Diseño: 5\%.
+    \item Implementación: 0\%.
+    \item Pruebas: 0\%.
+    \end{itemize}
+    \end{itemize}
+\end{minipage}
+\hspace{0.06\linewidth}
+\begin{minipage}[b]{0.45\linewidth}
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[width=6cm]{images/i1.png}
+      % http://charts.hohli.com
+      % http://chart.apis.google.com/chart?cht=p&chs=260x200&chd=t:10,20,10,10&chl=Imp|Req|UC|Dis|Pru&chco=abdbff,fab1b1,ffd391,ffa1fc,b6e0be
+      \caption{Iteracción I1}
+      \label{fig::i1}
+    \end{center}
+  \end{figure}
+\end{minipage}
+
+\begin{minipage}[b]{0.45\linewidth}
+  \subsubsection{Iteración I1}
+  \begin{itemize}    
+  \item {\bf Descripción}: bla bla blabla bla blabla bla blabla bla bla sdkjfls lsjflkj ljkldjl sjlksdj sdjflj sfkljsf fj sklfsklf 
+  \item {\bf Desarrollo}:
+    \begin{itemize}
+    \item Requisitos: 60\%.
+    \item Casos de uso: 30\%.
+    \item Diseño: 5\%.
+    \item Implementación: 0\%.
+    \item Pruebas: 0\%.
+    \end{itemize}
+    \end{itemize}
+ \end{minipage}
+\hspace{0.06\linewidth}
+\begin{minipage}[b]{0.45\linewidth}
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[width=6cm]{images/i1.png}
+      % http://charts.hohli.com
+      % http://chart.apis.google.com/chart?cht=p&chs=260x200&chd=t:10,20,10,10&chl=Imp|Req|UC|Dis|Pru&chco=abdbff,fab1b1,ffd391,ffa1fc,b6e0be
+      \caption{Iteracción I1}
+      \label{fig::i1}
+    \end{center}
+  \end{figure}
+\end{minipage}
+

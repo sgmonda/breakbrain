@@ -1,0 +1,383 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DMCW04}
+\ifx \showCODEN  \undefined \def \showCODEN #1{CODEN #1}  \fi
+\ifx \showISBN   \undefined \def \showISBN  #1{ISBN #1}   \fi
+\ifx \showISSN   \undefined \def \showISSN  #1{ISSN #1}   \fi
+\ifx \showLCCN   \undefined \def \showLCCN  #1{LCCN #1}   \fi
+\ifx \showPRICE  \undefined \def \showPRICE #1{#1}        \fi
+\ifx \showURL    \undefined \def \showURL {URL }          \fi
+\ifx \path       \undefined \input path.sty               \fi
+\ifx \ifshowURL \undefined
+     \newif \ifshowURL
+     \showURLtrue
+\fi
+
+\bibitem[Abe]{gpl-es}
+Gonzalo Abella.
+\newblock {Traducción no oficial de la licencia GPL v3 al español}.
+\newblock \ifshowURL {\showURL \path|http://goo.gl/E1y7od|}\fi.
+
+\bibitem[Acc12]{Accenture2012}
+Accenture.
+\newblock {Mobile Web Watch}.
+\newblock 2012.
+
+\bibitem[Ama]{Amazon}
+Amazon.
+\newblock {Amazon Web Services}.
+\newblock \ifshowURL {\showURL \path|http://aws.amazon.com/es/|}\fi.
+
+\bibitem[App]{AppFog}
+AppFog.
+\newblock {AppFog}.
+\newblock \ifshowURL {\showURL \path|http://www.appfog.com/|}\fi.
+
+\bibitem[BB]{becker}
+Suzanna Becker and Neil Burgess.
+\newblock {Modelling spatial recall, mental imagery and neglect}.
+
+\bibitem[BER07]{Karlene2007}
+Karlene Ball, Jerri~D. Edwards, and Lesley~A. Ross.
+\newblock {The Impact of Speed of Processing Training on Cognitive and Everyday
+  Functions}.
+\newblock 2007.
+
+\bibitem[BKP{\etalchar{+}}06]{Bherer2006}
+Louis Bherer, Arthur~F. Kramer, Matthew~S. Peterson, Stanley Colcombe, Kirk
+  Erickson, and Ensar Becic.
+\newblock {Testing the limits of cognitive plasticity in older adults:
+  Application to attentional control}.
+\newblock {\em Elsevier B.V.}, 2006.
+
+\bibitem[BS04]{Deborah2004}
+Deborah~M. Burke and Meredith~A. Shafto.
+\newblock {\em {Aging and Language Production}}.
+\newblock Current Directions In Psychological Science, 2004.
+
+\bibitem[C.S03]{Green2003}
+Green C.S.
+\newblock {Action video game modifies visual selective attention}.
+\newblock {\em PubMed}, 2003.
+
+\bibitem[Cze01]{Czerner2001}
+Thomas~B. Czerner.
+\newblock {\em {What Makes You Tick? The Brain in Plain English}}.
+\newblock John Wiley \& Sons, Inc., New York, 2001.
+
+\bibitem[Dam94]{Damasio1994}
+Antonio~R. Damasio.
+\newblock {\em {Descartes' Error: Emotion, Reason, and the Human Brain}}.
+\newblock Penguin Books, New York, 1994.
+
+\bibitem[DBM08]{DeWall2008}
+C.N. DeWall, R.F. Baumeister, and E.J. Masicampo.
+\newblock {\em {Evidence that logical reasoning depends on conscious
+  processing}}.
+\newblock Conscious Cogn, 2008.
+
+\bibitem[DMCW04]{Dehaene2004}
+Stanislas Dehaene, Nicolas Molko, Laurent Cohen, and Anna~J Wilson.
+\newblock {Arithmetic and the brain.}
+\newblock {\em Current opinion in neurobiology}, 14\penalty0 (2):\penalty0
+  218--24, April 2004.
+\newblock \showISSN{0959-4388}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.ncbi.nlm.nih.gov/pubmed/15082328|}\fi.
+
+\bibitem[DTHS]{Zheng2008}
+Zheng D., Oka T., Bokura H., and Yamaguchi S.
+\newblock {The key locus of common response inhibition network for no-go and
+  stop signals}.
+
+\bibitem[Fac06]{Facts2006}
+Fast Facts.
+\newblock {Matters of the Brain}.
+\newblock pages 16--19, 2006.
+
+\bibitem[FSP07]{Jing2007}
+Jing Feng, Ian Spence, and Jay Pratt.
+\newblock {Playing an Action Video Game Reduces Gender Differences in Spatial
+  Cognition}.
+\newblock 2007.
+
+\bibitem[Gal]{Gallagher}
+Winifred Gallagher.
+\newblock {The Atlantic Monthly}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.theatlantic.com/magazine/archive/1994/09/how-we-become-what-we-are/303534/|}\fi.
+
+\bibitem[Goo]{chrome}
+Google.
+\newblock {Chrome web browser}.
+\newblock \ifshowURL {\showURL \path|http://chrome.google.com|}\fi.
+
+\bibitem[Hac11]{Hackley2011}
+Dan Hackley.
+\newblock {Coach your cortex}.
+\newblock 24\penalty0 (8):\penalty0 586--589, 2011.
+
+\bibitem[HHG00]{Haxby2000}
+Jv~Haxby, Ea~Hoffman, and Mi~Gobbini.
+\newblock {The distributed human neural system for face perception.}
+\newblock {\em Trends in cognitive sciences}, 4\penalty0 (6):\penalty0
+  223--233, June 2000.
+\newblock \showISSN{1879-307X}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.ncbi.nlm.nih.gov/pubmed/10827445|}\fi.
+
+\bibitem[Hir04]{Hirvasoja2004}
+Mika Hirvasoja.
+\newblock {Effects of computer game playing on spatial skills}.
+\newblock 2004.
+
+\bibitem[II]{InstituteofNeurosciencesMentalHealth}
+Mental~Health {Institute of Neurosciences} and Addiction (INMHA).
+\newblock {The brain from top to bottom. An interactive website about the human
+  brain and behavoir.}
+\newblock \ifshowURL {\showURL \path|http://thebrain.mcgill.ca/|}\fi.
+
+\bibitem[Jac09]{Jacyna2009}
+Stephen Jacyna.
+\newblock {\em {The most important of all the organs: Darwin on the brain}}.
+\newblock BRAIN. A journal of Neurology., 2009.
+
+\bibitem[JBJP08]{Jaeggi2008}
+Susanne~M Jaeggi, Martin Buschkuehl, John Jonides, and Walter~J Perrig.
+\newblock {Improving fluid intelligence with training on working memory.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 105\penalty0 (19):\penalty0 6829--33, 2008.
+\newblock \showISBN{0801268105}.
+\newblock \showISSN{10916490}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2383929\&tool=pmcentrez\&rendertype=abstract|}\fi.
+
+\bibitem[JC05]{Johnson2005}
+Temple~Grandin Johnson and Catherine.
+\newblock {\em {Animals in Translation: Using the Mysteries of Autism to Decode
+  Animal Behavior.}}
+\newblock A Harvest Book, Harcourt, Inc., Orlando, 2005.
+
+\bibitem[{Joh}00]{JohnAllman2000}
+{John Allman}.
+\newblock {\em {Evolving Brains}}.
+\newblock W.H. Freeman, 2000.
+
+\bibitem[{Jul}04]{JulianIranzo2004}
+Pascual {Juli\'{a}n Iranzo}.
+\newblock {\em {L\'{o}gica simb\'{o}lica para inform\'{a}ticos}}.
+\newblock RA-MA, 2004.
+
+\bibitem[KBD{\etalchar{+}}88]{Ball1988}
+Ball K.K., Beard B.L., Roenker D.L., Miller R.L., and Griggs D.S.
+\newblock {Age and visual search: expanding the useful field of view}.
+\newblock {\em PubMed}, 1988.
+
+\bibitem[KJO{\etalchar{+}}05]{Wood2005}
+Wood K.M., Edwards J.D., Clay O.J., Wadley V.G., Roenker D.L., and Ball K.K.
+\newblock {Sensory and cognitive factors influencing functional ability in
+  older adults}.
+\newblock 2005.
+
+\bibitem[Lau01]{Lautin2001}
+Andrew Lautin.
+\newblock {\em {The Limbic Brain}}.
+\newblock Plenum Publishers, New York, 2001.
+
+\bibitem[LeD96]{LeDoux1996}
+Joseph LeDoux.
+\newblock {\em {The Emotional Brain: The Mysterious Underpinnings of Emotional
+  Life}}.
+\newblock Simon \& Schuster, 1996.
+
+\bibitem[Lin]{Lindberg.}
+Dr. Donald~A.B. Lindberg.
+\newblock {Medlineplus. Trusted Health Information for you}.
+
+\bibitem[Mac49]{MacLean}
+PD~MacLean.
+\newblock {Psychosomatic disease and the Visceral Brain}.
+\newblock {\em Recent developments bearing on the Papez theory of Emotion},
+  1949.
+\newblock \ifshowURL {\showURL
+  \path|http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Psychosomatic+Disease+and+the+"Visceral+Brain"\#4|}\fi.
+
+\bibitem[MAJ02]{Munte2002}
+Thomas~F M\"{u}nte, Eckart Altenm\"{u}ller, and Lutz J\"{a}ncke.
+\newblock {The musician's brain as a model of neuroplasticity.}
+\newblock {\em Nature reviews. Neuroscience}, 3\penalty0 (6):\penalty0 473--8,
+  June 2002.
+\newblock \showISSN{1471-003X}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.ncbi.nlm.nih.gov/pubmed/21566538|}\fi.
+
+\bibitem[Mal]{Maecki}
+Maciej Malecki.
+\newblock {Vows. Asynchronous BDD \& continuous integration for node.js}.
+\newblock \ifshowURL {\showURL \path|https://github.com/cloudhead/vows|}\fi.
+
+\bibitem[MCKV01]{Melzack2001}
+R~Melzack, T~J Coderre, J~Katz, and a~L Vaccarino.
+\newblock {Central neuroplasticity and pathological pain.}
+\newblock {\em Annals of the New York Academy of Sciences}, 933:\penalty0
+  157--74, March 2001.
+\newblock \showISSN{0077-8923}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.ncbi.nlm.nih.gov/pubmed/12000018|}\fi.
+
+\bibitem[MDB{\etalchar{+}}08]{May2008}
+Arne May, Joenna Driemeyer, Janina Boyke, Christian Gaser, and Christian Bu.
+\newblock {Changes in Gray Matter Induced by Learning}.
+\newblock Technical report, 2008.
+
+\bibitem[{Mer}]{MerckCo.}
+{Merck Co.}
+\newblock {The Merck Manuals. Trusted Medical and Scientific Information}.
+
+\bibitem[Min]{Minijuegos}
+Miniplay.
+\newblock {Minijuegos}.
+\newblock \ifshowURL {\showURL \path|http://www.minijuegos.com|}\fi.
+
+\bibitem[Mona]{MongoDB}
+MongoDB.
+\newblock {MongoDB}.
+\newblock \ifshowURL {\showURL \path|http://www.mongodb.org/|}\fi.
+
+\bibitem[Monb]{Mongolab}
+Mongolab.
+\newblock {MongoLab}.
+\newblock \ifshowURL {\showURL \path|https://mongolab.com/|}\fi.
+
+\bibitem[Mor09]{Morrison2009}
+Adrian~R. Morrison.
+\newblock {\em {An Odyssey with Animals: A Veterinarian's Reflections on the
+  Animal Rights \& Welfare Debate}}.
+\newblock Oxford University Press, 2009.
+
+\bibitem[Noda]{NodeJS}
+NodeJS.
+\newblock {NodeJS official website}.
+\newblock \ifshowURL {\showURL \path|http://nodejs.org/|}\fi.
+
+\bibitem[Nodb]{Nodester}
+Nodester.
+\newblock {Nodester}.
+\newblock \ifshowURL {\showURL \path|http://www.nodester.com|}\fi.
+
+\bibitem[NRLP{\etalchar{+}}]{James2009}
+James~K. Nelson, Patricia~A. Reuter-Lorenz, Jonas Perssson, Ching-Yune~C.
+  Sylvester, and John Jonides.
+\newblock {\em {Mapping interference resolution across task domains: A shared
+  control process in left inferior frontal gyrus}}.
+
+\bibitem[OF94]{Lynn1994}
+Lynn Okagaki and Peter~A. Frensch.
+\newblock {\em {Effects of Video Game Playing on Measures of Spatial
+  Performance: Gender Effects in Late Adolescence}}.
+\newblock Journal of Applied Developmental Psychology, 1994.
+
+\bibitem[OK04]{Klaus2004}
+Klaus Oberauer and Reinhold Kliegl.
+\newblock {\em {Simultaneous Cognitive Operations in Working Memory After
+  Dual-Tasks Practice}}.
+\newblock Journal of Experimental Psychology, 2004.
+
+\bibitem[OM06]{Oberman2006}
+Vilayanur S.~Ramachandran Oberman and Lindsay M.
+\newblock {Broken Mirrors: A Theory of Autism}.
+\newblock Technical report, 2006.
+
+\bibitem[OWK04]{Olesen2004}
+Pernille~J Olesen, Helena Westerberg, and Torkel Klingberg.
+\newblock {Increased prefrontal and parietal activity after training of working
+  memory.}
+\newblock {\em Nature neuroscience}, 7\penalty0 (1):\penalty0 75--9, January
+  2004.
+\newblock \showISSN{1097-6256}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.ncbi.nlm.nih.gov/pubmed/14699419|}\fi.
+
+\bibitem[Pag07]{Lawrence2007}
+Lawrence Page.
+\newblock {Scoring documents in a linked database}, 2007.
+\newblock \ifshowURL {\showURL \path|http://goo.gl/OEq0K|}\fi.
+
+\bibitem[Pan98]{Panksepp1998}
+Jaak Panksepp.
+\newblock {\em {Affective Neuroscience: The Foundations of Human and Animal
+  Emotions}}.
+\newblock Oxford University Press, New York, 1998.
+
+\bibitem[PD08]{Pittenger2008}
+Christopher Pittenger and Ronald~S Duman.
+\newblock {Stress, depression, and neuroplasticity: a convergence of
+  mechanisms.}
+\newblock {\em Neuropsychopharmacology : official publication of the American
+  College of Neuropsychopharmacology}, 33\penalty0 (1):\penalty0 88--109,
+  January 2008.
+\newblock \showISSN{0893-133X}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.ncbi.nlm.nih.gov/pubmed/17851537|}\fi.
+
+\bibitem[Rat98]{Rational1998}
+Rational.
+\newblock {Rational Unified Process. Best Practices for Software Development
+  Teams}, 1998.
+
+\bibitem[Res94]{Restak1994}
+Richard~M. Restak.
+\newblock {\em {The Modular Brain: How New Discoveries in Neuroscience are
+  Answering Age-Old Questions about Memory, Free Will, Consciousness, and
+  Personal Identity}}.
+\newblock Scribner, 1994.
+
+\bibitem[Res95]{Restak1995}
+Richard~M. Restak.
+\newblock {\em {Brainscapes: An Introduction to What Neuroscience Has Learned
+  about the Structure, Function, and Abilities of the Brain}}.
+\newblock Hyperion Books, 1995.
+
+\bibitem[Sap]{Sapolsky}
+Robert~M. Sapolsky.
+\newblock {Biology and Human Behavior: The Neurological Origins of
+  Individuality}.
+
+\bibitem[Sap04]{Sapolsky2004}
+Robert~M. Sapolsky.
+\newblock {\em {Why Zebras Don't Get Ulcers: The Acclaimed Guide to Stress,
+  Stress-Related Diseases, and Coping}}.
+\newblock Henry Holt and Company, New York, third edit edition, 2004.
+
+\bibitem[Sap05]{Sapolsky2005}
+Robert~M. Sapolsky.
+\newblock {\em {Monkeyluv and Other Essays on Our lives as Animals}}.
+\newblock Scribner, New York, 2005.
+
+\bibitem[SBS{\etalchar{+}}12]{Statement2012}
+Goal Statement, Editorial Board, Credit Statement, Sponsorship Statement, and
+  Disclosure Statement.
+\newblock {Neuroplasticity: Teaching an Old Brain New Tricks}.
+\newblock 2012.
+
+\bibitem[Shu09]{Shubin2009}
+Neil Shubin.
+\newblock {\em {Your Inner Fish: A Journey Into the 3.5-Billion-Year History of
+  the Human Body}}.
+\newblock Vintage, 2009.
+
+\bibitem[TKD{\etalchar{+}}09]{Trinkler2009}
+Iris Trinkler, John~a King, Christian~F Doeller, Michael~D Rugg, and Neil
+  Burgess.
+\newblock {Neural bases of autobiographical support for episodic recollection
+  of faces.}
+\newblock {\em Hippocampus}, 19\penalty0 (8):\penalty0 718--30, August 2009.
+\newblock \showISSN{1098-1063}.
+\newblock \ifshowURL {\showURL
+  \path|http://www.ncbi.nlm.nih.gov/pubmed/19173228|}\fi.
+
+\bibitem[Vis]{Visionmedia}
+Visionmedia.
+\newblock {Express}.
+\newblock \ifshowURL {\showURL \path|http://expressjs.com/|}\fi.
+
+\end{thebibliography}

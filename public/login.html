@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>BreakBrain :: Login</title>
+
+    <breakbrain-ref>login</breakbrain-ref>
+
+    <link rel="stylesheet" href="/css/fonts.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/login.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css" type="text/css" media="screen" />
+
+    <script src="/js/jquery/jquery-1.8.2.min.js"></script>
+    <script src="/js/blockui/jquery.blockUI.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/core.js"></script>
+
+  </head>
+  <body>
+
+    <noscript class="noscript">Your browser doesn't support JavaScript scripts. Sorry, you can't enjoy BreakBrain without JavaScript.</noscript>
+
+    <div id="login-register-container">
+
+      <!-- Login -->
+
+      <div id="login-container">
+
+        <h2>Login</h2>
+
+        <div class="hline"></div>
+
+        <input type="text" class="textinput" tabIndex="1" id="input-login-email" placeholder="Email address"/>
+        <input type="password" class="textinput" tabIndex="2" id="input-login-password" placeholder="Password" value="" />
+
+        <button id="login-button" tabIndex="3">Login</button>
+
+        <div id="login-footer">
+          <div id="input-login-remember"><input type="checkbox" id="remember" tabIndex="4"/><div class="checkbox-label remember-label">Keep me logged in</div></div>
+
+          <div id="recovery-pass"><a id='remember-link' href="#" tabIndex="5" style="color: orange; margin-left: 10px; float: right; margin-top: 2px;">Don't you remember your password?</a></div>
+        </div>
+
+      </div>
+
+      <!-- Register -->
+
+      <div id="register-container">
+        <div id="register-control">
+          Do you want to register an account?
+        </div>
+
+        <div id="register-form"  style="display: none">
+
+          <h2>Register</h2>
+          <div class="hline"></div>
+
+          <input type="text" class="textinput" id="input-register-realname" placeholder="Full name (real name)" />
+          <input type="text" class="textinput" id="input-register-email" placeholder="Email address" />
+          <input type="text" class="textinput" id="input-register-birth" placeholder="Birthday (mm/dd/yyyy)" style="color: #333;" />  
+          <input type="password" class="textinput" id="input-register-password" placeholder="Password" />
+          <input type="password" class="textinput" id="input-register-password2" placeholder="Password confirmation" />
+          <!-- <input type="email" class="textinput" id="input-register-email" placeholder="Email" /> -->
+          <!-- <input type="email" class="textinput" id="input-register-email2" placeholder="Email confirmation" /> -->
+          <select id="input-register-country">            
+          </select>
+
+            <select id="input-register-sex">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+
+          <input type="text" class="textinput" id="input-register-nick" placeholder="A short description about you" />
+
+            <div class="hline"></div>
+
+            <div style="float: left; font-size: small; margin-top: 1em;">Your email must be correct to activate your account</div>
+            <button id="register-button">Register</button>
+
+        </div>
+        <div id="register-footer"></div>
+      </div>
+
+    </div>
+
+    <div id="footer">
+      BreakBrain uses JavaScript extensively. We strongly recommend using Chrome/Chromium to the best performance.
+    </div>
+
+  </body>
+</html>

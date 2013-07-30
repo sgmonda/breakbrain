@@ -1,0 +1,85 @@
+\chapter{Introducción}
+\label{chap:introduccion}
+
+\drop{E}{ste} primer capítulo pretende ofrecer una visión global de lo que el lector encontrará en este texto. El objetivo del presente es la construcción de un sistema informático completo, extensible y centrado en la mejora de diferentes habilidades mentales. No obstante, de ningún modo se centra exclusivamente en aspectos de la Ingeniería Informática, sino que ofrece un componente importante de estudio biológico centrado en comprender el funcionamiento del cerebro humano. Por supuesto, ese componente neurológico se plantea desde un punto de vista no experto en el tema, lo que facilita su comprensión por parte de personas ajenas al campo de la biología o la medicina.
+
+Dado que de cara al usuario final del sistema BreakBrain es una red social, en primer lugar se realizará una introducción al aspecto social del Internet de hoy en día. Posteriormente se darán algunas pinceladas sobre el funcionamiento del cerebro humano, introduciendo conceptos elementales que más adelante serán desarrollados en profundidad. Por último, se ofrecerá una aproximación breve al entrenamiento cerebral mediante juegos.
+
+Pero antes de nada conviene echar un vistazo al contenido del presente documento, desglosado en capítulos, a modo de presentación del mismo.
+
+\section{Estructura del documento}
+
+A continuación se ofrece una pequeña descripción del contenido de cada capítulo de este documento:
+
+\subsubsection{Capítulo 1. Introducción}
+
+Este capítulo sirve como presentación del proyecto, explicando el contexto en el que se enmarca y dando unas primeras pinceladas sobre el desarrollo del mismo.
+
+\subsubsection{Capítulo 2. Motivación y objetivos}
+
+En este capítulo se presentan las motivaciónes que desembocaron en el desarrollo de Breakbrain, así como los objetivos que persigue el mismo, tanto el objetivo general como los diferentes objetivos específicos en los que se desglosa.
+
+\subsubsection{Capítulo 3. Antecedentes}
+
+En este capítulo se presenta un análisis sobre el estado del arte en el que se enmarca el proyecto. Se analizarán las tecnologías y herramientas en las que se basa su desarrollo, así como algunos sistemas software precedentes que han servido de inspiración u ofrecen cierta semejanza con el proyecto que nos ocupa.
+
+\subsubsection{Capítulo 4. Método de trabajo}
+
+\subsubsection{Capítulo 5. Arquitectura}
+
+\subsubsection{Capítulo 6. Investigación y resultados}
+
+\subsubsection{Capítulo 7. Conclusiones y propuestas}
+
+\subsubsection{Anexo A. Iteraciones del PUD}
+\subsubsection{Anexo B. Guía para el desarrollador}
+\subsubsection{Anexo C. Manual de usuario}
+\subsubsection{Anexo D. Guía de instalación}
+
+
+
+\section{Redes sociales}
+
+Si hay algo que caracteriza, por encima de cualquier otra cualidad, a los sitios web más importantes y con más visitas actualmente, es sin duda alguna el componente social que poseen. La compartición de contenido entre internautas ha cobrado gran protagonismo en los últimos años, enmarcada en webs cada vez más dinámicas que mejoran la experiencia de usuario. 
+
+Las redes sociales constituyen el máximo exponente de esa posibilidad de compartición, permitiendo mantener diferentes tipos de relaciones sociales entre los integrantes de las mismas. En la actualidad existen numerosas redes sociales, más o menos importantes. Las más conocidas y de mayor éxito son redes sociales dedicadas al ocio, en las que los usuarios comparten fotografías y comentarios, crean eventos, etc. No obstante, existen redes sociales de muy diversa índole en Internet, dedicadas al deporte, al cine, al desarrollo software, etc. No debemos ver esta abundancia como una sobresaturación de mercado, sino sencillamente entender que el aspecto social es la esencia de la web hoy en día.
+
+\section{El cerebro humano}
+
+El cerebro humano tiene una estructura similar al del resto de animales, pero destaca por su gran tamaño (en comparación con el resto del cuerpo). Este mayor tamaño proviene especialmente de lo que se conoce como {\it corteza cerebral}\index{córtex} ---o {\it córtex}---. El córtex es una cubierta que envuelve al cerebro, con una textura repleta de pliegues que posibilita que quepa en el cráneo.
+
+La corteza cerebral se divide físicamente en dos hemisferios similares, que se encuentran, a su vez, divididos funcionalmente en cuatro lóbulos (figura \ref{fig::lobulos}):
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.5]{images/lobulos.jpg}
+    %http://www.wikisaber.es/uploadedImages/Recursos/Especial_Cuerpo_Humano/Lobulos_cerebrales.jpg
+    \caption{Lóbulos cerebrales}
+    \label{fig::lobulos}
+  \end{center}
+\end{figure}
+
+\begin{itemize}
+\item {\bf Lóbulo frontal}\\
+Controla la capacidad de movimiento, razonamiento, resolución de problemas, lenguaje y emociones.
+\item {\bf Lóbulo parietal}\\
+Se encarga de las percepciones sensoriales externas (como manos y pies): sensibilidad, tacto, percepción, presión, temperatura y dolor.
+\item {\bf Lóbulo temporal}\\
+Se encarga de la audición, equilibrio y coordinación. Recibe y procesa información de los oídos y regula las emociones y motivaciones, como ansiedad, placer e ira.
+\item {\bf Lóbulo occipital}\\
+Se encarga del procesamiento de la visión y la producción de imágenes.
+\end{itemize}
+
+A lo largo de este texto se estudia la composición del cerebro humano en detalle, atendiendo tanto a aspectos arquitecturales como funcionales. El lector experto en el tema encontrará el análisis bastante superficial, dado que ha sido realizado desde el biológicamente inexperto punto de vista de la ingeniería. No debemos olvidar que el objetivo del presente escrito es la elaboración de un sistema informático. No obstante, se han utilizado fuentes ampliamente reconocidas en el campo de la medicina.
+
+El lector se verá sorprendido con pequeñas curiosidades históricas sobre las que se apoyan los conceptos explicados durante el análisis cerebral. El objetivo de las mismas no es otro que amenizar su lectura, ayudando a entender cómo se ha llegado a deducir el funcionamiento de cada área del cerebro.
+
+\subsection{La neuroplasticidad}
+\label{sec::neuroplasticidad}\index{neuroplasticidad}
+
+El cerebro humano es un sistema dinámico de redes neuronales con gran potencial de evolución. La plasticidad cerebral, o {\it neuroplasticidad}, es precisamente esa capacidad dinámica que posee el cerebro, que le permite mejorar con el aprendizaje y repetición de ciertos ejercicios, y en la que se basa este proyecto. En la sección \ref{neuroplasticidad} se estudiará en profundidad este concepto, mencionando la evolución de su sensibilidad en base a la evolución del cuerpo humano y comentando algunos estudios interesantes sobre el tema.
+
+Se relacionará la neuroplasticidad con el dolor y estrés crónicos, y se introducirá el interesante concepto del {\it cambio cualitativo}, comparándolo con el entrenamiento por repetición e introduciendo así la idea del entrenamiento cerebral mediante juegos.
+
+\section{El entrenamiento cerebral mediante juegos}
+

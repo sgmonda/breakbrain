@@ -1,0 +1,38 @@
+% -*- coding: utf-8 -*-
+
+
+\chapter{Listado de acrónimos}
+
+{\small
+\begin{acronym}[XXXXXX]
+  \Acro{GNU}{\acs{GNU} is Not Unix}
+  \acro{OO}{Orientación a Objetos}
+  \acro{RPC}{Remote Procedure Call}
+  \acro{SNA}{Sistema Nervioso Autónomo}
+  \acro{REM}{Rapid Eye Movement (Fase del sueño)}
+  \acro{TOC}{Trastorno obsesivo compulsivo}
+  \acro{TEPT}{Trastorno de estrés post-traumático}
+  \acro{ELT}{Epilepsia del lóbulo temporal}
+  \acro{SFC}{Síndrome de Fatiga Crónica}
+  \acro{IRM}{Imagen por Resonancia Magnética}
+  \acro{VBM}{Morfometría Basada en Vóxel}
+  \acro{PUD}{Proceso Unificado de Desarrollo}
+  \acro{RUP}{Rational Unified Process}
+  \acro{MVC}{Modelo-Vista-Controlador}
+  \acro{SGBD}{Sistema Gestor de Base de Datos}
+  \acro{PAAS}{Platform As A Service}
+  \acro{SAAS}{Software As A Service}
+\end{acronym}
+}
+
+% \ac{OO}   la primera vez \acf, después \acs
+% \acs{OO}  short: OO
+% \acf{OO}  full : Object Oriented (OO)
+% \acl{OO}  large: Object Oriented
+% \acx{OO}         OO (Object Oriented)
+
+% usa \Acro cuando no debe aparecer nunca expandido en el texto
+
+% Local variables:
+%   TeX-master: "main.tex"
+% End:

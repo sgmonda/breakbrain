@@ -1,0 +1,315 @@
+#main-container {
+    height: 1700px;
+}
+
+
+#personal-info {
+    position: relative;
+    float: left;
+    width: 820px;
+    background: #d1d1d1;
+    border-radius: 0.5em;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#interests-container {
+    width: 820px;
+    position: relative;
+    float: left;
+    background: #aaa;
+    border-radius: 0.5em;
+    font-size: small;
+}
+
+#interests-expander {
+    cursor: pointer;
+    text-align: center;
+    font-size: small;
+    line-height: 20px;
+    height: 20px;
+}
+
+#interests{
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+#interests table tr td {
+    vertical-align: top;
+    padding: 5px;
+}
+
+#interests table tr td > h3 {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#interests table tr td div {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#games-recomendation {
+    width: 100%;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#today {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#stats {
+    width: 100%;
+    height: 600px;
+}
+
+#stats-time {
+    width: 350px;
+    height: 230px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#stats-week {
+    width: 500px;
+    height: 230px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#stats-month {
+    margin-top: 20px;
+    width: 100%;
+    height: 230px;
+    float: left;
+}
+
+#stats-year {
+    margin-top: 20px;
+    width: 100%;
+    height: 230px;
+    display: block;
+    float: left;
+}
+
+.stat {
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    color: white;
+}
+
+.stat > h3 {
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+#stat-general {
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin-top: -10px;
+}
+
+#stat-1 {
+    left: -70px;
+}
+
+#stat-2 {
+    left: 110px;
+}
+
+#stat-3 {
+    left: 305px;
+}
+
+#stat-4 {
+    left: 500px;
+}
+
+#stat-5 {
+    left: 675px;
+}
+
+
+#stat-1 > h3 {
+    color: red; 
+}
+
+#stat-2 > h3 {
+    color: green; 
+}
+
+#stat-3 > h3 {
+    color: blue; 
+}
+
+#stat-4 > h3 {
+    color: purple; 
+}
+
+#stat-5 > h3 {
+    color: orange; 
+}
+
+/* plots */
+
+.plot {
+    top: 15px;
+    display: block;
+    width: 330px;
+    height: 250px;
+}
+
+#plot1 {
+    float: left;
+    margin-left: 10px; 
+}
+#plot2 {
+    float: right;
+    margin-right: 10px;
+}
+
+/* Personal info */
+
+
+#search-right-avatar {
+    float: left;
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 20px;
+    z-index: 19;    
+}
+
+#search-right-info {
+    float: left;
+    margin-left: 20px;
+    width: 450px;
+    font-size: small;
+}
+
+#search-right-avatar > img {
+    height: 100%;
+}
+
+.search-right-label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.search-right-value {
+    color: #444;
+}
+
+#search-right-realname {
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 230px;
+    margin-right: 10px;
+}
+
+#search-right-country {
+    width: 150px;
+    margin-left: 10px;
+}
+
+
+#search-right-nick {
+    width: 435px;
+    margin-bottom: 5px;
+}
+
+#search-right-country, #search-right-followers,  #search-right-followees {
+    display: inline;
+    font-weight: bold;
+}
+
+#search-right-country-container {
+    font-size: small;    
+}
+
+#foll{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#search-right-followers-container,
+#search-right-followees-container {
+    background: #d1d1d1;
+    border-radius: 5px;
+    width: 150px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+#search-right-followers-container{
+    float: left;
+}
+
+#search-right-followees-container{
+    float: right;
+}
+
+#search-right-email {
+    width: 200px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+#search-right-birth {
+    width: 90px;
+}
+
+#search-right-followers , 
+#search-right-followees  {
+    font-weight: bold;
+    background: orange;
+    display: block;
+    float: right;
+    height: 100%; 
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#button-save-changes {
+    float: right;
+    margin-right: 4px;
+}
+
+#uploadImage {
+    z-index: 999;
+    width: 125px;
+    height: 140px;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    _cursor: hand;
+    margin: 0;
+    padding:0;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+}
+
+/* games recommendation */
+
+

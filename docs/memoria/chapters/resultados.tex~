@@ -1,0 +1,801 @@
+
+\chapter{Investigación y resultados}
+\label{chap:resultados}
+
+\drop{E}{ste} capítulo pretende realizar un recorrido superficial por la anatomía y el funcionamiento del cerebro humano. Se verán las estructuras y los componentes que lo forman, así como las características que hacen de él un órgano maleable ---aspecto que será explotado por BreakBrain para mejorar las capacidades mentales de cualquier individuo---. 
+
+% http://www.lumosity.com/knowledge-center/brain-reference/
+
+\section{Anatomía y fisiología del cerebro humano}
+\label{sec::fisiologia}
+\subsection{Estructura cerebral}
+
+El cerebro de una persona viva es de color rosa, algo pálido. {\it ``Conservado en formol, el cerebro endurece y pierde su color''}, afirma \cite{Czerner2001}. En esta sección hablaremos de las células que constituyen la estructura el cerebro. Estas células se organizan en dos grupos:
+
+
+\begin{itemize}
+\item núcleo\index{núcleo}
+\item corteza (o {\it córtex}\footnote{A lo largo de este texto se emplearán indistintamente los términos \emph{corteza} y \emph{córtex}, dado que así se hace en la literatura médica en nuestro idioma.})\index{córtex}
+\end{itemize}
+
+
+
+
+\subsubsection{Materia gris, materia blanca y células gliales}
+
+El cerebro es en gran parte de color gris, y es por ello que se emplea la denominación {\it materia gris}. La materia gris está formada por miles de millones de neuronas. Tiene la {\it ``consistencia blanda de harina de avena cocida''}, afirma \cite{Czerner2001}. En la figura \ref{diagrama_neurona} puede apreciarse la forma general de una neurona.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=1]{images/neurona.eps}
+    %http://upload.wikimedia.org/wikipedia/commons/6/62/Neurona.svg
+    \caption{Diagrama sencillo de una neurona}
+    \label{diagrama_neurona}
+  \end{center}
+\end{figure}
+
+
+Puesto que hay tantas neuronas, es tentador considerarlas diminutas en términos de su alcance, pero en realidad algunas neuronas tienen axones muy largos. Cuando una multitud de axones se agrupan, aparecen como {\it materia blanca}. En \cite{Czerner2001} se describe la materia blanca como {\it ``una colección de axones largos, aislados, ramas salientes de neuronas que conectan las diversas partes del cerebro entre sí''}, debiendo el color blanco a {\it ``la mielina, un reluciente material aislante que envuelve los largos axones''}.
+
+\cite{Damasio1994} proporciona una descripción sucinta de las materias blanca y gris: {\it ``La materia gris corresponde en gran parte a las colecciones de cuerpos de células nerviosas, mientras que la materia blanca corresponde en gran parte a los axones, o fibras nerviosas, que emanan de los cuerpos celulares en la materia gris''}. Las neuronas se encuentran {\it ``apoyadas por las células gliales''}, que son {\it ``esenciales para la actividad del cerebro''}
+
+Por otro lado, en \cite{Czerner2001} encontramos una buena descripción de las células gliales: {\it ``Cada neurona está rodeado por entre diez y cincuenta células gliales, que constituyen la mayor parte del cerebro. Las células gliales apoyan a la neurona de varias maneras: proporcionan el soporte estructural, aíslan las ramas neuronales con mielina para acelerar la transmisión de señales eléctricas por su axones, mantienen la nutrición de la neurona, ayudan en la eliminación de residuos, e incluso establecen los marcadores que conducen las ramas de una neurona en desarrollo a su destino correcto''}. Como detalle curioso, en el mismo libro se afirma que {\it ``un estudio del cerebro de Albert Einstein demostró que es posible que tuviera un exceso de células gliales''}.
+
+\subsubsection{Cortezas y núcleos cerebrales}
+
+{\it ``La materia gris se presenta en dos variedades''}, afirma \cite{Damasio1994}. {\it ``La primera variedad de materia gris es la formada neuronas que se colocan en capas, como en una torta, para formar una corteza. Ejemplos son la corteza cerebral que cubre los hemisferios cerebrales y la corteza cerebelosa que envuelve el cerebelo. En la segunda variedad de materia gris, las neuronas no están estratificadas, sino que se organizan como cacahuetes dentro de un tarro de cristal. Esta formación constituye un núcleo''}.
+
+\index{neocórtex}
+
+El mejor ejemplo de neuronas organizadas en forma de corteza es la {\it neocorteza} o {\it neocórtex}, a menudo llamada {\it corteza cerebral}. El neocórtex se pliega de una manera que permite a una superficie más grande encajar dentro de los confines del cráneo humano. Los anatomistas llamar {\it surcos} a los pliegues corticales, y {\it giro} a la zona lisa entre dichos pliegues. En la figura \ref{surcosygiros} pueden apreciarse tanto los surcos como los giros de la corteza cerebral.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.8]{images/surcosygiros.jpg}
+    %http://nymethodist.adam.com/graphics/images/en/19238.jpg
+    \caption{Surcos y giros del cerebro humano}
+    \label{surcosygiros}
+  \end{center}
+\end{figure}
+
+\subsubsection{Las neuronas}
+
+Los componentes principales de una neurona se detallan en la figura \ref{diagrama_neurona}. La longitud del axón puede ser mucho más larga de como se muestra en la ilustración, tal y como ya se ha dicho cuando se han introducido los conceptos de {\it materia gris} y {\it materia blanca}. Asimismo, en \cite{Sapolsky} se resalta la complejidad de una sola neurona, explicando que puede tener una media de 10.000 dendritas y 10.000 terminales de axón. La comunicación entre las neuronas es tanto química como eléctrica, así que el término electroquímica se utiliza para describir el proceso global.
+
+Simplificando mucho, las moléculas químicas llamadas \index{neurotransmisor} {\it neurotransmisores} son las encargadas de llevar mensajes de una neurona a otra consecutiva. Las vesículas en las terminales del axón de una neurona liberan moléculas de neurotransmisores. Desde un punto de vista químico, una molécula de neurotransmisor {\it ``se ajusta como una llave en una cerradura''}, dice \cite{Sapolsky}, cuando hace contacto con un receptor en las dendritas de una segunda neurona. En \cite{Restak1995} se explica que {\it ``Los receptores son grandes moléculas de proteínas dinámicos que se encuentran a lo largo y dentro de la membrana celular''}. Los receptores pueden, explica el texto, {\it ``verse aumentadas en número y avidez por su neurotransmisor según las circunstancias. Grandes y prolongadas ingestas de ciertas sustancias, por ejemplo, llevar a un aumento en el número de receptores para estas sustancias ---esta es la base de la adicción a las drogas---... Más tarde, si la persona adicta se mantiene alejada de las drogas, los receptores pueden morir''.}
+
+La unión del neurotransmisor y receptor es inhibidora o excitadora. {\it ``Cada neurotransmisor influye en su propio receptor independiente de la acción de los receptores de otros''}, dice \cite{Restak1995}. {\it ``Si bien algunos neurotransmisores pueden disminuir la tensión entre el interior y el exterior de la célula nerviosa y así estimular la célula en acción (neurotransmisor excitador), otras lo aumentan y por lo tanto inhiben la célula de cocción (neurotransmisor inhibidor''}.
+
+Una vez que el \index{neurotransmisor} neurotransmisor y receptor se unen entre sí, \cite{Restak1995} describe su acción como ``dinámica'' y ``exquisitamente sensible''. Hay dos familias de receptores: 
+
+\begin{itemize}
+
+\item {\bf Receptores de canal iónico}
+
+Provocan cambios en la permeabilidad de la membrana y, por lo tanto, regulan el flujo de iones a través de su canal. Cuando un \index{neurotransmisor} neurotransmisor reacciona con su receptor, produce como resultado un cambio en la forma del receptor, de modo que los iones pueden entonces fluir a través de la membrana desde el punto de alta concentración hacia el punto de menor concentración.
+
+\item {\bf Receptores sin canales iónicos}
+
+Actúan a través de intermediarios, las proteínas G, ubicadas en el interior de la célula nerviosa. Básicamente, las proteínas G funcionan como factores de acoplamiento que sirven como enlaces entre el receptor de la superficie exterior de la membrana de la célula nerviosa y un gran número de procesos celulares relacionados entre sí dentro de la célula.
+
+\end{itemize}
+
+Una excitación suficiente en los receptores de los canales iónicos de las espinas dendríticas provoca una onda de cambio iónico que lleva al axón de la neurona a alcanzar su máximo potencial de acción. Una señal eléctrica así desplaza hacia abajo el axón de la neurona y los terminales de los axones para provocar que las vesículas liberen un neurotransmisor químico. En otras palabras, la neurona ``dispara''. Como las vesículas liberan moléculas neurotransmisoras, cada molécula queda ``a la deriva'', con el potencial de hacer contacto con un receptor. Las neuronas, comunicándose entre sí en una dirección, producen un circuito. A menudo existen circuitos alternativos entre las mismas estructuras cerebrales.
+
+Los circuitos neuronales locales en el neocórtex constituyen regiones corticales. Las regiones corticales no solo pueden conectarse unas con otras, sino también con los núcleos subcorticales. Se detallará esta unión {\it cortical-subcortical} en las secciones \index{neurotransmisor} \ref{neurotransmisores} y \ref{comportamientoinnato}.
+
+
+\subsubsection{Neuronas, proyecciones y vías}
+
+\cite{Damasio1994} explica que {\it ``un haz de axones provenientes de fuente conocida y hacia un objetivo determinado se conoce a menudo como proyección, porque proyecta axones a una colección de neuronas. Una secuencia de proyecciones a través de varias estaciones de destino se conoce como vía''}. A menudo se puede ver una vía (materia blanca) a simple vista. Como se ha mencionado antes, \cite{Czerner2001} describe la materia blanca como {\it ``una colección de axones largos, aislados, ramas salientes de neuronas que conectan las diversas partes del cerebro entre sí''}.
+
+% \subsection{El ADN y el comportamiento humano}
+
+% \cite{Brockman} escribe: {\it ``Un gen es un paquete de información, no un objeto o cosa. El patrón de pares de bases en una molécula de ADN especifica el gen, pero la molécula de ADN... es el medio, no el mensaje. Mantener esta distinción entre el medio y el mensaje es absolutamente indispensable para la claridad de pensamiento acerca de la evolución''}.
+
+% A modo de introducción a la genética, hagamos un repaso de abajo a arriba: Existen cuatro compuestos básicos (llamados bases): {\it Citosina}, {\it Adenina}, {\it Timina}, y {\it Guanina}. Estos compuestos se unen entre sí en pares de bases (ver figura \ref{bases}):
+
+% \begin{itemize}
+% \item La Adenina (A) se empareja con la Timina (T).
+% \item La Citosina (C) se empareja con la Guanina (G). 
+% \end{itemize}
+
+% \begin{figure}[h]
+%   \begin{center}
+%     \includegraphics[scale=0.8]{images/bases.jpg}
+%     % http://www.forcesystem.com.br/wp-content/uploads/2010/05/adenina-timina-gaunina-citosina.jpg
+%     \caption{Pares AT y GC}
+%     \label{bases}
+%   \end{center}
+% \end{figure}
+
+% Estos pares de bases se conectan entre sí para formar dos hélices emparejados, conocidos como {\it ácido desoxirribonucleico (ADN)}. En \cite{JohnAllman2000} se explica cómo se lee el código de pares de bases:
+
+% \begin{quote}
+% {\it ``El código de pares de bases se lee en una dirección a lo largo de una hebra. Las secuencias de tres letras (tripletes), especifican cada aminoácido, y las secuencia de tripletes a su vez, especifican la cadena de aminoácidos que forma una proteína. Hay 64 posibles secuencias de tripletes, cada uno codifica uno de los 20 aminoácidos. Así, algunos aminoácidos son especificados por más de un triplete. Los otros tres tripletes son signos de parada que señalan el final de una proteína en concreto. La secuencia completa de tripletes que codifica una proteína es un gen''}.
+% \end{quote}
+
+\subsection{El desarrollo cerebral}
+
+Es momento de estudiar el proceso de formación del cerebro humano.
+
+
+\subsubsection{Introducción a la embriología}
+\index{capas germinales}\index{embriología}
+En \cite{Shubin2009} se ofrece una genial introducción a lo que se conoce como {\it capas germinales} y a la embriología:
+
+
+\begin{quote}
+{\it ``En la década de 1800, algunos filósofos naturales estudiaron a los embriones para tratar de encontrar el plan común para la vida en la tierra. Uno de estos observadores fue Karl Ernst von Baer, nacido en una familia noble, que inicialmente se formó para ser médico. Su mentor académico sugirió que para tratar de entender cómo funcionan los órganos de un pollo desarrollado, debía estudiar y entender el desarrollo del pollo.
+
+Desafortunadamente, von Baer no podía permitirse el lujo de trabajar en incubadoras de pollos, ni podía permitirse muchos huevos. Por suerte para él, tenía un amigo rico, Christian Pander, que podía darse el lujo de hacer los experimentos. Mientras se fijaban en los embriones, se encontraron con algo fundamental: todos los órganos del pollo se puede remontar a una de las tres capas de tejido del embrión en desarrollo. Estas tres capas se conocían como las capas germinales. Lograron un estatus casi legendario, que conservan aún hoy en día.
+
+El descubrimiento de las tres capas de von Baer dio los medios para hacer preguntas importantes: ¿Todos los animales comparten este patrón? Son el corazón, los pulmones y los músculos de los animales derivados de estas capas? Y, sobre todo, ¿las mismas capas se convierten en los mismos órganos en especies diferentes?
+
+Von Baer comparó las tres capas de embriones de pollo con todo lo demás que pasara por sus manos: peces, reptiles y mamíferos. Efectivamente, pudo concluir que todos y cada uno de los órganos animales se habían originado en una de estas tres capas. Significativamente, las tres capas se formaron con las mismas estructuras en todas las especies. Cada corazón de cada especie estaba formado a partir de la misma capa. Otra capa daba lugar al cerebro de los animales. Y así sucesivamente. No importa lo diferentes que sean las especies, tanto adultos como pequeños embriones, todos pasamos por las mismas etapas de desarrollo''.}
+
+\end{quote}
+
+\subsubsection{Tubo neural}
+\label{tubo}
+El cerebro comienza a formarse a partir de una estructura en forma de tubo que se conoce como {\it tubo neural}. \cite{Lautin2001} afirma que el comienzo de todo el sistema nervioso central puede ser concebido como un globo inflado, alargado como el que usan los payasos para hacer globoflexia. El tubo neural se flexiona en dos puntos: la {\it flexión cervical} y la {\it flexión cefálica}.
+
+\index{prosencéfalo}\index{mesencéfalo}\index{rombencéfalo}
+En las primeras etapas del desarrollo humano, sólo hay tres bultos o vesículas en el tubo neural. A medida que se desarrolla el embrión, estas vesículas comienzan a diferenciarse en subdivisiones que se denominan comúnmente {\it prosencéfalo}, {\it mesencéfalo} y {\it rombencéfalo}. Los seres humanos comparten estas características de desarrollo en el cerebro con todos los demás vertebrados, incluidos los peces vertebrados, los anfibios, los reptiles, las aves y, por supuesto, otros mamíferos.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=\textwidth]{images/tubo-neural.png}
+    % http://www.uoguelph.ca/zoology/devobio/210labs/neuraldevel1.html
+    \caption{Tubo neural. A la izquierda el aspecto del tubo en la etapa más temprana de desarrollo, donde pueden apreciarse las 3 partes principales: prosencéfalo, mesencéfalo y rombencéfalo. A la derecha, en una etapa posterior, el prosencéfalo ha pasado a formar el telencéfalo y el diencéfalo.}
+    \label{tubo-neural}
+  \end{center}
+\end{figure}
+
+La figura \ref{tubo-neural} muestra el comienzo de la división del tubo neural. \cite{Lautin2001} señala que, debido a que todo se coloca inicialmente en la línea media, los ventrículos laterales ---una cavidad interna de los hemisferios cerebrales, que serán estudiados en la sección \ref{sec:hemisferios}--- tienen que ser divisiones laterales en los que el tubo neural se vuelve hacia el exterior. En la figura \ref{tubo-neural} se puede apreciar cómo esas divisiones del prosencéfalo comienzan a tomar forma para producir el {\it telencéfalo} (que después evoluciona y forma los hemisferios cerebrales) y el {\it diencéfalo} (que pasa a formar el {\it tálamo} y el {\it hipotálamo}).
+\index{telencéfalo}\index{diencéfalo}\index{tálamo}\index{hipotálamo}
+
+En \cite{Lautin2001} se explica que el telencéfalo es ``el ventŕiculo más evolucionado'', una especie de ``cerebro bien formado''. El prefijo {\it tele}, del griego antiguo, significa ``a distancia''. Por otro lado, el prefijo {\it di} de {\it diencéfalo}, según \cite{Lautin2001}, se explica porque el diencéfalo es una especie de ``cerebro de en medio'' o ``inter-cerebro''.
+
+
+Si bien el \index{mesencéfalo} {\it mesencéfalo} permanece relativamente indiferenciado, el \index{rombencéfalo} {\it rombencéfalo} pasa a formar dos vesículas: la {\it metencéfalo} \index{metencéfalo} (que después pasa a formar el {\it puente troncoencefálico} (o protuberancia anular) y el {\it cerebelo}) y el \index{mielencéfalo} {\it mielencéfalo} (que después se convierte en el {\it bulbo raquídeo}). \index{bulbo raquídeo} \index{puente troncoencefálico} \index{protuberancia anular}
+
+\subsubsection{Integración de neurocircuitos}
+
+A medida que el cerebro se desarrolla, los circuitos neuronales son creados para integrar el cerebro en un todo funcional. \cite{Damasio1994} deja esto claro: {\it ``Hay miles de millones de neuronas en los circuitos de un cerebro humano, el número de sinapsis que se forman entre ellas es al menos de 10 billones, y la longitud de los axones de las neuronas que forman el cableado de los circuitos asciende al orden de cientos de miles de millas. La escala de tiempo para la transferencia de información es muy pequeña, del orden de decenas de milisegundos, lo que significa que en un segundo en la vida de la mente, el cerebro produce millones de patrones de activación sobre una gran variedad de circuitos distribuidos en varias regiones del cerebro''}. Más tarde, el autor añade: {\it ``Los secretos elementales de la mente residen, local y globalmente, en el momento de la interacción neuronal al disparar patrones generados por los circuitos neuronales del cerebro de un organismo vivo''}.
+
+Los desequilibrios en la neurotransmisión de los circuitos cerebrales causan síntomas tales como obsesiones, compulsiones, tics nerviosos y déficit de atención. Algunos factores que influyen en estos desequilibrios son las infecciones virales o bacterianas, incesantes formas de estrés, lesiones físicas, la vulnerabilidad genética, o una combinación de factores. \cite{Damasio1994} afirma que {\it ``La distinción entre enfermedades del cerebro (mente), problemas neurológicos, y problemas psicológicos o psiquiátricos es una desafortunada herencia cultural que permanece en la sociedad, y la medicina refleja una ignorancia básica de la relación entre el cerebro y la mente''}.
+
+\subsection{Estructuras primarias del cerebro}
+
+{\it ``Debajo de la corteza cerebral, el cerebro humano tiene un parecido sorprendente con los de otras especies mucho más antiguas''}, explica \cite{Czerner2001}. Así como lo hacen en la mayoría de los animales, las neuronas del el bulbo raquídeo y el puente troncoencefálico situado en la base del cerebro, donde nace la médula espinal, de manera constante y fiable regulan sus funciones vegetativas, automatizando su actividad corporal como los latidos del corazón y la respiración. \index{puente troncoencefálico}
+
+\subsubsection{El tronco encefálico. La formación reticular}
+
+El denominado {\it tronco encefálico} (o {\it tallo cerebral}) incluye el \index{mesencéfalo} {\it mesencéfalo} o cerebro medio, \index{puente troncoencefálico} el {\it puente troncoencefálico} y el {\it bulbo raquídeo}. El núcleo del tallo cerebral se llama {\it formación reticular}. La palabra {``reticular''} significa {``red como''}, por lo que dicho núcleo describe el aspecto estructural del tejido del tallo cerebral. Por otro lado, el {\it sistema de activación reticular}, como puede leerse en \cite{Lindberg.}, es {\it ``una parte de la formación reticular que se extiende desde el tronco cerebral hasta el mesencéfalo y el tálamo, con conexiones distribuidas por toda la corteza cerebral y que controla el grado de actividad del sistema nervioso central ---por ejemplo, mantiene el sueño y la vigilia, así como la transición entre los dos estados''}. Existen diversos neurotransmisores implicados en la función reticular del sistema de activación, como la {\it acetilcolina} y \index{acetilcolina}\index{norepinefrina} la {\it norepinefrina}. 
+
+Las neuronas encargadas de la segregación de {\it serotonina}, llamadas \index{núcleos del rafé} {\it núcleos del rafé}, forman una cresta o costura en el centro de la formación reticular. \cite{Panksepp1998} explica que estas neuronas están {\it ``situadas en la línea media del cerebro, lo que indica que son muy antiguas en la evolución del órgano''}. 
+
+En \cite{JohnAllman2000} se señala que {\it ``la red de neuronas serotoninérgicas en el tronco cerebral estaba presente en los primeros vertebrados y ha mantenido una posición anatómica notablemente constante durante la evolución de vertebrados. Las neuronas serotoninérgicas se llaman así porque segregan, desde sus terminales de axón, el neurotransmisor llamado serotonina''}. Más adelante continúa: {\it ``los cuerpos celulares de las neuronas serotoninérgicas ocupan prácticamente la misma ubicación en el interior de cada cerebro de los vertebrados y se encuentran incluso en el mismo lugar en el sistema nervioso central. Este sistema ha sido increíblemente conservado durante la evolución, sin embargo, participa vitalmente en los aspectos más complejos de nuestro pensamiento y de las emociones''}. 
+
+\subsubsection{Generación de patrones}
+
+Aunque rara vez nos detengamos a pensar en ello, nuestro cerebro constantemente genera patrones de actividad, aparentemente sin esfuerzo. Muchos de estos patrones puede continuar incluso después de que ``se apague'' la conciencia. El {\it tallo cerebral} es el ejemplo más obvio de un generador de patrones. En \cite{Shubin2009} se explica lo siguiente: {\it ``Nuestro cerebro puede controlar nuestra respiración sin ningún esfuerzo consciente por nuestra parte. La mayor parte de ese trabajo se lleva a cabo en el tronco cerebral, en el límite entre el cerebro y la médula espinal. El cerebro envía impulsos nerviosos a los músculos respiratorios principales. La respiración sigue un patrón en el que están implicados los músculos del pecho, el diafragma y la garganta, trabajando en un orden bien definido. Por consiguiente, esta parte del tallo cerebral se considera un }generador central de patrones. {\it Esta región puede producir patrones rítmicos nerviosos y, en consecuencia, la activación de los músculos correspondientes. Un número de generadores de este tipo en el cerebro y la médula espinal se encargan del control de otros comportamientos rítmicos, como la ingesta y el caminar''}.
+
+\subsubsection{El sistema nervioso autónomo (SNA)}
+
+Según \cite{Sapolsky2004} "la manera principal en que el cerebro puede decirle al resto del cuerpo lo que debe hacer es el envío de mensajes a través de los nervios que se ramifican desde el cerebro hasta la columna vertebral y hacia la periferia de su cuerpo''. Conocemos mucho el sistema nervioso voluntario, donde {\it ``tú decides mover un músculo y lo mueves''}, dice el autor. Él explica que existe otra parte del sistema nervioso, el {\it sistema nervioso autónomo (\acs{SNA})}, que controla los eventos más espontáneos e involuntarios, tales como el rubor, la {\it piel de gallina}, y el orgasmo.
+
+\cite{Lindberg.} define el SNA como {\it ``una parte del sistema nervioso de los vertebrados que regula las acciones involuntarias''}. Por otro lado, según \cite{MerckCo.} el sistema nervioso autónomo {\it ``funciona automáticamente (de manera autónoma), sin esfuerzo consciente de una persona''} y {\it ``controla los órganos internos, incluyendo los vasos sanguíneos, el estómago, el intestino, el hígado, los riñones, la vejiga, los genitales, los pulmones, los músculos de los ojos, el corazón y el sudor, la saliva y las glándulas digestivas''}.
+
+El \acs{SNA} se compone de dos subsistemas: el {\it sistema nervioso parasimpático} y el {\it sistema nervioso simpático}. La función del sistema nervioso parasimpático es promover la calma, con funciones tales como el descanso y la digestión, mientras que la función del sistema nervioso simpático es la de preparar al indivíduo para luchar o huir. En la figura \ref{fig:sna} se muestra una panorámica fácil de recordar de esta división funcional.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.7]{images/sna.jpg}
+    % http://lalupa3.webcindario.com/biologia/imagenes/simpatico%20y%20parasimpatico.jpg
+    \caption{Subsistemas simpático y parasimpático del SNA}
+    \label{fig:sna}
+  \end{center}
+\end{figure}
+
+\subsubsection{El cerebelo}
+
+\cite{Lindberg.} destaca que el {\it cerebelo} \index{cerebelo} (del latín ``pequeño cerebro'') está {\it ``situado entre el tronco cerebral y la parte posterior del cerebro en los seres humanos, y formado por dos lóbulos laterales y un lóbulo medio''}. En la figura \ref{fig:cerebelo} puede apreciarse la localización del mismo. 
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.4]{images/cerebelo.jpg}
+    % http://www.scielo.cl/fbpe/img/rchnp/v47n3/art07-3.jpg
+    \caption{Localización del cerebelo}
+    \label{fig:cerebelo}
+  \end{center}
+\end{figure}
+
+La función principal del cerebelo es la de integrar las vías sensitivas y las vías motoras. Existe una gran cantidad de haces nerviosos que conectan el cerebelo con otras estructuras encefálicas y con la médula espinal. El cerebelo integra toda la información recibida para precisar y controlar las órdenes que la corteza cerebral manda al aparato locomotor a través de las vías motoras. Por ello, lesiones a nivel del cerebelo no suelen causar parálisis pero sí desordenes relacionados con la ejecución de movimientos precisos, mantenimiento del equilibrio, la postura y aprendizaje motor.
+
+Como último detalle, de acuerdo con \cite{MerckCo.} {\it ``hay un creciente consenso en que, además de la coordinación, el cerebelo controla algunos aspectos de la memoria, el aprendizaje y la cognición''}. El texto explica que, aunque la \index{ataxia} {\it ataxia} --- una enfermedad que se caracteriza por provocar la descoordinación en el movimiento de las partes del cuerpo--- es el síntoma más típico de disfunción cerebelosa, muchas otras anomalías motoras también pueden ser fruto de esta disfunción.
+
+
+
+\subsection{Los hemisferios cerebrales}
+\label{sec:hemisferios}
+El cerebro se divide en dos mitades prácticamente simétricas denominadas {\it hemisferios cerebrales} (figura \ref{hemisferios}). En \cite{Restak1994} se analiza cómo los hemisferios izquierdo y derecho responden ante diferentes situaciones, para determinar la funcionalidad de cada uno:
+
+\begin{quote}
+{\it ``El hemisferio derecho es dominante para cuestiones no verbales, tareas espaciales, interpretación de gestos faciales y emociones, visualización y transformación mental, y para la apreciación e intuición de figuras geométricas. Por otro lado, el hemisferio izquierdo se centra en el habla, la escritura y la comprensión oral, así como el cálculo.\\
+Pero aún más importante que la división funcional es el hecho de que cada hemisferio tiene su propia consciencia.''}
+\end{quote}
+
+Ambos hemisferios funcionan de forma diferente al procesar emociones. Mientras que el hemisferio derecho responde ante emociones negativas, el izquierdo lo hace ante emociones positivas. Cuando el hemisferio derecho sufre daños, en \cite{Panksepp1998} se explica que {\it ``con frecuencia los pacientes permanecen alegres, pese a la gravedad de sus problemas''}. Por otro lado, un daño similar en el hemisferio izquierdo {\it ``puede causar estrés emocional catastrófico, predisponiendo a los pacientes a sufrir depresión''}.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=10cm]{images/brain2.eps}
+    \caption{Hemisferios cerebrales (vista frontal)}
+    \label{hemisferios}
+  \end{center}
+\end{figure}
+
+
+\subsection{La corteza cerebral}
+
+\cite{JohnAllman2000} define ``córtex'' como {\it ``la cubierta externa o corteza de un objeto''}.
+
+\subsubsection{El neocórtex}
+\index{neocórtex}
+\index{prosencéfalo}\index{mesencéfalo}\index{rombencéfalo}
+Como se mencionó en la sección \ref{tubo} cuando se describía el desarrollo del tubo neural, el {\it prosencéfalo} (cerebro anterior), el {\it mesencéfalo} (cerebro medio), y el {\it rombencéfalo} (cerebro posterior) son las partes del cerebro humano durante el comienzo del desarrollo del sistema nervioso central. Durante el desarrollo embrionario el prosencéfalo se divide en {\it diencéfalo} (tálamo e hipotálamo), y {\it telencéfalo} (hemisferios cerebrales).
+
+{\it ''El neocórtex\footnote{También conocido como {\it neocorteza} en la literatura médica española.} es una especialización en el telencéfalo que es paralelo a la formación de la cresta dorsal ventricular en reptiles y aves. El neocórtex es tanto una característica única de mamíferos como son las glándulas mamarias o el martillo y el yunque en el oído medio''}, según \cite{JohnAllman2000}, y {\it ``almacena información acerca de la estructura del medio ambiente a fin de que el mamífero puede fácilmente encontrar alimentos y otros recursos necesarios para su supervivencia''}.
+
+Por otro lado, \cite{Sapolsky} se refiere al {\it neocórtex} como una {\it ``especialización primate''}, terminología que corresponde con la descripción anterior.
+
+\subsubsection{La corteza del cíngulo anterior: emoción, atención y memoria a corto plazo}
+
+Antes de discutir las diferenciaciones anatómicas denominadas lóbulos conviene hablar de la corteza del cíngulo anterior, una zona importante de la corteza cerebral que tradicionalmente se ha considerado parte del sistema límbico\index{sistema límbico}\footnote{Sistema formado por varias estructuras cerebrales que gestionan respuestas fisiológicas ante estímulos emocionales. Está relacionado con la memoria, la atención, los instintos sexuales, las emociones ---placer, miedo, agresividad---, la personalidad y la conducta.}. Desde el punto de vista evolutivo, cabe destacar que la corteza del cíngulo anterior es más antigua que las zonas exteriores de la corteza.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.5]{images/cingulo.png}
+    \caption{Corteza del cíngulo anterior}
+    \label{cingulo}
+    % http://upload.wikimedia.org/wikipedia/commons/7/7f/MRI_cingulate_cortex.png
+  \end{center}
+\end{figure}
+
+La corteza del cíngulo anterior se amolda a la curva exterior del cuerpo calloso, la gruesa banda de fibras nerviosas que conecta los hemisferios izquierdo y derecho del cerebro (ver hemisferios en figura \ref{hemisferios}). El término ``cíngulo'' proviene del latín, y significa cinturón o faja. Este área también es denominada {\it circunvolución cingulada}. \cite{Lindberg.} define ``anterior'' como  {\it ``en relación con o que se encuentra cerca o hacia la cabeza...''}. En la figura \ref{cingulo} la corteza del cíngulo (tanto anterior como posterior) se muestra resaltada, mientras que la parte anterior se encuentra, además, rodeada.
+
+En \cite{Damasio1994} el autor escribe: {\it ``Me gustaría proponer que existe una región particular del cerebro humano donde los sistemas afectados por la emoción / sentimiento, la atención, y la memoria a corto plazo interactúan tan íntimamente que constituyen la fuente de la energía de la acción exterior (movimiento) y la acción interna (pensamiento animación, razonamiento). Esta región manantial es la corteza cingulada anterior, otra pieza del rompecabezas que constituye el sistema límbico\index{sistema límbico}''}. Después continúa diciendo: {\it ``Mi idea acerca de esta región proviene de la observación de un grupo de pacientes con daño en y alrededor de ella. La enfermedad se describe mejor como animación suspendida, mental y externa ---la variedad extrema de un deterioro del razonamiento y de expresión emocional---.''}.
+
+Lo anterior llama la atención sobre un fenómeno interesante que ilustra la función de la corteza cingulada anterior. {\it ``Cuando una apoplejía destruye la corteza motora en el hemisferio izquierdo del cerebro y, como resultado, el paciente tiene parálisis en el lado derecho de la cara''}, comenta \cite{Damasio1994}, {\it ``los músculos no pueden actuar y la boca tiende a ser arrastrada hacia un lado al pedirle al paciente que la abra --- los dientes revelan un aumento de la asimetría---. Sin embargo, cuando el paciente sonríe o se ríe espontáneamente, en respuesta a una observación humorística, sucede algo completamente diferente: la sonrisa es normal, los dos lados de la cara se mueven de forma correcta, y la expresión es natural, nada diferente de la sonrisa habitual pre-parálisis de esa persona. Esto pone de manifiesto que el control motor para una secuencia de movimientos relacionada con las emociones no se encuentra en la misma ubicación que el control de un acto voluntario. El movimiento relacionado con las emociones se desencadena en otras zonas del cerebro, incluso si los músculos objetivos del movimiento son los mismos.''}
+
+Para aclarar que la expresión emocional tiene su origen, \cite{Damasio1994} escribe: {\it ``Si usted estudia a un paciente en el que un golpe ha dañado la corteza cingulada anterior en el hemisferio izquierdo, verá exactamente el resultado opuesto en reposo o en movimiento relacionado con las emociones, la cara es asimétrica, menos móvil en el lado derecho que en el izquierdo. Pero si el paciente trata de contraer los músculos de la cara deliberadamente, los movimientos se llevan a cabo normalmente y vuelve la simetría. La emoción está relacionada con el movimiento, entonces, se controla desde la región cingulada anterior.''}
+
+La corteza cingulada anterior puede desempeñar un papel importante en los lazos entre padres e hijos.
+
+\subsubsection{Los lóbulos cerebrales}
+\label{lobulos}
+La diferenciación cerebral en ``lóbulos'' se utiliza para indicar la posición relativa de las estructuras cerebrales. Por ejemplo, la amígdala se encuentra dentro de los lóbulos temporales. Es importante recordar que un lóbulo no funciona independientemente, no son unidades autónomas, sino que son meramente una referencia anatómica. \cite{Damasio1994} señala que {\it ``en un sólo segundo el cerebro produce millones de patrones de activación a través de una gran variedad de circuitos distribuidos en varias regiones del cerebro''}.
+
+Si nos centramos en cualquiera de los hemisferios cerebrales por separado, encontramos una nueva división de funcionalidad: los lóbulos cerebrales (figura \ref{lobulos}):
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=14cm]{images/brain.eps}
+    \caption{Lóbulos cerebrales}
+    \label{lobulos}
+  \end{center}
+\end{figure}
+
+
+
+\begin{itemize}
+\item {\bf Lóbulo frontal}
+
+  Está involucrado en la planificación y priorización de tareas. Según \cite{Restak1995}: {\it ``El lóbulo frontal constituye el 50\% de cada hemisferio cerebral de los seres humanos. Es el encargado de iniciar cualquier actividad motriz, como el habla. Se subdivide en el lóbulo prefrontal ---que integra personalidad con emociones--- y la corteza motora ---que transforma los pensamientos en acciones---.}
+
+\item {\bf Lóbulo temporal}
+
+Contiene un área sensorial relacionada con la audición. Ubicado dentro de cada lóbulo temporal se encuentran la amígdala y el hipocampo, que están, tal como se describe en \cite{Restak1995}, {\it ``implicados en el aprendizaje, la memoria, la experiencia y la expresión de la emoción''}. Una porción del lóbulo temporal, llamada la {\it corteza entorrinal}, conecta las señales corticales de entrada con el hipocampo. {\it ``Las fibras de los cuatro lóbulos, junto con fibras de asociación que unen éstas entre sí, convergen en la región del hipocampo''}, dice \cite{Restak1995}. En \cite{JohnAllman2000} se señala que la amígdala ---tan importante para el procesamiento emocional--- también recibe la entrada de un área cortical en el lóbulo temporal llamada {\it corteza visual inferotemporal}, que es {\it ``más amplia en gran medida en los primates superiores''}. \cite{JohnAllman2000} comenta, además, que {\it ``Charles Goss, Robert Desimone, Rolls Edmund y David Perrett entre otros, han demostrado que las neuronas de la corteza inferotemporal son especialmente sensibles a las imágenes de los rostros''}. \index{córtex/corteza!inferotemporal}
+
+
+\item {\bf Lóbulo occipital}
+
+Incluye sofisticados mapas topográficos con complejas interconexiones, necesarias para el procesamiento visual y, acorde con \cite{Lindberg.}, tiene {\it ``la forma de una pirámide de 3 lados''}. \cite{MerckCo.} explica que, además de procesar e interpretar la visión, las áreas corticales en el lóbulo occipital permiten al ser humano mantener memorias visuales e integrar percepciones visuales con la información espacial procedente de los lóbulos parietales adyacentes. Si una lesión en la cabeza daña los lóbulos occipitales, en ocasiones se produce lo que se conoce como {\it agnosia visual} ---definida por \cite{MerckCo.} como la {\it ``pérdida de la capacidad de asociar objetos con su habitual papel o función''}---. Con suficiente daño en el lóbulo occipital, {\it ``la gente no puede reconocer caras familiares u objetos comunes, como una cuchara o un lápiz, a pesar de que puede ver estas cosas''}, según se explica en \cite{MerckCo.}.
+
+\item {\bf Lóbulo parietal}
+
+Contiene un área que procesa las sensaciones corporales, llamada {\it corteza somatosensorial}. {\it ``El lóbulo parietal es la estación receptora de la información sensorial desde el lado opuesto del cuerpo y es responsable de la integración de lo que se ve con lo que se siente a través de una red de fibras de asociación''}, explica \cite{Restak1995}.
+
+\item {\bf Lóbulo central o ínsula}
+
+Se encuentra situado {\it ``en el centro del hemisferio cerebral, enterrado entre la unión de los lóbulos frontal y temporal''}, acorde con \cite{Lindberg.}. Según \cite{MerckCo.}, además, la ínsula integra el procesamiento de la información sensorial y autonómica. Involucrado en ciertas funciones del lenguaje, su deterioro puede derivar en la {\it afasia}\index{afasia}, enfermedad que supone la pérdida de capacidad de producir o comprender el lenguaje, tanto hablado como escrito.
+
+\end{itemize}
+
+
+\subsubsection{La corteza frontal}
+
+\index{neurona!piramidal}
+
+La figura \ref{piramidal} muestra una neurona piramidal, que es común en la corteza prefrontal. La corteza frontal ayuda a centrarse en lo que una tarea es ahora. Los pacientes que sufren demencia en las primeras etapas son incapaces de mantenerse en una tarea concreta, y tienden a volver a tareas anteriores. Sapolsky demostró esta idea con un sencillo experimento consistente en solicitar a pacientes con esta enfermedad que dijeran los meses del año, y después pedirles que contaran hacia atrás a partir 20. El resultado fue que durante la cuenta atrás, los pacientes pasaban a enumerar meses del año, mostrando una imposibilidad para mantener la tarea en la que se encontraban. Esta disfunción se conoce como {\it perseverancia e intrusión} (reversión a una tarea anterior).
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=6cm]{images/piramidal.jpg}
+    %http://www.kalipedia.com/kalipediamedia/cienciasnaturales/media/200704/17/delavida/20070417klpcnavid_266.Ies.SCO.jpg
+    \caption{Neurona piramidal}
+    \label{piramidal}
+  \end{center}
+\end{figure}
+
+{\it ``La corteza frontal está involucrada en el control ejecutivo, sensación de gratificación y planificación a largo plazo''}, explica \cite{Sapolsky2004}. {\it ``Lo hace enviando proyecciones inhibitorias en el sistema límbico\index{sistema límbico}, sistema cerebral involucrado en la emoción y la impulsividad. Además, la corteza frontal resiste entradas estimulantes del sistema límbico\index{sistema límbico}, ignorando tentadores susurros límbicas como \guillemotleft No estudie para el examen, salga a dar una vuelta\guillemotright''}. En el mismo texto se añade que cuando la corteza frontal es destruida, los pacientes sufren deshinibición sexual, agresividad, etc.
+
+Como apunte curioso, en \cite{Johnson2005} se explica cómo si su cerebro se ve dañado en un accidente o derrame cerebral, puede parecer que tiene dañados los lóbulos frontales, incluso cuando los lóbulos frontales permanecen intactos. {\it ``La gente siempre piensa en los lóbulos frontales debido a que son la última estructura en evolucionar, y por lo tanto la más delicada, mientras que las estructuras más antiguas son increíblemente robustas''}. Pero el neuropsicólogo Elkhonon Goldberg, sigue explicando el texto, presentó una teoría diferente: {\it ``Él piensa que, si bien los lóbulos frontales pueden ser más frágiles, hay otro factor en juego, y es que todas las otras partes del cerebro están conectadas a ellos. Al dañar cualquier parte del cerebro, la entrada a los lóbulos frontales se ve alterada, y un cambio en la entrada produce un cambio en la salida. Si los lóbulos frontales no están recibiendo la entrada correcta, es lógico que no produzcan el resultado correcto, aunque estructuralmente estén en perfecto estado. Así que todo el daño cerebral termina pareciéndose a daño en el lóbulo frontal.''}.
+
+{\it ``En los primates, el lóbulo frontal tiene un papel importante en el establecimiento de prioridades y la planificación''}, explica \cite{JohnAllman2000}, {\it ``En particular, la superficie inferior del lóbulo frontal, la denominada corteza orbital-frontal, es especialmente importante para estas funciones''}. La ubicación de la corteza orbital-frontal puede apreciarse en la figura \ref{orbital-frontal}. Cabe destacar que en la literatura médica también se suele utilizar el término {\it región ventromedial del lóbulo frontal} para referirse a la región orbital-frontal.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=9cm]{images/orbital-frontal.jpg}
+    % http://www.blogseitb.com/cienciayhumanismo/wp-content/uploads/2012/10/Orbital-prefrontal-cortex.jpg
+    \caption{Corteza orbital-frontal}
+    \label{orbital-frontal}
+  \end{center}
+\end{figure}
+
+
+
+\subsubsection{Las áreas de Brodmann}
+
+Según se afirma en \cite{InstituteofNeurosciencesMentalHealth} {\it ``La arquitectura celular difiere suficientemente de una parte del neocórtex a otra como para ser utilizada como un criterio para definir las áreas corticales funcionalmente diferentes''}. Con esa observación, el anatomista alemán Korbinian Brodmann elaboró un mapa de el cerebro basado en las diferencias en la arquitectura celular de las diversas partes de la corteza, asignando a cada parte de la corteza un número del 1 al 52 (ver figura \ref{brodmann}). Respecto a esta división, \cite{InstituteofNeurosciencesMentalHealth} dice: {\it ``La intuición de Brodmann, cuya exactitud ha sido confirmada en muchas ocasiones, afirma que una estructura anatómica particular corresponde a una función en particular. Por ejemplo, el área de Brodmann 17 (que recibe información de un núcleo del tálamo que se conecta a la retina) resulta que corresponde exactamente con la corteza visual primaria.''}. \index{neocórtex}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=12cm]{images/brodmann-areas.png}
+    % http://www.mrc-cbu.cam.ac.uk/people/jessica.grahn/neuroanatomy.html
+    \caption{Áreas de Brodmann}
+    \label{brodmann}
+  \end{center}
+\end{figure}
+
+
+En la figura \ref{brodmann}, {\it la corteza motora primaria} se corresponde con el área 4. El neurocirujano Wilder Penfield Graves (1891-1976) exploró esta región mientras trataba a pacientes con epilepsia severa en Montreal. El objetivo de Penfield era destruir las células nerviosas responsables de la crisis. Mientras el paciente se encontraba bajo el efecto de anestesia local, Penfield estimuló el cerebro con sondas eléctricas, observado las respuestas de los pacientes. Lo hizo para identificar las áreas que requieren cirugía y evitar las áreas vitales que no deben ser destruidas. Al hacer esto, se observó que la estimulación de ciertas áreas de la corteza cerebral desencadenaba contracciones musculares muy localizadas en el lado opuesto del cuerpo. La conclusión fue que las áreas de la corteza asignadas a las diferentes partes del cuerpo {\it ``no son proporcionales a su tamaño, sino más bien a la complejidad de los movimientos que puede realizar. Por lo tanto, las áreas de la mano y cara son especialmente grandes en comparación con las del resto del cuerpo, lo cual no es sorprendente, ya que la velocidad y la destreza de la mano humana y los movimientos de la boca son precisamente los que nos dan dos de nuestras facultades más distintivamente humanas: la capacidad de utilizar las herramientas y la capacidad de hablar.''}.
+
+En \cite{JohnAllman2000} se cita el trabajo de Hughlings Jackson en la determinación de cómo el cerebro controla el movimiento muscular. En la observación de que los pacientes epilépticos en ocasiones sufren crisis convulsivas centradas en un lugar particular en el cuerpo, Jackson {\it ``llegó a la conclusión de que los músculos se representan en el cerebro en un lugar determinado, que dedujo encontrarse en algún lugar de la corteza cerebral o en una estructura cercana llamada cuerpo estriado. Esta teoría fue un cambio radical de la opinión clínica predominante de la época, que era que las crisis epilépticas eran causadas por una alteración en el nivel más bajo del tronco cerebral''}. En el mismo texto puede leerse: {\it ``En 1870, la predicción topográfica de Hughlings Jackson fue confirmada por los médicos alemanes Fritsch y Gustav Eduard Hitzig, quienes descubrieron la corteza motora mediante la estimulación de la superficie del cerebro en perros con débiles corrientes eléctricas y la observación de los movimientos discretos del cuerpo''}. \index{cuerpo estriado}
+
+\index{neocórtex} \cite{JohnAllman2000} explica que las observaciones de Jackson {\it ``se refieren a tres propiedades fundamentales del neocórtex. La primera es que contiene mapas topográficos, la segunda es que las partes más usadas de esos mapas tienen una representación mayor, y la tercera que el neocórtex tiene un papel clave en la génesis de la epilepsia''}. Después continúa diciendo: {\it ``El circuito cortical es muy plástico, ya que puede cambiar su organización funcional en respuesta a la experiencia, y es crucial para la formación de la memoria''}. Esta cualidad plástica del cerebro es la que la literatura médica denomina {\it neuroplasticidad}, concepto que se verá más adelante. \index{neuroplasticidad}
+
+En la figura \ref{brodmann}, las áreas 1, 2 y 3 representan la {\it corteza somatosensorial}, otra especie de mapa topográfico. Si un amigo le hace cosquillas, hay unas zonas muy concretas de la corteza cerebral que se ven activadas. El mapeo somatosensorial permite conocer, monitorizando la actividad cerebral, qué lugar de su cuerpo recibió las cosquillas. En \cite{JohnAllman2000} se explica cómo se descubrieron esos mapas topográficos: {\it ``Con el desarrollo de los amplificadores electrónicos y los osciloscopios de la década de 1930 fue posible registrar la actividad eléctrica de la corteza cerebral. Edgar Douglas Adrian, Woolsey Clinton, entre otros, descubrieron que la región adyacente a la corteza motora se activa eléctricamente por la estimulación mecánica de la superficie del cuerpo; a esa región la llamaron corteza somatosensorial, del griego} soma, {\it que significa} cuerpo. {\it Al registrar actividad en un sitio particular de la corteza somatosensorial, fueron capaces de trazar un campo receptivo en la superficie del cuerpo que activó ese sitio. Con un proceso sistemático encontraron una correspondencia punto a punto en la superficie cortical, por lo que fueron capaces de determinar la representación de la superficie del cuerpo en la corteza somatosensorial''}.
+
+\cite{JohnAllman2000} desarrolla la idea de cómo mediante el uso de grabaciones de microelectrodos, Michael Merzenich, Jon Kaas, y sus colaboradores fueron capaces de confirmar que hay por lo menos cuatro mapas de la superficie del cuerpo en la corteza somatosensorial de los monos. Al igual que los mapas de la corteza motora, los de la corteza somatosensorial en los primates muestran un fuerte énfasis en la mano y la cara, lo que indica la existencia de mayor sensibilidad en las zonas de la mano, los labios y la lengua, que están conectadas a áreas mucho más grandes de la corteza que  las zonas menos sensibles del cuerpo. Al igual que con la corteza motora, los mapas corticales somatosensoriales son plásticos y la representación cortical está más expandida para las partes del cuerpo que son muy usadas. La distinción entre la corteza somatosensorial y la corteza motora no es absoluta. La corteza motora tiene algunas funciones sensoriales y viceversa.
+
+Con respecto al papel de la experiencia en la determinación de las representaciones corticales, \cite{JohnAllman2000} escribe: 
+
+\begin{quote}
+  {\it ``Experimentos funcionales realizados en sujetos humanos han demostrado que la representación cerebral de la mano tiene mayor expansión, como resultado de la realización de movimientos complejos de los dedos. La expansión de la representación de la mano puede ser observada tras un corto plazo de capacitación, pero es más notable en los lectores de Braille y en los músicos que tocan instrumentos de cuerda. Estos resultados demuestran el papel de la experiencia: \textit{\textbf{cuanto más fino es el grado de control y el uso de un músculo, mayor será la expansión de su representación en la corteza cerebral}}''}.  
+\end{quote}
+
+De nuevo estamos aproximándonos al concepto de {\it neuroplasticidad}, que será desarrollado en la sección \ref{neuroplasticidad}. \index{neuroplasticidad}
+
+
+\subsubsection{Mapas retinotópicos}
+
+En las áreas del cerebro dedicadas a la vista, los mapas cerebrales son denominados {\it retinotópicos}, puesto que reflejan la topografía de la retina ---la capa de neuronas activadas por la luz que recubren la parte posterior del ojo---. La circuitería visual en la corteza cerebral humana contiene varias docenas de mapas retinotópicos diferentes, cada uno dedicado a analizar el flujo de entrada visual de una forma concreta. La corteza visual primaria ---área 17 de Brodmann (figura \ref{brodmann})--- es el principal receptor de impulsos provenientes de la parte visual del tálamo. Cabe destacar que las áreas visuales además extraen características tales como el color, el movimiento y la forma.
+
+Gran parte del procesamiento visual del cerebro tiene lugar en el lóbulo occipital. Atendiendo a la figura \ref{brodmann}, las áreas dedicadas a esta tarea son la 17, 18, 19, 20 y 21. El área 17 de Brodmann es la corteza visual primaria (V1). El área 18 representa la corteza visual secundaria (V2) y el área 19 la corteza visual asociativa (V3). Cada una de estas áreas constituye un mapa retinotópico. Como se mencionó en el apartado \ref{lobulos}, las áreas de Brodmann 20 y 21 forman parte del lóbulo temporal, y representan la corteza visual inferotemporal, que incluye neuronas sensibles a las imágenes de rostros y envía información visual a la amígdala. \index{córtex/corteza!inferotemporal} \index{córtex/corteza!visual primaria} \index{córtex/corteza!visual secundaria} \index{córtex/corteza!visual asociativa}
+
+En \cite{JohnAllman2000} se detalla cómo la corteza visual primaria (V1) se asignó inicialmente:
+
+\begin{quote}
+{\it ``En la guerra entre Rusia y Japón de 1905, muchos soldados japoneses sufrieron heridas de bala en la parte posterior de su cerebro. Debido a la velocidad de salida más alta y el tamaño más pequeño de las balas desarrolladas en el siglo XIX, estas armas tendían a producir lesiones cerebrales más localizadas que las que fueron infringidas en guerras anteriores, lo que mejoró la atención de los heridos y dio lugar a mayores tasas de supervivencia. Muchos de los soldados heridos fueron cegados en parte por estas lesiones, por lo que el oftalmólog Tatsuji Inouye trabajó para el gobierno japonés para evaluar el alcance de su ceguera como un medio para determinar sus beneficios de pensión. Inouye descubrió que la parte del campo visual en el que estos soldados habían quedado ciegos correspondía a la localización de las lesiones cerebrales producidas por los orificios de entrada y salida de la bala. Mediante la combinación del déficit visual de diferentes soldados pudo deducir la organización topográfica de la corteza visual primaria. Inouye reveló que había mucha más corteza dedicada a la representación de la parte central de la retina que a la periferia. Esta es la parte de la retina con mayor agudeza, y es nuestro medio más importante para obtener información del entorno ---y la parte que el lector está empleando en este instante al leer este libro---. El mapa de la corteza visual primaria de Inouye ha sido confirmado por las técnicas modernas de extracción de imágenes cerebrales.''}
+\end{quote}
+
+En \cite{Restak1994} se proporciona un ejemplo de cómo el daño a un área del cerebro, en sólo un hemisferio, puede cambiar dramáticamente la forma en que percibimos el mundo. El autor discute cómo Michael Gazzaniga llevó a cabo un experimento que involucró a un sujeto que había perdido la parte izquierda del campo visual a causa de daño cerebral en el área visual del lado derecho de su cerebro: {\it ``Se les pidió que se imaginara a sí mismo mirando hacia California desde Nueva York, y que nombrara los estados que encontraba en medio. Nombró sólo diez estados, todos ellos situados a la derecha de su punto de vista imaginario. Omitió a los estados a la izquierda, que corresponden al campo visual dañado por su lesión cerebral derecha. Lo que no podía ver en el mundo real como resultado de su lesión cerebral, tampoco era capaz de verlo en la imagen espacial de su imaginación''}.
+
+Con el fin de diferenciar la complejidad de las áreas de la corteza visual, en \cite{JohnAllman2000} se citan las diferencias en la corteza visual que distinguen a los primeros mamíferos de los primates y los seres humanos: {\it ``Las zarigüeyas y los erizos, que en muchos aspectos se parecen a los primeros mamíferos que vivieron hace más de 60 millones de años, han limitado su capacidad visual a un pequeño número de las áreas corticales visuales. En los mamíferos, los mapas corticales de la retina son relativamente uniformes en cuanto a la cantidad de espacio cortical dedicado a la parte más central del campo visual, en general en estos animales no es mucho mayor que la corteza dedicada a las partes más periféricas del campo visual. Por el contrario, los primates tienen extremadamente bien desarrolladas las capacidades visuales y tienen un gran número de mapas corticales dedicados a la percepción visual y la memoria. Dentro de la mayoría de estos mapas hay un fuerte énfasis de la representación de la parte central del campo visual y una representación mucho más pequeña de las partes periféricas de la campo visual''}.
+
+\subsection{Estructuras subcorticales. El estrés, las emociones y la enfermedad mental}
+% Esta sección es importante. En ella hay un apartado de como el entrenamiento altera el cerebro
+
+En esta sección se estudiarán las principales estructuras subcorticales del cerebro de los mamíferos. En \cite{Panksepp1998}, en referencia al procesamiento emocional instintivo que tiene lugar en nuestras estructuras cerebrales subcorticales, se señala la probabilidad de que, {\it ``en un sentido evolutivo, gran parte del potencial de procesamiento de información en la corteza cerebral es de servicio (se trata de servidores automatizados, a menudo inconscientes) a las instrucciones de los impulsos afectivos que gobernaban el comportamiento previo a la evolución cortical''}.
+
+En \cite{Morrison2009} se ofrece una gran descripción de la similitud entre los humanos y los demás mamíferos. Nosotros, los humanos, compartimos las mismos estructuras cerebrales subcorticales con todos los demás mamíferos. Textualmente:
+
+
+\begin{quote}
+
+{\it Tanto mi gato Buster como yo nos sobresaltamos y gritamos de dolor ante un estímulo doloroso repentino, y nuestras piernas se contraen en respuesta a un golpe en la rótula de la rodilla. La organización neuronal espinal responsable de estas actividades es la misma, tanto en gatos como en seres humanos.
+
+Profundizando en la parte más baja del cerebro, tanto en Buster como en mí, las mismas neuronas controlan las funciones corporales básicas, tales como la regulación de la respiración, la frecuencia cardíaca y los vómitos. Más hacia adelante residen las células nerviosas que regulan los comportamientos de sueño y la vigilia, que son idénticos en los seres humanos y otros mamíferos, y los resultados de una disfunción en dichas zonas provoca problemas similares, como la narcolepsia \index{narcolepsia} y el trastorno de sueño \acs{REM}. En esta región del cerebro, en todos los mamíferos se encuentran las neuronas que contienen el neurotransmisor dopamina, que degeneran en la enfermedad de Parkinson.
+
+En la base de los hemisferios cerebrales se encuentra la \index{amígdala}amígdala, en forma de almendra, que lidia con el temor y la ansiedad, tanto en personas como animales. Los monos y las ratas han contribuido mucho a nuestra comprensión de la amígdala. La corteza cerebral suprayacente es donde todos nosotros los mamíferos analizamos las sensaciones que provienen de la piel, los músculos y las articulaciones a través de la médula espinal, o los ojos y oídos en el caso de la visión y la audición.
+
+Nos alejamos de otros animales, sin embargo, en el gran desarrollo de la parte delantera de nuestra corteza cerebral, los lóbulos frontales, y la mayor proporción de tejido cerebral, llamadas ``áreas de asociación'', que integran la información obtenida de las regiones que reciben directamente la información sensorial. Estas últimas regiones se llaman las ``áreas primarias sensoriales y motoras'', ya que reciben sensaciones puras y dirigen el movimiento del cuerpo. Se encuentran dentro de los lóbulos frontales, a través de los que nosotros los humanos reflexionamos sobre el pasado y nos preparamos para el futuro. Los animales no tienen esta capacidad última. Los animales se prepararse para el futuro de una forma limitada ---por ejemplo, la ardilla piensa en recolectar y enterrar nueces para el invierno---.}
+
+\end{quote}
+
+
+\subsubsection{El cerebro animal}
+
+En \cite{Johnson2005} se relata el primer encuentro del autor con con el tejido cerebral real. {\it ``El cerebro de cerdo fue un gran shock para mí porque cuando comparamos las estructuras de nivel inferior, como la amígdala, a las mismas estructuras en el cerebro humano no podía ver ninguna diferencia en absoluto. El cerebro de cerdo y el cerebro humano se veían exactamente idénticos. Pero cuando miré a la neocorteza, la diferencia fue enorme. el neocórtex humano es visiblemente más grande y doblado hacia arriba, y cualquiera puede verlo sin necesidad de un microscopio''}.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=10cm]{images/amigdala.jpg}
+    % http://www.neurosciencerus.org/wyHumanBrain.jpg
+    \caption{Hipotálamo. Tálamo. Hipocampo. Cerebelo. Cuerpo calloso. Neocórtex. Tallo cerebral}
+    \label{fig:amigdala}
+  \end{center}
+\end{figure}
+
+En la figura \ref{fig:amigdala} se muestra la {\it amígdala}\index{amígdala}, el {\it hipocampo}\index{hipocampo} y el {\it cuerpo calloso}\index{cuerpo calloso}. Debe recordarse que los hemisferios izquierdo y derecho contienen cada una de estas estructuras, que son imágenes especulares el uno de otro.
+
+\subsubsection{La amígdala, el estrés, el \acs{TOC} y el \acs{TEPT}}
+
+\cite{Czerner2001} describe la {\it amígdala}\index{amígdala} como una estructura ``almendrada''. La amígdala se encuentra protegida dentro de cada lóbulo temporal. El lóbulo temporal se encuentra detrás de los templos\index{templo}, de ahí su nombre.
+
+En \cite{Damasio1994} se explica que {\it ``el primer indicio de la relación existente entre la amígdala y las emociones se pueden encontrar en la obra de Heinrich Klüver y Paul Bucy, quienes demostraron que la extirpación quirúrgica de la parte del lóbulo temporal que contiene a la amígdala provoca indiferencia afectiva, entre otros síntomas''}.
+
+Diversas investigaciones demuestran que si la {\it amígdala}\index{amígdala} está dañada, el ser humano pierde la capacidad de discernir las emociones, especialmente el miedo y la ira. Según \cite{JohnAllman2000}, el papel de la amígdala en la percepción de las expresiones faciales {\it ``se mostró claramente en los trabajos de Ralph Adolphs''}. Ralph Adolphs estudió a un paciente que había sufrido un daño bilateral amigdalar sin lesiones significativas en otras partes del cerebro. Aunque este paciente tenía una visión normal y podía percibir rostros, no era capaz de discriminar el contenido emocional de las expresiones faciales negativas del miedo y la ira. Así, todos los rostros le parecían estar sonriendo o mostrando una expresión neutral, incluso los que mostraban un gesto exagerado. El daño a la amígdala\index{amígdala} también afecta a la capacidad para discernir la emoción en el habla. {\it ``Sophie Scott y sus colegas encontraron que la lesión amigdalar también afecta a la capacidad de percibir el contenido emocional de la entonación del habla, a pesar de que su paciente tenía una audición normal. Al igual que con las expresiones faciales en pacientes de Adolphs, las expresiones auditivas del miedo y la ira fueron las más confundidas''}.
+
+El hipocampo y la corteza prefrontal\index{córtex/corteza!prefrontal} se ven reducidos por el estrés, según afirma \cite{Pittenger2008}, mientras que la amígdala\index{amígdala} ve incrementado su tamaño y potenciado su funcionamiento, lo que le permite ser más poderosa con el tiempo ---incluso llegando a ejercer control sobre nuestro razonamiento---. Dicha actividad potenciada puede exacerbar los síntomas de la enfermedad mental, incluyendo el \acs{TOC}.
+
+En \cite{Sapolsky2004} se hace hincapié en que si bien los {\it glucocorticoides}\index{glucorticoides}\footnote{Los {\it glucorticoides} son hormonas de acción contraria a la de la {\it insulina}\index{insulina} en sangre. También actúan sobre el metabolismo intermedio de grasas y proteínas. Los {\it glucocorticoides} producidos por el cuerpo humano son el {\it cortisol}\index{cortisol}, la {\it cortisona}\index{cortisona} y la {\it corticosterona}\index{corticosterona}.} liberados durante episodios de estrés pueden alterar la función del hipocampo y la memoria, los {\it glucocorticoides} mismos incrementan la excitabilidad de la {\it amígdala}\index{amígdala}, permitiendo que las neuronas crezcan más allá de la simple unión entre células.
+
+
+Especialmente en relación con el \acs{TEPT}, la experiencia es un factor clave. Los neurocientíficos han descubierto que la experiencia moldea la {\it amígdala}\index{amígdala}. Se podría decir que la {\it amígdala} ``aprende'', con el tiempo, el nivel de peligro que debe ser asociado a cada estímulo en particular. En la definición de relevancia incentivo, los autores Vilayanur S. Ramachandran y Lindsay M. Oberman expertos describen el proceso por el cual amígdala puede predecir el peligro. Según \cite{Oberman2006}:
+
+\begin{quote}
+{\it ``Cuando una persona ve el mundo, él o ella se enfrenta a una enorme cantidad de información sensorial ---sonidos, olores, etc.---. Después de ser procesada en las áreas sensoriales del cerebro, la información es transmitida a la amígdala\index{amígdala}, que actúa como un portal para el sistema límbico\index{sistema límbico}. La amígdala\index{amígdala} determina la forma en que la persona debe responder emocionalmente: con el miedo (a la vista de un ladrón), la lujuria (al ver a un amante) o indiferencia (cuando se enfrentan a algo trivial). La amígdala envía mensajes al resto del sistema límbico\index{sistema límbico} y, finalmente, alcanza el sistema nervioso autónomo, que prepara al cuerpo para la acción. Si la persona se enfrenta a un ladrón, por ejemplo, su ritmo cardíaco aumenta y su cuerpo comienza a sudar para disipar el calor generado por el esfuerzo muscular. La activación autonómica, a su vez, alimenta al cerebro con información de vuelta, amplificando la respuesta emocional. Con el tiempo, la amígdala\index{amígdala} crea un mapa que detalla el significado emocional de todo en el ambiente del individuo''}.
+\end{quote}
+
+En \cite{LeDoux1996} se ofrece un extracto de un informe de Heinrich Klüver y Paul Bucy sobre el comportamiento de un mono tras la extirpación de sus lóbulos temporales ---donde se encuentra la {\it amígdala}\index{amígdala}---. Dicho informe explica cómo el mono no muestra ira ni miedo, y parece incapaz de reconocer objetos:
+
+\begin{quote}
+{\it ``El animal, estando hambriento y siendo enfrentado a una variedad de objetos ---un peine, una perilla de baquelita, una semilla de girasol, un tornillo, un palo, un trozo de manzana, una serpiente viva, una pieza de plátano, y una rata viva---, los recoge indiscriminadamente. Lleva cada objeto a la boca, y lo deshecha si no es comestible''}.
+\end{quote}
+
+Klüver y Bucy se refieren a este conjunto de síntomas como {\it ``ceguera psíquica''}, dado que los animales tenían una agudeza visual perfecta, pero eran ciegos a la importancia psicológica de los estímulos. Además, \cite{LeDoux1996} explica cómo después de la eliminación de los lóbulos temporales, los monos se convirtieron en {\it ``hipersexuales''}, tratando de copular con otros monos del mismo sexo o con los miembros de otras especies (actividad sexuales rara vez practicada por ``monos normales'').
+
+
+\subsubsection{Cómo la experiencia afecta al cerebro}
+
+¿Es posible que el entrenamiento pueda crear conexiones neuronales capaces de automatizar comportamientos instintivos? En \cite{Sapolsky} se examina cómo la comunicación entre las neuronas se ve fortalecida como resultado de la experiencia. Sin duda alguna, este punto es clave en el desarrollo de este proyecto, puesto que su pilar fundamental es la posibilidad de mejorar las habilidades mentales mediante cierto tipo de entrenamiento.
+
+Cuando los terminales de las dendritas de las neuronas se estimulan de forma rápida, la comunicación entre las neuronas se ve potenciada {\it ``potenciada''} por ciertos cambios químicos producidos en el contexto neural. Posteriormente, se necesita una menor estimulación para provocar ese mismo nivel de activación neuronal. Esto es así debido a que en el momento en que se percibe una señal eléctrica a través del axón de la neurona, se produce la liberación de los mensajeros químicos llamados {\it neurotransmisores} \index{neurotransmisor} en la sinapsis entre las neuronas, lo que a menudo aumenta la probabilidad de que otras neuronas se dispararen en un especie de reacción en cadena. En otras palabras, el autor afirma que la potencia de activación neuronal se incrementa. Esa potenciación en un tiempo largo es lo que se conoce como {\it ``potenciación a largo plazo''}, y constituye la base para el aprendizaje y la memoria, posiblemente incluso de las formas perjudiciales de aprendizaje, tales como el trastorno de estrés post-traumático (TEPT).
+
+%{\it ``La activación neuronal reconecta el cerebro... anatómicamente el cerebro se forma de nuevo en respuesta a pequeños estímulos nocivos... La activación parece ser un tipo de aprendizaje, pero un aprendizaje que puede ocurrir independientemente de la cognición... la enfermedad, una vez diagnosticada, puede llegar a ser sensible a los estímulos cada vez más pequeños y, con el tiempo, completamente independiente de ellos. El trastorno se vuelve más complejo con el tiempo''}, cita \cite{Kramer1997}.
+
+En \cite{MacLean} el autor teoriza sobre el proceso de activación neuronal: {\it ``Es posible que si un cierto patrón eléctrico de información fuera repetido durante un período prolongado de tiempo, o a intervalos repetidos, en el circuito neuronal, las células nerviosas se sensibilizaran de forma permanente a responder a este patrón particular en algún momento futuro. Tal mecanismo proporciona una variedad de memoria perdurable.''}.
+
+Citando textualmente a \cite{Gallagher}:
+
+\begin{quote}  
+{\it Con el tiempo, repetidas experiencias estresantes pueden, literalmente, y no sólo en sentido figurado, alterar el sistema nervioso de las personas. La investigación en animales ha demostrado que cuando a una rata se le da una pequeña descarga no muestra ninguna reacción notable, pero al ser expuesta a factores de estrés tales como la repetición de descargas durante cinco días consecutivos, muestra signos de respuesta al estrés, cuando se expone durante siete u ocho días, la rata tiene un ataque, y a partir de entonces se mantiene alterada y ataca con poca o ninguna provocación. Experimentos de este tipo, por supuesto, no se llevan a cabo con personas, pero Philip Gold y otros neurocientíficos piensan ahora que en los seres humanos, también mediante la activación de una cascada de reacciones químicas, puede producirse un estrés crónico grave, sobre todo en los primeros años de vida, y causar cambios en los genes de manera que se altere la funcionalidad de las células del cerebro de forma permanente. Debido a que las neuronas requieren un tipo particular de entrada para activarse o desactivarse, sólo algunos miles de neuronas, cada una de las cuales está implicado en algún aspecto de la estructura celular o de comunicación, se activan en un momento dado. Cuando una persona de temperamento vulnerable es constantemente bombardeados con estímulos perturbadores, dice Gold, los genes que se activan son los que participan en los componentes celulares de la respuesta al estrés.}
+\end{quote}
+
+La neurotransmisión en la amígdala a veces es activada para generar comportamientos impulsados por la {\it dopamina}\index{dopamina}, como conductas orientadas a resolver problemas de control corporal y de confianza. En circunstancias normales, esto puede ser interpretado como un instinto de supervivencia, pero en situaciones de estrés extremo, y especialmente cuando no hay disponible una salida para la energía, estos comportamientos pueden convertirse en obsesiones o compulsiones. \cite{Sapolsky2005} describe cómo los monos liberan dopamina anticipándose a una recompensa alimenticia. Su excitación no alcanza el máximo cuando la comida por fin les llega, sino antes de ese instante. {\it ``Se trata de la anticipación de la recompensa. Se trata de la expectativa y la confianza''}.
+
+% \subsubsection{El hipocampo, la memoria y la depresión}
+
+% \subsubsection{El hipocampo y el TEPT}
+
+
+% \subsubsection{La amígdala, el hipocampo y la epilepsia}
+
+
+
+\subsubsection{Hipergrafía y religiosidad}
+
+La {\it epilepsia}\index{epilepsia} es una enfermedad crónica caracterizada por uno o varios trastornos neurológicos que predispone al cerebro para generar convulsiones recurrentes. Sin embargo, existe un tipo de epilepsia bastante peculiar: la la epilepsia del lóbulo temporal (\acs{ELT}). La \acs{ELT}, en lugar de provocar crisis convulsivas o pérdida de la consciencia, por lo general produce extraordinarias experiencias subjetivas, entre ellas la {\it autoscopia}\index{autoscopia} ---la sensación de abandonar el cuerpo de uno---. También puede presentarse con {\it hipergrafía}\index{hipergrafía} ---la imperiosa necesidad de escribir---, {\it religiosidad}\index{religiosidad}, o ambas.
+
+Como se ha mencionado, la {\it hipergrafía}\index{hipergrafía} es una alteración humana que implica una necesidad imperiosa de escribir. Ese comportamiento podría ser interpretado como algo compulsivo, pero esta clasificación no explica adecuadamente los síntomas. La {\it religiosidad} se puede definir como una devoción excesiva por lo religioso. En algunos casos, como en un ataque epiléptico, el vínculo entre la actividad neuronal y el comportamiento anormal es bien claro. Otros comportamientos, sin embargo, como en la {\it hipergrafía}\index{hipergrafía} y la {\it religiosidad}\index{religiosidad}, no son tan fácilmente atribuibles a la actividad neuronal, ya que a menudo parecen ser racionales. Una persona que sufre de {\it hipergrafía} o {\it religiosidad} a menudo considera su conducta como intencional, sin serlo.
+
+En \cite{LaPlante2000} se toma nota de las observaciones de Norman Geschwind, neurólogo del siglo XX. En la evaluación de algunos de sus pacientes epilépticos, Geschwind descubrió que la {\it hipergrafía}\index{hipergrafía} tenía lugar a menudo en los pacientes que atribuían a sus experiencias un significado religioso y moral. La teoría de Geschwind implica que el exceso de actividad en el lóbulo temporal ---recuérdese una vez más que la {\it amígdala}\index{amígdala} y el {\it hipocampo}\index{hipocampo} se encuentran en el lóbulo temporal\index{lóbulo temporal}--- {\it ``mejora las funciones normales de la emoción y la memoria, haciendo que los pacientes sientan experiencias inusualmente profundas, para atribuir a esas experiencias un significado religioso o moral, y para grabarlas compulsivamente en dibujos o escrituras''}.
+
+% \subsubsection{El tálamo y el TOC}
+
+
+% \subsubsection{El hipotálamo y la búsqueda}
+
+
+% \subsubsection{Hipotálamo, el apetito, el apego y la anorexia}
+
+% \section{Los neurotransmisores y las emociones} %% parte 2 de la web
+% \label{neurotransmisores}
+
+% \subsection{Introducción a los neurotransmisores}
+
+
+% \subsection{Los neurotransmisores y la enfermedad}
+
+
+% \subsection{Conexiones emocionales}
+
+
+% \subsection{El sistema de búsqueda del cerebro}
+
+
+% \subsection{Atención, aprendizaje y memoria: Sistema de vigilancia}
+
+
+% \subsection{Sistemas innatos del cerebro}
+
+
+% \subsubsection{La rabia}
+
+
+% \subsubsection{El miedo}
+
+
+% \subsubsection{La diversión}
+
+
+% \subsubsection{La cautela}
+
+% \section{El comportamiento innato}% parte 3 de la web
+% \label{comportamientoinnato}
+% \subsection{Estrés y aislamiento}
+
+
+% \subsection{Trastorno dismórfico corporal, tricotilomanía, y pellizcos en la piel}
+
+% \subsection{Trastorno obsesivo-compulsivo}
+
+
+% \label{sec::estres-cronico}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Neuroplasticidad}
+\label{neuroplasticidad}
+
+Como se explica en \cite{Statement2012}, diversas investigaciones en el campo de la neurología concluyen que el cerebro humano, en lugar de tratarse de una \emph{``masa de células estática''}, se trata de un sistema dinámico de redes neuronales con gran potencial de crecimiento bajo unas circunstancias favorables. La publicación diferencia esas circunstancias en dos periodos:
+
+\begin{itemize}
+\item {\bf Periodo crítico}: Cuando el cerebro del individuo es más sensible a las influencias del entorno.
+\item {\bf Periodo sensible}: Cuando el cerebro es menos susceptible a la influencia exterior.
+\end{itemize}
+
+Sin embargo, el fin del periodo crítico no implica que el cerebro ``se estanque'' y deje de ser susceptible de verse mejorado, sino que el nivel de neuroplasticidad de esa etapa no será alcanzado fuera de ella. Por tanto, durante el periodo sensible es necesario un mayor esfuerzo para mejorar algún aspecto cerebral que para obtener la misma mejora durante el periodo crítico.
+
+En \cite{Facts2006} se introduce la idea de cómo el \ac{SFC} se relaciona con una reducción de la materia gris cerebral, sirviéndose de diversas técnicas no invasivas de obtención de información cerebral mediante imágenes ---como la \ac{IRM} o la \ac{VBM}---, para explicar después que la plasticidad cerebral permite que algunos pacientes con este problema recuperen cierta funcionalidad de procesamiento cerebral perdida.
+
+El cerebro de un músico es un objetivo de estudio perfecto para analizar la neuroplasticidad: los pianistas, por ejemplo, deben coordinar la producción de hasta 1800 notas por minuto con ambas manos (ver figura \ref{fig::partitura}); la composición musical, además, requiere de la integración de información sensorial y motora, junto a una precisa observación de la ejecución. Estos argumentos son los que presenta \cite{Munte2002} para justificar cómo el cerebro de un músico es un buen ejemplo de neuroplasticidad. En dicho artículo se explica cómo varios años de experiencia musical ---sobre todo cuando los individuos empiezan sus estudios musicales a una edad temprana--- pueden estar relacionados con un aumento en las materias gris y blanca\index{materia!gris}\index{materia!blanca}, así como en el volumen, de las regiones 31, 32, 36, 39 y 41 del cerebro (ver figura \ref{brodmann}).
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=\textwidth]{images/piano.jpg}
+    \caption{Ejemplo de partitura de piano compleja, extraída de una pieza de Kaikhosru Shapurji Sorabji}
+    \label{fig::partitura}
+  \end{center}
+\end{figure}
+
+
+\cite{Melzack2001} relaciona el dolor crónico y patológico con la neuroplasticidad\index{neuroplasticidad}. Para ello estudia el {\it síndrome del miembro fantasma} ---percepción de sensaciones de que un miembro amputado todavía forma parte del cuerpo y funciona correctamente---. Antiguamente se solía pensar que estas sensaciones se debían a que el cerebro seguía recibiendo mensajes de los nervios que originalmente llevaban impulsos desde el miembro amputado. Sin embargo, la creencia actual se basa en que el cerebro sigue conservando un área dedicada a dicho miembro, por lo que el individuo sigue ``sintiéndolo''. Los estímulos sensoriales actúan sobre sistemas neuronales que fueron modificados por entradas anteriores, y su comportamiento y salida están influenciados por la ``memoria'' de esos eventos del pasado. \cite{Melzack2001} relaciona esto con la neuroplasticidad\index{neuroplasticidad} en el sentido en que en la mayoría de casos la sensación del miembro fantasma desaparece, al menos de forma temporal, sometiendo a los individuos a visiones que revelen la no correspondencia entre el miembro real y el percibido.
+
+El estrés crónico ---el cual puede derivar en depresión--- interrumpe la neuroplasticidad de forma temporal, explica \cite{Pittenger2008}, mientras que un tratamiento antidepresivo ofrece el resultado opuesto.
+
+Yendo más lejos, en \cite{May2008} se desarrolla la idea del {\it cambio cualitativo}\index{cambio cualitativo} ---aprendizaje de nuevas tareas--- como principal impulsor de la modificación estructural del cerebro, por encima de la práctica reiterada de un ejercicio conocido. Para ello se estudia el efecto del aprendizaje de juegos malabares por parte de 20 individuos, observando cómo este ejercicio produce una alteración de la materia gris del {\it córtex occipitotemporal}\index{córtex/corteza!occipitotemporal} con tan sólo una semana de entrenamiento.
+
+\Subsection{Memoria (Memory)}
+
+\subsubsection{Memoria de trabajo}
+
+En \cite{Jaeggi2008} se estudia la forma de trabajar la memoria de trabajo a lo largo de cuatro experimentos.
+
+\cite{Olesen2004}
+
+\subsubsection{Recuerdo espacial (Spatial recall)}
+
+En \cite{mika} y \cite{becker}
+
+\subsubsection{Recuerdo cara-nombre (Face-name recall)}
+
+En \cite{haxby} y \cite{iris}
+
+\subsection{Resolución de problemas (Problem solving)}
+
+\subsubsection{Aritmética (Arithmetic)}
+
+En \cite{stanislas}
+
+\subsubsection{Razonamiento lógico (Logical reasoning)}
+
+En 
+\cite{JulianIranzo2004}
+\subsubsection{Razonamiento cuantitativo (Quantitative reasoning)}
+
+\subsection{Atención (Attention)}
+
+\subsubsection{Concentración (Focus)}
+
+\subsubsection{Fidelidad visual (Visual field)}
+
+\subsection{Velocidad (Speed)}
+
+\subsubsection{Procesamiento de información (Information processing)}
+
+\subsubsection{Orientación espacial (Spatial orientation)}
+
+\subsection{Flexibilidad (Flexibility)}
+
+\subsubsection{Inhibición de respuesta (Response inhibition)}
+
+\subsubsection{Planificación (Planning)}
+
+\subsubsection{Alternación de tareas (Task switching)}
+
+\subsubsection{Fluidez verbal (Verbal fluency)}
+
+\section{Especificación del entrenamiento cerebral}
+\label{sec:entrenamiento}
+En base a la etapa de investigación documentada en las secciones \ref{sec::fisiologia} y \ref{neuroplasticidad}, las consideraciones que se han llevado a cabo para reconocer y diferenciar las capacidades mentales estimulables mediante el ejercicio agrupan estas capacidades en 5 grandes conjuntos:
+
+\renewcommand{\labelenumi}{\bf\arabic{enumi}. }
+\begin{enumerate}
+\item Memoria
+\item Resolución de problemas
+\item Atención
+\item Velocidad de procesamiento
+\item Flexibilidad
+\end{enumerate}
+
+A continuación se presenta una jerarquía completa de las capacidades mentales consideradas, así como de las habilidades en que estas se han considerado subdivididas, detallándose el significado de cada una y cómo debe ser estimulada. En la figura \ref{fig::habilidades} se presenta un diagrama esquemático de dicha jerarquía.
+
+\subsection*{Memoria}
+
+La mejora de la memoria se centra en tres aspectos realmente relevantes en la vida cotidiana: la memoria de trabajo, la memoria espacial y la memoria nombre-cara.
+
+\begin{itemize}
+\item {\bf Memoria de trabajo}
+
+Procesos y estructuras de información empleados para el almacenamiento temporal y la manipulación de información durante el desarrollo de una tarea.
+
+La memoria de trabajo requiere la activación de un circuito de neuronas, el cual activa en sí la memoria propiamente dicha. Esta memoria, si bien es activada desde la {\it corteza prefrontal}\index{córtex/corteza!prefrontal}, requiere a su vez la activación del resto de estructuras neuroanatómicas implicadas, como el \emph{lóbulo temporal}\index{lóbulo!temporal} para el significado o el \emph{lóbulo occipital}\index{lóbulo!occipital} para la imagen visual.
+
+En un contexto informático, la memoria de trabajo se asemeja a la memoria RAM de un computador.
+
+Los juegos para mejorar esta capacidad deben ofrecer pequeñas cantidades de información ---cada vez mayores según se aumente el nivel de dificultad--- durante un periodo corto de tiempo. El jugador debe asimilar esas porciones de información y recordarlas, para utilizarlas transcurrido un periodo de tiempo relativamente corto. El clásico juego de las parejas de cartas es un buen ejemplo. Otra posibilidad es ofrecer lecturas de párrafos cortos, y después jugar con esa información. Del mismo modo se puede jugar con otros sentidos, ofreciendo información auditiva, por ejemplo.
+
+\item {\bf Memoria espacial}
+
+Memoria responsable de registrar la información sobre el entorno y la orientación en el espacio.
+
+Por ejemplo, en la vida real, la memoria espacial es la que nos permite recordar la ubicación del cuarto de baño de una casa ajena. De forma aún más sencilla, la memoria espacial nos permite trabajar en un escritorio, recordando dónde se encuentran los papeles, los lapiceros y bolígrafos, etc.
+
+Los juegos dedicados al ejercicio y estimulación de esta capacidad mental deberán ofrecer un paisaje de objetos ---de complejidad variable, dependiendo de la dificultad de juego--- y dar un tiempo ---limitado o no--- para que el jugador memorice la localización de todos ellos. Después el jugador deberá reconstruir ese paisaje, de forma completa o parcial.
+
+\item {\bf Memoria nombre-cara}
+
+Se trata de los procesos relacionados con el registro y recuperación de la información que relaciona objetos visuales con objetos verbales. El caso más comprensible es el de la asociación entre las caras de las personas y sus nombres. Estimular esta capacidad incremente la habilidad para recordar el nombre de las personas que nos presentan y vemos por primera vez.
+
+La estimulación de esta capacidad debe llevarse a cabo mediante el ejercicio de asociación de relacionar cada objeto de un conjunto con su único correspondiente de otro (u otros). Los juegos dedicados al trabajo de este tipo de memoria deberán mostrar la relación existente entre ciertos objetos y sus etiquetas, para permitir que el jugador pueda analizar y memorizar esas relaciones y reconstruirlas con posterioridad.
+
+
+\end{itemize}
+
+\subsection*{Resolución de problemas}
+
+Este conjunto se compone de las tres capacidades mentales que entran en juego a la hora de enfrentarnos y resolver cualquier tipo de problema: la aritmética, el razonamiento lógico y el razonamiento cuantitativo:
+
+\begin{itemize}
+\item {\bf Aritmética}
+
+Esta capacidad mental consiste en la realización de operaciones matemáticas de forma correcta y rápida. Comprende la técnica de cálculo para las operaciones de suma, resta, multiplicación y división.
+
+La estimulación de esta capacidad se llevará a cabo con la exposición del jugador a repetidas operaciones matemáticas sencillas. La resolución de muchas operaciones de pequeño tamaño obtiene mejores resultados que la resolución de pocas operaciones gigantescas.
+
+\item {\bf Razonamiento lógico}
+
+Es el proceso de lógica mediante la cual, partiendo de uno o más juicios, se deriva la validez, la posibilidad o la falsedad de otro juicio distinto.
+
+\item {\bf Razonamiento cuantitativo}
+
+
+
+\end{itemize}
+
+
+\subsection*{Atención}
+
+\subsection*{Velocidad de procesamiento}
+
+\subsection*{Flexibilidad}
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=\textwidth]{images/games-diagram-esp.eps}
+    \caption{Diagrama de habilidades mentales}
+    \label{fig::habilidades}
+  \end{center}
+\end{figure}
+
+\renewcommand*{\arraystretch}{1.07}
+\begin{table}[h]
+\begin{small}
+\label{table:capacidades}
+\begin{center}  
+\begin{sideways}
+\begin{tabular}{|c|l|l|l|}
+\hline
+\tabheadformat
+\tabhead{Grupo} & \tabhead{Habilidad} & \tabhead{Descripción} & \tabhead{Estimulación} \\
+\hline\hline
+\multirow{6}{*}{\begin{sideways}Memoria\end{sideways}} & Memoria  & Almacenamiento temporal de información & Mostrar pequeñas cantidades de información para memorizar \\
+ & de trabajo & durante el desarrollo de una tarea. & y después requerirlas de algún modo. \\
+\cline{2-4}
+ & Memoria & Información del entorno, localización de objetos & Ofrecer un paisaje de objetos para su memorización \\
+ & espacial & y orientación en el espacio. & y solicitar la reconstrucción del mismo.\\
+\cline{2-4}
+ & Memoria & Relación entre objetos y etiquetas asociadas & Mostrar la relación existente entre varios objetos y etiquetas.\\
+ & nombre-cara & a dichos objetos.& El jugador deberá memorizar esas relaciones y reconstruirlas.\\
+\hline
+\multirow{6}{*}{\begin{sideways}Res. prob.\end{sideways}} & Aritmética & Realización de operaciones matemáticas & Enfrentar al jugador a gran cantidad de operaciones sencillas\\
+ & & sencillas de forma rápida y correcta. & de suma, resta, multiplicación y división.\\
+\cline{2-4}
+ & Razonamiento & & \\
+ & lógico & & \\
+\cline{2-4}
+ & Razonamiento & & \\
+ & cuantitativo& & \\
+\hline
+\multirow{4}{*}{\begin{sideways}Atención\end{sideways}} & & & \\
+ & & & \\
+\cline{2-4}
+ & & & \\
+ & & & \\
+\hline
+\multirow{4}{*}{\begin{sideways}Velocidad\end{sideways}} & & & \\
+ & & & \\
+\cline{2-4}
+ & & & \\
+ & & & \\
+\hline
+\multirow{8}{*}{\begin{sideways}Flexibilidad\end{sideways}} & & & \\
+ & & & \\
+\cline{2-4}
+ & & & \\
+ & & & \\
+\cline{2-4}
+ & & & \\
+ & & & \\
+\cline{2-4}
+ & & & \\
+ & & & \\
+\hline
+\end{tabular}
+\end{sideways}
+\end{center}
+\end{small}
+\caption{Especificación de capacidades mentales}
+\end{table}
+
+
+\section{Medición cuantitativa de la evolución cerebral mediante juegos}
+
+Aquí explico en qué se basa la puntuación global de los usuarios, cuánto incrementa cada partida el valor de una habilidad y por qué, etc.
+
+
+\section{Sistema de recomendación}
+
+
+\subsection{Algoritmo de recomendación de usuarios}
+
+\subsection{Algoritmo de recomendación de juegos}
+
+
+\section{Algoritmo de búsqueda de usuarios}
+
+
+

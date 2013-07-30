@@ -1,0 +1,79 @@
+% -*- coding: utf-8 -*-
+
+\documentclass[twoside]{arco-pfc}
+\usepackage{custom}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{multicol}
+
+% Para crear índices de términos
+\usepackage{makeidx}
+\makeindex
+
+\input{metadata.tex}
+
+\begin{document}
+
+\frontmatter
+
+\pretitle
+\frontpage
+\copyrightpage
+
+\jury
+
+\input{chapters/resumen.tex}
+
+\tableofcontents
+\listoftables
+\listoffigures
+\lstlistoflistings
+
+\input{chapters/acro.tex}
+
+\input{chapters/thanks.tex}
+\dedication{A alguien muy querido y/o respetado}
+
+
+\mainmatter
+
+\input{chapters/intro.tex}
+\input{chapters/objetivos.tex}
+\input{chapters/antecedentes.tex}
+\input{chapters/metodo.tex}
+\input{chapters/arquitectura.tex}
+\input{chapters/resultados.tex}
+\input{chapters/conclusiones.tex}
+
+\appendix
+\appendixtitle
+\input{chapters/apendice-iteraciones.tex}
+%\input{chapters/apendice-nodejs.tex}
+%\input{chapters/apendice-html5.tex}
+%\input{chapters/apendice-mongodb.tex}
+\input{chapters/apendice-guia.tex}
+\input{chapters/apendice-manual.tex}
+\input{chapters/apendice-instalacion.tex}
+\input{chapters/license.tex}
+%\input{chapters/apendice1.tex}
+% {\scriptsize \input{GFDL.tex}}
+
+
+\backmatter
+\bibliography{main}
+\cleardoublepage
+
+% Incluye esto en tu documento como
+% atribución al autor de la plantilla
+% \attributionArcoPFC
+
+\printindex
+\end{document}
+
+
+% Local Variables:
+% coding: utf-8
+% mode: flyspell
+% ispell-local-dictionary: "castellano8"
+% End:

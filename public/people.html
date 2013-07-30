@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>BreakBrain :: People</title>
+
+    <breakbrain-ref>people</breakbrain-ref>
+
+    <link rel="stylesheet" href="/css/fonts.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/header.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/page.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="/css/people.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="/js/jqplot/jquery.jqplot.css" type="text/css" media="screen" />
+
+    <script src="/js/jquery/jquery-1.8.2.min.js"></script>
+    <script src="/js/blockui/jquery.blockUI.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/core.js"></script>
+
+  </head>
+  <body>
+
+    <div id="header"></div>
+
+    <div id="main-container">
+
+      <div id="main-container-header">
+        <h1>People</h1>
+      </div>
+
+      <div id="main-container-util-area">
+
+      <div id="search-panel">
+        <div id="search-left">
+          <div id="search-box">
+            <input type="text" class="textinput" tabIndex="1" id="input-people-search" placeholder="Search users"/>
+            <button>Search</button>
+          </div>
+          <ul id="search-results">
+            Do a search to see results here
+          </ul>
+        </div>
+
+        <div id="search-right">
+          <div id="selected-user-id" style="display:none">-1</div>
+          <div id="search-right-infomsg">
+            Clic over a result to see complete information
+          </div>
+          <div id="search-right-info" style="display: none">
+            <div id="search-right-avatar">
+              <img src="/img/sample2.jpg"/>
+            </div>
+            <div style="margin-bottom: 5.5em;">
+              <div style="float: left;">
+                <div class="search-right-label">Name</div>
+                <div id="search-right-realname" class="search-right-value"></div>
+              </div>
+              <div style="float:right">
+                <div class="search-right-label">Score</div>
+                <div id="search-right-score" class="search-right-value">238</div>
+              </div>
+            </div>
+            <div class="search-right-label">Short description</div>
+            <div id="search-right-nick" class="search-right-value"></div>
+            <div style=" margin-bottom: 4em;">
+              <div style="float: left;">
+                <div class="search-right-label">Birthday</div>
+                <div id="search-right-birthday" class="search-right-value"></div>
+              </div>
+              <div style="float:right">
+                <div class="search-right-label">Age</div>
+                <div id="search-right-age" class="search-right-value"></div>
+              </div>
+            </div>
+
+            <div class="search-right-label">Country</div>
+            <div id="search-right-country" class="search-right-value"></div>
+
+            <div id="search-right-plot"></div>
+
+            <div class="hline"></div>
+
+            <button id="friend-button">Follow this user</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

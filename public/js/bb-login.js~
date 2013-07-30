@@ -1,0 +1,35 @@
+// #############################################################################
+// ## LOGIC ####################################################################
+// #############################################################################
+
+var login = function(){
+    var username = $('#input-login-username').val();
+    var password = $('#input-login-password').val();
+    $('#input-login-username').removeClass('wrong');
+    $('#input-login-password').removeClass('wrong');
+    !username && $('#input-login-username').addClass('wrong');
+    !password && $('#input-login-password').addClass('wrong');
+    username && password && socket.emit('login', {
+        username: username,
+        password: CryptoJS.SHA1(password).toString()
+    });
+};
+
+socket.on('login', function(user){
+    if(user.error){
+        alert(user.error);
+    }else{
+        alert('Login correct'); // <<<<<<<<<<<<<<<<<
+    }
+});
+
+// #############################################################################
+// ## GUI ######################################################################
+// #############################################################################
+
+$('#login-button').on('click', function(){
+    login();
+});
+$('#input-login-username, #input-login-password').keypress(function(e){
+    e.which == 13 && login();
+});

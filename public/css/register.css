@@ -1,0 +1,101 @@
+body {
+    background-image: url('/img/login-wallpaper.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;        
+}
+
+#register-form-table {
+    background: rgba(0,0,0,0.4);
+    padding: 1em;
+    width: 600px;
+    border-radius: 0.5em;
+    margin: auto;
+    margin-top: 3em;
+    table-layout: fixed;
+}
+
+.input-label {
+    color: white;
+}
+
+.textinput {
+    border: solid 0.2em rgba(0, 0, 0, 0.7);
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    height: 2em;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    color: #333;
+}
+
+.textinput:focus {
+    border-color: orange;
+}
+
+.wrong {
+    border-color: red;
+    background-color: rgba(255, 80, 80, 80.6);
+}
+
+.button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf')
+	background-color:#ededed;
+
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+
+	border:1px solid #dcdcdc;
+	color:#333;
+	font-size: normal;
+	font-weight:bold;
+ height: 27px;
+ width: 75px;
+margin-top: 5px;
+	text-decoration:none;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed')
+	background-color:#dfdfdf;
+ cursor: pointer;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#register-button {
+    margin-top: 1em;
+}
+
+#ui-datepicker-div {
+    display: none;
+}
+
+select {
+    border: solid 0.2em rgba(0, 0, 0, 0.7);
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    height: 2.5em;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    color: #333;    
+    width: 100%;
+}
+
+#sex {
+    width: 100%;
+}
+
+#captcha {
+    margin-top: 0.5em;
+    background: red;
+}

@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>BreakBrain :: Profile</title>
+
+    <breakbrain-ref>profile</breakbrain-ref>
+
+    <link rel="stylesheet" href="/css/fonts.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/header.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/page.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="/css/profile.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="/js/jqplot/jquery.jqplot.css" type="text/css" media="screen" />
+
+    <script src="/js/jquery/jquery-1.8.2.min.js"></script>
+    <script src="/js/blockui/jquery.blockUI.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/core.js"></script>
+
+  </head>
+  <body>
+
+    <div id="header"></div>
+
+    <div id="main-container">
+
+      <div id="main-container-header">
+        <h1>Profile</h1>
+      </div>
+
+      <div id="main-container-util-area">
+
+
+
+        <div id="personal-info">
+
+          <div id="search-right-avatar">
+            <img src=""/>
+            <span><input id="uploadImage" type="file" onchange="loadImageFile();" /></span>
+          </div>
+
+          <div id="stat-general"></div>
+
+          <div id="search-right-info" >
+
+            <input type="text" id="search-right-realname" class="textinput" value="" placeholder="Real name"/>
+            from
+            <select id="search-right-country"></select>
+
+            <input type="text" class="textinput" id="search-right-nick" placeholder="Brief description about you"/>
+
+            <input type="text" readonly="readonly" class="textinput" id="search-right-email" placeholder="Email address"/>
+
+            <input type="text" class="textinput" id="search-right-birth" placeholder="mm/dd/yyyy" style="color: #333;" />  
+
+            <button id="button-save-changes">Save changes</button>
+
+          </div>
+
+          <div id="interests-container">
+            <div id="interests-expander">Edit brain interests</div>
+            <div id="interests" style="display:none">
+              <table style="table-layout:fixed; width: 100%;">
+                <tr>
+                  <td>
+                    <h3>Memory</h3>
+                    <div><input type="checkbox" id="check-mem-wm"/>Working memory</div>
+                    <div><input type="checkbox" id="check-mem-sr"/>Spatial recall</div>
+                    <div><input type="checkbox" id="check-mem-fc"/>Face-name recall</div>
+                  </td>
+                  <td>
+                    <h3>Flexibility</h3>
+                    <div><input type="checkbox" id="check-flex-ri"/>Response inhibition</div>
+                    <div><input type="checkbox" id="check-flex-pl"/>Planning</div>
+                    <div><input type="checkbox" id="check-flex-ts"/>Task switching</div>
+                    <div><input type="checkbox" id="check-flex-vf"/>Verbal fluency</div>
+                  </td>
+                  <td>
+                    <h3>Problem solving</h3>
+                    <div><input type="checkbox" id="check-prob-ar"/>Arithmetic</div>
+                    <div><input type="checkbox" id="check-prob-lr"/>Logical reasoning</div>
+                    <div><input type="checkbox" id="check-prob-qr"/>Quantitative reasoning</div>
+                  </td>
+                  <td>
+                    <h3>Speed</h3>
+                    <div><input type="checkbox" id="check-spee-so"/>Spatial orientation</div>
+                    <div><input type="checkbox" id="check-spee-ip"/>Information processing</div>
+                  </td>
+
+                  <td>
+                    <h3>Attention</h3>
+                    <div><input type="checkbox" id="check-att-fo"></input>Focus</div>
+                    <div><input type="checkbox" id="check-att-vf"/>Visual field</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div id="foll">
+          <div id="search-right-followers-container">
+            Followers <div id="search-right-followers">24</div>
+          </div>
+          <div id="search-right-followees-container">
+            Following <div id="search-right-followees">19</div>
+          </div>
+        </div>
+
+        <div id="today">
+          <div id="stat-1" class="stat">
+            <h3>Memory</h3>
+            <input class="knob" value="22"/>
+          </div>
+          <div id="stat-2" class="stat">
+            <h3>Flexibility</h3>
+            <input class="knob" value="2"/>
+          </div>
+          <div id="stat-3" class="stat">
+            <h3>Problem Solving</h3>
+            <input class="knob" value="50"/>
+          </div>
+          <div id="stat-4" class="stat">
+            <h3>Speed</h3>
+            <input class="knob" value="70"/>
+          </div>
+          <div id="stat-5" class="stat">
+            <h3>Attention</h3>
+            <input class="knob" value="70"/>
+          </div>
+        </div>
+
+      <div id="stats">        
+        <h2>Stats</h2>
+        <div id="stats-time"></div>
+        <div id="stats-week"></div>
+        <h2>Games you should play</h2>
+        <ul id="games-recomendation">
+          <li>
+            
+          </li>
+        </ul>
+        <h2>More stats</h2>
+        <div id="stats-month"></div>
+        <div id="stats-year"></div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  </body>
+</html>
