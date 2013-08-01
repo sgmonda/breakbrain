@@ -63,6 +63,11 @@ git clone https://github.com/sgmonda/breakbrain
 cd breakbrain
 ````
 
+- Install the dependences:
+````
+$ npm install
+````
+
 - Using Breakbrain platform now is very easy, just start the server:
 ````
 $ node server.js
