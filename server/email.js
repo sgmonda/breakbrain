@@ -2,33 +2,23 @@
 // ## EMAIL ####################################################################
 // #############################################################################
 
-var email   = require('emailjs');
+var emailjs = require('emailjs');
 var util = require('./util.js');
+var secret = require('./secret.js');
 
-var godticEmailServer  = email.server.connect({
-    user:    "no-replay+breakbrain.com", 
-    password:"bb-norep_//breakbrain", 
-    host:    "mail.breakbrain.com", 
-    port: 26,
-    ssl:     false
+var server = emailjs.server.connect({
+	user: secret.EMAIL_ACCOUNT_NOREPLY.EMAIL,
+	password: secret.EMAIL_ACCOUNT_NOREPLY.PASSWORD,
+	host: secret.EMAIL_ACCOUNT_NOREPLY.SERVER,
+	port: secret.EMAIL_ACCOUNT_NOREPLY.PORT,
+	ssl: secret.EMAIL_ACCOUNT_NOREPLY.SSL
 });
-
-var gmailBBServer  = email.server.connect({
-    user: 'breakbrain.no.replay@gmail.com', 
-    password: 'elPato_77p?', 
-    host: 'smtp.gmail.com', 
-    port: 465,
-    ssl: true
-});
-
-
-//var emailServer = godticEmailServer;
-var emailServer = gmailBBServer; 
 
 module.exports.send = function(to, subject, message){
-    emailServer.send({
+
+    server.send({
         text:    message,
-        from:    "BreakBrain <no-replay@breakbrain.com>", 
+        from:    "BreakBrain <noreply@breakbrain.com>", 
         to:      '<' + to + '>',
         subject: subject,
         attachment: [
@@ -42,6 +32,6 @@ module.exports.send = function(to, subject, message){
 
 util.log('EMAIL-MODULE', 'Email subsystem ready to send emails');
 
-    
+exports.send('sgmonda@gmail.com', 'Prueba', 'Esto es un mensaje de prueba');
 
 

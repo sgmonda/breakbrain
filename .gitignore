@@ -1,3 +1,5 @@
 node_module
 .DS_Store
 notes.txt
+secret.js
+node_modules
