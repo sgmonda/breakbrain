@@ -49,7 +49,7 @@ After installing MongoDB, you must be able to check everything works ok. In my c
 $ mongo --version
 MongoDB shell version: 2.2.3
 ````
-### Breakbrain installation
+### Breakbrain installation and usage
 
 When NodeJS and MongoDB are working properly, you are ready to install Breakbrain in your machine. To do it, just follow these steps:
 
@@ -63,9 +63,7 @@ git clone https://github.com/sgmonda/breakbrain
 cd breakbrain
 ````
 
-## Usage
-
-Using Breakbrain platform now is very easy, just start the server:
+- Using Breakbrain platform now is very easy, just start the server:
 ````
 $ node server.js
 Tue, 30 Jul 2013 22:48:45 (GMT) :: DATABASE: Connecting to MongoDB database...
@@ -77,13 +75,13 @@ Tue, 30 Jul 2013 22:48:46 (GMT) :: GAMES-MODULE: Loading game "Un juego"... in W
 Tue, 30 Jul 2013 22:48:47 (GMT) :: WEBSOCKETS SERVER: running on port 20661
 Tue, 30 Jul 2013 22:48:47 (GMT) :: MAIN SERVER: The whole server is ready!
 ````
-and open the following page in a web browser
+- Now you can open the following page in a web browser
 ````
 http://localhost:20661
 ````
 
 That's all. Enjoy Breakbrain!
 
-## Game development
+
 
 
