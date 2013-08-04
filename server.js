@@ -55,6 +55,7 @@ require('./server/database.js')(util, test, function(db, bson){
     });
 
     app.get('/', function(req,res){
+		util.log('DEBUG', 'Request against /');
         fs.createReadStream(__dirname + '/index.html').pipe(res);
     });
 
