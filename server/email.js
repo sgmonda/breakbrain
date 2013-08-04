@@ -32,6 +32,3 @@ module.exports.send = function(to, subject, message){
 
 util.log('EMAIL-MODULE', 'Email subsystem ready to send emails');
 
-exports.send('sgmonda@gmail.com', 'Prueba', 'Esto es un mensaje de prueba');
-
-
