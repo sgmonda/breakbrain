@@ -20,7 +20,7 @@ module.exports.send = function(to, subject, message){
         text:    message,
         from:    "BreakBrain <noreply@breakbrain.com>", 
         to:      '<' + to + '>',
-        subject: subject,
+        subject: subject + ' (' + (new Date()).toISOString() + ')',
         attachment: [
             {data:"<html>" + message + "</html>", alternative:true}
         ]
