@@ -41,8 +41,8 @@ loadJS(['/socket.io/socket.io.js'], function(){
 
         // ## SOCKET.IO ################################################################
 
-        var breakbrain_websockets_server = 'http://breakbrain.com:20661';
-        //var breakbrain_websockets_server = 'http://localhost:20661';
+        //var breakbrain_websockets_server = 'http://breakbrain.com:20661';
+        var breakbrain_websockets_server = 'http://localhost:20661';
         socket = io.connect(breakbrain_websockets_server);
 
         // #############################################################################
