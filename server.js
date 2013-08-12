@@ -625,7 +625,7 @@ require('./server/database.js')(util, test, function(db, bson){
             socket.on('send-activation-email', function(data){
                 var email = data.email;
 				var url = null;
-				if (data.url && !data.url.match(/breakbrain/)) {
+				if (data.url && !data.url.match(/breakbrain|54.235.122.62/)) {
 					url = 'http://localhost:20661';
 				}
                 sendActivationEmail(email, url, function(err){
@@ -635,7 +635,7 @@ require('./server/database.js')(util, test, function(db, bson){
             
             socket.on('send-password-change-email', function(data){
 				var url = null;
-				if (data.url && !data.url.match(/breakbrain/)) {
+				if (data.url && !data.url.match(/breakbrain|54.235.122.62/)) {
 					url = 'http://localhost:20661';
 				}
                 sendPasswordEmail(data.email, url, function(err){
