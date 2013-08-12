@@ -46,7 +46,7 @@ window.game = (function(){
     punt2.maxWidth=250;
     stage.addChild(punt2);
     var ball2 = new Shape();
-    ball2.graphics.beginFill("#FFFFFF");
+    ball2.graphics.beginFill("rgba(255, 255, 255, 0.5)");
     ball2.graphics.drawCircle(450,0,50);
     ball2.graphics.endFill();
     stage.addChild(ball2);

@@ -28,9 +28,9 @@
     font-size: small;
     font-weight: bold;
     text-align: center;
-    height: 2.5em;
+    height: 1.5em;
     overflow: hidden;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .capacity {
