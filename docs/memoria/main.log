@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  29 JUL 2013 23:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  12 AUG 2013 12:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1429,10 +1429,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.239 \end{itemize}
                     <./images/brainarena.png>]
 Package epstopdf Info: Source file: <images/neurona.eps>
-(epstopdf)                    date: 2012-10-24 13:21:21
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 56990 bytes
 (epstopdf)             Output file: <images/neurona-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-10-24 13:22:30
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 21230 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/neurona-eps-converte
 d-to.pdf images/neurona.eps>
@@ -1605,10 +1605,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.443 \subsection{Los hemisferios cerebrales}
                                               <./images/sna.jpg>]
 Package epstopdf Info: Source file: <images/brain2.eps>
-(epstopdf)                    date: 2012-10-19 02:22:24
+(epstopdf)                    date: 2013-07-30 22:27:38
 (epstopdf)                    size: 361713 bytes
 (epstopdf)             Output file: <images/brain2-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-10-19 02:50:36
+(epstopdf)                    date: 2013-07-30 22:27:38
 (epstopdf)                    size: 372206 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/brain2-eps-converted
 -to.pdf images/brain2.eps>
@@ -1683,10 +1683,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.496 
        <./images/cingulo.png>]
 Package epstopdf Info: Source file: <images/brain.eps>
-(epstopdf)                    date: 2012-10-19 02:52:20
+(epstopdf)                    date: 2013-07-30 22:27:38
 (epstopdf)                    size: 455482 bytes
 (epstopdf)             Output file: <images/brain-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-10-19 02:52:33
+(epstopdf)                    date: 2013-07-30 22:27:38
 (epstopdf)                    size: 455895 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/brain-eps-converted-
 to.pdf images/brain.eps>
@@ -2199,10 +2199,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [70]
 Package epstopdf Info: Source file: <images/despliegue.eps>
-(epstopdf)                    date: 2012-11-21 13:24:37
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 508004 bytes
 (epstopdf)             Output file: <images/despliegue-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-11-21 13:26:20
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 72743 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/despliegue-eps-conve
 rted-to.pdf images/despliegue.eps>
@@ -2261,10 +2261,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.719 
        <./images/despliegue-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/casos-uso.eps>
-(epstopdf)                    date: 2012-11-20 16:21:25
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 285879 bytes
 (epstopdf)             Output file: <images/casos-uso-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-11-20 16:21:30
+(epstopdf)                    date: 2013-08-12 12:24:06
 (epstopdf)                    size: 126900 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/casos-uso-eps-conver
 ted-to.pdf images/casos-uso.eps>
@@ -2583,10 +2583,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [96]
 Package epstopdf Info: Source file: <images/diseno.eps>
-(epstopdf)                    date: 2012-11-28 17:52:51
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 114182 bytes
 (epstopdf)             Output file: <images/diseno-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-11-28 17:57:08
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 51649 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/diseno-eps-converted
 -to.pdf images/diseno.eps>
@@ -2720,10 +2720,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [102]
 Package epstopdf Info: Source file: <images/estres.eps>
-(epstopdf)                    date: 2012-11-24 13:44:23
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 138772 bytes
 (epstopdf)             Output file: <images/estres-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-11-24 13:45:46
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 63392 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/estres-eps-converted
 -to.pdf images/estres.eps>
@@ -2884,10 +2884,10 @@ resplot.png>] [112
 ]
 Cap\'{\i }tulo 5.
 Package epstopdf Info: Source file: <images/arquitectura.eps>
-(epstopdf)                    date: 2012-11-20 18:06:53
+(epstopdf)                    date: 2013-07-30 22:27:38
 (epstopdf)                    size: 230454 bytes
 (epstopdf)             Output file: <images/arquitectura-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-11-21 12:56:51
+(epstopdf)                    date: 2013-07-30 22:27:38
 (epstopdf)                    size: 96656 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/arquitectura-eps-con
 verted-to.pdf images/arquitectura.eps>
@@ -2956,11 +2956,11 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [119]
 Package epstopdf Info: Source file: <images/games-diagram-esp.eps>
-(epstopdf)                    date: 2012-11-13 10:45:08
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 161454 bytes
 (epstopdf)             Output file: <images/games-diagram-esp-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2012-11-13 10:45:47
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 74936 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/games-diagram-esp-ep
 s-converted-to.pdf images/games-diagram-esp.eps>
@@ -3006,11 +3006,11 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [120]
 Package epstopdf Info: Source file: <images/juegos-partidas-actividades.eps>
-(epstopdf)                    date: 2013-07-28 21:54:36
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 53125 bytes
 (epstopdf)             Output file: <images/juegos-partidas-actividades-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2013-07-28 21:54:41
+(epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 22783 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/juegos-partidas-acti
 vidades-eps-converted-to.pdf images/juegos-partidas-actividades.eps>
@@ -4948,7 +4948,7 @@ l/share/texmf-texlive-dist/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (200 pages, 6050959 bytes).
+Output written on main.pdf (200 pages, 6051059 bytes).
 PDF statistics:
  2880 PDF objects out of 2984 (max. 8388607)
  2571 compressed objects within 26 object streams
