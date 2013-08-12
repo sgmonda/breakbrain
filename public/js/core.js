@@ -15,7 +15,7 @@ if(page != 'login' && page != 'index' && page != 'password') showLoading();
 user.email = user.email || window.localStorage.email;
 user.password = user.password || window.localStorage.password;
 
-loadJS(['/socket.io/socket.io.js'], function(){
+loadJS(['/js/settings.js', '/socket.io/socket.io.js'], function(){
 
     if(page != 'index' && page != 'login' && page != 'password' &&  (!user.email || !user.password)){
         window.location = 'login.html';
@@ -42,7 +42,7 @@ loadJS(['/socket.io/socket.io.js'], function(){
         // ## SOCKET.IO ################################################################
 
         //var breakbrain_websockets_server = 'http://breakbrain.com:20661';
-        var breakbrain_websockets_server = 'http://localhost:20661';
+        //var breakbrain_websockets_server = 'http://localhost:20661';
         socket = io.connect(breakbrain_websockets_server);
 
         // #############################################################################
