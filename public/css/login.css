@@ -43,18 +43,10 @@
     float: right;
 }
 
-#input-login-remember {
-    margin-top: 0.5em;
-    float: left;
-}
-
-#recovery-pass {
-    margin-top: 0.5em;
-    float: right;
-}
-
 #login-footer {
+	margin-top: 10px;
     height: 2em;
+	width: 100%;
 }
 
 /*## Register #################################################################*/
