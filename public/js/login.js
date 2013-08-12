@@ -66,7 +66,7 @@ $('#remember-link').on('click', function(){
     }
     
     if(email){
-        socket.emit('send-password-change-email', {email: email});
+        socket.emit('send-password-change-email', {email: email, url: String(window.location)});
         alert('We have sent you the instructions to follow to change your password. Check your email.');
     }
 });

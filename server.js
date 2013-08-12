@@ -1,6 +1,5 @@
 /**
  * breakbrain
- * Default app for nodester
  */
 
 /*jshint node:true, noempty:true, laxcomma:true, laxbreak:false */
@@ -99,12 +98,13 @@ require('./server/database.js')(util, test, function(db, bson){
         });
     };
 
-    var sendActivationEmail = function(email, callback){
+    var sendActivationEmail = function(email, url, callback){
+		url = url || 'http://breakbrain.com';
         db.users.findOne({email: email}, function(err, u){
             if(err){
                 console.warn('ERROR while sending an activation email to "' + email + '"');
             }else if(u){
-                var link = 'http://breakbrain.nodester.com?activate=' + u._id;
+                var link = url + '?activate=' + u._id;
                 emailsys.send(email, 'Complete your registration', 'You signed up for BreakBrain.com. The last step is to activate your account, going to the following link:<br><a href="' + link + '">' + link + '</a><br><br>If you have not signed up for BreakBrain, ignore this email.');
                 callback && callback(null);
             }else{
@@ -113,12 +113,13 @@ require('./server/database.js')(util, test, function(db, bson){
         });
     };
 
-    var sendPasswordEmail = function(email, callback){
+    var sendPasswordEmail = function(email, url, callback){
+		url = url || 'http://breakbrain.com';
         db.users.findOne({email: email}, function(err, u){
             if(err){
                 console.warn('ERROR while sending a password changer email to "' + email + '"');
             }else if(u){
-                var link = 'http://breakbrain.nodester.com/password.html?passwordChange=' + u.hash;
+                var link = url + '/password.html?passwordChange=' + u.hash;
                 emailsys.send(email, 'Password change', 'You have requested a password change because you can\'t remember the current one.<br>Follow this link to create a new password:<br><a href="' + link + '">' + link + '</a><br><br>If you have not requested a password change ignore this email.');
                 callback && callback(null);
 	    }else{
@@ -623,13 +624,21 @@ require('./server/database.js')(util, test, function(db, bson){
             
             socket.on('send-activation-email', function(data){
                 var email = data.email;
-                sendActivationEmail(email, function(err){
+				var url = null;
+				if (data.url && !data.url.match(/breakbrain/)) {
+					url = 'http://localhost:20661';
+				}
+                sendActivationEmail(email, url, function(err){
                     socket.emit('send-activation-email', err);
                 });
             });
             
             socket.on('send-password-change-email', function(data){
-                sendPasswordEmail(data.email, function(err){
+				var url = null;
+				if (data.url && !data.url.match(/breakbrain/)) {
+					url = 'http://localhost:20661';
+				}
+                sendPasswordEmail(data.email, url, function(err){
                     socket.emit('send-password-change-email', err);
                 });
             });
