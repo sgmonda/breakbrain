@@ -12,7 +12,7 @@
     box-shadow: 0px 0px 20px #444;
     height: 40px;
     line-height: 38px;
-    z-index: 10;
+    z-index: 10000;
 
 }
 

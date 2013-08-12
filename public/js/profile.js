@@ -51,7 +51,28 @@ socket.on('brain', function(brain){
     console.log(user.followees);
     
     $('#search-right-followers').text(user.followers.length);
+	$('#search-right-followers-container').on('mouseenter', function () {
+		if (!$('#followers-list').is(':visible')) {
+			$('#followers-list').slideDown();
+		}
+	});
+	$('#search-right-followers-container').on('mouseleave', function () {
+		if ($('#followers-list').is(':visible')) {
+			$('#followers-list').slideUp();
+		}
+	});
+
     $('#search-right-followees').text(user.followees.length);
+	$('#search-right-followees-container').on('mouseenter', function () {
+		if (!$('#followees-list').is(':visible')) {
+			$('#followees-list').slideDown();
+		}
+	});
+	$('#search-right-followees-container').on('mouseleave', function () {
+		if ($('#followees-list').is(':visible')) {
+			$('#followees-list').slideUp();
+		}
+	});
     
     var general = new JustGage({
         id: "stat-general", 
