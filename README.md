@@ -1,7 +1,3 @@
-Current status (based on integration tests):
-
-[![Build Status](https://secure.travis-ci.org/sgmonda/stdio.png)](http://travis-ci.org/sgmonda/stdio)
-
 #Breakbrain
 
 Social network to improve mental skills by mean of mini-games
