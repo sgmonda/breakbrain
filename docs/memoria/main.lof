@@ -21,7 +21,7 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Tubo neural. A la izquierda el aspecto del tubo en la etapa m\IeC {\'a}s temprana de desarrollo, donde pueden apreciarse las 3 partes principales: prosenc\IeC {\'e}falo, mesenc\IeC {\'e}falo y rombenc\IeC {\'e}falo. A la derecha, en una etapa posterior, el prosenc\IeC {\'e}falo ha pasado a formar el telenc\IeC {\'e}falo y el dienc\IeC {\'e}falo.}}{30}{figure.3.13}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Subsistemas simp\IeC {\'a}tico y parasimp\IeC {\'a}tico del SNA}}{33}{figure.3.14}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Localizaci\IeC {\'o}n del cerebelo}}{34}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Hemisferios cerebrales (vista frontal)}}{35}{figure.3.16}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Hemisferios cerebrales (vista frontal)}}{34}{figure.3.16}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Corteza del c\IeC {\'\i }ngulo anterior}}{36}{figure.3.17}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces L\IeC {\'o}bulos cerebrales}}{37}{figure.3.18}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Neurona piramidal}}{39}{figure.3.19}
@@ -37,13 +37,15 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de interacci\IeC {\'o}n del caso de uso UC-3 (flujo normal)}}{83}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de interacci\IeC {\'o}n del caso de uso UC-4 (flujo normal)}}{85}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de interacci\IeC {\'o}n del caso de uso UC-12 (flujo normal)}}{111}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Dise\IeC {\~n}o modular del sistema}}{112}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Resultado parcial de tests unitarios}}{113}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Resultados de la bater\IeC {\'\i }a de tests funcionales}}{114}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Dise\IeC {\~n}o del test de estr\IeC {\'e}s}}{115}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Resultados de las pruebas de estr\IeC {\'e}s}}{115}{figure.4.12}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Resultado parcial de tests unitarios}}{112}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Resultados de la bater\IeC {\'\i }a de tests funcionales}}{113}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Dise\IeC {\~n}o del test de estr\IeC {\'e}s}}{114}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Resultados de las pruebas de estr\IeC {\'e}s}}{114}{figure.4.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Arquitectura detallada del sistema}}{119}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Patr\IeC {\'o}n MVC en el cliente de BreakBrain}}{116}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Patr\IeC {\'o}n MVC en el servidor de BreakBrain}}{117}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Dise\IeC {\~n}o modular del sistema}}{118}{figure.5.4}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Arquitectura detallada del sistema}}{120}{figure.5.1}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Juegos, partidas y actividades puntuables}}{126}{figure.6.2}
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Diagrama de habilidades mentales}}{129}{figure.6.1}

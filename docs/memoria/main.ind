@@ -3,26 +3,26 @@
   \item acalculia, \hyperpage{54}
   \item acetilcolina, \hyperpage{31}
   \item afasia, \hyperpage{38}
-  \item am\IeC {\'\i }gdala, \hyperpage{45--48}
+  \item am\IeC {\'\i }gdala, \hyperpage{46--49}
   \item artefacto, \hyperpage{59}, \hyperpage{61}
-  \item ataxia, \hyperpage{32}
+  \item ataxia, \hyperpage{33}
 
   \indexspace
 
   \item bug, \hyperpage{107}
-  \item bulbo raqu\IeC {\'\i }deo, \hyperpage{30}
+  \item bulbo raqu\IeC {\'\i }deo, \hyperpage{29}
   \item bytecode, \hyperpage{20}
 
   \indexspace
 
   \item c\IeC {\'o}rtex, \hyperpage{2}, \hyperpage{24}
   \item c\IeC {\'o}rtex/corteza
-    \subitem inferotemporal, \hyperpage{38}, \hyperpage{43}
+    \subitem inferotemporal, \hyperpage{38}, \hyperpage{44}
     \subitem occipitotemporal, \hyperpage{52}
-    \subitem prefrontal, \hyperpage{47}, \hyperpage{122}
-    \subitem visual asociativa, \hyperpage{43}
-    \subitem visual primaria, \hyperpage{43}
-    \subitem visual secundaria, \hyperpage{43}
+    \subitem prefrontal, \hyperpage{48}, \hyperpage{122}
+    \subitem visual asociativa, \hyperpage{44}
+    \subitem visual primaria, \hyperpage{44}
+    \subitem visual secundaria, \hyperpage{44}
   \item cambio cualitativo, \hyperpage{52}
   \item capas germinales, \hyperpage{28}
   \item cerebelo, \hyperpage{32}
@@ -45,27 +45,27 @@
   \indexspace
 
   \item GET, \hyperpage{17}
-  \item glucorticoides, \hyperpage{47}
+  \item glucorticoides, \hyperpage{48}
 
   \indexspace
 
   \item hipermedia, \hyperpage{17}
   \item hipertexto, \hyperpage{17}
-  \item hipocampo, \hyperpage{46}, \hyperpage{53}
+  \item hipocampo, \hyperpage{46}, \hyperpage{54}
   \item hipot\IeC {\'a}lamo, \hyperpage{29}
   \item HTML, \hyperpage{17}, \hyperpage{19}
   \item HTTP, \hyperpage{17}
 
   \indexspace
 
-  \item insulina, \hyperpage{47}
+  \item insulina, \hyperpage{48}
 
   \indexspace
 
   \item l\IeC {\'o}bulo
-    \subitem frontal, \hyperpage{52}, \hyperpage{54}
+    \subitem frontal, \hyperpage{53, 54}
     \subitem occipital, \hyperpage{122}
-    \subitem parietal, \hyperpage{52--54}
+    \subitem parietal, \hyperpage{53, 54}
     \subitem temporal, \hyperpage{122}
   \item lumosity, \hyperpage{15}
 
@@ -74,23 +74,24 @@
   \item materia
     \subitem blanca, \hyperpage{51}
     \subitem gris, \hyperpage{51}
-  \item mesenc\IeC {\'e}falo, \hyperpage{29--31}, \hyperpage{34}
-  \item metenc\IeC {\'e}falo, \hyperpage{30}
-  \item mielenc\IeC {\'e}falo, \hyperpage{30}
+  \item mesenc\IeC {\'e}falo, \hyperpage{29}, \hyperpage{31}, 
+		\hyperpage{35}
+  \item metenc\IeC {\'e}falo, \hyperpage{29}
+  \item mielenc\IeC {\'e}falo, \hyperpage{29}
   \item mongodb, \hyperpage{75}
 
   \indexspace
 
   \item n\IeC {\'u}cleo, \hyperpage{24}
   \item n\IeC {\'u}cleos del raf\IeC {\'e}, \hyperpage{31}
-  \item narcolepsia, \hyperpage{45}
-  \item neoc\IeC {\'o}rtex, \hyperpage{25}, \hyperpage{34}, 
-		\hyperpage{40}, \hyperpage{42}
+  \item narcolepsia, \hyperpage{46}
+  \item neoc\IeC {\'o}rtex, \hyperpage{26}, \hyperpage{35}, 
+		\hyperpage{41, 42}
   \item neurona
-    \subitem piramidal, \hyperpage{38}
+    \subitem piramidal, \hyperpage{39}
   \item neuroplasticidad, \hyperpage{3}, \hyperpage{42, 43}, 
-		\hyperpage{51, 52}, \hyperpage{55}, \hyperpage{121}
-  \item neurotransmisor, \hyperpage{26, 27}, \hyperpage{49}
+		\hyperpage{51}, \hyperpage{55}, \hyperpage{121}
+  \item neurotransmisor, \hyperpage{26--28}, \hyperpage{49}
   \item nodejs, \hyperpage{75}, \hyperpage{101, 102}, \hyperpage{105}
   \item norepinefrina, \hyperpage{31}
 
@@ -99,13 +100,14 @@
   \item pagerank, \hyperpage{12--15}
   \item PHP, \hyperpage{19}
   \item POST, \hyperpage{17}
-  \item prosenc\IeC {\'e}falo, \hyperpage{29}, \hyperpage{34}
-  \item protuberancia anular, \hyperpage{30}
-  \item puente troncoencef\IeC {\'a}lico, \hyperpage{30, 31}
+  \item prosenc\IeC {\'e}falo, \hyperpage{29}, \hyperpage{35}
+  \item protuberancia anular, \hyperpage{29}
+  \item puente troncoencef\IeC {\'a}lico, \hyperpage{29}, 
+		\hyperpage{31}
 
   \indexspace
 
-  \item rombenc\IeC {\'e}falo, \hyperpage{29, 30}, \hyperpage{34}
+  \item rombenc\IeC {\'e}falo, \hyperpage{29}, \hyperpage{35}
 
   \indexspace
 
@@ -116,7 +118,7 @@
 
   \item t\IeC {\'a}lamo, \hyperpage{29}
   \item telenc\IeC {\'e}falo, \hyperpage{29}
-  \item templo, \hyperpage{46}
+  \item templo, \hyperpage{47}
 
   \indexspace
 

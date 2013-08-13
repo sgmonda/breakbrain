@@ -35,8 +35,8 @@
 \contentsline {subsubsection}{Tecnolog\IeC {\'\i }as web para desarrollo de videojuegos}{21}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Anatom\IeC {\'\i }a y fisiolog\IeC {\'\i }a del cerebro humano}{24}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Estructura cerebral}{24}{subsection.3.4.1}
-\contentsline {subsubsection}{Materia gris, materia blanca y c\IeC {\'e}lulas gliales}{25}{subsection.3.4.1}
-\contentsline {subsubsection}{Cortezas y n\IeC {\'u}cleos cerebrales}{26}{figure.3.11}
+\contentsline {subsubsection}{Materia gris, materia blanca y c\IeC {\'e}lulas gliales}{24}{subsection.3.4.1}
+\contentsline {subsubsection}{Cortezas y n\IeC {\'u}cleos cerebrales}{25}{figure.3.11}
 \contentsline {subsubsection}{Las neuronas}{26}{figure.3.12}
 \contentsline {subsubsection}{Neuronas, proyecciones y v\IeC {\'\i }as}{28}{figure.3.12}
 \contentsline {subsection}{\numberline {3.4.2}El desarrollo cerebral}{28}{subsection.3.4.2}
@@ -45,12 +45,12 @@
 \contentsline {subsubsection}{Integraci\IeC {\'o}n de neurocircuitos}{30}{figure.3.13}
 \contentsline {subsection}{\numberline {3.4.3}Estructuras primarias del cerebro}{31}{subsection.3.4.3}
 \contentsline {subsubsection}{El tronco encef\IeC {\'a}lico. La formaci\IeC {\'o}n reticular}{31}{subsection.3.4.3}
-\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{32}{subsection.3.4.3}
+\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{31}{subsection.3.4.3}
 \contentsline {subsubsection}{El sistema nervioso aut\IeC {\'o}nomo (SNA)}{32}{subsection.3.4.3}
 \contentsline {subsubsection}{El cerebelo}{32}{figure.3.14}
-\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{34}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}La corteza cerebral}{34}{subsection.3.4.5}
-\contentsline {subsubsection}{El neoc\IeC {\'o}rtex}{34}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{33}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}La corteza cerebral}{35}{subsection.3.4.5}
+\contentsline {subsubsection}{El neoc\IeC {\'o}rtex}{35}{subsection.3.4.5}
 \contentsline {subsubsection}{La corteza del c\IeC {\'\i }ngulo anterior: emoci\IeC {\'o}n, atenci\IeC {\'o}n y memoria a corto plazo}{35}{subsection.3.4.5}
 \contentsline {subsubsection}{Los l\IeC {\'o}bulos cerebrales}{37}{figure.3.17}
 \contentsline {subsubsection}{La corteza frontal}{39}{figure.3.18}
@@ -58,7 +58,7 @@
 \contentsline {subsubsection}{Mapas retinot\IeC {\'o}picos}{43}{figure.3.21}
 \contentsline {subsection}{\numberline {3.4.6}Estructuras subcorticales. El estr\IeC {\'e}s, las emociones y la enfermedad mental}{45}{subsection.3.4.6}
 \contentsline {subsubsection}{El cerebro animal}{46}{subsection.3.4.6}
-\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{47}{figure.3.22}
+\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{46}{figure.3.22}
 \contentsline {subsubsection}{C\IeC {\'o}mo la experiencia afecta al cerebro}{49}{figure.3.22}
 \contentsline {section}{\numberline {3.5}Neuroplasticidad}{50}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Memoria (Memory)}{52}{subsection.3.5.1}
@@ -113,15 +113,13 @@
 \contentsline {subsection}{\numberline {4.9.2}Pruebas funcionales}{105}{subsection.4.9.2}
 \contentsline {subsection}{\numberline {4.9.3}Pruebas de aceptaci\IeC {\'o}n}{105}{subsection.4.9.3}
 \contentsline {subsection}{\numberline {4.9.4}Pruebas de estr\IeC {\'e}s del sistema}{107}{subsection.4.9.4}
-\contentsline {chapter}{\numberline {5}Arquitectura}{117}{chapter.5}
-\contentsline {section}{\numberline {5.1}Composici\IeC {\'o}n del sistema}{117}{section.5.1}
-\contentsline {section}{\numberline {5.2}Arquitectura del sitio web}{118}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Patr\IeC {\'o}n MVC}{118}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Arquitectura del servidor}{118}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Patr\IeC {\'o}n MVC}{118}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Dise\IeC {\~n}o modular}{118}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Arquitectura del servidor de juegos}{118}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Sistema Gestor de Base de Datos}{118}{section.5.4}
+\contentsline {chapter}{\numberline {5}Arquitectura}{115}{chapter.5}
+\contentsline {section}{\numberline {5.1}Composici\IeC {\'o}n del sistema}{115}{section.5.1}
+\contentsline {section}{\numberline {5.2}Arquitectura del sitio web}{116}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Patr\IeC {\'o}n MVC}{116}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Arquitectura del servidor}{117}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Patr\IeC {\'o}n MVC}{117}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Dise\IeC {\~n}o modular}{118}{section.5.4}
 \contentsline {chapter}{\numberline {6}Resultados}{121}{chapter.6}
 \contentsline {section}{\numberline {6.1}Especificaci\IeC {\'o}n del entrenamiento cerebral}{121}{section.6.1}
 \contentsline {section}{\numberline {6.2}Medici\IeC {\'o}n cuantitativa de la evoluci\IeC {\'o}n cerebral mediante juegos}{124}{section.6.2}
@@ -168,5 +166,5 @@
 \contentsline {chapter}{\numberline {C}Manual de usuario}{145}{appendix.Alph3}
 \contentsline {chapter}{\numberline {D}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{147}{appendix.Alph4}
 \contentsline {chapter}{\numberline {E}Licencia de uso del software}{149}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{167}{appendix*.20}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{173}{appendix*.20}
+\contentsline {chapter}{Bibliograf\'{\i }a}{167}{appendix*.21}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{173}{appendix*.21}
