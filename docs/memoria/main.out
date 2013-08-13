@@ -108,6 +108,10 @@
 \BOOKMARK [1][-]{section.Alph2.5}{Publicaci\363n del juego en BreakBrain}{appendix.Alph2}% 108
 \BOOKMARK [0][-]{appendix.Alph3}{Manual de usuario}{}% 109
 \BOOKMARK [0][-]{appendix.Alph4}{Gu\355a de instalaci\363n}{}% 110
-\BOOKMARK [0][-]{appendix.Alph5}{Licencia de uso del software}{}% 111
-\BOOKMARK [0][-]{appendix*.21}{Bibliograf\355a}{}% 112
-\BOOKMARK [0][-]{appendix*.21}{\315ndice alfab\351tico}{}% 113
+\BOOKMARK [1][-]{section.Alph4.1}{Requisitos previos}{appendix.Alph4}% 111
+\BOOKMARK [2][-]{subsection.Alph4.1.1}{NodeJS}{section.Alph4.1}% 112
+\BOOKMARK [2][-]{subsection.Alph4.1.2}{MongoDB}{section.Alph4.1}% 113
+\BOOKMARK [1][-]{section.Alph4.2}{Instalaci\363n de BreakBrain}{appendix.Alph4}% 114
+\BOOKMARK [0][-]{appendix.Alph5}{Licencia de uso del software}{}% 115
+\BOOKMARK [0][-]{appendix*.21}{Bibliograf\355a}{}% 116
+\BOOKMARK [0][-]{appendix*.21}{\315ndice alfab\351tico}{}% 117

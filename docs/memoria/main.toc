@@ -165,6 +165,10 @@
 \contentsline {section}{\numberline {B.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{143}{section.Alph2.5}
 \contentsline {chapter}{\numberline {C}Manual de usuario}{145}{appendix.Alph3}
 \contentsline {chapter}{\numberline {D}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{147}{appendix.Alph4}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{149}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{167}{appendix*.21}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{173}{appendix*.21}
+\contentsline {section}{\numberline {D.1}Requisitos previos}{147}{section.Alph4.1}
+\contentsline {subsection}{\numberline {D.1.1}NodeJS}{147}{subsection.Alph4.1.1}
+\contentsline {subsection}{\numberline {D.1.2}MongoDB}{147}{subsection.Alph4.1.2}
+\contentsline {section}{\numberline {D.2}Instalaci\IeC {\'o}n de BreakBrain}{148}{section.Alph4.2}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{151}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{169}{appendix*.21}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{175}{appendix*.21}
