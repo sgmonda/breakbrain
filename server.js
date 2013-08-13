@@ -494,9 +494,9 @@ require('./server/database.js')(util, test, function(db, bson){
 
     require('./server/games.js')(util, test, fs, function(games, recommendGames){
 
-        games = games.concat(games.slice()); // for testing. delete later
-        games = games.concat(games.slice()); // for testing. delete later
-        games = games.concat(games.slice()); // for testing. delete later
+        // games = games.concat(games.slice()); // for testing. delete later
+        // games = games.concat(games.slice()); // for testing. delete later
+        // games = games.concat(games.slice()); // for testing. delete later
 
         
         test('games module load', games != null, 'games = ' + games);

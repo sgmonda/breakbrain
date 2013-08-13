@@ -36,8 +36,10 @@ $(function(){
                                 window.bbgames.onMouseMove(window.game.mousemove);
                                 window.bbgames.onKeyDown(window.game.keydown);
                                 window.bbgames.onKeyUp(window.game.keyup);
-                                socket.on(aux.name, function(data){
-                                    window.game.onMessage(data);
+                                socket.on(aux.name, function(data) {
+									if (window.game) {
+										window.game.onMessage(data);
+									}
                                 });
                                 window.game.start();
                             });
@@ -52,10 +54,13 @@ $(function(){
 
 
                 $('#game-close').on('click', function(){
-                    $('#game-loaded').slideUp();
-                    window.game.stop();
-                    window.bbgames.cleanStage();
-                    window.game = null;
+					console.log(window.game);
+					if (window.game.finished || confirm('Are you sure you want to close? You will lose this game')) {
+						$('#game-loaded').slideUp();
+						window.game.stop();
+						window.bbgames.cleanStage();
+						window.game = null;
+					}
                 });
 
             });

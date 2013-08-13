@@ -1,3 +1,5 @@
+var util = require('../../server/util.js');
+
 module.exports = function(test, clientURL) {
 
 	var Game = require('../Game.js');
@@ -8,10 +10,16 @@ module.exports = function(test, clientURL) {
 		clientURL // URL to the game client folder
 	);
 
-	var ball1 = {op: '1+1', sol: 2, pos: 0, level: 1};
-	var ball2 = {op: '1+1', sol: 2, pos: 0, level: 1};
+	var ball1, ball2, balls, players, winner, started;
 
-	var balls = [ball1, ball2], winner = null;
+	function init() {
+		ball1 = {op: '1+1', sol: 2, pos: 0, level: 1};
+		ball2 = {op: '1+1', sol: 2, pos: 0, level: 1};
+		balls = [ball1, ball2], winner = null;
+		started = false;
+		players = [];
+	}
+	init();
 
 	function genOp(level){
 		level += 1;
@@ -52,10 +60,11 @@ module.exports = function(test, clientURL) {
 					ball2.sol = eval(ball2.op);
 				}
 				g.emit({
-					key: 'update',
+					key: started ? 'update' : 'init',
 					ball1: ball1,
 					ball2: ball2
 				});
+				started = true;
 			}else{
 				g.emit({key: 'waiting'});
 			}
@@ -70,6 +79,7 @@ module.exports = function(test, clientURL) {
 			if(balls.length){
 				balls[msg.from] = balls.shift();
 				balls[msg.from].player = msg.name;
+				players.push(msg.from);
 			}
 			break;
 		case 'solve':
@@ -82,9 +92,16 @@ module.exports = function(test, clientURL) {
 			balls[msg.from].pos = Infinity;
 			break;
 		case 'finish':
-			balls[msg.from] = {op: '1+1', sol: 2, pos: 0, level: 1};
-			balls.push(balls[msg.from]);
-			if(balls.length == 2) winner = null;
+			if (players[0] == msg.from) {
+				winner = players[1];
+			} else {
+				winner = players[0];
+			}
+			delete balls[msg.from];
+			if (Object.keys(balls).length === 0) {
+				util.log('GAME_POMPITAS', 'Game reset');
+				init();
+			}
 			break;
 		}
 
