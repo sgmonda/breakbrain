@@ -174,9 +174,13 @@ Un servidor web es un computador que realiza, siguiendo un orden riguroso, las s
 
 En la actualidad existen numerosas tecnologías y entornos de ejecución para la construcción y despliegue de servidores web, en casi cualquier lenguaje de programación existente. Cada opción tiene sus ventajas e inconvenientes y es más o menos adecuada dependiendo de la situación y finalidad del servidor.
 
+En el caso concreto de las páginas web, el servidor recibe peticiones \acs{GET} y \acs{POST} del navegador web de un cliente y genera código \acs{HTML} y de {\it scripting} (JavaScript) que dicho navegador es capaz de interpretar.
+
+A continuación se exponen algunas de las tecnologías más utilizadas en la creación de servidores web.
+
 \subsubsection{PHP}
 
-PHP\index{PHP} es un lenguaje de {\it scripts} ampliamente utilizado para todo tipo de propósitos. Está orientado especialmente al desarrollo web, y puede ser empotrado en código \acs{HTML}\index{HTML} (ver listado \ref{code:php}).
+PHP\index{PHP} es un lenguaje de {\it scripts} ---scripts del lado del servidor, por lo que no son interpretables por un navegador web cliente--- ampliamente utilizado para todo tipo de propósitos. Está orientado especialmente al desarrollo web, y puede ser empotrado en código \acs{HTML}\index{HTML} (ver listado \ref{code:php}).
 
 \begin{listing}[language=html, caption={Ejemplo de inclusión de código PHP en HTML}, label=code:php]
 <!DOCTYPE html>
@@ -193,36 +197,117 @@ PHP\index{PHP} es un lenguaje de {\it scripts} ampliamente utilizado para todo t
 </html>
 \end{listing}
 
+Este lenguaje es software libre, y además de ser interpretado por un servidor web también permite su ejecución en un intérprete de comandos común. En \cite{php} se ofrecen recursos útiles para el aprendizaje y primeros pasos del lenguaje.
+
 \subsubsection{ASP.NET}
 
-\subsubsection{JSP}
+A diferencia del anterior, éste es un framework diseñado exclusivamente para el desarrollo de páginas web dinámicas y servicios web. Es el sucesor del antiguo \acs{ASP}, lanzado por Microsoft en 1996. Permite su utilización con cualquier lenguaje soportado por el framework .NET (Java, C\#, etc.), y puede ser utilizado únicamente en servidores \acs{IIS} de Microsoft.
+
+En comparación a otras alternativas interpretadas (como PHP), ASP.NET ofrece la ventaja de trabajar con código compilado, lo que le otorga mejor rendimiento.
+
+\subsubsection{JSP (Java Server Pages)}
+
+Aunque Java es un lenguaje de propósito general, no es hasta 1999 cuando Sun Microsystems lanza \acs{JSP} para competir con otros lenguajes y frameworks, PHP y \acs{ASP}.
+
+Esta tecnología requiere una máquina virtual Java, capaz de interpretar su {\it bytecode} \index{bytecode}, y soporta lo que se conocen como anotaciones ---comentarios \acs{HTML} con una sintaxis especial, que permiten la modificación de ciertas partes del código en tiempo de ejecución---.
 
 \subsubsection{NodeJS}
+
+En los últimos años la popularización de JavaScript como lenguaje de programación web (del lado del cliente) ha crecido de forma considerable, ayudada en parte por el desarrollo del motor de ejecución V8 (creado por Google para el navegador Chrome). Lo que no se pensó hasta 2009 era en la posibilidad de utilizarlo en el lado del servidor. Fue entonces cuando Ryan Dahl lanzó NodeJS, un entorno de ejecución de JavaScript nativo, basado en el motor V8, centrado en la entrada salida y basado en eventos.
+
+NodeJS es software libre, está enfocado a la escalabilidad y permite la creación de servidores web de manera realmente sencilla. El listado \ref{nodejs-example} muestra la implementación de un servidor \acs{HTTP} básico que responde ``Hello world''.
+
+\begin{listing}[language=javascript, caption={Servidor web básico implementado con NodeJS}, label=nodejs-example]
+var http = require('http');
+ 
+http.createServer(function (request, response) {
+    response.writeHead(200, {'Content-Type': 'text/plain'});
+    response.end('Hello World\n');
+}).listen(8000);
+ 
+console.log('Server running at http://127.0.0.1:8000/');
+\end{listing}
+
+La popularidad de NodeJS resulta asombrosa, teniendo en cuenta que se trata de una tecnología muy nueva. En los cuatro años que lleva en desarrollo cuenta ya con más de 37000 módulos registrados en \acs{NPM}, lo que da una idea de la calurosa acogida que ha tenido por parte de la comunidad de desarrolladores.
 
 \subsection{Cliente web}
 \label{sec::desarrollo-juegos}
 
+El cliente web es sencillamente un navegador corriente que, principalmente, accede a páginas web y realiza peticiones de formularios. Cuando un usuario accede a una página web, el navegador la solicita al servidor, éste la construye y la devuelve, y el navegador la interpreta y se la muestra al usuario.
+
+Como veremos más adelante, la labor del navegador web va más allá de la mera petición e interpretación de páginas web. Concretamente cuando nos centramos en el desarrollo de videojuegos multijugador, el navegador es también el encargado de mantener la comunicación con el servidor de forma transparente al usuario.
+
 \subsubsection{Tecnologías web para desarrollo de videojuegos}
 
+Existen diversas tecnologías disponibles para la inserción de contenido gráfico animado e interactivo en una página web. A continuación se expondrán las más importantes, absolutas protagonistas del desarrollo de videojuegos web hoy en día.
 
 \begin{itemize}
-\item{Flash y Shockwave}
 
-\item{JApplets}
+\item{\bf JApplets}
 
-\item{Unity web player}
+Durante un largo tiempo, los applets de Java (o JApplets) fueron la fuerza dominante en el desarrollo de contenido interactivo web en el lado del cliente. La popularización de Java como lenguaje de propósito general fue en gran parte la responsable. No obstante, con la modernización de \acs{HTML} y los navegadores web, muchas de las funcionalidades que antes se hacían mediante Java pasaron a estar soportadas {\it out-of-the-box}\footnote{Out-of-the-box: Dícese de una funcionalidad que viene disponible de serie}, por lo que esta tecnología de Java fue perdiendo popularidad. Nótese que los applets de Java requieren de un complemento adicional o plug-in instalado en el navegador para ser ejecutados.
 
-\item{HTML5}
+En la actualidad se utiliza bastante poco, habiendo quedado prácticamente en desuso en el ámbito de los videojuegos (en parte por el bajo rendimiento gráfico que ofrece).
 
-\item{Websockets}
+\item{\bf Flash y Shockwave}
+
+Las tecnologías Flash y Shockwave, ambas desarrolladas por Macromedia (empresa que más adelante sería absorbida por Adobe), supusieron una gran evolución en el desarrollo de contenido interactivo web. Hoy en día son ampliamente utilizadas, y ofrecen un rendimiento muy bueno en la reproducción de contenido multimedia ---Shockwave soporta aceleración gráfica---.
+
+Se trata de dos tecnologías complementarias, siendo Shockwave algo más amplia (es capaz de reproducir contenido Flash, lo que no ocurre a la inversa). Requieren de un plug-in para el navegador web. En el caso de Flash, el plug-in se encuentra en el 95\% de los computadores de escritorio, mientras que en el caso de Shockwave sólo en el 40\%, según \cite{w3techs}.
+
+En la actualidad está ocurriendo algo similar a lo que pasó con los applets de Java, y es que \acs{HTML} y los navegadores modernos son capaces de llevar a cabo tareas que antes sólo podía hacer Flash, por lo que cada vez se está empezando a utilizar menos para algunas aplicaciones, debido en parte a la ventaja de no necesitar de plug-ins adicionales.
+
+\item{\bf Unity web player}
+
+Unity es un {\it ``ecosistema de desarrollo de videojuegos''}, según \cite{unity}. Bajo la filosofía \acf{WORE} permite el desarrollo de videojuegos compilables de forma automática para múltiples plataformas. El gran problema de Unity es que es de pago ---con un precio que oscila entre los 1500 y los 6500 euros---, por lo que no se encuentra al alcance de todos los bolsillos.
+
+Entre las ventajas que ofrece frente a otras alternativas, las más importantes son:
+\begin{itemize}
+\item Rendimiento
+\item Calidad gráfica
+\item Soporte de plug-ins
+\end{itemize}
+Unity web player es el componente que permite la ejecución en un navegador de videojuegos creados con Unity. Tal y como ocurría con Flash y Shockwave, si el navegador web no cuenta con el plugin instalado no será capaz de ejecutar el componente.
+
+\item{\bf HTML5}
   
+El lenguaje de marcado \acs{HTML} ha ido adaptándose a las necesidades surgidas a causa de la evolución de Internet. En este sentido, la especificación de la última versión (aún no cerrada por completo) incluye funcionalidades que antes eran propias de Flash o los applets de Java, y que ahora cualquier navegador web moderno es capaz de desempeñar. Buen ejemplo de estas funcionalidades son la inclusión de audio y vídeo, así como el objeto {\tt canvas}, que posibilita la creación de videojuegos complejos con un renidmiento excelente.
+
+La tecnología WebGL, parte de la especificación de HTML5, permite incluso utilizar la aceleración gráfica para reproducir contenido 3D de alta calidad. No es de extrañar que HTML5 esté acabando poco a poco con otras tecnologías (que requieren complementos adicionales para ser ejecutadas).
+
+En la figura \ref{fig::webgl} se muestra un ejemplo de la calidad gráfica ofrecida por HTML5. En \cite{chrome-experiments} existe un gran surtido de ejemplos para experimentar con este tipo de contenidos web.
+
 \end{itemize}
 
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=\textwidth]{images/webgl.png}
+    \caption{Muestra de las posibilidades gráficas de HTML5 con WebGL}
+    \label{fig::webgl}
+  \end{center}
+\end{figure}
 
-% http://www.lumosity.com/knowledge-center/brain-reference/
+\subsubsection*{Comunicación web ininterrumpida: websockets}
+
+WebSocket es una tecnología que implementa sockets de comunicación entre servidores y navegadores web (aunque pueden utilizarse por cualquier tipo de aplicación cliente/servidor). Proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP.
+
+Se trata de una tecnología que aún se encuentra en desarrollo. La API de WebSocket está siendo normalizada por el W3C, y el protocolo WebSocket, a su vez, está siendo normalizado por el IETF.
+
+Como las conexiones TCP ordinarias sobre puertos diferentes al 80 suelen ser bloqueadas por los administradores de redes, el uso de esta tecnología proporcionaría una solución mediante la multiplexación de diferentes servicios WebSocket sobre un único puerto TCP.
+
+La especificación del protocolo WebSocket define dos nuevos esquemas de URI:
+
+\begin{itemize}
+\item {\tt wss:} para conexiones cifradas
+\item {\tt ws:} para conexiones no cifradas
+\end{itemize}
+
+El resto de componentes del URI se definen con la sintaxis genérica de URI.
 
 \section{Anatomía y fisiología del cerebro humano}
 \label{sec::fisiologia}
+
+% http://www.lumosity.com/knowledge-center/brain-reference/
 
 El primer paso antes de tratar de emplear conocimientos técnicos para mejorar las habilidades mentales de los seres humanos es, evidentemente, la familiarización con la fisiología\footnote{Ciencia biológica que estudia las funciones de los seres orgánicos.} del cerebro, pues de nada sirve tratar de mejorar algo sin conocerlo previamente. En este sentido se ha realizado un esfuerzo adicional por ofrecer esta base científica de una forma amena para el lector. Así pues, en las siguientes secciones se realizará un recorrido por los aspectos más relevantes en cuanto a la estructura y funcionamiento del {\it ``órgano más importante de todos''} \cite{Jacyna2009}.
 

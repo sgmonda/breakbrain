@@ -27,146 +27,146 @@
 \contentsline {section}{\numberline {3.2}Entrenamiento cerebral mediante mini juegos}{15}{section.3.2}
 \contentsline {section}{\numberline {3.3}Desarrollo web moderno}{17}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Servidor web}{18}{subsection.3.3.1}
-\contentsline {subsubsection}{PHP}{18}{Item.5}
-\contentsline {subsubsection}{ASP.NET}{19}{lstnumber.3.1.12}
-\contentsline {subsubsection}{JSP}{19}{lstnumber.3.1.12}
-\contentsline {subsubsection}{NodeJS}{19}{lstnumber.3.1.12}
-\contentsline {subsection}{\numberline {3.3.2}Cliente web}{19}{subsection.3.3.2}
-\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as web para desarrollo de videojuegos}{19}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Anatom\IeC {\'\i }a y fisiolog\IeC {\'\i }a del cerebro humano}{20}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Estructura cerebral}{20}{subsection.3.4.1}
-\contentsline {subsubsection}{Materia gris, materia blanca y c\IeC {\'e}lulas gliales}{21}{subsection.3.4.1}
-\contentsline {subsubsection}{Cortezas y n\IeC {\'u}cleos cerebrales}{22}{figure.3.10}
-\contentsline {subsubsection}{Las neuronas}{22}{figure.3.11}
-\contentsline {subsubsection}{Neuronas, proyecciones y v\IeC {\'\i }as}{24}{figure.3.11}
-\contentsline {subsection}{\numberline {3.4.2}El desarrollo cerebral}{24}{subsection.3.4.2}
-\contentsline {subsubsection}{Introducci\IeC {\'o}n a la embriolog\IeC {\'\i }a}{24}{subsection.3.4.2}
-\contentsline {subsubsection}{Tubo neural}{25}{subsection.3.4.2}
-\contentsline {subsubsection}{Integraci\IeC {\'o}n de neurocircuitos}{26}{figure.3.12}
-\contentsline {subsection}{\numberline {3.4.3}Estructuras primarias del cerebro}{27}{subsection.3.4.3}
-\contentsline {subsubsection}{El tronco encef\IeC {\'a}lico. La formaci\IeC {\'o}n reticular}{27}{subsection.3.4.3}
-\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{28}{subsection.3.4.3}
-\contentsline {subsubsection}{El sistema nervioso aut\IeC {\'o}nomo (SNA)}{28}{subsection.3.4.3}
-\contentsline {subsubsection}{El cerebelo}{29}{figure.3.13}
-\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{30}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}La corteza cerebral}{30}{subsection.3.4.5}
-\contentsline {subsubsection}{El neoc\IeC {\'o}rtex}{31}{subsection.3.4.5}
-\contentsline {subsubsection}{La corteza del c\IeC {\'\i }ngulo anterior: emoci\IeC {\'o}n, atenci\IeC {\'o}n y memoria a corto plazo}{31}{subsection.3.4.5}
-\contentsline {subsubsection}{Los l\IeC {\'o}bulos cerebrales}{33}{figure.3.16}
-\contentsline {subsubsection}{La corteza frontal}{35}{figure.3.17}
-\contentsline {subsubsection}{Las \IeC {\'a}reas de Brodmann}{37}{figure.3.19}
-\contentsline {subsubsection}{Mapas retinot\IeC {\'o}picos}{40}{figure.3.20}
-\contentsline {subsection}{\numberline {3.4.6}Estructuras subcorticales. El estr\IeC {\'e}s, las emociones y la enfermedad mental}{41}{subsection.3.4.6}
-\contentsline {subsubsection}{El cerebro animal}{42}{subsection.3.4.6}
-\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{43}{figure.3.21}
-\contentsline {subsubsection}{C\IeC {\'o}mo la experiencia afecta al cerebro}{45}{figure.3.21}
-\contentsline {section}{\numberline {3.5}Neuroplasticidad}{47}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Memoria (Memory)}{48}{subsection.3.5.1}
-\contentsline {subsubsection}{Memoria de trabajo}{48}{subsection.3.5.1}
-\contentsline {subsubsection}{Recuerdo espacial (Spatial recall)}{49}{subsection.3.5.1}
-\contentsline {subsubsection}{Recuerdo cara-nombre (Face-name recall)}{49}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Resoluci\IeC {\'o}n de problemas (Problem solving)}{50}{subsection.3.5.2}
-\contentsline {subsubsection}{Aritm\IeC {\'e}tica (Arithmetic)}{50}{subsection.3.5.2}
-\contentsline {subsubsection}{Razonamiento l\IeC {\'o}gico (Logical reasoning)}{50}{subsection.3.5.2}
-\contentsline {subsubsection}{Razonamiento cuantitativo (Quantitative reasoning)}{51}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Atenci\IeC {\'o}n (Attention)}{51}{subsection.3.5.3}
-\contentsline {subsubsection}{Concentraci\IeC {\'o}n (Focus)}{51}{subsection.3.5.3}
-\contentsline {subsubsection}{Campo visual (Visual field)}{51}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Velocidad (Speed)}{51}{subsection.3.5.4}
-\contentsline {subsubsection}{Procesamiento de informaci\IeC {\'o}n (Information processing)}{51}{subsection.3.5.4}
-\contentsline {subsubsection}{Orientaci\IeC {\'o}n espacial (Spatial orientation)}{52}{subsection.3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}Flexibilidad (Flexibility)}{52}{subsection.3.5.5}
-\contentsline {subsubsection}{Control de impulsos (Response inhibition)}{52}{subsection.3.5.5}
-\contentsline {subsubsection}{Planificaci\IeC {\'o}n (Planning)}{52}{subsection.3.5.5}
-\contentsline {subsubsection}{Conmutaci\IeC {\'o}n de tareas (Task switching)}{52}{subsection.3.5.5}
-\contentsline {subsubsection}{Fluidez verbal (Verbal fluency)}{53}{subsection.3.5.5}
-\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo de trabajo}{55}{chapter.4}
-\contentsline {section}{\numberline {4.1}Proceso Unificado de Desarrollo}{55}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Visi\IeC {\'o}n global del proceso}{55}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Etapas e iteraciones (dimensi\IeC {\'o}n din\IeC {\'a}mica)}{56}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Artefactos (dimensi\IeC {\'o}n est\IeC {\'a}tica)}{57}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Iteraciones}{57}{section.4.2}
-\contentsline {section}{\numberline {4.3}An\IeC {\'a}lisis de requisitos}{57}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Primera aproximaci\IeC {\'o}n a los requisitos}{58}{subsection.4.3.1}
-\contentsline {subsubsection}{Funcionalidad referida al servidor}{58}{subsection.4.3.1}
-\contentsline {subsubsection}{Funcionalidad referida al usuario}{59}{subsection.4.3.1}
-\contentsline {subsubsection}{Aspectos ajenos a la funcionalidad}{60}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Requisitos funcionales}{60}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Requisitos de evoluci\IeC {\'o}n}{68}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Requisitos de soporte}{69}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Requisitos de calidad}{69}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Diagrama de despliegue}{71}{section.4.4}
-\contentsline {section}{\numberline {4.5}An\IeC {\'a}lisis de casos de uso}{72}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Identificaci\IeC {\'o}n de actores}{72}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Identificaci\IeC {\'o}n de casos de uso}{73}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Especificaci\IeC {\'o}n de casos de uso}{74}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Dise\IeC {\~n}o}{97}{section.4.6}
-\contentsline {section}{\numberline {4.7}Implementaci\IeC {\'o}n}{98}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Tecnolog\IeC {\'\i }a}{98}{subsection.4.7.1}
-\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as del servidor}{98}{subsection.4.7.1}
-\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as del cliente}{98}{subsection.4.7.1}
-\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as de comunicaci\IeC {\'o}n}{99}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Estructura del c\IeC {\'o}digo fuente}{99}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}Estad\IeC {\'\i }sticas del c\IeC {\'o}digo fuente}{99}{section.4.8}
-\contentsline {section}{\numberline {4.9}Pruebas}{101}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Pruebas unitarias}{101}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Pruebas funcionales}{101}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Pruebas de aceptaci\IeC {\'o}n}{101}{subsection.4.9.3}
-\contentsline {subsection}{\numberline {4.9.4}Pruebas de estr\IeC {\'e}s del sistema}{103}{subsection.4.9.4}
-\contentsline {chapter}{\numberline {5}Arquitectura}{113}{chapter.5}
-\contentsline {section}{\numberline {5.1}Composici\IeC {\'o}n del sistema}{113}{section.5.1}
-\contentsline {section}{\numberline {5.2}Arquitectura del sitio web}{114}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Patr\IeC {\'o}n MVC}{114}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Arquitectura del servidor}{114}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Patr\IeC {\'o}n MVC}{114}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Dise\IeC {\~n}o modular}{114}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Arquitectura del servidor de juegos}{114}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Sistema Gestor de Base de Datos}{114}{section.5.4}
-\contentsline {chapter}{\numberline {6}Resultados}{117}{chapter.6}
-\contentsline {section}{\numberline {6.1}Especificaci\IeC {\'o}n del entrenamiento cerebral}{117}{section.6.1}
-\contentsline {section}{\numberline {6.2}Medici\IeC {\'o}n cuantitativa de la evoluci\IeC {\'o}n cerebral mediante juegos}{120}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Juegos, partidas y actividades puntuables}{120}{subsection.6.2.1}
-\contentsline {subsubsection}{Juego}{121}{subsection.6.2.1}
-\contentsline {subsubsection}{Partida}{121}{subsection.6.2.1}
-\contentsline {subsubsection}{Actividad puntuable}{121}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Puntuaci\IeC {\'o}n de partidas}{122}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Variables de clasificaci\IeC {\'o}n}{123}{subsection.6.2.3}
-\contentsline {subsubsection}{Variables est\IeC {\'a}ticas o de agrupaci\IeC {\'o}n}{123}{subsection.6.2.3}
-\contentsline {subsubsection}{Variables din\IeC {\'a}micas mentales}{123}{subsection.6.2.3}
-\contentsline {subsubsection}{Variables din\IeC {\'a}micas sociales}{124}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Sistema de recomendaci\IeC {\'o}n}{124}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Algoritmo de recomendaci\IeC {\'o}n de usuarios}{124}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Algoritmo de recomendaci\IeC {\'o}n de juegos}{124}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Notas personales}{124}{subsection.6.3.3}
-\contentsline {chapter}{\numberline {7}Conclusiones y propuestas}{127}{chapter.7}
-\contentsline {chapter}{\numberline {A}Iteraciones del PUD}{131}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Iteraciones de inicio}{131}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Iteraciones de elaboraci\IeC {\'o}n}{132}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Iteraciones de construcci\IeC {\'o}n}{133}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}Etapa de transici\IeC {\'o}n}{136}{section.Alph1.4}
-\contentsline {section}{\numberline {A.5}Visi\IeC {\'o}n gr\IeC {\'a}fica}{136}{section.Alph1.5}
-\contentsline {chapter}{\numberline {B}Gu\IeC {\'\i }a para el desarrollador: creaci\IeC {\'o}n de juegos para BreakBrain}{137}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Requisitos}{137}{section.Alph2.1}
-\contentsline {subsection}{\numberline {B.1.1}Conocimientos del desarrollador}{137}{subsection.Alph2.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Herramientas de desarrollo}{138}{subsection.Alph2.1.2}
-\contentsline {section}{\numberline {B.2}Tipos de juegos}{138}{section.Alph2.2}
-\contentsline {subsection}{\numberline {B.2.1}Juegos monojugador}{138}{subsection.Alph2.2.1}
-\contentsline {subsection}{\numberline {B.2.2}Juegos multijugador}{138}{subsection.Alph2.2.2}
-\contentsline {section}{\numberline {B.3}El sistema de juegos de BreakBrain}{138}{section.Alph2.3}
-\contentsline {subsection}{\numberline {B.3.1}Componentes del sistema de juegos}{139}{subsection.Alph2.3.1}
-\contentsline {subsection}{\numberline {B.3.2}Componentes de un juego}{139}{subsection.Alph2.3.2}
-\contentsline {subsubsection}{Parte servidora}{139}{subsection.Alph2.3.2}
-\contentsline {subsubsection}{Parte cliente}{139}{subsection.Alph2.3.2}
-\contentsline {subsubsection}{Recursos}{139}{subsection.Alph2.3.2}
-\contentsline {section}{\numberline {B.4}Creaci\IeC {\'o}n de un juego desde cero}{139}{section.Alph2.4}
-\contentsline {subsection}{\numberline {B.4.1}Eligiendo una categor\IeC {\'\i }a}{139}{subsection.Alph2.4.1}
-\contentsline {subsection}{\numberline {B.4.2}Creando la estructura b\IeC {\'a}sica del juego}{139}{subsection.Alph2.4.2}
-\contentsline {subsection}{\numberline {B.4.3}Preparando los recursos}{139}{subsection.Alph2.4.3}
-\contentsline {subsection}{\numberline {B.4.4}Desarrollando la parte servidora}{139}{subsection.Alph2.4.4}
-\contentsline {subsection}{\numberline {B.4.5}Desarrollando la parte cliente}{139}{subsection.Alph2.4.5}
-\contentsline {section}{\numberline {B.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{139}{section.Alph2.5}
-\contentsline {chapter}{\numberline {C}Manual de usuario}{141}{appendix.Alph3}
-\contentsline {chapter}{\numberline {D}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{143}{appendix.Alph4}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{145}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{163}{appendix*.19}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{169}{appendix*.19}
+\contentsline {subsubsection}{PHP}{19}{Item.5}
+\contentsline {subsubsection}{ASP.NET}{20}{lstnumber.3.1.12}
+\contentsline {subsubsection}{JSP (Java Server Pages)}{20}{lstnumber.3.1.12}
+\contentsline {subsubsection}{NodeJS}{20}{lstnumber.3.1.12}
+\contentsline {subsection}{\numberline {3.3.2}Cliente web}{21}{subsection.3.3.2}
+\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as web para desarrollo de videojuegos}{21}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Anatom\IeC {\'\i }a y fisiolog\IeC {\'\i }a del cerebro humano}{24}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Estructura cerebral}{24}{subsection.3.4.1}
+\contentsline {subsubsection}{Materia gris, materia blanca y c\IeC {\'e}lulas gliales}{25}{subsection.3.4.1}
+\contentsline {subsubsection}{Cortezas y n\IeC {\'u}cleos cerebrales}{26}{figure.3.11}
+\contentsline {subsubsection}{Las neuronas}{26}{figure.3.12}
+\contentsline {subsubsection}{Neuronas, proyecciones y v\IeC {\'\i }as}{28}{figure.3.12}
+\contentsline {subsection}{\numberline {3.4.2}El desarrollo cerebral}{28}{subsection.3.4.2}
+\contentsline {subsubsection}{Introducci\IeC {\'o}n a la embriolog\IeC {\'\i }a}{28}{subsection.3.4.2}
+\contentsline {subsubsection}{Tubo neural}{29}{subsection.3.4.2}
+\contentsline {subsubsection}{Integraci\IeC {\'o}n de neurocircuitos}{30}{figure.3.13}
+\contentsline {subsection}{\numberline {3.4.3}Estructuras primarias del cerebro}{31}{subsection.3.4.3}
+\contentsline {subsubsection}{El tronco encef\IeC {\'a}lico. La formaci\IeC {\'o}n reticular}{31}{subsection.3.4.3}
+\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{32}{subsection.3.4.3}
+\contentsline {subsubsection}{El sistema nervioso aut\IeC {\'o}nomo (SNA)}{32}{subsection.3.4.3}
+\contentsline {subsubsection}{El cerebelo}{32}{figure.3.14}
+\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{34}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}La corteza cerebral}{34}{subsection.3.4.5}
+\contentsline {subsubsection}{El neoc\IeC {\'o}rtex}{34}{subsection.3.4.5}
+\contentsline {subsubsection}{La corteza del c\IeC {\'\i }ngulo anterior: emoci\IeC {\'o}n, atenci\IeC {\'o}n y memoria a corto plazo}{35}{subsection.3.4.5}
+\contentsline {subsubsection}{Los l\IeC {\'o}bulos cerebrales}{37}{figure.3.17}
+\contentsline {subsubsection}{La corteza frontal}{39}{figure.3.18}
+\contentsline {subsubsection}{Las \IeC {\'a}reas de Brodmann}{40}{figure.3.20}
+\contentsline {subsubsection}{Mapas retinot\IeC {\'o}picos}{43}{figure.3.21}
+\contentsline {subsection}{\numberline {3.4.6}Estructuras subcorticales. El estr\IeC {\'e}s, las emociones y la enfermedad mental}{45}{subsection.3.4.6}
+\contentsline {subsubsection}{El cerebro animal}{46}{subsection.3.4.6}
+\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{47}{figure.3.22}
+\contentsline {subsubsection}{C\IeC {\'o}mo la experiencia afecta al cerebro}{49}{figure.3.22}
+\contentsline {section}{\numberline {3.5}Neuroplasticidad}{50}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Memoria (Memory)}{52}{subsection.3.5.1}
+\contentsline {subsubsection}{Memoria de trabajo}{52}{subsection.3.5.1}
+\contentsline {subsubsection}{Recuerdo espacial (Spatial recall)}{53}{subsection.3.5.1}
+\contentsline {subsubsection}{Recuerdo cara-nombre (Face-name recall)}{53}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Resoluci\IeC {\'o}n de problemas (Problem solving)}{54}{subsection.3.5.2}
+\contentsline {subsubsection}{Aritm\IeC {\'e}tica (Arithmetic)}{54}{subsection.3.5.2}
+\contentsline {subsubsection}{Razonamiento l\IeC {\'o}gico (Logical reasoning)}{54}{subsection.3.5.2}
+\contentsline {subsubsection}{Razonamiento cuantitativo (Quantitative reasoning)}{54}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Atenci\IeC {\'o}n (Attention)}{55}{subsection.3.5.3}
+\contentsline {subsubsection}{Concentraci\IeC {\'o}n (Focus)}{55}{subsection.3.5.3}
+\contentsline {subsubsection}{Campo visual (Visual field)}{55}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Velocidad (Speed)}{55}{subsection.3.5.4}
+\contentsline {subsubsection}{Procesamiento de informaci\IeC {\'o}n (Information processing)}{55}{subsection.3.5.4}
+\contentsline {subsubsection}{Orientaci\IeC {\'o}n espacial (Spatial orientation)}{56}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Flexibilidad (Flexibility)}{56}{subsection.3.5.5}
+\contentsline {subsubsection}{Control de impulsos (Response inhibition)}{56}{subsection.3.5.5}
+\contentsline {subsubsection}{Planificaci\IeC {\'o}n (Planning)}{56}{subsection.3.5.5}
+\contentsline {subsubsection}{Conmutaci\IeC {\'o}n de tareas (Task switching)}{56}{subsection.3.5.5}
+\contentsline {subsubsection}{Fluidez verbal (Verbal fluency)}{57}{subsection.3.5.5}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo de trabajo}{59}{chapter.4}
+\contentsline {section}{\numberline {4.1}Proceso Unificado de Desarrollo}{59}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Visi\IeC {\'o}n global del proceso}{59}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Etapas e iteraciones (dimensi\IeC {\'o}n din\IeC {\'a}mica)}{60}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Artefactos (dimensi\IeC {\'o}n est\IeC {\'a}tica)}{61}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Iteraciones}{61}{section.4.2}
+\contentsline {section}{\numberline {4.3}An\IeC {\'a}lisis de requisitos}{61}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Primera aproximaci\IeC {\'o}n a los requisitos}{62}{subsection.4.3.1}
+\contentsline {subsubsection}{Funcionalidad referida al servidor}{62}{subsection.4.3.1}
+\contentsline {subsubsection}{Funcionalidad referida al usuario}{63}{subsection.4.3.1}
+\contentsline {subsubsection}{Aspectos ajenos a la funcionalidad}{64}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Requisitos funcionales}{64}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Requisitos de evoluci\IeC {\'o}n}{72}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Requisitos de soporte}{73}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Requisitos de calidad}{73}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Diagrama de despliegue}{75}{section.4.4}
+\contentsline {section}{\numberline {4.5}An\IeC {\'a}lisis de casos de uso}{76}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Identificaci\IeC {\'o}n de actores}{76}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Identificaci\IeC {\'o}n de casos de uso}{77}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Especificaci\IeC {\'o}n de casos de uso}{78}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Dise\IeC {\~n}o}{101}{section.4.6}
+\contentsline {section}{\numberline {4.7}Implementaci\IeC {\'o}n}{102}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Tecnolog\IeC {\'\i }a}{102}{subsection.4.7.1}
+\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as del servidor}{102}{subsection.4.7.1}
+\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as del cliente}{102}{subsection.4.7.1}
+\contentsline {subsubsection}{Tecnolog\IeC {\'\i }as de comunicaci\IeC {\'o}n}{103}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Estructura del c\IeC {\'o}digo fuente}{103}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}Estad\IeC {\'\i }sticas del c\IeC {\'o}digo fuente}{103}{section.4.8}
+\contentsline {section}{\numberline {4.9}Pruebas}{105}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Pruebas unitarias}{105}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Pruebas funcionales}{105}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Pruebas de aceptaci\IeC {\'o}n}{105}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.9.4}Pruebas de estr\IeC {\'e}s del sistema}{107}{subsection.4.9.4}
+\contentsline {chapter}{\numberline {5}Arquitectura}{117}{chapter.5}
+\contentsline {section}{\numberline {5.1}Composici\IeC {\'o}n del sistema}{117}{section.5.1}
+\contentsline {section}{\numberline {5.2}Arquitectura del sitio web}{118}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Patr\IeC {\'o}n MVC}{118}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Arquitectura del servidor}{118}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Patr\IeC {\'o}n MVC}{118}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Dise\IeC {\~n}o modular}{118}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Arquitectura del servidor de juegos}{118}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Sistema Gestor de Base de Datos}{118}{section.5.4}
+\contentsline {chapter}{\numberline {6}Resultados}{121}{chapter.6}
+\contentsline {section}{\numberline {6.1}Especificaci\IeC {\'o}n del entrenamiento cerebral}{121}{section.6.1}
+\contentsline {section}{\numberline {6.2}Medici\IeC {\'o}n cuantitativa de la evoluci\IeC {\'o}n cerebral mediante juegos}{124}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Juegos, partidas y actividades puntuables}{124}{subsection.6.2.1}
+\contentsline {subsubsection}{Juego}{125}{subsection.6.2.1}
+\contentsline {subsubsection}{Partida}{125}{subsection.6.2.1}
+\contentsline {subsubsection}{Actividad puntuable}{125}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Puntuaci\IeC {\'o}n de partidas}{126}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Variables de clasificaci\IeC {\'o}n}{127}{subsection.6.2.3}
+\contentsline {subsubsection}{Variables est\IeC {\'a}ticas o de agrupaci\IeC {\'o}n}{127}{subsection.6.2.3}
+\contentsline {subsubsection}{Variables din\IeC {\'a}micas mentales}{127}{subsection.6.2.3}
+\contentsline {subsubsection}{Variables din\IeC {\'a}micas sociales}{128}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Sistema de recomendaci\IeC {\'o}n}{128}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Algoritmo de recomendaci\IeC {\'o}n de usuarios}{128}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Algoritmo de recomendaci\IeC {\'o}n de juegos}{128}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Notas personales}{128}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Conclusiones y propuestas}{131}{chapter.7}
+\contentsline {chapter}{\numberline {A}Iteraciones del PUD}{135}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Iteraciones de inicio}{135}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Iteraciones de elaboraci\IeC {\'o}n}{136}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Iteraciones de construcci\IeC {\'o}n}{137}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}Etapa de transici\IeC {\'o}n}{140}{section.Alph1.4}
+\contentsline {section}{\numberline {A.5}Visi\IeC {\'o}n gr\IeC {\'a}fica}{140}{section.Alph1.5}
+\contentsline {chapter}{\numberline {B}Gu\IeC {\'\i }a para el desarrollador: creaci\IeC {\'o}n de juegos para BreakBrain}{141}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Requisitos}{141}{section.Alph2.1}
+\contentsline {subsection}{\numberline {B.1.1}Conocimientos del desarrollador}{141}{subsection.Alph2.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Herramientas de desarrollo}{142}{subsection.Alph2.1.2}
+\contentsline {section}{\numberline {B.2}Tipos de juegos}{142}{section.Alph2.2}
+\contentsline {subsection}{\numberline {B.2.1}Juegos monojugador}{142}{subsection.Alph2.2.1}
+\contentsline {subsection}{\numberline {B.2.2}Juegos multijugador}{142}{subsection.Alph2.2.2}
+\contentsline {section}{\numberline {B.3}El sistema de juegos de BreakBrain}{142}{section.Alph2.3}
+\contentsline {subsection}{\numberline {B.3.1}Componentes del sistema de juegos}{143}{subsection.Alph2.3.1}
+\contentsline {subsection}{\numberline {B.3.2}Componentes de un juego}{143}{subsection.Alph2.3.2}
+\contentsline {subsubsection}{Parte servidora}{143}{subsection.Alph2.3.2}
+\contentsline {subsubsection}{Parte cliente}{143}{subsection.Alph2.3.2}
+\contentsline {subsubsection}{Recursos}{143}{subsection.Alph2.3.2}
+\contentsline {section}{\numberline {B.4}Creaci\IeC {\'o}n de un juego desde cero}{143}{section.Alph2.4}
+\contentsline {subsection}{\numberline {B.4.1}Eligiendo una categor\IeC {\'\i }a}{143}{subsection.Alph2.4.1}
+\contentsline {subsection}{\numberline {B.4.2}Creando la estructura b\IeC {\'a}sica del juego}{143}{subsection.Alph2.4.2}
+\contentsline {subsection}{\numberline {B.4.3}Preparando los recursos}{143}{subsection.Alph2.4.3}
+\contentsline {subsection}{\numberline {B.4.4}Desarrollando la parte servidora}{143}{subsection.Alph2.4.4}
+\contentsline {subsection}{\numberline {B.4.5}Desarrollando la parte cliente}{143}{subsection.Alph2.4.5}
+\contentsline {section}{\numberline {B.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{143}{section.Alph2.5}
+\contentsline {chapter}{\numberline {C}Manual de usuario}{145}{appendix.Alph3}
+\contentsline {chapter}{\numberline {D}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{147}{appendix.Alph4}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{149}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{167}{appendix*.20}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{173}{appendix*.20}

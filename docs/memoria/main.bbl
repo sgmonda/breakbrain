@@ -106,7 +106,12 @@ Winifred Gallagher.
 \newblock \ifshowURL {\showURL
   \path|http://www.theatlantic.com/magazine/archive/1994/09/how-we-become-what-we-are/303534/|}\fi.
 
-\bibitem[Goo]{chrome}
+\bibitem[Gooa]{chrome-experiments}
+Google.
+\newblock {Chrome Experiments}.
+\newblock \ifshowURL {\showURL \path|http://www.chromeexperiments.com/|}\fi.
+
+\bibitem[Goob]{chrome}
 Google.
 \newblock {Chrome web browser}.
 \newblock \ifshowURL {\showURL \path|http://chrome.google.com|}\fi.
@@ -319,6 +324,11 @@ Christopher Pittenger and Ronald~S Duman.
 \newblock \ifshowURL {\showURL
   \path|http://www.ncbi.nlm.nih.gov/pubmed/17851537|}\fi.
 
+\bibitem[PHP]{php}
+PHP.
+\newblock {PHP, a widely-used general-purpose scripting language}.
+\newblock \ifshowURL {\showURL \path|http://php.net|}\fi.
+
 \bibitem[Rat98]{Rational1998}
 Rational.
 \newblock {Rational Unified Process. Best Practices for Software Development
@@ -375,9 +385,19 @@ Iris Trinkler, John~a King, Christian~F Doeller, Michael~D Rugg, and Neil
 \newblock \ifshowURL {\showURL
   \path|http://www.ncbi.nlm.nih.gov/pubmed/19173228|}\fi.
 
+\bibitem[Uni]{unity}
+Unity.
+\newblock {Unity3D Engine}.
+\newblock \ifshowURL {\showURL \path|http://unity3d.com/|}\fi.
+
 \bibitem[Vis]{Visionmedia}
 Visionmedia.
 \newblock {Express}.
 \newblock \ifshowURL {\showURL \path|http://expressjs.com/|}\fi.
+
+\bibitem[W3T]{w3techs}
+W3Techs.
+\newblock {World Wide Web Technology Surveys}.
+\newblock \ifshowURL {\showURL \path|http://w3techs.com/|}\fi.
 
 \end{thebibliography}
