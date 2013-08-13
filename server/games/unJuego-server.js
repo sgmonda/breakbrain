@@ -92,10 +92,12 @@ module.exports = function(test, clientURL) {
 			balls[msg.from].pos = Infinity;
 			break;
 		case 'finish':
-			if (players[0] == msg.from) {
-				winner = players[1];
-			} else {
-				winner = players[0];
+			if (!winner) {
+				if (players[0] == msg.from) {
+					winner = players[1];
+				} else {
+					winner = players[0];
+				}
 			}
 			delete balls[msg.from];
 			if (Object.keys(balls).length === 0) {
