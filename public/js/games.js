@@ -22,6 +22,7 @@ $(function(){
                             games[item.name] = item;
                             $('#games-list').append(game_template.replace(/{{name}}/g, item.name)
                                                     .replace(/{{capacity}}/g, item.capacity)
+													.replace(/{{hability}}/g, item.hability)
                                                     .replace(/{{img}}/g, item.client_logo));
                         });
 

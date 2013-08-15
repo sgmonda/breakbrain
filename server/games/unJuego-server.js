@@ -5,8 +5,8 @@ module.exports = function(test, clientURL) {
 	var Game = require('../Game.js');
 	var g = new Game(
 		'Pompitas', // Name
-		'Problem solving', // Capacity
-		'Arithmetic', // Hability
+		'PRO', // Capacity
+		'PRO-ARI', // Hability
 		clientURL // URL to the game client folder
 	);
 

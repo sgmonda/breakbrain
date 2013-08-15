@@ -89,30 +89,30 @@
 \BOOKMARK [1][-]{section.Alph1.3}{Iteraciones de construcci\363n}{appendix.Alph1}% 89
 \BOOKMARK [1][-]{section.Alph1.4}{Etapa de transici\363n}{appendix.Alph1}% 90
 \BOOKMARK [1][-]{section.Alph1.5}{Visi\363n gr\341fica}{appendix.Alph1}% 91
-\BOOKMARK [0][-]{appendix.Alph2}{Gu\355a para el desarrollador: creaci\363n de juegos para BreakBrain}{}% 92
-\BOOKMARK [1][-]{section.Alph2.1}{Requisitos}{appendix.Alph2}% 93
-\BOOKMARK [2][-]{subsection.Alph2.1.1}{Conocimientos del desarrollador}{section.Alph2.1}% 94
-\BOOKMARK [2][-]{subsection.Alph2.1.2}{Herramientas de desarrollo}{section.Alph2.1}% 95
-\BOOKMARK [1][-]{section.Alph2.2}{Tipos de juegos}{appendix.Alph2}% 96
-\BOOKMARK [2][-]{subsection.Alph2.2.1}{Juegos monojugador}{section.Alph2.2}% 97
-\BOOKMARK [2][-]{subsection.Alph2.2.2}{Juegos multijugador}{section.Alph2.2}% 98
-\BOOKMARK [1][-]{section.Alph2.3}{El sistema de juegos de BreakBrain}{appendix.Alph2}% 99
-\BOOKMARK [2][-]{subsection.Alph2.3.1}{Componentes del sistema de juegos}{section.Alph2.3}% 100
-\BOOKMARK [2][-]{subsection.Alph2.3.2}{Componentes de un juego}{section.Alph2.3}% 101
-\BOOKMARK [1][-]{section.Alph2.4}{Creaci\363n de un juego desde cero}{appendix.Alph2}% 102
-\BOOKMARK [2][-]{subsection.Alph2.4.1}{Eligiendo una categor\355a}{section.Alph2.4}% 103
-\BOOKMARK [2][-]{subsection.Alph2.4.2}{Eligiendo el tipo de juego}{section.Alph2.4}% 104
-\BOOKMARK [2][-]{subsection.Alph2.4.3}{Creando la estructura b\341sica del juego}{section.Alph2.4}% 105
-\BOOKMARK [2][-]{subsection.Alph2.4.4}{Preparando los recursos}{section.Alph2.4}% 106
-\BOOKMARK [2][-]{subsection.Alph2.4.5}{Desarrollando la parte servidora}{section.Alph2.4}% 107
-\BOOKMARK [2][-]{subsection.Alph2.4.6}{Desarrollando la parte cliente}{section.Alph2.4}% 108
-\BOOKMARK [1][-]{section.Alph2.5}{Publicaci\363n del juego en BreakBrain}{appendix.Alph2}% 109
-\BOOKMARK [0][-]{appendix.Alph3}{Manual de usuario}{}% 110
-\BOOKMARK [0][-]{appendix.Alph4}{Gu\355a de instalaci\363n}{}% 111
-\BOOKMARK [1][-]{section.Alph4.1}{Requisitos previos}{appendix.Alph4}% 112
-\BOOKMARK [2][-]{subsection.Alph4.1.1}{NodeJS}{section.Alph4.1}% 113
-\BOOKMARK [2][-]{subsection.Alph4.1.2}{MongoDB}{section.Alph4.1}% 114
-\BOOKMARK [1][-]{section.Alph4.2}{Instalaci\363n de BreakBrain}{appendix.Alph4}% 115
+\BOOKMARK [0][-]{appendix.Alph2}{Gu\355a de instalaci\363n}{}% 92
+\BOOKMARK [1][-]{section.Alph2.1}{Requisitos previos}{appendix.Alph2}% 93
+\BOOKMARK [2][-]{subsection.Alph2.1.1}{NodeJS}{section.Alph2.1}% 94
+\BOOKMARK [2][-]{subsection.Alph2.1.2}{MongoDB}{section.Alph2.1}% 95
+\BOOKMARK [1][-]{section.Alph2.2}{Instalaci\363n de BreakBrain}{appendix.Alph2}% 96
+\BOOKMARK [0][-]{appendix.Alph3}{Gu\355a para el desarrollador: creaci\363n de juegos para BreakBrain}{}% 97
+\BOOKMARK [1][-]{section.Alph3.1}{Requisitos}{appendix.Alph3}% 98
+\BOOKMARK [2][-]{subsection.Alph3.1.1}{Conocimientos del desarrollador}{section.Alph3.1}% 99
+\BOOKMARK [2][-]{subsection.Alph3.1.2}{Herramientas de desarrollo}{section.Alph3.1}% 100
+\BOOKMARK [1][-]{section.Alph3.2}{Tipos de juegos}{appendix.Alph3}% 101
+\BOOKMARK [2][-]{subsection.Alph3.2.1}{Juegos monojugador}{section.Alph3.2}% 102
+\BOOKMARK [2][-]{subsection.Alph3.2.2}{Juegos multijugador}{section.Alph3.2}% 103
+\BOOKMARK [1][-]{section.Alph3.3}{El sistema de juegos de BreakBrain}{appendix.Alph3}% 104
+\BOOKMARK [2][-]{subsection.Alph3.3.1}{Componentes del sistema de juegos}{section.Alph3.3}% 105
+\BOOKMARK [2][-]{subsection.Alph3.3.2}{Componentes de un juego}{section.Alph3.3}% 106
+\BOOKMARK [1][-]{section.Alph3.4}{Creaci\363n de un juego desde cero}{appendix.Alph3}% 107
+\BOOKMARK [2][-]{subsection.Alph3.4.1}{Eligiendo una categor\355a}{section.Alph3.4}% 108
+\BOOKMARK [2][-]{subsection.Alph3.4.2}{Eligiendo el tipo de juego}{section.Alph3.4}% 109
+\BOOKMARK [2][-]{subsection.Alph3.4.3}{Creando la estructura b\341sica del juego}{section.Alph3.4}% 110
+\BOOKMARK [2][-]{subsection.Alph3.4.4}{Preparando los recursos}{section.Alph3.4}% 111
+\BOOKMARK [2][-]{subsection.Alph3.4.5}{Desarrollando la parte servidora}{section.Alph3.4}% 112
+\BOOKMARK [2][-]{subsection.Alph3.4.6}{Desarrollando la parte cliente}{section.Alph3.4}% 113
+\BOOKMARK [1][-]{section.Alph3.5}{Publicaci\363n del juego en BreakBrain}{appendix.Alph3}% 114
+\BOOKMARK [0][-]{appendix.Alph4}{Manual de usuario}{}% 115
 \BOOKMARK [0][-]{appendix.Alph5}{Licencia de uso del software}{}% 116
 \BOOKMARK [0][-]{appendix*.21}{Bibliograf\355a}{}% 117
 \BOOKMARK [0][-]{appendix*.21}{\315ndice alfab\351tico}{}% 118

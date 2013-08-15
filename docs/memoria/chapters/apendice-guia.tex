@@ -257,9 +257,9 @@ var Game = require('../Game.js');
 module.exports = function (test, clientURL) {
 
     var g = new Game(
-        'Careto',              // Nombre del juego
-        'Memoria',             // Capacidad a estimular
-        'Memoria nombre-cara', // Habilidad mental
+        '<nombre>',            // Nombre del juego
+        '<capacidad>',         // Capacidad a estimular
+        '<habilidad>',         // Habilidad mental
         clientURL              // URL de la parte (auto)
     );
 
@@ -296,31 +296,86 @@ module.exports = function (test, clientURL) {
 };
 \end{lstlisting}
 
+Siguiendo el esquema anterior, el código desarrollado para el servidor de ``Careto'' (el juego de ejemplo que está siendo creado), explicado mediante los comentarios, es el del listado \ref{code::careto-server}:
+
+\vspace{0.5cm}
+\lstinputlisting[frame=single, language=JavaScript, caption={Script servidor de ``Careto''}, label=code::careto-server]{../../server/games/careto-server.js}
+
 \subsection{Desarrollando la parte cliente}
+
+La parte cliente de los juegos supone básicamente la especificación de un conjunto de manejadores para distintos eventos: pulsación de una tecla, click de ratón, movimiento de ratón, etc.
+
+Para la manipulación de gráficos es recomendable utilizar CreateJS, una potente biblioteca gráfica que ha sido integrada cuidadosamente en BreakBrain, y que se encuentra disponible directamente desde los scripts de lógica cliente. En \cite{CreateJS} se puede encontrar toda la documentación necesaria para utilizarla. El cliente de ``Careto'' la utilizará, por lo que será un buen punto de partida para manejarla, en caso de que el lector no esté familiarizado con ella.
+
+\vspace{1cm}
+\begin{lstlisting}[frame=single, language=JavaScript, caption={Esquema de la parte cliente de un juego para BreakBrain}, label=code::game-client-scheme]
+// Este es el esquema de la parte cliente de un juego para BreakBrain.
+// Puede usarse la funcion sendMessage() para enviar mensajes a la
+// parte servidora del juego.
+// La variable "user", con informacion del usuario, esta disponible
+// globalmente.
+// La biblioteca CreateJS esta incluida en BreakBrain, por lo que
+// puede utilizarse (y es recomendable hacerlo) para la creacion
+// de los juegos.
+
+window.game = (function() {
+
+    // Aqui se declaran los componentes del juego
+
+    return {
+
+        start: function() {
+            // Esta funcion es llamada al cargar el juego
+        },
+
+        tick: function() {
+            // Esta funcion es llamada en cada refresco periodico
+        },
+
+        keydown: function(key) {
+            // Esta funcion es llamada cuando una tecla es pulsada
+        },
+
+        keyup: function(key) {
+            // Esta funcion es llamada cuando una tecla es liberada
+        },
+
+        mousedown: function(x, y){
+            // Esta funcion es llamada cuando el raton es pulsado
+        },
+
+        mouseup: function(x, y){
+            // Esta funcion es llamada cuando el raton es soltado
+        },
+
+        mousemove: function(x, y){
+            // Esta funcion es llamada cuando el raton es movido
+        },
+
+        stop: function(){
+            // Esta funcion es llamada cuando el servidor finaliza
+            // la partida
+        },
+
+        onMessage: function(msg) {
+            // Esta funcion recibe los mensajes de la parte servidora
+        }
+    };
+})();
+\end{lstlisting}
+
+Siguiendo el esquema anterior, el código desarrollado para el cliente de ``Careto'', haciendo uso de CreateJS y explicado mediante los comentarios, es el del listado \ref{code::careto-client}:
+
+\vspace{0.5cm}
+\lstinputlisting[frame=single, language=JavaScript, caption={Script servidor de ``Careto''}, label=code::careto-client]{../../public/games/careto-client/main.js}
 
 
 \section{Publicación del juego en BreakBrain}
 
+Para publicar un juego en BreakBrain basta con desarrollarlo sobre el código completo de la plataforma y generar un parche con el que solicitar un {\it pull request}\footnote{Solicitud de integración de código personal en un proyecto de software libre} a través de GitHub. La petición será revisada y, si todo es correcto, aceptada. El juego quedará integrado completamente en el repositorio oficial de BreakBrain y puesto a disposición de todos los usuarios en el siguiente despliegue.
 
-
-
-
-
-
-
-
-ljksdf
-fs
-df
-
-
-
-
-aquí va un código
-
-\begin{listing}[language=JavaScript, caption={Hola mundo en C}, label=code:hello]
-var a = function(arg){
-  console.log('hola' + arg); // Esto es un comentario
-};
-\end{listing}
-
+El repositorio oficial del proyecto se encuentra en la siguiente URL, a disposición de la comunidad de software libre:
+\begin{center}
+{\tt https://github.com/sgmonda/breakbrain}
+\end{center}
+Cualquiera puede colaborar en el proyecto. El software libre lo hacemos todos.

@@ -8,7 +8,7 @@
     display: inline-block;
     background: #ddd;
     width: 125px;
-    height: 175px;
+    height: 185px;
     padding: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -33,9 +33,14 @@
     margin-top: 10px;
 }
 
-.capacity {
+.hability {
     font-size: small;
     text-align: center;
+}
+.capacity {
+    font-size:x-small;
+    text-align: center;
+	margin-top: 5px;
 }
 #game-loaded {
     position: relative;    

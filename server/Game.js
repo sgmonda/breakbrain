@@ -1,5 +1,35 @@
 var util = require('../server/util.js');
+
+var capacities = {
+	MEM: {
+		name: 'Memory',
+		habilities: {
+			'MEM-FN': 'Face-name recall'
+		}
+	},
+	PRO: {
+		name: 'Problem solving',
+		habilities: {
+			'PRO-ARI': 'Arithmetic'
+		}
+	}
+};
+
 module.exports = function(name, capacity, hability, clientURL){
+
+	if (!capacities[capacity]) {
+		throw new Error('Wrong specified capacity: ' + capacity + '. Available capacities are: ' + Object.keys(capacities).join(', '));
+		process.exit(-1);
+	}
+
+	if (!capacities[capacity].habilities[hability]) {
+		throw new Error('Wrong specified hability: ' + hability + '. Available habilities for ' + capacity + ' are: ' + Object.keys(capacities[capacity].habilities).join(', '));
+		process.exit(-1);
+	}
+
+	capacity = capacities[capacity];
+	hability = capacity.habilities[hability];
+	capacity = capacity.name;
 
     util.log('GAMES-MODULE', 'Loading game "' + name + '"... in ' + hability + ' (' + capacity + ')');
 
