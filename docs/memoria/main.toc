@@ -162,8 +162,8 @@
 \contentsline {subsection}{\numberline {B.4.3}Creando la estructura b\IeC {\'a}sica del juego}{146}{subsection.Alph2.4.3}
 \contentsline {subsection}{\numberline {B.4.4}Preparando los recursos}{147}{subsection.Alph2.4.4}
 \contentsline {subsection}{\numberline {B.4.5}Desarrollando la parte servidora}{149}{subsection.Alph2.4.5}
-\contentsline {subsection}{\numberline {B.4.6}Desarrollando la parte cliente}{150}{subsection.Alph2.4.6}
-\contentsline {section}{\numberline {B.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{150}{section.Alph2.5}
+\contentsline {subsection}{\numberline {B.4.6}Desarrollando la parte cliente}{151}{subsection.Alph2.4.6}
+\contentsline {section}{\numberline {B.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{151}{section.Alph2.5}
 \contentsline {chapter}{\numberline {C}Manual de usuario}{153}{appendix.Alph3}
 \contentsline {chapter}{\numberline {D}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{155}{appendix.Alph4}
 \contentsline {section}{\numberline {D.1}Requisitos previos}{155}{section.Alph4.1}

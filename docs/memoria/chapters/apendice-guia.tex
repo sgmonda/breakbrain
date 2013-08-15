@@ -250,8 +250,10 @@ La recepción de estos dos argumentos es opcional, pero recomendable. La funció
 
 \newpage
 \begin{lstlisting}[frame=single, language=JavaScript, caption={Esquema de la parte servidora de un juego para BreakBrain}, label=code::game-server-scheme]
+// Clase Game, de la que todos los juegos heredan
 var Game = require('../Game.js');
 
+// Objeto exportado segun la especificacion de modulos para NodeJS
 module.exports = function (test, clientURL) {
 
     var g = new Game(
@@ -274,6 +276,11 @@ module.exports = function (test, clientURL) {
 
     }, 100);
 
+    /**
+     * Manejador/Receptor de mensajes del cliente.
+     * @param {object} msg Mensaje a recibir
+     *                 (su contenido es especificado en el cliente)
+     **/
     g.on = function (msg) {
 
         // Actualizar el estado del juego en funcion del mensaje

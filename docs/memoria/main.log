@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  15 AUG 2013 13:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  15 AUG 2013 13:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3519,10 +3519,8 @@ ph2.4}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.251 \newpage
                <./images/careto-jerarquia.png>]
-Underfull \vbox (badness 2503) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 314.
-LaTeX Info: Redefining \% on input line 314.
+LaTeX Info: Redefining \. on input line 299.
+LaTeX Info: Redefining \% on input line 299.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3610,7 +3608,7 @@ Overfull \hbox (14.43217pt too wide) in paragraph at lines 87--87
 rver i...[] 
  []
 
-<images/breakbrain-login.png, id=2598, 524.96124pt x 458.71375pt>
+<images/breakbrain-login.png, id=2605, 524.96124pt x 458.71375pt>
 File: images/breakbrain-login.png Graphic file (type png)
 
 <use images/breakbrain-login.png>
@@ -3637,7 +3635,7 @@ l.1 \chapter
 
 ]
 Anexo E.
-<images/gpl.png, id=2608, 127.47626pt x 51.19125pt>
+<images/gpl.png, id=2615, 127.47626pt x 51.19125pt>
 File: images/gpl.png Graphic file (type png)
  <use images/gpl.png>
 Package pdftex.def Info: images/gpl.png used on input line 11.
@@ -5233,14 +5231,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 13885 strings out of 494763
- 191935 string characters out of 3171442
+ 13892 strings out of 494763
+ 192075 string characters out of 3171442
  615700 words of memory out of 3000000
  15677 multiletter control sequences out of 15000+200000
  114472 words of font info for 99 fonts, out of 3000000 for 9000
@@ -5267,10 +5262,10 @@ l/share/texmf-texlive-dist/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (214 pages, 7666683 bytes).
+Output written on main.pdf (214 pages, 7667804 bytes).
 PDF statistics:
- 3112 PDF objects out of 3580 (max. 8388607)
- 2775 compressed objects within 28 object streams
- 1043 named destinations out of 1200 (max. 500000)
+ 3121 PDF objects out of 3580 (max. 8388607)
+ 2784 compressed objects within 28 object streams
+ 1050 named destinations out of 1200 (max. 500000)
  1225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
