@@ -101,17 +101,18 @@
 \BOOKMARK [2][-]{subsection.Alph2.3.2}{Componentes de un juego}{section.Alph2.3}% 101
 \BOOKMARK [1][-]{section.Alph2.4}{Creaci\363n de un juego desde cero}{appendix.Alph2}% 102
 \BOOKMARK [2][-]{subsection.Alph2.4.1}{Eligiendo una categor\355a}{section.Alph2.4}% 103
-\BOOKMARK [2][-]{subsection.Alph2.4.2}{Creando la estructura b\341sica del juego}{section.Alph2.4}% 104
-\BOOKMARK [2][-]{subsection.Alph2.4.3}{Preparando los recursos}{section.Alph2.4}% 105
-\BOOKMARK [2][-]{subsection.Alph2.4.4}{Desarrollando la parte servidora}{section.Alph2.4}% 106
-\BOOKMARK [2][-]{subsection.Alph2.4.5}{Desarrollando la parte cliente}{section.Alph2.4}% 107
-\BOOKMARK [1][-]{section.Alph2.5}{Publicaci\363n del juego en BreakBrain}{appendix.Alph2}% 108
-\BOOKMARK [0][-]{appendix.Alph3}{Manual de usuario}{}% 109
-\BOOKMARK [0][-]{appendix.Alph4}{Gu\355a de instalaci\363n}{}% 110
-\BOOKMARK [1][-]{section.Alph4.1}{Requisitos previos}{appendix.Alph4}% 111
-\BOOKMARK [2][-]{subsection.Alph4.1.1}{NodeJS}{section.Alph4.1}% 112
-\BOOKMARK [2][-]{subsection.Alph4.1.2}{MongoDB}{section.Alph4.1}% 113
-\BOOKMARK [1][-]{section.Alph4.2}{Instalaci\363n de BreakBrain}{appendix.Alph4}% 114
-\BOOKMARK [0][-]{appendix.Alph5}{Licencia de uso del software}{}% 115
-\BOOKMARK [0][-]{appendix*.21}{Bibliograf\355a}{}% 116
-\BOOKMARK [0][-]{appendix*.21}{\315ndice alfab\351tico}{}% 117
+\BOOKMARK [2][-]{subsection.Alph2.4.2}{Eligiendo el tipo de juego}{section.Alph2.4}% 104
+\BOOKMARK [2][-]{subsection.Alph2.4.3}{Creando la estructura b\341sica del juego}{section.Alph2.4}% 105
+\BOOKMARK [2][-]{subsection.Alph2.4.4}{Preparando los recursos}{section.Alph2.4}% 106
+\BOOKMARK [2][-]{subsection.Alph2.4.5}{Desarrollando la parte servidora}{section.Alph2.4}% 107
+\BOOKMARK [2][-]{subsection.Alph2.4.6}{Desarrollando la parte cliente}{section.Alph2.4}% 108
+\BOOKMARK [1][-]{section.Alph2.5}{Publicaci\363n del juego en BreakBrain}{appendix.Alph2}% 109
+\BOOKMARK [0][-]{appendix.Alph3}{Manual de usuario}{}% 110
+\BOOKMARK [0][-]{appendix.Alph4}{Gu\355a de instalaci\363n}{}% 111
+\BOOKMARK [1][-]{section.Alph4.1}{Requisitos previos}{appendix.Alph4}% 112
+\BOOKMARK [2][-]{subsection.Alph4.1.1}{NodeJS}{section.Alph4.1}% 113
+\BOOKMARK [2][-]{subsection.Alph4.1.2}{MongoDB}{section.Alph4.1}% 114
+\BOOKMARK [1][-]{section.Alph4.2}{Instalaci\363n de BreakBrain}{appendix.Alph4}% 115
+\BOOKMARK [0][-]{appendix.Alph5}{Licencia de uso del software}{}% 116
+\BOOKMARK [0][-]{appendix*.21}{Bibliograf\355a}{}% 117
+\BOOKMARK [0][-]{appendix*.21}{\315ndice alfab\351tico}{}% 118

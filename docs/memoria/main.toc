@@ -149,26 +149,27 @@
 \contentsline {subsection}{\numberline {B.1.2}Herramientas de desarrollo}{142}{subsection.Alph2.1.2}
 \contentsline {section}{\numberline {B.2}Tipos de juegos}{142}{section.Alph2.2}
 \contentsline {subsection}{\numberline {B.2.1}Juegos monojugador}{142}{subsection.Alph2.2.1}
-\contentsline {subsection}{\numberline {B.2.2}Juegos multijugador}{142}{subsection.Alph2.2.2}
-\contentsline {section}{\numberline {B.3}El sistema de juegos de BreakBrain}{142}{section.Alph2.3}
+\contentsline {subsection}{\numberline {B.2.2}Juegos multijugador}{143}{subsection.Alph2.2.2}
+\contentsline {section}{\numberline {B.3}El sistema de juegos de BreakBrain}{143}{section.Alph2.3}
 \contentsline {subsection}{\numberline {B.3.1}Componentes del sistema de juegos}{143}{subsection.Alph2.3.1}
 \contentsline {subsection}{\numberline {B.3.2}Componentes de un juego}{143}{subsection.Alph2.3.2}
-\contentsline {subsubsection}{Parte servidora}{143}{subsection.Alph2.3.2}
-\contentsline {subsubsection}{Parte cliente}{143}{subsection.Alph2.3.2}
-\contentsline {subsubsection}{Recursos}{143}{subsection.Alph2.3.2}
-\contentsline {section}{\numberline {B.4}Creaci\IeC {\'o}n de un juego desde cero}{143}{section.Alph2.4}
-\contentsline {subsection}{\numberline {B.4.1}Eligiendo una categor\IeC {\'\i }a}{143}{subsection.Alph2.4.1}
-\contentsline {subsection}{\numberline {B.4.2}Creando la estructura b\IeC {\'a}sica del juego}{143}{subsection.Alph2.4.2}
-\contentsline {subsection}{\numberline {B.4.3}Preparando los recursos}{143}{subsection.Alph2.4.3}
-\contentsline {subsection}{\numberline {B.4.4}Desarrollando la parte servidora}{143}{subsection.Alph2.4.4}
-\contentsline {subsection}{\numberline {B.4.5}Desarrollando la parte cliente}{143}{subsection.Alph2.4.5}
-\contentsline {section}{\numberline {B.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{143}{section.Alph2.5}
-\contentsline {chapter}{\numberline {C}Manual de usuario}{145}{appendix.Alph3}
-\contentsline {chapter}{\numberline {D}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{147}{appendix.Alph4}
-\contentsline {section}{\numberline {D.1}Requisitos previos}{147}{section.Alph4.1}
-\contentsline {subsection}{\numberline {D.1.1}NodeJS}{147}{subsection.Alph4.1.1}
-\contentsline {subsection}{\numberline {D.1.2}MongoDB}{147}{subsection.Alph4.1.2}
-\contentsline {section}{\numberline {D.2}Instalaci\IeC {\'o}n de BreakBrain}{148}{section.Alph4.2}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{151}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{169}{appendix*.21}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{175}{appendix*.21}
+\contentsline {subsubsection}{Parte servidora}{144}{subsection.Alph2.3.2}
+\contentsline {subsubsection}{Parte cliente}{144}{subsection.Alph2.3.2}
+\contentsline {subsubsection}{Recursos}{144}{subsection.Alph2.3.2}
+\contentsline {section}{\numberline {B.4}Creaci\IeC {\'o}n de un juego desde cero}{144}{section.Alph2.4}
+\contentsline {subsection}{\numberline {B.4.1}Eligiendo una categor\IeC {\'\i }a}{144}{subsection.Alph2.4.1}
+\contentsline {subsection}{\numberline {B.4.2}Eligiendo el tipo de juego}{146}{subsection.Alph2.4.2}
+\contentsline {subsection}{\numberline {B.4.3}Creando la estructura b\IeC {\'a}sica del juego}{146}{subsection.Alph2.4.3}
+\contentsline {subsection}{\numberline {B.4.4}Preparando los recursos}{147}{subsection.Alph2.4.4}
+\contentsline {subsection}{\numberline {B.4.5}Desarrollando la parte servidora}{149}{subsection.Alph2.4.5}
+\contentsline {subsection}{\numberline {B.4.6}Desarrollando la parte cliente}{150}{subsection.Alph2.4.6}
+\contentsline {section}{\numberline {B.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{150}{section.Alph2.5}
+\contentsline {chapter}{\numberline {C}Manual de usuario}{153}{appendix.Alph3}
+\contentsline {chapter}{\numberline {D}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{155}{appendix.Alph4}
+\contentsline {section}{\numberline {D.1}Requisitos previos}{155}{section.Alph4.1}
+\contentsline {subsection}{\numberline {D.1.1}NodeJS}{155}{subsection.Alph4.1.1}
+\contentsline {subsection}{\numberline {D.1.2}MongoDB}{155}{subsection.Alph4.1.2}
+\contentsline {section}{\numberline {D.2}Instalaci\IeC {\'o}n de BreakBrain}{156}{section.Alph4.2}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{159}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{177}{appendix*.21}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{183}{appendix*.21}
