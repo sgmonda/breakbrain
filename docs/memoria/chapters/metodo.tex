@@ -1836,27 +1836,28 @@ En el cuadro \ref{tab::code} se ofrece una lista con los diferentes archivos fue
     \tabheadformat
     Fichero fuente & Tipo & Num. de líneas & Descripción \\
     \hline
-    {\tt /generator.js} & JavaScript & c & Generador de datos aleatorios \\
-    {\tt /server.js} & JavaScript & c & Servidor principal \\
-    {\tt /test.js} & JavaScript & c & Módulo de test unitarios \\
-    {\tt /test-functionality.js} & JavaScript & c & Batería de tests funcionales \\
-    {\tt /test-stress} & JavaScript & c & Batería de tests de estrés \\
-    {\tt /server/constants.js} & JavaScript & c & Constantes del programa \\
-    {\tt /server/database.js} & JavaScript & c & Módulo de persistencia \\
-    {\tt /server/email.js} & JavaScript & c & Módulo de email \\
-    {\tt /server/Game.js} & JavaScript & c & ``Clase'' padre de los juegos \\
-    {\tt /server/games.js} & JavaScript & c & Módulo servidor de juegos \\
-    {\tt /server/util.js} & JavaScript & c & Módulo de utilidades \\
-    {\tt /public/games.html} & HTML & c & d \\
-    {\tt /public/header.html} & HTML & c & d \\
-    {\tt /public/home.html} & HTML & c & d \\
-    {\tt /public/login.html} & HTML & c & d \\
-    {\tt /public/logout.html} & HTML & c & d \\
-    {\tt /public/password.html} & HTML & c & d \\
-    {\tt /public/people.html} & HTML & c & d \\
-    {\tt /public/profile.html} & HTML & c & d \\
-    {\tt /public/css/*} & CSS & c & Hojas de estilos del cliente \\
-    {\tt /public/js/*} & JavaScript & c & Archivos JavaScript del cliente \\
+    {\tt /generator.js} & JavaScript & 67 & Generador de datos aleatorios \\
+    {\tt /server.js} & JavaScript & 739 & Servidor principal \\
+    {\tt /test.js} & JavaScript & 21 & Módulo de test unitarios \\
+    {\tt /test-functionality.js} & JavaScript & 502 & Batería de tests funcionales \\
+    {\tt /test-stress.js} & JavaScript & 63 & Batería de tests de estrés \\
+    {\tt /server/constants.js} & JavaScript & 10 & Constantes del programa \\
+    {\tt /server/database.js} & JavaScript & 56 & Módulo de persistencia \\
+    {\tt /server/email.js} & JavaScript & 34 & Módulo de email \\
+    {\tt /server/Game.js} & JavaScript & 65 & ``Clase'' padre de los juegos \\
+    {\tt /server/games.js} & JavaScript & 43 & Módulo servidor de juegos \\
+    {\tt /server/games/*} & JavaScript & 305 & Módulos servidores de los juegos \\
+    {\tt /server/util.js} & JavaScript & 59 & Módulo de utilidades \\
+    {\tt /public/games.html} & HTML & 56 & Vista de la página de juegos \\
+    {\tt /public/header.html} & HTML & 18 & Vista de la cabecera \\
+    {\tt /public/home.html} & HTML & 77 & Vista de la página de inicio \\
+    {\tt /public/login.html} & HTML & 95 & Vista de la página de login \\
+    {\tt /public/logout.html} & HTML & 13 & Vista de la página de logout \\
+    {\tt /public/password.html} & HTML & 46 & Página de recuperación de contraseña \\
+    {\tt /public/people.html} & HTML & 93 & Vista de la página ``gente'' \\
+    {\tt /public/profile.html} & HTML & 171 & Vista de la página de perfil \\
+    {\tt /public/css/*} & CSS & 1244 & Hojas de estilos del cliente \\
+    {\tt /public/js/*} & JavaScript & 1646 & Archivos JavaScript del cliente \\
     \hline
   \end{tabular}
 
@@ -1878,15 +1879,23 @@ En el cuadro \ref{tab::stat} se muestra el nivel de utilización de cada lenguaj
     \tabheadformat
     Lenguaje & Nº de archivos & Líneas de código & Protagonismo \\
     \hline
-    JavaScript (cliente) & & & \\
-    JavaScript (servidor) & & & \\
-    HTML5 & & & \\
-    CSS3 & & & \\
+    JavaScript (cliente) & 15 & 1646 & 31.3\%\\
+    JavaScript (servidor) & 13 & 1964 & 37.4\%\\
+    HTML5 & 8 & 398 & 7.6\%\\
+    CSS3 & 12 & 1244 & 23.7\%\\
     \hline
   \end{tabular}
   \end{center}
 \end{table}
 
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.9]{./images/code-stats.png}
+    % http://chart.apis.google.com/chart?chxs=0,030303,11.5&chxt=x&chs=300x150&cht=p&chco=0C6EF8|8DBAFA|FCA12B|78E462&chd=s:TXFO&chl=JS+(cliente)|JS+(servidor)|HTML5|CSS3
+    \caption{Estadísticas del código fuente: los lenguajes de BreakBrain}
+  \end{center}
+\end{figure}
 
 
 \section{Pruebas}

@@ -20,8 +20,6 @@
 \contentsline {section}{\numberline {2.2}Objetivos}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Objetivo general}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Objetivos espec\IeC {\'\i }ficos}{9}{subsection.2.2.2}
-\contentsline {subsubsection}{Objetivos acad\IeC {\'e}micos}{9}{subsection.2.2.2}
-\contentsline {subsubsection}{Objetivos funcionales}{9}{subsection.2.2.2}
 \contentsline {chapter}{\numberline {3}Antecedentes}{11}{chapter.3}
 \contentsline {section}{\numberline {3.1}Sitios web de juegos online}{11}{section.3.1}
 \contentsline {section}{\numberline {3.2}Entrenamiento cerebral mediante mini juegos}{15}{section.3.2}
@@ -110,8 +108,8 @@
 \contentsline {section}{\numberline {4.8}Estad\IeC {\'\i }sticas del c\IeC {\'o}digo fuente}{103}{section.4.8}
 \contentsline {section}{\numberline {4.9}Pruebas}{105}{section.4.9}
 \contentsline {subsection}{\numberline {4.9.1}Pruebas unitarias}{105}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Pruebas funcionales}{105}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Pruebas de aceptaci\IeC {\'o}n}{105}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.9.2}Pruebas funcionales}{106}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Pruebas de aceptaci\IeC {\'o}n}{106}{subsection.4.9.3}
 \contentsline {subsection}{\numberline {4.9.4}Pruebas de estr\IeC {\'e}s del sistema}{107}{subsection.4.9.4}
 \contentsline {chapter}{\numberline {5}Arquitectura}{115}{chapter.5}
 \contentsline {section}{\numberline {5.1}Composici\IeC {\'o}n del sistema}{115}{section.5.1}
