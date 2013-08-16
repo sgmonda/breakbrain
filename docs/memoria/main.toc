@@ -167,9 +167,9 @@
 \contentsline {subsection}{\numberline {C.4.3}Creando la estructura b\IeC {\'a}sica del juego}{150}{subsection.Alph3.4.3}
 \contentsline {subsection}{\numberline {C.4.4}Preparando los recursos}{151}{subsection.Alph3.4.4}
 \contentsline {subsection}{\numberline {C.4.5}Desarrollando la parte servidora}{153}{subsection.Alph3.4.5}
-\contentsline {subsection}{\numberline {C.4.6}Desarrollando la parte cliente}{158}{subsection.Alph3.4.6}
-\contentsline {section}{\numberline {C.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{163}{section.Alph3.5}
-\contentsline {chapter}{\numberline {D}Manual de usuario}{165}{appendix.Alph4}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{167}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{185}{appendix*.21}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{191}{appendix*.21}
+\contentsline {subsection}{\numberline {C.4.6}Desarrollando la parte cliente}{159}{subsection.Alph3.4.6}
+\contentsline {section}{\numberline {C.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{168}{section.Alph3.5}
+\contentsline {chapter}{\numberline {D}Manual de usuario}{169}{appendix.Alph4}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{171}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{189}{appendix*.21}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{195}{appendix*.21}
