@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  16 AUG 2013 00:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  16 AUG 2013 12:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3633,8 +3633,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [154] (../../server/games/careto-server.js
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3642,9 +3642,18 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[155])
-LaTeX Info: Redefining \. on input line 311.
-LaTeX Info: Redefining \% on input line 311.
+[155]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 63.
+ (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/omspcr.fd
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3655,8 +3664,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [156]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 359.
-LaTeX Info: Redefining \% on input line 359.
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3664,11 +3673,21 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[157] (../../public/games/careto-client/main.js
+[157])
+LaTeX Info: Redefining \. on input line 335.
+LaTeX Info: Redefining \% on input line 335.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[158] (../../public/games/careto-client/main.js
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3676,7 +3695,53 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[158])) (./chapters/apendice-manual.tex
+[159]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[160]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[161]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 152.
+LaTeX Info: Redefining \% on input line 152.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[162])
+LaTeX Info: Redefining \. on input line 377.
+LaTeX Info: Redefining \% on input line 377.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[163]) (./chapters/apendice-manual.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -3686,15 +3751,15 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[159] [160
-
-]
+[164]
 Anexo D.
-) (./chapters/license.tex [161] [162
+) (./chapters/license.tex [165
+
+] [166
 
 ]
 Anexo E.
-<images/gpl.png, id=2811, 127.47626pt x 51.19125pt>
+<images/gpl.png, id=3030, 127.47626pt x 51.19125pt>
 File: images/gpl.png Graphic file (type png)
  <use images/gpl.png>
 Package pdftex.def Info: images/gpl.png used on input line 11.
@@ -3748,7 +3813,7 @@ Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 este documento, pero[] 
  []
 
-[163 <./images/gpl.png>]
+[167 <./images/gpl.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 656.
@@ -3760,7 +3825,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[164]
+[168]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 ^^PEsta Licencia^^Q se refiere a la versión 3 de la 
 Licencia Pública General[] 
@@ -3802,7 +3867,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[165]
+[169]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 permiso, le haría responsable de forma directa o ind
 irecta de infringir[] 
@@ -3904,7 +3969,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[166]
+[170]
 Overfull \hbox (13.13222pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 significa todo el código fuente necesario para gener
 ar, instalar, y (para[] 
@@ -4030,7 +4095,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[167]
+[171]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 condiciones expuestas a continuación. No está permit
 ido sublicenciar, la[] 
@@ -4126,7 +4191,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[168]
+[172]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []            \T1/lmtt/m/n/10.95 término aplicable adicional de la sección 7, a
  la totalidad de la[] 
@@ -4234,7 +4299,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[169]
+[173]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []            \T1/lmtt/m/n/10.95 comerciales, y solo si usted ha recibido el có
 digo objeto con ese[] 
@@ -4324,7 +4389,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[170]
+[174]
 Overfull \hbox (13.13222pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 Si usted transmite una obra en código objeto bajo es
 ta sección en, o con,[] 
@@ -4450,7 +4515,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[171]
+[175]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 una obra derivada, para los cuales se establecen o s
 e pueden establecer[] 
@@ -4582,7 +4647,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[172]
+[176]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 expresamente permitido por esta Licencia. Cualquier 
 intento diferente de[] 
@@ -4696,7 +4761,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[173]
+[177]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 subdivide una organización, o fusiona organizaciones
 . Si la propagación[] 
@@ -4786,7 +4851,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[174]
+[178]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 tercero significa hacer tal tipo de acuerdo o compro
 miso que no imponga[] 
@@ -4888,7 +4953,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[175]
+[179]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 Si se le imponen condiciones (bien sea por orden jud
 icial, acuerdo o de[] 
@@ -5002,7 +5067,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[176]
+[180]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 NO HAY GARANTÍA PARA EL PROGRAMA, PARA LA EXTENSIÓN 
 PERMITIDA POR LA LEY[] 
@@ -5104,7 +5169,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[177]
+[181]
 Overfull \hbox (13.13222pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 ^^Pderechos de autor (^^Pcopyright^^Q)^^Q y un punte
 ro a donde se pueda encontrar[] 
@@ -5170,7 +5235,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[178])
+[182])
 LaTeX Info: Redefining \. on input line 74.
 LaTeX Info: Redefining \% on input line 74.
 
@@ -5180,9 +5245,9 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[179] [180
+[183] [184
 
-] (./main.bbl [181
+] (./main.bbl [185
 
 
 ]
@@ -5217,7 +5282,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[182]
+[186]
 Underfull \hbox (badness 10000) in paragraph at lines 207--213
 \T1/lmtt/c/n/12 //scholar . google . com/scholar ? hl = en \ &btnG = Search \ &
 q = intitle :
@@ -5231,7 +5296,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[183]
+[187]
 LaTeX Info: Redefining \. on input line 342.
 LaTeX Info: Redefining \% on input line 342.
 
@@ -5241,7 +5306,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[184])
+[188])
 LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
 
@@ -5251,9 +5316,9 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[185] [186
+[189] [190
 
-] (./main.ind [187
+] (./main.ind [191
 
 ]
 LaTeX Info: Redefining \. on input line 135.
@@ -5265,12 +5330,12 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[188
+[192
 
-]) [189
+]) [193
 
 
-] [190
+] [194
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
@@ -5296,10 +5361,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 14104 strings out of 494763
- 196095 string characters out of 3171442
- 616089 words of memory out of 3000000
- 15705 multiletter control sequences out of 15000+200000
+ 14353 strings out of 494763
+ 200904 string characters out of 3171442
+ 616121 words of memory out of 3000000
+ 15747 multiletter control sequences out of 15000+200000
  114472 words of font info for 99 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
  48i,13n,53p,1600b,2040s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5324,10 +5389,10 @@ l/share/texmf-texlive-dist/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (218 pages, 7685294 bytes).
+Output written on main.pdf (222 pages, 7701276 bytes).
 PDF statistics:
- 3357 PDF objects out of 3580 (max. 8388607)
- 3013 compressed objects within 31 object streams
- 1226 named destinations out of 1440 (max. 500000)
+ 3617 PDF objects out of 4296 (max. 8388607)
+ 3267 compressed objects within 33 object streams
+ 1430 named destinations out of 1440 (max. 500000)
  1225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
