@@ -1,11 +1,11 @@
 \select@language {spanish}
 \contentsline {chapter}{Resumen}{\es@scroman {xi}}{chapter*.1}
 \contentsline {chapter}{\'Indice general}{\es@scroman {xiii}}{chapter*.2}
-\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xvii}}{chapter*.3}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xix}}{chapter*.4}
-\contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xxi}}{chapter*.5}
-\contentsline {chapter}{Listado de acr\IeC {\'o}nimos}{\es@scroman {xxiii}}{chapter*.6}
-\contentsline {chapter}{Agradecimientos}{\es@scroman {xxv}}{chapter*.7}
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xix}}{chapter*.3}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xxi}}{chapter*.4}
+\contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xxv}}{chapter*.5}
+\contentsline {chapter}{Listado de acr\IeC {\'o}nimos}{\es@scroman {xxvii}}{chapter*.6}
+\contentsline {chapter}{Agradecimientos}{\es@scroman {xxix}}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Redes sociales}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}El cerebro humano}{2}{section.1.2}
@@ -120,54 +120,59 @@
 \contentsline {section}{\numberline {5.4}Dise\IeC {\~n}o modular}{118}{section.5.4}
 \contentsline {chapter}{\numberline {6}Resultados}{121}{chapter.6}
 \contentsline {section}{\numberline {6.1}Especificaci\IeC {\'o}n del entrenamiento cerebral}{121}{section.6.1}
-\contentsline {section}{\numberline {6.2}Medici\IeC {\'o}n cuantitativa de la evoluci\IeC {\'o}n cerebral mediante juegos}{124}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Juegos, partidas y actividades puntuables}{124}{subsection.6.2.1}
-\contentsline {subsubsection}{Juego}{125}{subsection.6.2.1}
-\contentsline {subsubsection}{Partida}{125}{subsection.6.2.1}
-\contentsline {subsubsection}{Actividad puntuable}{125}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Puntuaci\IeC {\'o}n de partidas}{126}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Variables de clasificaci\IeC {\'o}n}{127}{subsection.6.2.3}
-\contentsline {subsubsection}{Variables est\IeC {\'a}ticas o de agrupaci\IeC {\'o}n}{127}{subsection.6.2.3}
-\contentsline {subsubsection}{Variables din\IeC {\'a}micas mentales}{127}{subsection.6.2.3}
-\contentsline {subsubsection}{Variables din\IeC {\'a}micas sociales}{128}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Sistema de recomendaci\IeC {\'o}n}{128}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Algoritmo de recomendaci\IeC {\'o}n de usuarios}{128}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Algoritmo de recomendaci\IeC {\'o}n de juegos}{128}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Notas personales}{128}{subsection.6.3.3}
-\contentsline {chapter}{\numberline {7}Conclusiones y propuestas}{131}{chapter.7}
-\contentsline {chapter}{\numberline {A}Iteraciones del PUD}{135}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Iteraciones de inicio}{135}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Iteraciones de elaboraci\IeC {\'o}n}{136}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Iteraciones de construcci\IeC {\'o}n}{137}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}Etapa de transici\IeC {\'o}n}{140}{section.Alph1.4}
-\contentsline {section}{\numberline {A.5}Visi\IeC {\'o}n gr\IeC {\'a}fica}{140}{section.Alph1.5}
-\contentsline {chapter}{\numberline {B}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{141}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Requisitos previos}{141}{section.Alph2.1}
-\contentsline {subsection}{\numberline {B.1.1}NodeJS}{141}{subsection.Alph2.1.1}
-\contentsline {subsection}{\numberline {B.1.2}MongoDB}{141}{subsection.Alph2.1.2}
-\contentsline {section}{\numberline {B.2}Instalaci\IeC {\'o}n de BreakBrain}{142}{section.Alph2.2}
-\contentsline {chapter}{\numberline {C}Gu\IeC {\'\i }a para el desarrollador: creaci\IeC {\'o}n de juegos para BreakBrain}{145}{appendix.Alph3}
-\contentsline {section}{\numberline {C.1}Requisitos}{145}{section.Alph3.1}
-\contentsline {subsection}{\numberline {C.1.1}Conocimientos del desarrollador}{145}{subsection.Alph3.1.1}
-\contentsline {subsection}{\numberline {C.1.2}Herramientas de desarrollo}{146}{subsection.Alph3.1.2}
-\contentsline {section}{\numberline {C.2}Tipos de juegos}{146}{section.Alph3.2}
-\contentsline {subsection}{\numberline {C.2.1}Juegos monojugador}{146}{subsection.Alph3.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Juegos multijugador}{147}{subsection.Alph3.2.2}
-\contentsline {section}{\numberline {C.3}El sistema de juegos de BreakBrain}{147}{section.Alph3.3}
-\contentsline {subsection}{\numberline {C.3.1}Componentes del sistema de juegos}{147}{subsection.Alph3.3.1}
-\contentsline {subsection}{\numberline {C.3.2}Componentes de un juego}{147}{subsection.Alph3.3.2}
-\contentsline {subsubsection}{Parte servidora}{148}{subsection.Alph3.3.2}
-\contentsline {subsubsection}{Parte cliente}{148}{subsection.Alph3.3.2}
-\contentsline {subsubsection}{Recursos}{148}{subsection.Alph3.3.2}
-\contentsline {section}{\numberline {C.4}Creaci\IeC {\'o}n de un juego desde cero}{148}{section.Alph3.4}
-\contentsline {subsection}{\numberline {C.4.1}Eligiendo una categor\IeC {\'\i }a}{148}{subsection.Alph3.4.1}
-\contentsline {subsection}{\numberline {C.4.2}Eligiendo el tipo de juego}{150}{subsection.Alph3.4.2}
-\contentsline {subsection}{\numberline {C.4.3}Creando la estructura b\IeC {\'a}sica del juego}{150}{subsection.Alph3.4.3}
-\contentsline {subsection}{\numberline {C.4.4}Preparando los recursos}{151}{subsection.Alph3.4.4}
-\contentsline {subsection}{\numberline {C.4.5}Desarrollando la parte servidora}{153}{subsection.Alph3.4.5}
-\contentsline {subsection}{\numberline {C.4.6}Desarrollando la parte cliente}{159}{subsection.Alph3.4.6}
-\contentsline {section}{\numberline {C.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{168}{section.Alph3.5}
-\contentsline {chapter}{\numberline {D}Manual de usuario}{169}{appendix.Alph4}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{171}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{189}{appendix*.21}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{195}{appendix*.21}
+\contentsline {subsection}{\numberline {6.1.1}Memoria}{121}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Resoluci\IeC {\'o}n de problemas}{123}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Atenci\IeC {\'o}n}{124}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Velocidad de procesamiento}{125}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Flexibilidad}{126}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Medici\IeC {\'o}n cuantitativa de la evoluci\IeC {\'o}n cerebral mediante juegos}{128}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Juegos, partidas y actividades puntuables}{128}{subsection.6.2.1}
+\contentsline {subsubsection}{Juego}{128}{subsection.6.2.1}
+\contentsline {subsubsection}{Partida}{129}{subsection.6.2.1}
+\contentsline {subsubsection}{Actividad puntuable}{129}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Puntuaci\IeC {\'o}n de partidas}{129}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Variables de clasificaci\IeC {\'o}n}{130}{subsection.6.2.3}
+\contentsline {subsubsection}{Variables est\IeC {\'a}ticas o de agrupaci\IeC {\'o}n}{131}{subsection.6.2.3}
+\contentsline {subsubsection}{Variables din\IeC {\'a}micas mentales}{131}{subsection.6.2.3}
+\contentsline {subsubsection}{Variables din\IeC {\'a}micas sociales}{132}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Sistema de recomendaci\IeC {\'o}n}{132}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Algoritmo de recomendaci\IeC {\'o}n de usuarios}{132}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Algoritmo de recomendaci\IeC {\'o}n de juegos}{132}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Notas personales}{132}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Conclusiones y propuestas}{135}{chapter.7}
+\contentsline {chapter}{\numberline {A}Iteraciones del PUD}{139}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Iteraciones de inicio}{139}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Iteraciones de elaboraci\IeC {\'o}n}{140}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Iteraciones de construcci\IeC {\'o}n}{141}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}Etapa de transici\IeC {\'o}n}{144}{section.Alph1.4}
+\contentsline {section}{\numberline {A.5}Visi\IeC {\'o}n gr\IeC {\'a}fica}{144}{section.Alph1.5}
+\contentsline {chapter}{\numberline {B}Gu\IeC {\'\i }a de instalaci\IeC {\'o}n}{145}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Requisitos previos}{145}{section.Alph2.1}
+\contentsline {subsection}{\numberline {B.1.1}NodeJS}{145}{subsection.Alph2.1.1}
+\contentsline {subsection}{\numberline {B.1.2}MongoDB}{145}{subsection.Alph2.1.2}
+\contentsline {section}{\numberline {B.2}Instalaci\IeC {\'o}n de BreakBrain}{146}{section.Alph2.2}
+\contentsline {chapter}{\numberline {C}Gu\IeC {\'\i }a para el desarrollador: creaci\IeC {\'o}n de juegos para BreakBrain}{149}{appendix.Alph3}
+\contentsline {section}{\numberline {C.1}Requisitos}{149}{section.Alph3.1}
+\contentsline {subsection}{\numberline {C.1.1}Conocimientos del desarrollador}{149}{subsection.Alph3.1.1}
+\contentsline {subsection}{\numberline {C.1.2}Herramientas de desarrollo}{150}{subsection.Alph3.1.2}
+\contentsline {section}{\numberline {C.2}Tipos de juegos}{150}{section.Alph3.2}
+\contentsline {subsection}{\numberline {C.2.1}Juegos monojugador}{150}{subsection.Alph3.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Juegos multijugador}{151}{subsection.Alph3.2.2}
+\contentsline {section}{\numberline {C.3}El sistema de juegos de BreakBrain}{151}{section.Alph3.3}
+\contentsline {subsection}{\numberline {C.3.1}Componentes del sistema de juegos}{151}{subsection.Alph3.3.1}
+\contentsline {subsection}{\numberline {C.3.2}Componentes de un juego}{151}{subsection.Alph3.3.2}
+\contentsline {subsubsection}{Parte servidora}{152}{subsection.Alph3.3.2}
+\contentsline {subsubsection}{Parte cliente}{152}{subsection.Alph3.3.2}
+\contentsline {subsubsection}{Recursos}{152}{subsection.Alph3.3.2}
+\contentsline {section}{\numberline {C.4}Creaci\IeC {\'o}n de un juego desde cero}{152}{section.Alph3.4}
+\contentsline {subsection}{\numberline {C.4.1}Eligiendo una categor\IeC {\'\i }a}{152}{subsection.Alph3.4.1}
+\contentsline {subsection}{\numberline {C.4.2}Eligiendo el tipo de juego}{154}{subsection.Alph3.4.2}
+\contentsline {subsection}{\numberline {C.4.3}Creando la estructura b\IeC {\'a}sica del juego}{154}{subsection.Alph3.4.3}
+\contentsline {subsection}{\numberline {C.4.4}Preparando los recursos}{155}{subsection.Alph3.4.4}
+\contentsline {subsection}{\numberline {C.4.5}Desarrollando la parte servidora}{157}{subsection.Alph3.4.5}
+\contentsline {subsection}{\numberline {C.4.6}Desarrollando la parte cliente}{163}{subsection.Alph3.4.6}
+\contentsline {section}{\numberline {C.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{172}{section.Alph3.5}
+\contentsline {chapter}{\numberline {D}Manual de usuario}{173}{appendix.Alph4}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{175}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{193}{appendix*.21}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{199}{appendix*.21}
