@@ -111,6 +111,11 @@ Winifred Gallagher.
 \newblock \ifshowURL {\showURL
   \path|http://www.theatlantic.com/magazine/archive/1994/09/how-we-become-what-we-are/303534/|}\fi.
 
+\bibitem[Git]{github}
+Inc. GitHub.
+\newblock {GitHub. Build software better, together.}
+\newblock \ifshowURL {\showURL \path|http://www.github.com/|}\fi.
+
 \bibitem[Gooa]{chrome-experiments}
 Google.
 \newblock {Chrome Experiments}.

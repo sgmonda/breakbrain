@@ -1,2 +1,112 @@
 \chapter{Conclusiones y propuestas}
 \label{chap:conclusiones}
+
+\drop{E}{ste} capítulo pretende ofrecer un análisis de los objetivos perseguidos durante el desarrollo del proyecto, estudiando en qué medida han sido alcanzados. Así mismo, pretende ofrecer una serie de propuestas futuras para completar el desarrollo y mejorar en todo lo posible algunos aspectos importantes, como la usabilidad, el rendimiento y la seguridad.
+
+Finalmente se expone una valoración personal del autor sobre la experiencia que ha supuesto trabajar en la construcción de BreakBrain.
+
+\section{Objetivos alcanzados}
+
+En \ref{sec::objetivos} se expusieron los objetivos, tanto generales como específicos, que se perseguían al embarcarse en el proyecto que supone el desarrollo de BreakBrain.
+
+De forma muy general, la meta era la construcción de una plataforma social destinada al entrenamiento de habilidades mentales mediante la práctica de juegos, tanto individualmente como de forma colaborativa y competitiva. Se pretendía que la plataforma ofreciera estadísticas de evolución y permitiera el seguimiento (o suscripción a novedades) de otros usuarios, y que fuera extensible, de forma que cualquier desarrollador pudiera desarrollar sus propios juegos e integrarlos en el sistema.
+
+También de forma muy general, el objetivo ha sido conseguido con creces, habiendo obtenido como resultado un proyecto maduro de software libre, disponible ya a día de hoy en la plataforma GitHub \cite{github}, y cuyo desarrollo sigue en proceso.
+
+Realizando un análisis más detallado, los objetivos específicos en los que se desglosaba el objetivo general eran los siguientes:
+
+\begin{itemize}
+\item Afrontar el desarrollo de una red social desde cero, sin el uso de frameworks especializados, sino contemplando la creación de toda la plataforma paso a paso.
+\item Investigar y preveer relaciones entre usuarios. Crear un sistema de recomendación basado en las espectativas de entrenamiento cerebral y resultados de cada usuario.
+\item Crear una plataforma extensible mediante un pequeño framework de desarrollo de videojuegos sencillos. El objetivo es que cualquier desarrollador pueda extender la funcionalidad de BreakBrain mediante sus propios juegos.
+\item Liderar un proyecto de software libre ambicioso, gestionando la integración de juegos de terceros.
+\item Aprender a utilizar correctamente los nuevos estándares de HTML5, CSS3.
+\item Afrontar el desarrollo de aplicaciones web de tiempo real mediante el uso de WebSockets.
+\item Familiarizarse y ganar experiencia con el lenguaje JavaScript y su uso en el lado del servidor mediante NodeJS.
+\item Aprender a utilizar bases de datos documentales no basadas en el lenguaje SQL.
+\end{itemize}
+
+A continuación se valora el grado de consecución de todos estos objetivos. Para ello se especificará una valoración de entre 0 y 5 para cada uno (donde 0 significa que el objetivo no se ha alcanzado de ninguna manera y 5 que el objetivo ha sido alcanzado completamente). Un valor intermedio de 3, por ejemplo, implica que el objetivo no ha sido alcanzado del todo, pero que el desarrollo está muy cerca de hacerlo. El valor 4 implica una consecución prácticamente completa del objetivo (a falta de pequeños detalles mejorables).
+
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+\tabheadformat
+\tabhead{Objetivo específico} & \tabhead{Consecución} \\
+\hline\hline
+Desarrollar una red social desde cero & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.6} \\
+\hline
+Soportar el desarrollo e integración de juegos de terceros & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
+\hline
+Crear un sistema de recomendación de usuarios y juegos & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.6}\\
+\hline
+Liderar un proyecto de software libre ambicioso & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
+\hline
+Aprender a utilizar los nuevos estándares HTML5 y CSS3 & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
+\hline
+Tiempo real en aplicaciones web mediante WebSockets & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
+\hline
+Aprender JavaScript y NodeJS & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
+\hline
+Aprender a utilizar bases de datos documentales NoSQL & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Grado de consecución de objetivos específicos}
+\end{table}
+
+
+\section{Propuestas de trabajo futuro}
+
+Pese a todo el esfuerzo dedicado al desarrollo de BreakBrain, obviamente una única persona en un tiempo limitado no puede afrontar todos y cada uno de los objetivos al 100\%. Por ello desde el primer momento se pretendió que del desarrollo del mismo se obtuviera un proyecto de software libre ambicioso, con vistas a continuar su desarrollo tanto por parte del autor del presente documento como por la comunidad de desarrolladores de software libre. Así pues, la primera y más importante propuesta de futuro es asegurar el cumplimiento riguroso de todos los requisitos que no hayan sido finalizados en su totalidad.
+
+Yendo algo más lejos, a continuación se ofrecen algunas posibles mejoras en diferentes ámbitos (como la seguridad, la usabilidad o el rendimiento). Las siguientes propuestas tienen como objetivo la maduración de BreakBrain como plataforma social y de entrenamiento cerebral.
+
+\begin{itemize}
+\item {\bf Ampliar el catálogo de juegos}
+
+El presente documento, así como el estado del proyecto en el momento de su publicación, pretende mostrar el funcionamiento del framework de integración de juegos para la plataforma. Es por ello que, aunque todos los tipos de juegos a desarrollar han sido especificados detalladamente, sólo una pequeña cantidad de juegos han sido implementados. En un futuro cercano, una de las primeras metas es ofrecer al menos un juego para cada habilidad mental.
+
+\item {\bf Enriquecer las relaciones sociales en BreakBrain}
+
+En el momento de publicar este documento, las relaciones sociales entre usuarios de la red social se limitan a la suscripción a las novedades de otros usuarios (lo que se ha denominado {\it seguir} a usuarios) y la participación conjunta en el entrenamiento cerebral, mediante el uso de juegos multijugador. Sería muy positivo en un futuro enriquecer estas relaciones, de forma que pueda haber grupos o listas de usuarios a los que se sigue, por ejemplo. Esto daría pie a un aumento de la información útil para los algoritmos de recomendación integrados.
+
+\item {\bf Mejorar el aspecto de la web y adaptar el diseño a dispositivos móviles}
+
+Aunque BreakBrain hace un uso intensivo de JavaScript mediante la implementación de los juegos ---por lo que en principio es más adecuado para su utilización en computadores de escritorio---, son cada vez mayores los avances en cuanto al rendimiento de HTML5 y JavaScript en las plataformas móviles más conocidas: iOS y Android.
+
+En un futuro será conveniente que BreakBrain ajuste su aspecto a todo tipo de tamaños y resoluciones de pantalla, por ejemplo mediante el uso de frameworkds que faciliten el {\it responsive design}, como Bootstrap.
+
+\item {\bf Construir una app móvil}
+
+En las plataformas móviles más populares existe un cierto capado en el rendimiento web, que dificulta la construcción de aplicaciones basadas únicamente en componentes y código que sea ejecutado en el navegador. El objetivo de esta limitación es llevar a los desarrolladores a decantarse por el código nativo siempre, de forma que el control de las apps siga estando en manos de los gestores de las tiendas de aplicaciones (Google, Apple y Amazon, entre otros).
+
+En algún momento resultaría conveniente crear una app de BreakBrain naiva para las principales plataformas, iOS y Android. Obviamente tendrán que tomarse decisiones importantes de diseño, y los juegos tendrán que ser reescritos o convertidos mediante alguna herramienta generadora de código nativo.
+
+\item {\bf Ampliación del conjunto de pruebas}
+
+Como en todo software de calidad que se precie, la existencia de más pruebas debe ser siempre un objetivo de futuro.
+
+La elaboración de tests de integración, posiblemente acompañada de un sistema automático de despliegue, sería muy beneficioso cuando haya más de un individuo encargado de la liberación de {\it releases}.
+
+\item {\bf Utilizar \acf{HTTPS}}
+
+Aunque en estos momentos BreakBrain no maneja datos sensibles, resultará conveniente empezar a utilizar un protocolo de transferencia seguro, \acs{HTTPS}. Más que un protocolo diferente de \acs{HTTP}, en realidad es lo mismo pero añadiendo una capa de cifrado \acf{SSL} por encima. Con \acs{HTTPS} los mensajes \acs{HTTP} son cifrados antes de la transmisión y descifrados después de la recepción para ser interpretados.
+
+\end{itemize}
+
+Ahora que BreakBrain es un proyecto de software libre, el cumplimiento de las anteriores propuestas ---así como el surgimiento de nuevas--- es mucho más que un mero deseo o idea, ya que toda una comunidad de desarrolladores está en disposición de aportar su granito de arena para conseguirlo.
+
+\section{Opinión personal}
+
+Tras muchos meses de trabajo invertido en el desarrollo de BreakBrain, no puedo sentir otra cosa que satisfacción. Son muy numerosas las dificultades encontradas al afrontar un proyecto de tal embergadura, pero dichas dificultades han servido ---y sirven--- para aprender mucho sobre muy diversos aspectos del desarrollo de software. Pero en este caso concreto, además, el hecho de perseguir un objetivo tan ambicioso como lo es el entrenamiento y mejora de las habilidades mentales del ser humano ha servido como motivante para estudiar la fisiología del cerebro y comprender así, siempre a un nivel muy básico, cómo funciona nuestro órgano más importante.
+
+Desde un punto de vista académico, desarrollar BreakBrain ha contribuido de una forma sorprendente a mejorar mis competencias técnicas. He explorado campos que durante la carrera no se estudian, como el desarrollo web de tiempo real o el manejo de bases de datos documentales, al tiempo que he asimilado en profundidad otros aspectos que durante la carrera sólo se estudian de forma superficial. Me ha servido para aprender tecnologías nuevas que están ganando popularidad cada día, como NodeJS o MongoDB, y para familiarizarme con servicios como \acf{AWS}, cuyo conocimiento es valorado por muchas empresas actualmente. En resumen, gracias a BreakBrain soy una persona más competente profesionalmente.
+
+Este Proyecto Fin de Carrera sólo es la cima de una gran montaña, la guinda de un pastel elaborado con esfuerzo y sacrificio: la carrera de Ingeniería Informática. Después de todo lo aprendido no puedo sentir otra cosa que orgullo por todo el trabajo desarrollado, así como por el resultado obtenido tras estos años. Jamás he sentido una satisfacción mayor que aprendiendo.
+
+
+
+
