@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  17 AUG 2013 18:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  17 AUG 2013 19:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1209,7 +1209,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 {/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-<images/emblema_informatica-gray.pdf, id=518, 618.1504pt x 737.155pt>
+<images/emblema_informatica-gray.pdf, id=558, 618.1504pt x 737.155pt>
 File: images/emblema_informatica-gray.pdf Graphic file (type pdf)
 
 <use images/emblema_informatica-gray.pdf>
@@ -1343,7 +1343,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<images/lobulos.jpg, id=992, 552.0625pt x 516.93124pt>
+<images/lobulos.jpg, id=1042, 552.0625pt x 516.93124pt>
 File: images/lobulos.jpg Graphic file (type jpg)
 
 <use images/lobulos.jpg>
@@ -1442,7 +1442,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [11
 
 ]
-<images/minijuegos.png, id=1073, 749.80125pt x 561.09625pt>
+<images/minijuegos.png, id=1124, 749.80125pt x 561.09625pt>
 File: images/minijuegos.png Graphic file (type png)
 
 <use images/minijuegos.png>
@@ -1464,14 +1464,14 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.33 
       <./images/minijuegos.png>]
-<images/minijuegos-cat.png, id=1083, 566.115pt x 386.44376pt>
+<images/minijuegos-cat.png, id=1133, 566.115pt x 386.44376pt>
 File: images/minijuegos-cat.png Graphic file (type png)
 
 <use images/minijuegos-cat.png>
 Package pdftex.def Info: images/minijuegos-cat.png used on input line 36.
 (pdftex.def)             Requested size: 441.01773pt x 301.05933pt.
 
-<images/minijuegos-mul.png, id=1084, 679.53876pt x 293.095pt>
+<images/minijuegos-mul.png, id=1134, 679.53876pt x 293.095pt>
 File: images/minijuegos-mul.png Graphic file (type png)
 
 <use images/minijuegos-mul.png>
@@ -1481,7 +1481,7 @@ Package pdftex.def Info: images/minijuegos-mul.png used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/miniclip.png, id=1088, 787.94376pt x 335.2525pt>
+<images/miniclip.png, id=1138, 787.94376pt x 335.2525pt>
 File: images/miniclip.png Graphic file (type png)
 
 <use images/miniclip.png>
@@ -1506,7 +1506,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.67 
       <./images/minijuegos-cat.png>]
-<images/minigamesfreak.png, id=1093, 762.85pt x 424.58624pt>
+<images/minigamesfreak.png, id=1143, 762.85pt x 424.58624pt>
 File: images/minigamesfreak.png Graphic file (type png)
 
 <use images/minigamesfreak.png>
@@ -1516,7 +1516,7 @@ Package pdftex.def Info: images/minigamesfreak.png used on input line 76.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/juegosfan.png, id=1094, 854.19125pt x 449.68pt>
+<images/juegosfan.png, id=1144, 854.19125pt x 449.68pt>
 File: images/juegosfan.png Graphic file (type png)
 
 <use images/juegosfan.png>
@@ -1545,7 +1545,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.101 
        <./images/minijuegos-mul.png>]
-<images/minigameonline.png, id=1099, 911.405pt x 485.815pt>
+<images/minigameonline.png, id=1149, 911.405pt x 485.815pt>
 File: images/minigameonline.png Graphic file (type png)
 
 <use images/minigameonline.png>
@@ -1570,7 +1570,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.122 
        <./images/miniclip.png>]
-<images/lumosity.png, id=1105, 1039.885pt x 538.01pt>
+<images/lumosity.png, id=1155, 1039.885pt x 538.01pt>
 File: images/lumosity.png Graphic file (type png)
 
 <use images/lumosity.png>
@@ -1580,7 +1580,7 @@ Package pdftex.def Info: images/lumosity.png used on input line 127.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/brainarena.png, id=1107, 916.42375pt x 471.7625pt>
+<images/brainarena.png, id=1157, 916.42375pt x 471.7625pt>
 File: images/brainarena.png Graphic file (type png)
 
 <use images/brainarena.png>
@@ -1704,7 +1704,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <images/webgl.png, id=1209, 923.45pt x 541.02126pt>
+[22] <images/webgl.png, id=1259, 923.45pt x 541.02126pt>
 File: images/webgl.png Graphic file (type png)
 
 <use images/webgl.png>
@@ -1738,7 +1738,7 @@ d-to.pdf images/neurona.eps>
 (epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/neurona-eps-converted-to.pdf, id=1220, 296.10625pt x 165.61874pt>
+<images/neurona-eps-converted-to.pdf, id=1270, 296.10625pt x 165.61874pt>
 File: images/neurona-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/neurona-eps-converted-to.pdf>
@@ -1774,7 +1774,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.351 
        <./images/neurona-eps-converted-to.pdf>]
-<images/surcosygiros.jpg, id=1247, 401.5pt x 321.2pt>
+<images/surcosygiros.jpg, id=1297, 401.5pt x 321.2pt>
 File: images/surcosygiros.jpg Graphic file (type jpg)
 
 <use images/surcosygiros.jpg>
@@ -1815,7 +1815,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <images/tubo-neural.png, id=1273, 602.25pt x 325.215pt>
+[28] <images/tubo-neural.png, id=1323, 602.25pt x 325.215pt>
 File: images/tubo-neural.png Graphic file (type png)
 
 <use images/tubo-neural.png>
@@ -1863,7 +1863,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31] <images/sna.jpg, id=1312, 527.9725pt x 473.77pt>
+[31] <images/sna.jpg, id=1363, 527.9725pt x 473.77pt>
 File: images/sna.jpg Graphic file (type jpg)
  <use images/sna.jpg>
 Package pdftex.def Info: images/sna.jpg used on input line 500.
@@ -1872,7 +1872,7 @@ Package pdftex.def Info: images/sna.jpg used on input line 500.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/cerebelo.jpg, id=1315, 501.875pt x 421.575pt>
+<images/cerebelo.jpg, id=1366, 501.875pt x 421.575pt>
 File: images/cerebelo.jpg Graphic file (type jpg)
 
 <use images/cerebelo.jpg>
@@ -1920,7 +1920,7 @@ Package epstopdf Info: Source file: <images/brain2.eps>
 (epstopdf)             \includegraphics on input line 540.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/brain2-eps-converted-to.pdf, id=1332, 544.0325pt x 275.0275pt>
+<images/brain2-eps-converted-to.pdf, id=1382, 544.0325pt x 275.0275pt>
 File: images/brain2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/brain2-eps-converted-to.pdf>
@@ -1949,7 +1949,7 @@ same identifier (name{figure.3.16}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.552 \subsubsection{El neocórtex}
                                     <./images/cerebelo.jpg> <./images/brain2-ep
-s-converted-to.pdf>] <images/cingulo.png, id=1344, 539.48029pt x 411.22649pt>
+s-converted-to.pdf>] <images/cingulo.png, id=1394, 539.48029pt x 411.22649pt>
 File: images/cingulo.png Graphic file (type png)
 
 <use images/cingulo.png>
@@ -1995,7 +1995,7 @@ to.pdf images/brain.eps>
 (epstopdf)             \includegraphics on input line 593.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/brain-eps-converted-to.pdf, id=1362, 662.475pt x 315.1775pt>
+<images/brain-eps-converted-to.pdf, id=1412, 662.475pt x 315.1775pt>
 File: images/brain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/brain-eps-converted-to.pdf>
@@ -2029,7 +2029,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] <images/piramidal.jpg, id=1387, 268.00125pt x 346.29375pt>
+[38] <images/piramidal.jpg, id=1437, 268.00125pt x 346.29375pt>
 File: images/piramidal.jpg Graphic file (type jpg)
 
 <use images/piramidal.jpg>
@@ -2051,7 +2051,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.644 
        <./images/piramidal.jpg>]
-<images/orbital-frontal.jpg, id=1397, 451.6875pt x 416.55624pt>
+<images/orbital-frontal.jpg, id=1447, 451.6875pt x 416.55624pt>
 File: images/orbital-frontal.jpg Graphic file (type jpg)
 
 <use images/orbital-frontal.jpg>
@@ -2073,7 +2073,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.661 
        <./images/orbital-frontal.jpg>]
-<images/brodmann-areas.png, id=1406, 515.9275pt x 681.54625pt>
+<images/brodmann-areas.png, id=1457, 515.9275pt x 681.54625pt>
 File: images/brodmann-areas.png Graphic file (type png)
 
 <use images/brodmann-areas.png>
@@ -2138,7 +2138,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] <images/amigdala.jpg, id=1450, 538.6524pt x 613.8132pt>
+[45] <images/amigdala.jpg, id=1500, 538.6524pt x 613.8132pt>
 File: images/amigdala.jpg Graphic file (type jpg)
 
 <use images/amigdala.jpg>
@@ -2213,7 +2213,7 @@ Package acronym Info: Label `acro:IRM' newly defined as it shall be overridden
 although it is yet undefined on input line 876.
 Package acronym Info: Label `acro:VBM' newly defined as it shall be overridden
 although it is yet undefined on input line 876.
- <images/piano.jpg, id=1505, 504.88625pt x 275.0275pt>
+ <images/piano.jpg, id=1555, 504.88625pt x 275.0275pt>
 File: images/piano.jpg Graphic file (type jpg)
 
 <use images/piano.jpg>
@@ -2316,7 +2316,7 @@ Package acronym Info: Label `acro:PUD' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
 Package acronym Info: Label `acro:RUP' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
-<images/pud.png, id=1599, 599.841pt x 329.5512pt>
+<images/pud.png, id=1649, 599.841pt x 329.5512pt>
 File: images/pud.png Graphic file (type png)
  <use images/pud.png>
 Package pdftex.def Info: images/pud.png used on input line 15.
@@ -2505,7 +2505,7 @@ rted-to.pdf images/despliegue.eps>
 (epstopdf)             \includegraphics on input line 687.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/despliegue-eps-converted-to.pdf, id=1719, 828.09375pt x 501.875pt>
+<images/despliegue-eps-converted-to.pdf, id=1769, 828.09375pt x 501.875pt>
 File: images/despliegue-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/despliegue-eps-converted-to.pdf>
@@ -2567,7 +2567,7 @@ ted-to.pdf images/casos-uso.eps>
 (epstopdf)             \includegraphics on input line 722.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/casos-uso-eps-converted-to.pdf, id=1756, 1005.7575pt x 1407.2575pt>
+<images/casos-uso-eps-converted-to.pdf, id=1806, 1005.7575pt x 1407.2575pt>
 File: images/casos-uso-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/casos-uso-eps-converted-to.pdf>
@@ -2602,7 +2602,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78] <images/uc-1.png, id=1783, 892.33376pt x 503.8825pt>
+[78] <images/uc-1.png, id=1834, 892.33376pt x 503.8825pt>
 File: images/uc-1.png Graphic file (type png)
 
 <use images/uc-1.png>
@@ -2646,7 +2646,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[81] <images/uc-3.png, id=1837, 881.2925pt x 640.3925pt>
+[81] <images/uc-3.png, id=1887, 881.2925pt x 640.3925pt>
 File: images/uc-3.png Graphic file (type png)
  <use images/uc-3.png>
 Package pdftex.def Info: images/uc-3.png used on input line 912.
@@ -2682,7 +2682,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.952     \item E
                  l módulo cliente de websockets recibe la información y en...
- <./images/uc-3.png>] <images/uc-4.png, id=1873, 1147.28625pt x 908.39375pt>
+ <./images/uc-3.png>] <images/uc-4.png, id=1923, 1147.28625pt x 908.39375pt>
 File: images/uc-4.png Graphic file (type png)
 
 <use images/uc-4.png>
@@ -2789,7 +2789,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92] <images/uc-12.png, id=2028, 877.2775pt x 889.3225pt>
+[92] <images/uc-12.png, id=2078, 877.2775pt x 889.3225pt>
 File: images/uc-12.png Graphic file (type png)
 
 <use images/uc-12.png>
@@ -2904,7 +2904,7 @@ Overfull \hbox (45.20526pt too wide) in paragraph at lines 1834--1863
 [][] 
  []
 
-<./images/code-stats.png, id=2203, 301.125pt x 150.5625pt>
+<./images/code-stats.png, id=2254, 301.125pt x 150.5625pt>
 File: ./images/code-stats.png Graphic file (type png)
 
 <use ./images/code-stats.png>
@@ -2993,7 +2993,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.1967 
         <./images/code-stats.png>]
-<images/vows.png, id=2221, 684.5575pt x 671.50874pt>
+<images/vows.png, id=2272, 684.5575pt x 671.50874pt>
 File: images/vows.png Graphic file (type png)
  <use images/vows.png>
 Package pdftex.def Info: images/vows.png used on input line 1972.
@@ -3021,7 +3021,7 @@ Package epstopdf Info: Source file: <images/estres.eps>
 -to.pdf images/estres.eps>
 (epstopdf)             \includegraphics on input line 2054.
 Package epstopdf Info: Output file is already uptodate.
- <images/estres-eps-converted-to.pdf, id=2229, 818.05624pt x 485.815pt>
+ <images/estres-eps-converted-to.pdf, id=2279, 818.05624pt x 485.815pt>
 File: images/estres-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/estres-eps-converted-to.pdf>
@@ -3060,7 +3060,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[109] <images/estresplot.png, id=2324, 563.10374pt x 321.2pt>
+[109] <images/estresplot.png, id=2375, 563.10374pt x 321.2pt>
 File: images/estresplot.png Graphic file (type png)
 
 <use images/estresplot.png>
@@ -3170,7 +3170,7 @@ verted-to.pdf images/arquitectura.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/arquitectura-eps-converted-to.pdf, id=2362, 890.32625pt x 1191.45125pt>
+<images/arquitectura-eps-converted-to.pdf, id=2412, 890.32625pt x 1191.45125pt>
 File: images/arquitectura-eps-converted-to.pdf Graphic file (type pdf)
 <use images/arquitectura-eps-converted-to.pdf>
 Package pdftex.def Info: images/arquitectura-eps-converted-to.pdf used on input
@@ -3185,7 +3185,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 Package acronym Info: Label `acro:MVC' newly defined as it shall be overridden
 although it is yet undefined on input line 31.
- <images/mvc-cliente.png, id=2378, 636.3775pt x 391.4625pt>
+ <images/mvc-cliente.png, id=2428, 636.3775pt x 391.4625pt>
 File: images/mvc-cliente.png Graphic file (type png)
 
 <use images/mvc-cliente.png>
@@ -3208,7 +3208,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.48 \item {
             \bf Vista}: Interfaz gráfica con la que el usuario interactúa....
  <./images/mvc-cliente.png>]
-<images/mvc-servidor.png, id=2388, 691.58376pt x 391.4625pt>
+<images/mvc-servidor.png, id=2438, 691.58376pt x 391.4625pt>
 File: images/mvc-servidor.png Graphic file (type png)
 
 <use images/mvc-servidor.png>
@@ -3242,7 +3242,7 @@ Package epstopdf Info: Source file: <images/diseno.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/diseno-eps-converted-to.pdf, id=2394, 970.62625pt x 720.6925pt>
+<images/diseno-eps-converted-to.pdf, id=2444, 970.62625pt x 720.6925pt>
 File: images/diseno-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/diseno-eps-converted-to.pdf>
@@ -3314,7 +3314,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[123] <./images/quantitative-reasoning.png, id=2439, 527.9725pt x 97.36375pt>
+[123] <./images/quantitative-reasoning.png, id=2489, 527.9725pt x 97.36375pt>
 File: ./images/quantitative-reasoning.png Graphic file (type png)
 
 <use ./images/quantitative-reasoning.png>
@@ -3322,7 +3322,7 @@ Package pdftex.def Info: ./images/quantitative-reasoning.png used on input line
  81.
 (pdftex.def)             Requested size: 220.50887pt x 40.6637pt.
 
-<./images/game-focus.png, id=2441, 473.77pt x 171.64125pt>
+<./images/game-focus.png, id=2491, 473.77pt x 171.64125pt>
 File: ./images/game-focus.png Graphic file (type png)
 
 <use ./images/game-focus.png>
@@ -3363,7 +3363,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.131 
        <./images/game-focus.png>]
-<./images/game-spatial-orientation.png, id=2452, 764.8575pt x 341.275pt>
+<./images/game-spatial-orientation.png, id=2502, 764.8575pt x 341.275pt>
 File: ./images/game-spatial-orientation.png Graphic file (type png)
 
 <use ./images/game-spatial-orientation.png>
@@ -3371,7 +3371,7 @@ Package pdftex.def Info: ./images/game-spatial-orientation.png used on input li
 ne 136.
 (pdftex.def)             Requested size: 352.81552pt x 157.42581pt.
 
-<./images/game-impulse.png, id=2453, 569.12625pt x 142.5325pt>
+<./images/game-impulse.png, id=2503, 569.12625pt x 142.5325pt>
 File: ./images/game-impulse.png Graphic file (type png)
 
 <use ./images/game-impulse.png>
@@ -3397,7 +3397,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.170 L
        a conmutación de tareas es la adaptación de la atención intercambi...
  <./images/game-spatial-orientation.png>]
-<./images/game-switch.png, id=2459, 748.7975pt x 428.60126pt>
+<./images/game-switch.png, id=2509, 748.7975pt x 428.60126pt>
 File: ./images/game-switch.png Graphic file (type png)
 
 <use ./images/game-switch.png>
@@ -3437,7 +3437,7 @@ s-converted-to.pdf images/games-diagram-esp.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/games-diagram-esp-eps-converted-to.pdf, id=2464, 869.2475pt x 1133.2337
+<images/games-diagram-esp-eps-converted-to.pdf, id=2514, 869.2475pt x 1133.2337
 5pt>
 File: images/games-diagram-esp-eps-converted-to.pdf Graphic file (type pdf)
  <use images/games-diagram-esp-eps-converted-to.pdf>
@@ -3485,7 +3485,7 @@ vidades-eps-converted-to.pdf images/juegos-partidas-actividades.eps>
 (epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/juegos-partidas-actividades-eps-converted-to.pdf, id=2476, 743.77875pt 
+<images/juegos-partidas-actividades-eps-converted-to.pdf, id=2526, 743.77875pt 
 x 366.36874pt>
 File: images/juegos-partidas-actividades-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3640,13 +3640,13 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <17.28> not available
 
 ]
 Anexo A.
-[143] <images/i1.png, id=2564, 260.975pt x 200.75pt>
+[143] <images/i1.png, id=2614, 260.975pt x 200.75pt>
 File: images/i1.png Graphic file (type png)
  <use images/i1.png>
 Package pdftex.def Info: images/i1.png used on input line 58.
 (pdftex.def)             Requested size: 170.71652pt x 131.32219pt.
 
-<images/e1.png, id=2565, 260.975pt x 200.75pt>
+<images/e1.png, id=2615, 260.975pt x 200.75pt>
 File: images/e1.png Graphic file (type png)
  <use images/e1.png>
 Package pdftex.def Info: images/e1.png used on input line 101.
@@ -3675,13 +3675,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.Alph1.
 l.118 E
        sta última etapa de la fase de Elaboración ha supuesto un pequeño ...
  <./images/i1.png> <./images/e1.png>]
-<images/e2.png, id=2570, 260.975pt x 200.75pt>
+<images/e2.png, id=2620, 260.975pt x 200.75pt>
 File: images/e2.png Graphic file (type png)
  <use images/e2.png>
 Package pdftex.def Info: images/e2.png used on input line 142.
 (pdftex.def)             Requested size: 170.71652pt x 131.32219pt.
 
-<images/c1.png, id=2571, 260.975pt x 200.75pt>
+<images/c1.png, id=2621, 260.975pt x 200.75pt>
 File: images/c1.png Graphic file (type png)
  <use images/c1.png>
 Package pdftex.def Info: images/c1.png used on input line 184.
@@ -3705,7 +3705,7 @@ ph1.3}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.194 \subsection*{Iteración C2}
                                   <./images/e2.png>]
-<images/c2.png, id=2576, 260.975pt x 200.75pt>
+<images/c2.png, id=2626, 260.975pt x 200.75pt>
 File: images/c2.png Graphic file (type png)
  <use images/c2.png>
 Package pdftex.def Info: images/c2.png used on input line 223.
@@ -3732,13 +3732,13 @@ Alph1.5}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.239 
        <./images/c1.png> <./images/c2.png>]
-<images/c3.png, id=2581, 260.975pt x 200.75pt>
+<images/c3.png, id=2631, 260.975pt x 200.75pt>
 File: images/c3.png Graphic file (type png)
  <use images/c3.png>
 Package pdftex.def Info: images/c3.png used on input line 262.
 (pdftex.def)             Requested size: 170.71652pt x 131.32219pt.
 
-<images/c4.png, id=2582, 260.975pt x 200.75pt>
+<images/c4.png, id=2632, 260.975pt x 200.75pt>
 File: images/c4.png Graphic file (type png)
  <use images/c4.png>
 Package pdftex.def Info: images/c4.png used on input line 301.
@@ -3765,7 +3765,7 @@ Alph1.7}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.314 
        <./images/c3.png> <./images/c4.png>]
-<images/iteraciones.png, id=2589, 702.625pt x 301.125pt>
+<images/iteraciones.png, id=2639, 702.625pt x 301.125pt>
 File: images/iteraciones.png Graphic file (type png)
 
 <use images/iteraciones.png>
@@ -3853,7 +3853,7 @@ Overfull \hbox (14.43217pt too wide) in paragraph at lines 87--87
 rver i...[] 
  []
 
-<images/breakbrain-login.png, id=2610, 524.96124pt x 458.71375pt>
+<images/breakbrain-login.png, id=2660, 524.96124pt x 458.71375pt>
 File: images/breakbrain-login.png Graphic file (type png)
 
 <use images/breakbrain-login.png>
@@ -3926,7 +3926,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[156] <images/captura-nombre-cara.png, id=2646, 681.54625pt x 107.40125pt>
+[156] <images/captura-nombre-cara.png, id=2696, 681.54625pt x 107.40125pt>
 File: images/captura-nombre-cara.png Graphic file (type png)
 
 <use images/captura-nombre-cara.png>
@@ -3956,14 +3956,14 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[158] <images/careto-logo.png, id=2659, 125.46875pt x 125.46875pt>
+[158] <images/careto-logo.png, id=2709, 125.46875pt x 125.46875pt>
 File: images/careto-logo.png Graphic file (type png)
 
 <use images/careto-logo.png>
 Package pdftex.def Info: images/careto-logo.png used on input line 197.
 (pdftex.def)             Requested size: 87.82751pt x 87.82751pt.
 
-<images/careto-background.png, id=2660, 602.25pt x 481.8pt>
+<images/careto-background.png, id=2710, 602.25pt x 481.8pt>
 File: images/careto-background.png Graphic file (type png)
 
 <use images/careto-background.png>
@@ -3991,13 +3991,13 @@ Alph3.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.222 
        <./images/careto-logo.png> <./images/careto-background.png>]
-<images/braille.jpg, id=2668, 421.575pt x 738.76pt>
+<images/braille.jpg, id=2718, 421.575pt x 738.76pt>
 File: images/braille.jpg Graphic file (type jpg)
  <use images/braille.jpg>
 Package pdftex.def Info: images/braille.jpg used on input line 225.
 (pdftex.def)             Requested size: 220.50887pt x 386.42319pt.
 
-<images/careto-jerarquia.png, id=2669, 463.7325pt x 454.69875pt>
+<images/careto-jerarquia.png, id=2719, 463.7325pt x 454.69875pt>
 File: images/careto-jerarquia.png Graphic file (type png)
 
 <use images/careto-jerarquia.png>
@@ -4226,7 +4226,7 @@ Anexo D.
 
 ]
 Anexo E.
-<images/gpl.png, id=3361, 127.47626pt x 51.19125pt>
+<images/gpl.png, id=3412, 127.47626pt x 51.19125pt>
 File: images/gpl.png Graphic file (type png)
  <use images/gpl.png>
 Package pdftex.def Info: images/gpl.png used on input line 11.
@@ -5814,7 +5814,7 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3E726768388D1F82281FDA29EF13D4FB;9418.
+(rerunfilecheck)             Checksum: 30D26D7F10CDFBB37EEC69299347440C;10287.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -5825,10 +5825,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 22597 strings out of 494763
- 370062 string characters out of 3171442
- 764440 words of memory out of 3000000
- 23573 multiletter control sequences out of 15000+200000
+ 22617 strings out of 494763
+ 370442 string characters out of 3171442
+ 764453 words of memory out of 3000000
+ 23583 multiletter control sequences out of 15000+200000
  112758 words of font info for 96 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
  63i,13n,57p,1600b,2052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5853,10 +5853,10 @@ l/share/texmf-texlive-dist/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (238 pages, 7802501 bytes).
+Output written on main.pdf (238 pages, 7805850 bytes).
 PDF statistics:
- 3994 PDF objects out of 4296 (max. 8388607)
- 3618 compressed objects within 37 object streams
- 1651 named destinations out of 1728 (max. 500000)
- 1323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4046 PDF objects out of 4296 (max. 8388607)
+ 3670 compressed objects within 37 object streams
+ 1661 named destinations out of 1728 (max. 500000)
+ 1403 words of extra memory for PDF output out of 10000 (max. 10000000)
 
