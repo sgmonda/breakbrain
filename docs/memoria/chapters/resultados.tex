@@ -194,79 +194,17 @@ Los juegos dedicados a entrenar la fluidez verbal deben ofrecer partes de palabr
 
 \end{itemize}
 
-\begin{figure}[h]
+
+\begin{figure}[H]
   \begin{center}
-    \includegraphics[width=\textwidth]{images/games-diagram-esp.eps}
-    \caption{Diagrama de habilidades mentales}
+    \includegraphics[scale=0.48]{images/games-diagram-esp.eps}
+    \caption{Diagrama de capacidades y habilidades mentales}
     \label{fig::habilidades}
   \end{center}
 \end{figure}
 
-\renewcommand*{\arraystretch}{1.07}
-\begin{table}[h]
-\begin{small}
-\label{table:capacidades}
-\begin{center}  
-\begin{sideways}
-\begin{tabular}{|c|l|l|l|}
-\hline
-\tabheadformat
-\tabhead{Grupo} & \tabhead{Habilidad} & \tabhead{Descripción} & \tabhead{Entrenamiento mediante juegos} \\
-\hline\hline
-\multirow{6}{*}{\begin{sideways}Memoria\end{sideways}} & Memoria  & Almacenamiento temporal de información & Mostrar pequeñas cantidades de información para memorizar \\
- & de trabajo & durante el desarrollo de una tarea. & y después requerirlas de algún modo. \\
-\cline{2-4}
- & Memoria & Información del entorno, localización de objetos & Ofrecer un paisaje de objetos para su memorización \\
- & espacial & y orientación en el espacio. & y solicitar la reconstrucción del mismo.\\
-\cline{2-4}
- & Memoria & Relación entre objetos y etiquetas asociadas & Mostrar la relación existente entre varios objetos y etiquetas.\\
- & nombre-cara & a dichos objetos.& El jugador deberá memorizar esas relaciones y reconstruirlas.\\
-\hline
 
-\multirow{6}{*}{\begin{sideways}Res. prob.\end{sideways}} & Aritmética & Realización de operaciones matemáticas & Enfrentar al jugador a gran cantidad de operaciones sencillas\\
- & & sencillas de forma rápida y correcta. & de suma, resta, multiplicación y división.\\
-\cline{2-4}
- & Razonamiento & Inducción de reglas lógicas & Mostrar elementos que cumplen o no una regla lógica para \\
- & lógico & a partir de casos concretos. & que el jugador la adivine y la aplique a otros elementos. \\
-\cline{2-4}
- & Razonamiento & Realización de estimaciones y toma de decisiones & Ofrecer grupos de elementos cuantificables para que \\
- & cuantitativo & en base a ellas. & el jugador elija rápidamente el de mayor o menor valor. \\
-\hline
-
-\multirow{4}{*}{\begin{sideways}Atención\end{sideways}} & Concentración & Fijación y dedicación de las actividades sensoriales & Ofrecer grupos de elementos en los que el jugador tenga que \\
- &  & a una única tarea. & prestar atención a alguna propiedad de uno sólo de ellos. \\
-\cline{2-4}
- & Campo & Espacio tridimensional visible por un individuo sin & Mostrar y ocultar elementos en el espacio de juego. El jugador deberá \\
- & visual & realizar movimientos oculares. & realizar alguna tarea con las ubicaciones donde aparecían y su valor. \\
-\hline
-
-\multirow{4}{*}{\begin{sideways}Velocidad\end{sideways}} & Procesamiento & Realización de... &  Ofrecer... \\
- & de Información & y... & y... \\
-\cline{2-4}
- & Orientación & Realización de... & Mostrar... \\
- & espacial & y... & y... \\
-\hline
-\multirow{8}{*}{\begin{sideways}Flexibilidad\end{sideways}} & Control de & Realización de... & Mostrar... \\
- & impulsos & y... & y... \\
-\cline{2-4}
-& Planificación & Realización de... & Ofrecer... \\
-& & y... & y... \\
-\cline{2-4}
-& Conmutación & Realización de... & Mostrar... \\
-& de tareas & y... & y... \\
-\cline{2-4}
-& Fluidez  & Realización de... & Ofrecer... \\
-& verbal  & y... & y... \\
-\hline
-\end{tabular}
-\end{sideways}
-\end{center}
-\end{small}
-\caption{Ficha de entrenamiento de capacidades mentales}
-\end{table}
-
-
-\section{Medición cuantitativa de la evolución cerebral mediante juegos}
+\section{Medición cuantitativa de la evolución cerebral}
 
 A lo largo de esta sección se expondrán los conceptos básicos del diseño de la plataforma, para después desarrollar el sistema de puntuación de partidas y el conjunto de variables cerebrales que posibilitarán, por un lado la medición de la evolución de entrenamiento, y por otro la clasificación y recomendación de usuarios y juegos.
 
@@ -408,6 +346,67 @@ El perfil de cada usuario contiene la puntuación de cada habilidad cerebral, ca
 \end{itemize}
 
 
+\begin{table}[H]
+\begin{footnotesize}
+\label{table:capacidades}
+\begin{center}  
+\begin{sideways}
+\begin{tabular}{|c|l|l|l|}
+\hline
+\tabheadformat
+\tabhead{Grupo} & \tabhead{Habilidad} & \tabhead{Descripción} & \tabhead{Entrenamiento mediante juegos} \\
+\hline\hline
+\multirow{6}{*}{\begin{sideways}Memoria\end{sideways}} & Memoria  & Almacenamiento temporal de información & Mostrar pequeñas cantidades de información para memorizar \\
+ & de trabajo & durante el desarrollo de una tarea. & y después requerirlas de algún modo. \\
+\cline{2-4}
+ & Memoria & Información del entorno, localización de objetos & Ofrecer un paisaje de objetos para su memorización \\
+ & espacial & y orientación en el espacio. & y solicitar la reconstrucción del mismo.\\
+\cline{2-4}
+ & Memoria & Relación entre objetos y etiquetas asociadas & Mostrar la relación existente entre varios objetos y etiquetas.\\
+ & nombre-cara & a dichos objetos.& El jugador deberá memorizar esas relaciones y reconstruirlas.\\
+\hline\hline
+
+\multirow{6}{*}{\begin{sideways}Res. prob.\end{sideways}} & Aritmética & Realización de operaciones matemáticas sencillas & Enfrentar al jugador a gran cantidad de operaciones sencillas.\\
+\cline{2-4}
+ & Razonamiento & Inducción de reglas lógicas & Mostrar elementos que cumplen o no una regla lógica para \\
+ & lógico & a partir de casos concretos. & que el jugador la adivine y la aplique a otros elementos. \\
+\cline{2-4}
+ & Razonamiento & Realización de estimaciones y toma de decisiones & Ofrecer grupos de elementos cuantificables para que \\
+ & cuantitativo & en base a ellas. & el jugador elija rápidamente el de mayor o menor valor. \\
+\hline\hline
+
+\multirow{4}{*}{\begin{sideways}Atención\end{sideways}} & Concentración & Fijación y dedicación de las actividades sensoriales & Ofrecer grupos de elementos en los que el jugador tenga que \\
+ &  & a una única tarea. & prestar atención a alguna propiedad de uno sólo de ellos. \\
+\cline{2-4}
+ & Campo & Espacio tridimensional visible por un individuo sin & Mostrar y ocultar elementos en el espacio de juego. El jugador deberá \\
+ & visual & realizar movimientos oculares. & realizar alguna tarea con las ubicaciones donde aparecían y su valor. \\
+\hline\hline
+
+\multirow{4}{*}{\begin{sideways}Velocidad\end{sideways}} & Procesamiento & Interpretación de la información sensorial. &  Ofrecer una secuencia de elementos, algunos idénticos consecutivamente. \\
+ & de Información & Adaptación al cambio. & El jugador debe decir si cada uno es igual al anterior o no. \\
+\cline{2-4}
+ & Orientación & Consciencia tridimensional de la situación & Mostrar elementos distribuidos en un espacio. Tras una transformación \\
+ & espacial & de uno mismo en el espacio. & del mismo, el jugador deberá localizar dichas posiciones. \\
+\hline\hline
+\multirow{8}{*}{\begin{sideways}Flexibilidad\end{sideways}} & Control de & Priorización de objetivos personales por & Jugar con los colores y su representación textual. El jugador \\
+ & impulsos & encima de los impulsos animales. & deberá poder prestar atención a un sólo aspecto: el color o el texto. \\
+\cline{2-4}
+& Planificación & Priorización alterna de unas tareas sobre otras & Ofrecer un espacio bidimensional maleable mediante cambios. El jugador \\
+& & en un periodo temporal. & construirá un camino usando el efecto de esos cambios. \\
+\cline{2-4}
+& Conmutación & Intercambio de la atención entre ejercicios de forma & Ofrecer situaciones diferentes, cada una con una misión. \\
+& de tareas & arbitraria e intermitente. & Las situaciones van cambiando, y en cada una el jugador debe proceder. \\
+\cline{2-4}
+& Fluidez  & Recuperación rápida del vocabulario durante & Ofrecer las primeras o últimas letras de una palabra. El jugador \\
+& verbal & una conversación fluida. & deberá enumerar palabras que cumplen ese patrón. \\
+\hline
+\end{tabular}
+\end{sideways}
+\end{center}
+\end{footnotesize}
+\caption{Ficha de entrenamiento de capacidades mentales}
+\end{table}
+
 
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -418,12 +417,12 @@ El perfil de cada usuario contiene la puntuación de cada habilidad cerebral, ca
 
 \subsection{Algoritmo de recomendación de juegos}
 
-\subsection{Notas personales}
+%% \subsection{Notas personales}
 
-En \ref{sec::estructuras-primarias} se habla de la generación de patrones. Esto hay que comentarlo en los juegos.
+%% En \ref{sec::estructuras-primarias} se habla de la generación de patrones. Esto hay que comentarlo en los juegos.
 
-En \ref{sec::corteza-cerebral} se habla de las áreas de Brodmann. Debería tenerlas en cuenta ne los juegos. La experiencia en la determinación de las representaciones corticales.
+%% En \ref{sec::corteza-cerebral} se habla de las áreas de Brodmann. Debería tenerlas en cuenta ne los juegos. La experiencia en la determinación de las representaciones corticales.
 
-En \ref{sec::estructuras-subcorticales} se habla de como la experiencia afecta al cerebro
+%% En \ref{sec::estructuras-subcorticales} se habla de como la experiencia afecta al cerebro
 
 %\section{Algoritmo de búsqueda de usuarios}
