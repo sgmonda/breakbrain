@@ -710,15 +710,58 @@ require('./server/database.js')(util, test, function(db, bson){
             });
 
             socket.on('get-news', function(email){
-                var n = {name: 'Perico de los Palotes', time: '2h ago', new: 'Has won 20 points of Memory playing example game', avatar: 'http://imagenes.es.sftcdn.net/avatars/gallery/MoviesAnimated/Oscar.jpg'};
-                var news = [n,n,n,n];
+				var news = [
+					{
+						name: 'Joseph, Lois O.',
+						time: '2h ago',
+						new: 'Has won 20 points of Memory playing Careto',
+						avatar: constants.default_avatar
+					},
+					{
+						name: 'Juan González Moreno',
+						time: '1 day ago',
+						new: 'Has won 50 points of Memory playing Careto',
+						avatar: constants.default_avatar
+					},
+					{
+						name: 'Case, Arlene A.',
+						time: '1 day ago',
+						new: 'Has won 40 points of Problem Solving playing Pompitas',
+						avatar: constants.default_avatar
+					}
+				];
                 socket.emit('get-news', news);
             });
 
             socket.on('get-global-news', function(email){
-                var n = {name: 'Perico de los Palotes', time: '2h ago', new: 'Has won 20 points of Memory playing example game', avatar: 'http://imagenes.es.sftcdn.net/avatars/gallery/MoviesAnimated/Oscar.jpg'};
-                var news = [n,n];
-                socket.emit('get-global-news', news);
+				var news = [
+					{
+						name: 'Juan González Moreno',
+						time: '1 day ago',
+						new: 'Has won 50 points of Memory playing Careto',
+						avatar: constants.default_avatar
+					},
+					{
+						name: 'Case, Arlene A.',
+						time: '1 day ago',
+						new: 'Has won 40 points of Problem Solving playing Pompitas',
+						avatar: constants.default_avatar
+					},
+					{
+						name: 'Rosenthal, Louis O',
+						time: '2 days ago',
+						new: 'Has won 100 points of Memory playing Pompitas',
+						avatar: constants.default_avatar
+					},
+					{
+						name: 'Christensen, Calvin H.',
+						time: '3 days ago',
+						new: 'Has won 100 points of Problem Solving playing Careto',
+						avatar: constants.default_avatar
+					}
+
+				];
+				socket.emit('get-global-news', news);
             });
             
         });

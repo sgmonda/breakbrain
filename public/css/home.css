@@ -13,13 +13,13 @@
     background: orange;
     width: 500px;
     padding: 20px;
-    height: 600px;
+    height: 610px;
     border-right: solid 2px #aaa;
     border-radius: 0.5em;
     display: block;
     position: absolute;
     left: 20px;
-    top: 380px;
+    top: 250px;
 	overflow: auto;
 }
 
@@ -32,7 +32,7 @@
     display: block;
     position: absolute;
     left: 580px;
-    top: 380px;
+    top: 250px;
 }
 #stats-time {
     width: 300px;
@@ -60,6 +60,7 @@
     position: relative;
     padding: 10px;
     border-bottom: solid 1px #777;
+	cursor: pointer;
 }
 
 #quick-games li img {
@@ -142,4 +143,15 @@
 .stream-name {
     float:left;
     font-weight: bold;
+}
+
+.stat {
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+}
+
+.stat > h4 {
+	margin-bottom: 10px;
+	margin-top: 30px;
 }
