@@ -20,13 +20,14 @@
     position: absolute;
     left: 20px;
     top: 380px;
+	overflow: auto;
 }
 
 #quick {
     width: 250px;
     padding: 20px;
     height: 600px;
-    overflow: hidden;
+    /*overflow: auto;*/
     border-radius: 0.5em;
     display: block;
     position: absolute;
@@ -91,25 +92,25 @@
 }
 
 /** Stream */
-#stream-list{
+.stream-list{
     padding: 0;
     list-style:none;
 }
 
-#stream-list li {
+.stream-list li {
     background: rgba(255,255,255,0.5);
     padding: 5px;
     position: relative;
     border-bottom: solid 1px #888;
 }
 
-#stream-list li img {
+.stream-list li img {
     width: 50px;
     height: 50px;
     display: inline-block;
 }
 
-#stream-list li .stream-info {
+.stream-list li .stream-info {
     position: absolute;
     left: 60px;
     top: 5px;
@@ -119,6 +120,12 @@
     position: relative;
     width: 430px;
     height: 20px;
+}
+.stream-new {
+    postion: absolute;
+    bottom: 0;
+    height: 30px;
+    font-size: small;
 }
 .stream-new {
     postion: absolute;
