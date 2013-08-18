@@ -711,10 +711,15 @@ require('./server/database.js')(util, test, function(db, bson){
 
             socket.on('get-news', function(email){
                 var n = {name: 'Perico de los Palotes', time: '2h ago', new: 'Has won 20 points of Memory playing example game', avatar: 'http://imagenes.es.sftcdn.net/avatars/gallery/MoviesAnimated/Oscar.jpg'};
-                var news = [n,n,n,n,n,n,n,n];
+                var news = [n,n,n,n];
                 socket.emit('get-news', news);
             });
 
+            socket.on('get-global-news', function(email){
+                var n = {name: 'Perico de los Palotes', time: '2h ago', new: 'Has won 20 points of Memory playing example game', avatar: 'http://imagenes.es.sftcdn.net/avatars/gallery/MoviesAnimated/Oscar.jpg'};
+                var news = [n,n];
+                socket.emit('get-global-news', news);
+            });
             
         });
         
