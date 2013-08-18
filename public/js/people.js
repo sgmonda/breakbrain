@@ -47,6 +47,48 @@ loadJS([
         
     });
 
+    socket.on('search-users', function(data){
+        hideLoading();
+        $('#recommended-users').empty();
+        var length = data.length;
+        if(length < 1) alert('no results');
+        data.forEach(function(e){
+            var item = '<li>' +
+                    '<div class="_id">' + e._id + '</div>' + 
+                    '<div class="recommended-result-avatar">' +
+                    '    <img src="' + (e.avatar || '/img/sample2.jpg') + '"/>' +
+                    '</div>' +
+                    '<div class="recommended-result-info">' +
+                    '    <div class="recommended-result-name">' +
+                    '        ' + e.realname + 
+                    '    </div>' +
+                    '    <div class="recommended-result-nick">' +
+                    '        ' + e.nick + 
+                    '    </div>' + 
+                    '    <div class="recommended-result-country">' +
+                    '        ' + e.country + 
+                    '    </div>' +
+                    '</div>' +
+                    '</li>';
+            $('#recommended-users').append(item);
+        });
+
+        $('#search-results li').on('click', function(){
+            var userID = $(this).find('._id').text();
+            showLoading();
+            $('#friend-button').hide();
+            socket.emit('user-complete-info', {userID: userID});
+        });
+
+        $('#recommended-users li').on('click', function(){
+            var userID = $(this).find('._id').text();
+            showLoading();
+            $('#friend-button').hide();
+            socket.emit('user-complete-info', {userID: userID});
+        });
+        
+    });
+
     socket.on('user-complete-info', function(data){
         hideLoading();
         $('#search-right-avatar > img')[0].src = data.avatar;

@@ -30,7 +30,7 @@
 
 #search-results {
     overflow: auto;
-    height: 670px;
+    height: 350px;
     padding: 1px;
     list-style-type: none;
 }
@@ -134,3 +134,48 @@
     height: 150px;
 }
 
+#recommended-users {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+#recommended-users > li {
+	background: #f1f1f1;
+	border: solid 1px #ddd;
+	display: inline-block;
+	height: 75px;
+	width: 230px;
+	margin: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+.recommended-result-avatar {
+	margin: 5px;
+	width: 64px;
+	height: 64px;
+	float: left;
+	overflow: hidden;
+}
+
+.recommended-result-avatar img {
+	width: 64px;
+	heigth: 64px;
+}
+
+.recommended-result-name {
+	font-weight: bold;
+	font-size: small;
+	margin: 5px;
+}
+
+.recommended-result-nick {
+	font-size: small;
+	margin: 5px;
+}
+
+.recommended-result-country {
+	font-size: small;
+	margin: 5px;
+	color: orange;
+	margin-top: 15px;
+}
