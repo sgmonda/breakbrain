@@ -175,19 +175,21 @@
 \contentsline {subsection}{\numberline {C.4.6}Desarrollando la parte cliente}{167}{subsection.Alph3.4.6}
 \contentsline {section}{\numberline {C.5}Publicaci\IeC {\'o}n del juego en BreakBrain}{176}{section.Alph3.5}
 \contentsline {chapter}{\numberline {D}Manual de usuario}{177}{appendix.Alph4}
-\contentsline {section}{\numberline {D.1}Registro}{177}{section.Alph4.1}
-\contentsline {subsection}{\numberline {D.1.1}Activaci\IeC {\'o}n de la cuenta}{177}{subsection.Alph4.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Recuperaci\IeC {\'o}n de la contrase\IeC {\~n}a}{177}{subsection.Alph4.1.2}
-\contentsline {section}{\numberline {D.2}Primer acceso}{177}{section.Alph4.2}
-\contentsline {subsection}{\numberline {D.2.1}Las p\IeC {\'a}ginas de BreakBrain}{177}{subsection.Alph4.2.1}
-\contentsline {subsubsection}{Login}{177}{subsection.Alph4.2.1}
-\contentsline {subsubsection}{Home}{178}{figure.Alph4.1}
-\contentsline {subsection}{\numberline {D.2.2}Completando el perfil de usuario}{178}{subsection.Alph4.2.2}
-\contentsline {subsection}{\numberline {D.2.3}Definiendo las preferencias de entrenamiento}{178}{subsection.Alph4.2.3}
-\contentsline {section}{\numberline {D.3}Siguiendo a otros usuarios}{178}{section.Alph4.3}
-\contentsline {section}{\numberline {D.4}Entrenando el cerebro con juegos}{178}{section.Alph4.4}
-\contentsline {subsection}{\numberline {D.4.1}Juegos monojugador}{178}{subsection.Alph4.4.1}
-\contentsline {subsection}{\numberline {D.4.2}Jugando contra otros usuarios}{178}{subsection.Alph4.4.2}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{179}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{197}{appendix*.24}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{203}{appendix*.24}
+\contentsline {section}{\numberline {D.1}Las p\IeC {\'a}ginas de BreakBrain}{177}{section.Alph4.1}
+\contentsline {subsection}{\numberline {D.1.1}Inicio de sesi\IeC {\'o}n (login)}{177}{subsection.Alph4.1.1}
+\contentsline {subsection}{\numberline {D.1.2}P\IeC {\'a}gina principal (home)}{178}{subsection.Alph4.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Perfil (profile)}{178}{subsection.Alph4.1.3}
+\contentsline {subsection}{\numberline {D.1.4}Juegos (games)}{178}{subsection.Alph4.1.4}
+\contentsline {subsection}{\numberline {D.1.5}Gente (people)}{179}{subsection.Alph4.1.5}
+\contentsline {section}{\numberline {D.2}Tareas comunes}{179}{section.Alph4.2}
+\contentsline {subsection}{\numberline {D.2.1}Creando una nueva cuenta de usuario}{179}{subsection.Alph4.2.1}
+\contentsline {subsubsection}{Recuperando la contrase\IeC {\~n}a olvidada}{180}{figure.Alph4.7}
+\contentsline {subsection}{\numberline {D.2.2}Completando el perfil de usuario}{180}{subsection.Alph4.2.2}
+\contentsline {subsubsection}{Definiendo las preferencias de entrenamiento}{180}{subsection.Alph4.2.2}
+\contentsline {subsection}{\numberline {D.2.3}Siguiendo a otros usuarios}{180}{subsection.Alph4.2.3}
+\contentsline {subsection}{\numberline {D.2.4}Entrenando el cerebro con juegos}{180}{subsection.Alph4.2.4}
+\contentsline {subsubsection}{Juegos monojugador}{180}{subsection.Alph4.2.4}
+\contentsline {subsubsection}{Jugando contra otros usuarios}{180}{subsection.Alph4.2.4}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{183}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{201}{appendix*.24}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{207}{appendix*.24}
