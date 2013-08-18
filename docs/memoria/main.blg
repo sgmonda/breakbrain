@@ -38,50 +38,52 @@ Warning--empty year in James2009
 Warning--empty institution in Oberman2006
 Warning--empty journal in php
 Warning--empty year in php
+Warning--empty journal in gettext
+Warning--empty year in gettext
 Warning--empty journal in Statement2012
 Warning--empty journal in unity
 Warning--empty year in unity
 Warning--empty journal in w3techs
 Warning--empty year in w3techs
-You've used 68 entries,
+You've used 69 entries,
             3036 wiz_defined-function locations,
-            1000 strings with 14739 characters,
-and the built_in function-call counts, 24799 in all, are:
-= -- 2144
-> -- 1028
-< -- 44
-+ -- 334
-- -- 331
-* -- 1488
-:= -- 3883
-add.period$ -- 215
-call.type$ -- 68
-change.case$ -- 385
-chr.to.int$ -- 68
-cite$ -- 106
-duplicate$ -- 1292
-empty$ -- 2424
-format.name$ -- 435
-if$ -- 5233
+            1004 strings with 14856 characters,
+and the built_in function-call counts, 25097 in all, are:
+= -- 2170
+> -- 1036
+< -- 45
++ -- 336
+- -- 333
+* -- 1506
+:= -- 3929
+add.period$ -- 218
+call.type$ -- 69
+change.case$ -- 390
+chr.to.int$ -- 69
+cite$ -- 109
+duplicate$ -- 1310
+empty$ -- 2453
+format.name$ -- 439
+if$ -- 5294
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 73
-newline$ -- 366
-num.names$ -- 204
-pop$ -- 913
+missing$ -- 74
+newline$ -- 371
+num.names$ -- 207
+pop$ -- 927
 preamble$ -- 1
-purify$ -- 470
+purify$ -- 476
 quote$ -- 0
-skip$ -- 734
+skip$ -- 742
 stack$ -- 0
-substring$ -- 807
+substring$ -- 814
 swap$ -- 58
-text.length$ -- 44
-text.prefix$ -- 43
+text.length$ -- 45
+text.prefix$ -- 44
 top$ -- 0
-type$ -- 464
-warning$ -- 38
-while$ -- 193
-width$ -- 72
-write$ -- 837
-(There were 38 warnings)
+type$ -- 472
+warning$ -- 40
+while$ -- 195
+width$ -- 73
+write$ -- 848
+(There were 40 warnings)

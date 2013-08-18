@@ -339,6 +339,12 @@ PHP.
 \newblock {PHP, a widely-used general-purpose scripting language}.
 \newblock \ifshowURL {\showURL \path|http://php.net|}\fi.
 
+\bibitem[Pro]{gettext}
+GNU Project.
+\newblock {Gettext. La biblioteca de GNU de internacinalización (i18n)}.
+\newblock \ifshowURL {\showURL
+  \path|https://www.gnu.org/software/gettext/|}\fi.
+
 \bibitem[Rat98]{Rational1998}
 Rational.
 \newblock {Rational Unified Process. Best Practices for Software Development
