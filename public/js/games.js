@@ -65,4 +65,14 @@ $(function(){
                 });
 
             });
+
+
+    socket.emit('get-online-users').on('get-online-users', function (users) {
+		$('#connected-users-list').empty();
+		for (var email in users) {
+			var user = users[email];
+			$('#connected-users-list').append('<li><img class="avatar" src="' + user.avatar + '"/><span class="name">' + user.realname + '</span><span class="nick">' + user.nick + '</span><span class="country">' + user.country + '</span></li>');
+		}
+	});
+
 });

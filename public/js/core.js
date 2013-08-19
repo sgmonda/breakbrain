@@ -63,6 +63,8 @@ loadJS(['/js/settings.js', '/socket.io/socket.io.js'], function(){
 
                 });
 
+				socket.emit('online', user);
+
             });
 
         };

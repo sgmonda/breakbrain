@@ -516,7 +516,7 @@ require('./server/database.js')(util, test, function(db, bson){
 
         // Sockets communication
         
-        var sockets = [];
+		var onlineUsers = {};
 
         io.on('connection', function(socket) {
             
@@ -540,6 +540,19 @@ require('./server/database.js')(util, test, function(db, bson){
                     socket.emit('login' + (id ? '-' + id : ''), user);
                 });
             });
+
+			socket.on('online', function (user) {
+				if (!onlineUsers[user.email]) {
+					util.log('WEB SERVER', 'New online user: ' + user.email);
+					onlineUsers[user.email] = user; // change this by the user info
+					socket.broadcast.emit('get-online-users', onlineUsers);
+				}
+			});
+
+            socket.on('get-online-users', function(){
+                socket.emit('get-online-users', onlineUsers);
+            });
+
             
             var stress_sent = false;
             socket.on('register', function(user){
@@ -732,6 +745,10 @@ require('./server/database.js')(util, test, function(db, bson){
 				];
                 socket.emit('get-news', news);
             });
+
+			socket.on('get-online-users', function () {
+				socket.emit('get-online-users', onlineUsers);
+			});
 
             socket.on('get-global-news', function(email){
 				var news = [
