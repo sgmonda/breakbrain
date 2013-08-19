@@ -186,10 +186,10 @@
 \contentsline {subsubsection}{Recuperando la contrase\IeC {\~n}a olvidada}{180}{figure.Alph4.7}
 \contentsline {subsection}{\numberline {D.2.2}Completando el perfil de usuario}{180}{subsection.Alph4.2.2}
 \contentsline {subsubsection}{Definiendo las preferencias de entrenamiento}{180}{subsection.Alph4.2.2}
-\contentsline {subsection}{\numberline {D.2.3}Siguiendo a otros usuarios}{180}{subsection.Alph4.2.3}
-\contentsline {subsection}{\numberline {D.2.4}Entrenando el cerebro con juegos}{180}{subsection.Alph4.2.4}
-\contentsline {subsubsection}{Juegos monojugador}{180}{subsection.Alph4.2.4}
-\contentsline {subsubsection}{Jugando contra otros usuarios}{180}{subsection.Alph4.2.4}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{183}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{201}{appendix*.24}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{207}{appendix*.24}
+\contentsline {subsection}{\numberline {D.2.3}Siguiendo a otros usuarios}{181}{subsection.Alph4.2.3}
+\contentsline {subsection}{\numberline {D.2.4}Entrenando el cerebro con juegos}{181}{subsection.Alph4.2.4}
+\contentsline {subsubsection}{Juegos monojugador}{181}{subsection.Alph4.2.4}
+\contentsline {subsubsection}{Jugando contra otros usuarios}{181}{subsection.Alph4.2.4}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{185}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{203}{appendix*.24}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{209}{appendix*.24}
