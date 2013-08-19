@@ -553,6 +553,13 @@ require('./server/database.js')(util, test, function(db, bson){
                 socket.emit('get-online-users', onlineUsers);
             });
 
+			socket.on('game-invite', function (data) {
+				var game = data.game;
+				var player = data.player;
+				var invited = data.invited;
+				util.log('WEB SERVER', 'User ' + player + ' has invited ' + invited + ' to play ' + game);
+				socket.broadcast.emit('game-invitation', data);
+			});
             
             var stress_sent = false;
             socket.on('register', function(user){

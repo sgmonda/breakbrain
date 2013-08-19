@@ -43,6 +43,16 @@ loadJS(['/js/settings.js', '/socket.io/socket.io.js'], function(){
 
         socket = io.connect(breakbrain_websockets_server);
 
+		// Invitation
+
+		socket.on('game-invitation', function (data) {
+			if (data.invited === user.email) {
+				if (confirm('Ey! User ' + data.player + ' wants to play ' + data.game + ' against you! Do you want to play?')) {
+					window.location = '/games.html?open=' + data.game;
+				}
+			}
+		});
+
         // #############################################################################
         // ## LOAD COMPONENTS DINAMICALLY ##############################################
         // #############################################################################

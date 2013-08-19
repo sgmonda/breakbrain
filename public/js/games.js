@@ -1,5 +1,16 @@
 // games.js
 
+var openedGame = null;
+
+var prmstr = window.location.search.substr(1);
+var prmarr = prmstr.split ("&");
+var params = {};
+
+for (var i = 0; i < prmarr.length; i++) {
+    var tmparr = prmarr[i].split("=");
+    params[tmparr[0]] = tmparr[1];
+}
+
 $(function(){
 
     showLoading();
@@ -10,12 +21,10 @@ $(function(){
             //'http://code.createjs.com/preloadjs-0.2.0.min.js',
             '/games/bbgame-core.js'], function(){
 
-
                 var game_template = document.getElementById('games-list').innerHTML.replace(/(\n|\t)/g, '').match(/<!--{(.*)}-->/)[0].replace(/(<!--{|}-->)/g, '');
 
                 var games = {};
                 socket.emit('get-games').on('get-games', function(gs){
-                    hideLoading();
                     if(gs){
                         $('#games-list').empty();
                         gs.forEach(function(item){
@@ -25,10 +34,11 @@ $(function(){
 													.replace(/{{hability}}/g, item.hability)
                                                     .replace(/{{img}}/g, item.client_logo));
                         });
-
+						hideLoading();
                         $('.game').on('click', function(){
                             $('#game-loaded').slideUp();
                             var aux = games[$(this).attr('id')];
+							openedGame = aux.name;
                             loadJS([aux.client_logic], function(){
                                 window.game.name = aux.name;
                                 window.bbgames.onTick(window.game.tick);
@@ -50,6 +60,8 @@ $(function(){
 
                         });
 
+						console.log('here');
+						$('#' + params.open).click();
                     }
                 });
 
@@ -66,13 +78,31 @@ $(function(){
 
             });
 
-
     socket.emit('get-online-users').on('get-online-users', function (users) {
 		$('#connected-users-list').empty();
+
 		for (var email in users) {
-			var user = users[email];
-			$('#connected-users-list').append('<li><img class="avatar" src="' + user.avatar + '"/><span class="name">' + user.realname + '</span><span class="nick">' + user.nick + '</span><span class="country">' + user.country + '</span></li>');
+
+			var u = users[email];
+			var li = $('<li data-email="' + email + '"><img class="avatar" src="' + u.avatar + '"/><span class="name">' + u.realname + '</span><span class="nick">' + u.nick + '</span><span class="country">' + u.country + '</span></li>');
+			$('#connected-users-list').append(li);
+
+			li.on('click', function () {
+				var invited = $(this).data('email');
+				if (invited == user.email) {
+					alert('You cannot play against yourself');
+					return;
+				}
+				socket.emit('game-invite', {
+					game: openedGame,
+					player: user.realname,
+					invited: invited
+				});
+				alert('An invitation has been sent to ' + u.realname);
+			});
 		}
+
 	});
+
 
 });
