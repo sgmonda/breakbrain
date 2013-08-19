@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  19 AUG 2013 23:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  20 AUG 2013 01:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1343,7 +1343,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<images/lobulos.jpg, id=1069, 552.0625pt x 516.93124pt>
+<images/lobulos.jpg, id=1074, 552.0625pt x 516.93124pt>
 File: images/lobulos.jpg Graphic file (type jpg)
 
 <use images/lobulos.jpg>
@@ -1442,7 +1442,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [11
 
 ]
-<images/minijuegos.png, id=1151, 749.80125pt x 561.09625pt>
+<images/minijuegos.png, id=1156, 749.80125pt x 561.09625pt>
 File: images/minijuegos.png Graphic file (type png)
 
 <use images/minijuegos.png>
@@ -1464,14 +1464,14 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.33 
       <./images/minijuegos.png>]
-<images/minijuegos-cat.png, id=1160, 566.115pt x 386.44376pt>
+<images/minijuegos-cat.png, id=1165, 566.115pt x 386.44376pt>
 File: images/minijuegos-cat.png Graphic file (type png)
 
 <use images/minijuegos-cat.png>
 Package pdftex.def Info: images/minijuegos-cat.png used on input line 36.
 (pdftex.def)             Requested size: 441.01773pt x 301.05933pt.
 
-<images/minijuegos-mul.png, id=1161, 679.53876pt x 293.095pt>
+<images/minijuegos-mul.png, id=1166, 679.53876pt x 293.095pt>
 File: images/minijuegos-mul.png Graphic file (type png)
 
 <use images/minijuegos-mul.png>
@@ -1481,7 +1481,7 @@ Package pdftex.def Info: images/minijuegos-mul.png used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/miniclip.png, id=1165, 787.94376pt x 335.2525pt>
+<images/miniclip.png, id=1170, 787.94376pt x 335.2525pt>
 File: images/miniclip.png Graphic file (type png)
 
 <use images/miniclip.png>
@@ -1506,7 +1506,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.67 
       <./images/minijuegos-cat.png>]
-<images/minigamesfreak.png, id=1170, 762.85pt x 424.58624pt>
+<images/minigamesfreak.png, id=1175, 762.85pt x 424.58624pt>
 File: images/minigamesfreak.png Graphic file (type png)
 
 <use images/minigamesfreak.png>
@@ -1516,7 +1516,7 @@ Package pdftex.def Info: images/minigamesfreak.png used on input line 76.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/juegosfan.png, id=1171, 854.19125pt x 449.68pt>
+<images/juegosfan.png, id=1176, 854.19125pt x 449.68pt>
 File: images/juegosfan.png Graphic file (type png)
 
 <use images/juegosfan.png>
@@ -1545,7 +1545,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.101 
        <./images/minijuegos-mul.png>]
-<images/minigameonline.png, id=1176, 911.405pt x 485.815pt>
+<images/minigameonline.png, id=1181, 911.405pt x 485.815pt>
 File: images/minigameonline.png Graphic file (type png)
 
 <use images/minigameonline.png>
@@ -1570,7 +1570,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.122 
        <./images/miniclip.png>]
-<images/lumosity.png, id=1182, 1039.885pt x 538.01pt>
+<images/lumosity.png, id=1187, 1039.885pt x 538.01pt>
 File: images/lumosity.png Graphic file (type png)
 
 <use images/lumosity.png>
@@ -1580,7 +1580,7 @@ Package pdftex.def Info: images/lumosity.png used on input line 127.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/brainarena.png, id=1184, 916.42375pt x 471.7625pt>
+<images/brainarena.png, id=1189, 916.42375pt x 471.7625pt>
 File: images/brainarena.png Graphic file (type png)
 
 <use images/brainarena.png>
@@ -1704,7 +1704,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <images/webgl.png, id=1286, 923.45pt x 541.02126pt>
+[22] <images/webgl.png, id=1291, 923.45pt x 541.02126pt>
 File: images/webgl.png Graphic file (type png)
 
 <use images/webgl.png>
@@ -1738,7 +1738,7 @@ d-to.pdf images/neurona.eps>
 (epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/neurona-eps-converted-to.pdf, id=1297, 296.10625pt x 165.61874pt>
+<images/neurona-eps-converted-to.pdf, id=1302, 296.10625pt x 165.61874pt>
 File: images/neurona-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/neurona-eps-converted-to.pdf>
@@ -1774,7 +1774,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.351 
        <./images/neurona-eps-converted-to.pdf>]
-<images/surcosygiros.jpg, id=1324, 401.5pt x 321.2pt>
+<images/surcosygiros.jpg, id=1329, 401.5pt x 321.2pt>
 File: images/surcosygiros.jpg Graphic file (type jpg)
 
 <use images/surcosygiros.jpg>
@@ -1815,7 +1815,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <images/tubo-neural.png, id=1351, 602.25pt x 325.215pt>
+[28] <images/tubo-neural.png, id=1356, 602.25pt x 325.215pt>
 File: images/tubo-neural.png Graphic file (type png)
 
 <use images/tubo-neural.png>
@@ -1863,7 +1863,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31] <images/sna.jpg, id=1390, 527.9725pt x 473.77pt>
+[31] <images/sna.jpg, id=1395, 527.9725pt x 473.77pt>
 File: images/sna.jpg Graphic file (type jpg)
  <use images/sna.jpg>
 Package pdftex.def Info: images/sna.jpg used on input line 500.
@@ -1872,7 +1872,7 @@ Package pdftex.def Info: images/sna.jpg used on input line 500.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/cerebelo.jpg, id=1393, 501.875pt x 421.575pt>
+<images/cerebelo.jpg, id=1398, 501.875pt x 421.575pt>
 File: images/cerebelo.jpg Graphic file (type jpg)
 
 <use images/cerebelo.jpg>
@@ -1920,7 +1920,7 @@ Package epstopdf Info: Source file: <images/brain2.eps>
 (epstopdf)             \includegraphics on input line 540.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/brain2-eps-converted-to.pdf, id=1409, 544.0325pt x 275.0275pt>
+<images/brain2-eps-converted-to.pdf, id=1414, 544.0325pt x 275.0275pt>
 File: images/brain2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/brain2-eps-converted-to.pdf>
@@ -1949,7 +1949,7 @@ same identifier (name{figure.3.16}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.552 \subsubsection{El neoc√≥rtex}
                                     <./images/cerebelo.jpg> <./images/brain2-ep
-s-converted-to.pdf>] <images/cingulo.png, id=1421, 539.48029pt x 411.22649pt>
+s-converted-to.pdf>] <images/cingulo.png, id=1426, 539.48029pt x 411.22649pt>
 File: images/cingulo.png Graphic file (type png)
 
 <use images/cingulo.png>
@@ -1995,7 +1995,7 @@ to.pdf images/brain.eps>
 (epstopdf)             \includegraphics on input line 593.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/brain-eps-converted-to.pdf, id=1439, 662.475pt x 315.1775pt>
+<images/brain-eps-converted-to.pdf, id=1444, 662.475pt x 315.1775pt>
 File: images/brain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/brain-eps-converted-to.pdf>
@@ -2029,7 +2029,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] <images/piramidal.jpg, id=1465, 268.00125pt x 346.29375pt>
+[38] <images/piramidal.jpg, id=1470, 268.00125pt x 346.29375pt>
 File: images/piramidal.jpg Graphic file (type jpg)
 
 <use images/piramidal.jpg>
@@ -2051,7 +2051,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.644 
        <./images/piramidal.jpg>]
-<images/orbital-frontal.jpg, id=1475, 451.6875pt x 416.55624pt>
+<images/orbital-frontal.jpg, id=1480, 451.6875pt x 416.55624pt>
 File: images/orbital-frontal.jpg Graphic file (type jpg)
 
 <use images/orbital-frontal.jpg>
@@ -2073,7 +2073,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.661 
        <./images/orbital-frontal.jpg>]
-<images/brodmann-areas.png, id=1484, 515.9275pt x 681.54625pt>
+<images/brodmann-areas.png, id=1489, 515.9275pt x 681.54625pt>
 File: images/brodmann-areas.png Graphic file (type png)
 
 <use images/brodmann-areas.png>
@@ -2138,7 +2138,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] <images/amigdala.jpg, id=1527, 538.6524pt x 613.8132pt>
+[45] <images/amigdala.jpg, id=1532, 538.6524pt x 613.8132pt>
 File: images/amigdala.jpg Graphic file (type jpg)
 
 <use images/amigdala.jpg>
@@ -2213,7 +2213,7 @@ Package acronym Info: Label `acro:IRM' newly defined as it shall be overridden
 although it is yet undefined on input line 876.
 Package acronym Info: Label `acro:VBM' newly defined as it shall be overridden
 although it is yet undefined on input line 876.
- <images/piano.jpg, id=1582, 504.88625pt x 275.0275pt>
+ <images/piano.jpg, id=1587, 504.88625pt x 275.0275pt>
 File: images/piano.jpg Graphic file (type jpg)
 
 <use images/piano.jpg>
@@ -2316,7 +2316,7 @@ Package acronym Info: Label `acro:PUD' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
 Package acronym Info: Label `acro:RUP' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
-<images/pud.png, id=1676, 599.841pt x 329.5512pt>
+<images/pud.png, id=1681, 599.841pt x 329.5512pt>
 File: images/pud.png Graphic file (type png)
  <use images/pud.png>
 Package pdftex.def Info: images/pud.png used on input line 15.
@@ -2505,7 +2505,7 @@ rted-to.pdf images/despliegue.eps>
 (epstopdf)             \includegraphics on input line 687.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/despliegue-eps-converted-to.pdf, id=1796, 828.09375pt x 501.875pt>
+<images/despliegue-eps-converted-to.pdf, id=1801, 828.09375pt x 501.875pt>
 File: images/despliegue-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/despliegue-eps-converted-to.pdf>
@@ -2567,7 +2567,7 @@ ted-to.pdf images/casos-uso.eps>
 (epstopdf)             \includegraphics on input line 722.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/casos-uso-eps-converted-to.pdf, id=1834, 1005.7575pt x 1407.2575pt>
+<images/casos-uso-eps-converted-to.pdf, id=1839, 1005.7575pt x 1407.2575pt>
 File: images/casos-uso-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/casos-uso-eps-converted-to.pdf>
@@ -2602,7 +2602,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78] <images/uc-1.png, id=1861, 892.33376pt x 503.8825pt>
+[78] <images/uc-1.png, id=1866, 892.33376pt x 503.8825pt>
 File: images/uc-1.png Graphic file (type png)
 
 <use images/uc-1.png>
@@ -2646,7 +2646,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[81] <images/uc-3.png, id=1914, 881.2925pt x 640.3925pt>
+[81] <images/uc-3.png, id=1919, 881.2925pt x 640.3925pt>
 File: images/uc-3.png Graphic file (type png)
  <use images/uc-3.png>
 Package pdftex.def Info: images/uc-3.png used on input line 912.
@@ -2682,7 +2682,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.952     \item E
                  l m√≥dulo cliente de websockets recibe la informaci√≥n y en...
- <./images/uc-3.png>] <images/uc-4.png, id=1951, 1147.28625pt x 908.39375pt>
+ <./images/uc-3.png>] <images/uc-4.png, id=1956, 1147.28625pt x 908.39375pt>
 File: images/uc-4.png Graphic file (type png)
 
 <use images/uc-4.png>
@@ -2789,7 +2789,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92] <images/uc-12.png, id=2105, 877.2775pt x 889.3225pt>
+[92] <images/uc-12.png, id=2110, 877.2775pt x 889.3225pt>
 File: images/uc-12.png Graphic file (type png)
 
 <use images/uc-12.png>
@@ -2904,7 +2904,7 @@ Overfull \hbox (45.20526pt too wide) in paragraph at lines 1834--1863
 [][] 
  []
 
-<./images/code-stats.png, id=2281, 301.125pt x 150.5625pt>
+<./images/code-stats.png, id=2286, 301.125pt x 150.5625pt>
 File: ./images/code-stats.png Graphic file (type png)
 
 <use ./images/code-stats.png>
@@ -2993,7 +2993,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.1967 
         <./images/code-stats.png>]
-<images/vows.png, id=2299, 684.5575pt x 671.50874pt>
+<images/vows.png, id=2304, 684.5575pt x 671.50874pt>
 File: images/vows.png Graphic file (type png)
  <use images/vows.png>
 Package pdftex.def Info: images/vows.png used on input line 1972.
@@ -3021,7 +3021,7 @@ Package epstopdf Info: Source file: <images/estres.eps>
 -to.pdf images/estres.eps>
 (epstopdf)             \includegraphics on input line 2054.
 Package epstopdf Info: Output file is already uptodate.
- <images/estres-eps-converted-to.pdf, id=2306, 818.05624pt x 485.815pt>
+ <images/estres-eps-converted-to.pdf, id=2311, 818.05624pt x 485.815pt>
 File: images/estres-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/estres-eps-converted-to.pdf>
@@ -3060,7 +3060,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[109] <images/estresplot.png, id=2402, 563.10374pt x 321.2pt>
+[109] <images/estresplot.png, id=2407, 563.10374pt x 321.2pt>
 File: images/estresplot.png Graphic file (type png)
 
 <use images/estresplot.png>
@@ -3170,7 +3170,7 @@ verted-to.pdf images/arquitectura.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/arquitectura-eps-converted-to.pdf, id=2439, 890.32625pt x 1191.45125pt>
+<images/arquitectura-eps-converted-to.pdf, id=2444, 890.32625pt x 1191.45125pt>
 File: images/arquitectura-eps-converted-to.pdf Graphic file (type pdf)
 <use images/arquitectura-eps-converted-to.pdf>
 Package pdftex.def Info: images/arquitectura-eps-converted-to.pdf used on input
@@ -3185,7 +3185,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 Package acronym Info: Label `acro:MVC' newly defined as it shall be overridden
 although it is yet undefined on input line 31.
- <images/mvc-cliente.png, id=2455, 636.3775pt x 391.4625pt>
+ <images/mvc-cliente.png, id=2460, 636.3775pt x 391.4625pt>
 File: images/mvc-cliente.png Graphic file (type png)
 
 <use images/mvc-cliente.png>
@@ -3208,7 +3208,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.48 \item {
             \bf Vista}: Interfaz gr√°fica con la que el usuario interact√∫a....
  <./images/mvc-cliente.png>]
-<images/mvc-servidor.png, id=2465, 691.58376pt x 391.4625pt>
+<images/mvc-servidor.png, id=2470, 691.58376pt x 391.4625pt>
 File: images/mvc-servidor.png Graphic file (type png)
 
 <use images/mvc-servidor.png>
@@ -3242,7 +3242,7 @@ Package epstopdf Info: Source file: <images/diseno.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/diseno-eps-converted-to.pdf, id=2472, 970.62625pt x 720.6925pt>
+<images/diseno-eps-converted-to.pdf, id=2477, 970.62625pt x 720.6925pt>
 File: images/diseno-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/diseno-eps-converted-to.pdf>
@@ -3314,7 +3314,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[123] <./images/quantitative-reasoning.png, id=2516, 527.9725pt x 97.36375pt>
+[123] <./images/quantitative-reasoning.png, id=2521, 527.9725pt x 97.36375pt>
 File: ./images/quantitative-reasoning.png Graphic file (type png)
 
 <use ./images/quantitative-reasoning.png>
@@ -3322,7 +3322,7 @@ Package pdftex.def Info: ./images/quantitative-reasoning.png used on input line
  81.
 (pdftex.def)             Requested size: 220.50887pt x 40.6637pt.
 
-<./images/game-focus.png, id=2518, 473.77pt x 171.64125pt>
+<./images/game-focus.png, id=2523, 473.77pt x 171.64125pt>
 File: ./images/game-focus.png Graphic file (type png)
 
 <use ./images/game-focus.png>
@@ -3363,7 +3363,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
                                                   \fi \fi 
 l.131 
        <./images/game-focus.png>]
-<./images/game-spatial-orientation.png, id=2529, 764.8575pt x 341.275pt>
+<./images/game-spatial-orientation.png, id=2534, 764.8575pt x 341.275pt>
 File: ./images/game-spatial-orientation.png Graphic file (type png)
 
 <use ./images/game-spatial-orientation.png>
@@ -3371,7 +3371,7 @@ Package pdftex.def Info: ./images/game-spatial-orientation.png used on input li
 ne 136.
 (pdftex.def)             Requested size: 352.81552pt x 157.42581pt.
 
-<./images/game-impulse.png, id=2530, 569.12625pt x 142.5325pt>
+<./images/game-impulse.png, id=2535, 569.12625pt x 142.5325pt>
 File: ./images/game-impulse.png Graphic file (type png)
 
 <use ./images/game-impulse.png>
@@ -3397,7 +3397,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 l.170 L
        a conmutaci√≥n de tareas es la adaptaci√≥n de la atenci√≥n intercambi...
  <./images/game-spatial-orientation.png>]
-<./images/game-switch.png, id=2536, 748.7975pt x 428.60126pt>
+<./images/game-switch.png, id=2541, 748.7975pt x 428.60126pt>
 File: ./images/game-switch.png Graphic file (type png)
 
 <use ./images/game-switch.png>
@@ -3437,7 +3437,7 @@ s-converted-to.pdf images/games-diagram-esp.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/games-diagram-esp-eps-converted-to.pdf, id=2541, 869.2475pt x 1133.2337
+<images/games-diagram-esp-eps-converted-to.pdf, id=2546, 869.2475pt x 1133.2337
 5pt>
 File: images/games-diagram-esp-eps-converted-to.pdf Graphic file (type pdf)
  <use images/games-diagram-esp-eps-converted-to.pdf>
@@ -3485,7 +3485,7 @@ vidades-eps-converted-to.pdf images/juegos-partidas-actividades.eps>
 (epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/juegos-partidas-actividades-eps-converted-to.pdf, id=2553, 743.77875pt 
+<images/juegos-partidas-actividades-eps-converted-to.pdf, id=2558, 743.77875pt 
 x 366.36874pt>
 File: images/juegos-partidas-actividades-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3640,13 +3640,13 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <17.28> not available
 
 ]
 Anexo A.
-[143] <images/i1.png, id=2643, 260.975pt x 200.75pt>
+[143] <images/i1.png, id=2648, 260.975pt x 200.75pt>
 File: images/i1.png Graphic file (type png)
  <use images/i1.png>
 Package pdftex.def Info: images/i1.png used on input line 58.
 (pdftex.def)             Requested size: 170.71652pt x 131.32219pt.
 
-<images/e1.png, id=2644, 260.975pt x 200.75pt>
+<images/e1.png, id=2649, 260.975pt x 200.75pt>
 File: images/e1.png Graphic file (type png)
  <use images/e1.png>
 Package pdftex.def Info: images/e1.png used on input line 101.
@@ -3675,13 +3675,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.Alph1.
 l.118 E
        sta √∫ltima etapa de la fase de Elaboraci√≥n ha supuesto un peque√±o ...
  <./images/i1.png> <./images/e1.png>]
-<images/e2.png, id=2649, 260.975pt x 200.75pt>
+<images/e2.png, id=2654, 260.975pt x 200.75pt>
 File: images/e2.png Graphic file (type png)
  <use images/e2.png>
 Package pdftex.def Info: images/e2.png used on input line 142.
 (pdftex.def)             Requested size: 170.71652pt x 131.32219pt.
 
-<images/c1.png, id=2650, 260.975pt x 200.75pt>
+<images/c1.png, id=2655, 260.975pt x 200.75pt>
 File: images/c1.png Graphic file (type png)
  <use images/c1.png>
 Package pdftex.def Info: images/c1.png used on input line 184.
@@ -3705,7 +3705,7 @@ ph1.3}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.194 \subsection*{Iteraci√≥n C2}
                                   <./images/e2.png>]
-<images/c2.png, id=2655, 260.975pt x 200.75pt>
+<images/c2.png, id=2660, 260.975pt x 200.75pt>
 File: images/c2.png Graphic file (type png)
  <use images/c2.png>
 Package pdftex.def Info: images/c2.png used on input line 223.
@@ -3732,13 +3732,13 @@ Alph1.5}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.239 
        <./images/c1.png> <./images/c2.png>]
-<images/c3.png, id=2660, 260.975pt x 200.75pt>
+<images/c3.png, id=2665, 260.975pt x 200.75pt>
 File: images/c3.png Graphic file (type png)
  <use images/c3.png>
 Package pdftex.def Info: images/c3.png used on input line 262.
 (pdftex.def)             Requested size: 170.71652pt x 131.32219pt.
 
-<images/c4.png, id=2661, 260.975pt x 200.75pt>
+<images/c4.png, id=2666, 260.975pt x 200.75pt>
 File: images/c4.png Graphic file (type png)
  <use images/c4.png>
 Package pdftex.def Info: images/c4.png used on input line 301.
@@ -3765,7 +3765,7 @@ Alph1.7}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.314 
        <./images/c3.png> <./images/c4.png>]
-<images/iteraciones.png, id=2668, 702.625pt x 301.125pt>
+<images/iteraciones.png, id=2673, 702.625pt x 301.125pt>
 File: images/iteraciones.png Graphic file (type png)
 
 <use images/iteraciones.png>
@@ -3853,7 +3853,7 @@ Overfull \hbox (14.43217pt too wide) in paragraph at lines 87--87
 rver i...[] 
  []
 
-<images/breakbrain-login.png, id=2690, 524.96124pt x 458.71375pt>
+<images/breakbrain-login.png, id=2695, 524.96124pt x 458.71375pt>
 File: images/breakbrain-login.png Graphic file (type png)
 
 <use images/breakbrain-login.png>
@@ -3926,7 +3926,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[156] <images/captura-nombre-cara.png, id=2725, 681.54625pt x 107.40125pt>
+[156] <images/captura-nombre-cara.png, id=2730, 681.54625pt x 107.40125pt>
 File: images/captura-nombre-cara.png Graphic file (type png)
 
 <use images/captura-nombre-cara.png>
@@ -3956,14 +3956,14 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[158] <images/careto-logo.png, id=2738, 125.46875pt x 125.46875pt>
+[158] <images/careto-logo.png, id=2743, 125.46875pt x 125.46875pt>
 File: images/careto-logo.png Graphic file (type png)
 
 <use images/careto-logo.png>
 Package pdftex.def Info: images/careto-logo.png used on input line 197.
 (pdftex.def)             Requested size: 87.82751pt x 87.82751pt.
 
-<images/careto-background.png, id=2739, 602.25pt x 481.8pt>
+<images/careto-background.png, id=2744, 602.25pt x 481.8pt>
 File: images/careto-background.png Graphic file (type png)
 
 <use images/careto-background.png>
@@ -3991,13 +3991,13 @@ Alph3.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.222 
        <./images/careto-logo.png> <./images/careto-background.png>]
-<images/braille.jpg, id=2747, 421.575pt x 738.76pt>
+<images/braille.jpg, id=2752, 421.575pt x 738.76pt>
 File: images/braille.jpg Graphic file (type jpg)
  <use images/braille.jpg>
 Package pdftex.def Info: images/braille.jpg used on input line 225.
 (pdftex.def)             Requested size: 220.50887pt x 386.42319pt.
 
-<images/careto-jerarquia.png, id=2748, 463.7325pt x 454.69875pt>
+<images/careto-jerarquia.png, id=2753, 463.7325pt x 454.69875pt>
 File: images/careto-jerarquia.png Graphic file (type png)
 
 <use images/careto-jerarquia.png>
@@ -4220,15 +4220,29 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [176]
 Anexo D.
-<./images/page-login.png, id=3433, 691.58376pt x 373.395pt>
+<./images/navigation-bar.png, id=3439, 920.43875pt x 80.3pt>
+File: ./images/navigation-bar.png Graphic file (type png)
+
+<use ./images/navigation-bar.png>
+Package pdftex.def Info: ./images/navigation-bar.png used on input line 21.
+(pdftex.def)             Requested size: 441.01773pt x 38.47493pt.
+
+<./images/page-login.png, id=3440, 691.58376pt x 373.395pt>
 File: ./images/page-login.png Graphic file (type png)
 
 <use ./images/page-login.png>
-Package pdftex.def Info: ./images/page-login.png used on input line 14.
+Package pdftex.def Info: ./images/page-login.png used on input line 33.
 (pdftex.def)             Requested size: 441.01773pt x 238.11736pt.
 
-Underfull \vbox (badness 4859) has occurred while \output is active []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/page-home.png, id=3441, 1013.7875pt x 680.5425pt>
+File: ./images/page-home.png Graphic file (type png)
+
+<use ./images/page-home.png>
+Package pdftex.def Info: ./images/page-home.png used on input line 45.
+(pdftex.def)             Requested size: 441.01773pt x 296.04398pt.
  [177
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.Alph4.
@@ -4236,31 +4250,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.Alph4.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 
-      <./images/page-login.png>]
-<./images/page-home.png, id=3438, 1013.7875pt x 680.5425pt>
-File: ./images/page-home.png Graphic file (type png)
+l.49 \end{figure}
+                  <./images/navigation-bar.png>]
 
-<use ./images/page-home.png>
-Package pdftex.def Info: ./images/page-home.png used on input line 26.
-(pdftex.def)             Requested size: 441.01773pt x 296.04398pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/page-profile.png, id=3439, 1097.09875pt x 680.5425pt>
+<./images/page-profile.png, id=3447, 1097.09875pt x 680.5425pt>
 File: ./images/page-profile.png Graphic file (type png)
 
 <use ./images/page-profile.png>
-Package pdftex.def Info: ./images/page-profile.png used on input line 40.
+Package pdftex.def Info: ./images/page-profile.png used on input line 59.
 (pdftex.def)             Requested size: 441.01773pt x 273.56212pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/page-games.png, id=3440, 929.4725pt x 391.4625pt>
+<./images/page-games.png, id=3448, 929.4725pt x 391.4625pt>
 File: ./images/page-games.png Graphic file (type png)
 
 <use ./images/page-games.png>
-Package pdftex.def Info: ./images/page-games.png used on input line 52.
+Package pdftex.def Info: ./images/page-games.png used on input line 71.
 (pdftex.def)             Requested size: 441.01773pt x 185.73755pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/page-people.png, id=3449, 883.3pt x 656.4525pt>
+File: ./images/page-people.png Graphic file (type png)
+
+<use ./images/page-people.png>
+Package pdftex.def Info: ./images/page-people.png used on input line 83.
+(pdftex.def)             Requested size: 441.01773pt x 327.75465pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -4268,8 +4288,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -4282,30 +4302,34 @@ ph4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.61 
-      <./images/page-home.png>]
-<./images/page-people.png, id=3445, 883.3pt x 656.4525pt>
-File: ./images/page-people.png Graphic file (type png)
-
-<use ./images/page-people.png>
-Package pdftex.def Info: ./images/page-people.png used on input line 64.
-(pdftex.def)             Requested size: 441.01773pt x 327.75465pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./images/page-register.png, id=3448, 792.9625pt x 462.72874pt>
+l.92 
+      <./images/page-login.png>]
+<./images/page-register.png, id=3456, 792.9625pt x 462.72874pt>
 File: ./images/page-register.png Graphic file (type png)
 
 <use ./images/page-register.png>
-Package pdftex.def Info: ./images/page-register.png used on input line 80.
+Package pdftex.def Info: ./images/page-register.png used on input line 99.
 (pdftex.def)             Requested size: 441.01773pt x 257.3541pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
+<./images/register-email.png, id=3458, 636.3775pt x 252.945pt>
+File: ./images/register-email.png Graphic file (type png)
+
+<use ./images/register-email.png>
+Package pdftex.def Info: ./images/register-email.png used on input line 109.
+(pdftex.def)             Requested size: 441.01773pt x 175.29257pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -4317,51 +4341,41 @@ ph4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 
-      <./images/page-profile.png>]
-<./images/register-email.png, id=3455, 636.3775pt x 252.945pt>
-File: ./images/register-email.png Graphic file (type png)
-
-<use ./images/register-email.png>
-Package pdftex.def Info: ./images/register-email.png used on input line 90.
-(pdftex.def)             Requested size: 441.01773pt x 175.29257pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./images/password-change.png, id=3457, 613.29124pt x 252.945pt>
+l.118 
+       <./images/page-home.png>]
+<./images/password-change.png, id=3465, 613.29124pt x 252.945pt>
 File: ./images/password-change.png Graphic file (type png)
 
 <use ./images/password-change.png>
-Package pdftex.def Info: ./images/password-change.png used on input line 102.
+Package pdftex.def Info: ./images/password-change.png used on input line 121.
 (pdftex.def)             Requested size: 441.01773pt x 181.89253pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/page-password.png, id=3460, 726.715pt x 321.2pt>
+<./images/page-password.png, id=3468, 726.715pt x 321.2pt>
 File: ./images/page-password.png Graphic file (type png)
 
 <use ./images/page-password.png>
-Package pdftex.def Info: ./images/page-password.png used on input line 112.
+Package pdftex.def Info: ./images/page-password.png used on input line 131.
 (pdftex.def)             Requested size: 441.01773pt x 194.92699pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/training-settings.png, id=3462, 950.55125pt x 610.28pt>
+<./images/training-settings.png, id=3470, 950.55125pt x 610.28pt>
 File: ./images/training-settings.png Graphic file (type png)
 
 <use ./images/training-settings.png>
-Package pdftex.def Info: ./images/training-settings.png used on input line 128.
+Package pdftex.def Info: ./images/training-settings.png used on input line 147.
 
 (pdftex.def)             Requested size: 441.01773pt x 283.14404pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -4373,21 +4387,23 @@ ph4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.135 
-       <./images/page-games.png>]
-<./images/follow-button.png, id=3470, 599.23875pt x 304.13625pt>
+l.154 
+       <./images/page-profile.png>]
+<./images/follow-button.png, id=3478, 599.23875pt x 304.13625pt>
 File: ./images/follow-button.png Graphic file (type png)
 
 <use ./images/follow-button.png>
-Package pdftex.def Info: ./images/follow-button.png used on input line 142.
+Package pdftex.def Info: ./images/follow-button.png used on input line 161.
 (pdftex.def)             Requested size: 441.01773pt x 223.83678pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/license.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -4400,8 +4416,19 @@ ph4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \chapter
-            {Licencia de uso del software} <./images/page-people.png>]
+l.178 
+       <./images/page-games.png>]
+<./images/online-users.png, id=3484, 904.37875pt x 675.52374pt>
+File: ./images/online-users.png Graphic file (type png)
+
+<use ./images/online-users.png>
+Package pdftex.def Info: ./images/online-users.png used on input line 181.
+(pdftex.def)             Requested size: 441.01773pt x 329.41185pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapters/license.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -4417,8 +4444,24 @@ ph4.6}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
+            {Licencia de uso del software} <./images/page-people.png>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[183pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ph4.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
             {Licencia de uso del software}pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.Alph4.7}) has been already used, duplicate 
+th the same identifier (name{figure.Alph4.8}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4435,15 +4478,15 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[183pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
-ph4.8}) has been already used, duplicate ignored
+[184pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ph4.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             {Licencia de uso del software}pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.Alph4.9}) has been already used, duplicate 
-ignored
+th the same identifier (name{figure.Alph4.10}) has been already used, duplicate
+ ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -4459,14 +4502,14 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[184pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
-ph4.10}) has been already used, duplicate ignored
+[185pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ph4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             {Licencia de uso del software}pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.Alph4.11}) has been already used, duplicate
+th the same identifier (name{figure.Alph4.12}) has been already used, duplicate
  ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4474,8 +4517,24 @@ th the same identifier (name{figure.Alph4.11}) has been already used, duplicate
 l.1 \chapter
             {Licencia de uso del software} <./images/training-settings.png> <./
 images/follow-button.png>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[186pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ph4.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Licencia de uso del software} <./images/online-users.png>]
 Anexo E.
-<images/gpl.png, id=3488, 127.47626pt x 51.19125pt>
+<images/gpl.png, id=3508, 127.47626pt x 51.19125pt>
 File: images/gpl.png Graphic file (type png)
  <use images/gpl.png>
 Package pdftex.def Info: images/gpl.png used on input line 11.
@@ -4529,7 +4588,7 @@ Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 este documento, pero[] 
  []
 
-[185
+[187
 
  <./images/gpl.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4543,7 +4602,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[186]
+[188]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 ^^PEsta Licencia^^Q se refiere a la versiÛn 3 de la 
 Licencia P˙blica General[] 
@@ -4585,7 +4644,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[187]
+[189]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 permiso, le harÌa responsable de forma directa o ind
 irecta de infringir[] 
@@ -4687,7 +4746,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[188]
+[190]
 Overfull \hbox (13.13222pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 significa todo el cÛdigo fuente necesario para gener
 ar, instalar, y (para[] 
@@ -4813,7 +4872,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[189]
+[191]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 condiciones expuestas a continuaciÛn. No est· permit
 ido sublicenciar, la[] 
@@ -4909,7 +4968,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[190]
+[192]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []            \T1/lmtt/m/n/10.95 tÈrmino aplicable adicional de la secciÛn 7, a
  la totalidad de la[] 
@@ -5017,7 +5076,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[191]
+[193]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []            \T1/lmtt/m/n/10.95 comerciales, y solo si usted ha recibido el cÛ
 digo objeto con ese[] 
@@ -5107,7 +5166,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[192]
+[194]
 Overfull \hbox (13.13222pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 Si usted transmite una obra en cÛdigo objeto bajo es
 ta secciÛn en, o con,[] 
@@ -5233,7 +5292,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[193]
+[195]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 una obra derivada, para los cuales se establecen o s
 e pueden establecer[] 
@@ -5365,7 +5424,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[194]
+[196]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 expresamente permitido por esta Licencia. Cualquier 
 intento diferente de[] 
@@ -5479,7 +5538,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[195]
+[197]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 subdivide una organizaciÛn, o fusiona organizaciones
 . Si la propagaciÛn[] 
@@ -5569,7 +5628,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[196]
+[198]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 tercero significa hacer tal tipo de acuerdo o compro
 miso que no imponga[] 
@@ -5671,7 +5730,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[197]
+[199]
 Overfull \hbox (1.63475pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 Si se le imponen condiciones (bien sea por orden jud
 icial, acuerdo o de[] 
@@ -5785,7 +5844,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[198]
+[200]
 Overfull \hbox (7.38348pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 NO HAY GARANTÕA PARA EL PROGRAMA, PARA LA EXTENSI”N 
 PERMITIDA POR LA LEY[] 
@@ -5887,7 +5946,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[199]
+[201]
 Overfull \hbox (13.13222pt too wide) in paragraph at lines 656--656
 []      \T1/lmtt/m/n/10.95 ^^Pderechos de autor (^^Pcopyright^^Q)^^Q y un punte
 ro a donde se pueda encontrar[] 
@@ -5953,7 +6012,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[200])
+[202])
 LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
 
@@ -5963,9 +6022,9 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[201] [202
+[203] [204
 
-] (./main.bbl [203
+] (./main.bbl [205
 
 
 ]
@@ -6000,7 +6059,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[204]
+[206]
 Underfull \hbox (badness 10000) in paragraph at lines 212--218
 \T1/lmtt/c/n/12 //scholar . google . com/scholar ? hl = en \ &btnG = Search \ &
 q = intitle :
@@ -6014,7 +6073,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[205]
+[207]
 LaTeX Info: Redefining \. on input line 348.
 LaTeX Info: Redefining \% on input line 348.
 
@@ -6024,7 +6083,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[206])
+[208])
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
 
@@ -6034,9 +6093,9 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[207] [208
+[209] [210
 
-] (./main.ind [209
+] (./main.ind [211
 
 ]
 LaTeX Info: Redefining \. on input line 135.
@@ -6048,12 +6107,12 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[210
+[212
 
-]) [211
+]) [213
 
 
-] [212
+] [214
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
@@ -6076,10 +6135,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 22716 strings out of 494763
- 372670 string characters out of 3171442
- 765891 words of memory out of 3000000
- 23652 multiletter control sequences out of 15000+200000
+ 22734 strings out of 494763
+ 373076 string characters out of 3171442
+ 766311 words of memory out of 3000000
+ 23664 multiletter control sequences out of 15000+200000
  112758 words of font info for 96 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
  63i,13n,57p,1600b,2052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -6104,10 +6163,10 @@ l/share/texmf-texlive-dist/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (244 pages, 9072869 bytes).
+Output written on main.pdf (246 pages, 9633037 bytes).
 PDF statistics:
- 4126 PDF objects out of 4296 (max. 8388607)
- 3731 compressed objects within 38 object streams
- 1680 named destinations out of 1728 (max. 500000)
- 1466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4146 PDF objects out of 4296 (max. 8388607)
+ 3745 compressed objects within 38 object streams
+ 1684 named destinations out of 1728 (max. 500000)
+ 1476 words of extra memory for PDF output out of 10000 (max. 10000000)
 

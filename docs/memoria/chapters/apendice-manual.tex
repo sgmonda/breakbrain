@@ -5,6 +5,25 @@
 
 \section{Las páginas de BreakBrain}
 
+BreakBrain está compuesto por cuatro páginas principales:
+
+\begin{itemize}
+\item Inicio
+\item Perfil
+\item Juegos
+\item Gente
+\end{itemize}
+
+Para acceder a cualquera de ellas se debe utilizar la barra de navegación superior (ver figura \ref{fig::navigation-bar}).
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=\textwidth]{./images/navigation-bar.png}
+  \end{center}  
+  \caption{Barra de navegación de BreakBrain}
+  \label{fig::navigation-bar}
+\end{figure}
+
 \subsection{Inicio de sesión (login)}
 
 Esta es la página de incio de sesión. Se trata de la página que se muestra al entrar en {\tt www.breakbrain.com}. Desde ella también es posible registrarse como usuario de la plataforma, desplegando el componente de registro.
@@ -147,6 +166,22 @@ La suscripción a novedades de otros usuarios, lo que en BreakBrain se denomina 
 
 \subsection{Entrenando el cerebro con juegos}
 
+En la página de juegos de BreakBrain encontrarás todos los juegos disponibles, tanto monojugador como multijugador. Basta con hacer click sobre uno de ellos para empezar a jugar.
+
 \subsubsection{Juegos monojugador}
 
+Los juegos monojugador son los más sencillos. En el momento de hacer click sobre uno de ellos la partida da comienzo. Si no se desea esperar a finalizar la partida, bastará con cerrar el juego para finalizarlo en cualquier momento (el progreso obtenido durante la partida no será almacenado).
+
 \subsubsection{Jugando contra otros usuarios}
+
+Para jugar a un juego multijugador, obviamente necesitaremos a un rival. La forma de encontrar uno es muy sencilla: una vez que hayamos elegido un juego al que jugar, BreakBrain nos mostrará la lista de usuarios que están {\it online} en ese momento (figura \ref{fig::online-users}). Bastará con hacer click sobre uno de ellos para que BreakBrain le envíe una invitación a la partida. Si el rival acepta se le cargará el juego y la partida correspondiente.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=\textwidth]{./images/online-users.png}
+  \end{center}  
+  \caption{Usuarios online en BreakBrain. Haciendo click sobre uno de ellos se le envía una invitación para jugar al juego multijugador abierto.}
+  \label{fig::online-users}
+\end{figure}
+
+Si uno de los usuarios decide cerrar el juego, BreakBrain lo contabilizará como una rendición, y el otro jugador será el vencedor de la partida.

@@ -177,19 +177,19 @@
 \contentsline {chapter}{\numberline {D}Manual de usuario}{177}{appendix.Alph4}
 \contentsline {section}{\numberline {D.1}Las p\IeC {\'a}ginas de BreakBrain}{177}{section.Alph4.1}
 \contentsline {subsection}{\numberline {D.1.1}Inicio de sesi\IeC {\'o}n (login)}{177}{subsection.Alph4.1.1}
-\contentsline {subsection}{\numberline {D.1.2}P\IeC {\'a}gina principal (home)}{178}{subsection.Alph4.1.2}
+\contentsline {subsection}{\numberline {D.1.2}P\IeC {\'a}gina principal (home)}{177}{subsection.Alph4.1.2}
 \contentsline {subsection}{\numberline {D.1.3}Perfil (profile)}{178}{subsection.Alph4.1.3}
 \contentsline {subsection}{\numberline {D.1.4}Juegos (games)}{178}{subsection.Alph4.1.4}
-\contentsline {subsection}{\numberline {D.1.5}Gente (people)}{179}{subsection.Alph4.1.5}
+\contentsline {subsection}{\numberline {D.1.5}Gente (people)}{178}{subsection.Alph4.1.5}
 \contentsline {section}{\numberline {D.2}Tareas comunes}{179}{section.Alph4.2}
 \contentsline {subsection}{\numberline {D.2.1}Creando una nueva cuenta de usuario}{179}{subsection.Alph4.2.1}
-\contentsline {subsubsection}{Recuperando la contrase\IeC {\~n}a olvidada}{180}{figure.Alph4.7}
+\contentsline {subsubsection}{Recuperando la contrase\IeC {\~n}a olvidada}{180}{figure.Alph4.8}
 \contentsline {subsection}{\numberline {D.2.2}Completando el perfil de usuario}{180}{subsection.Alph4.2.2}
 \contentsline {subsubsection}{Definiendo las preferencias de entrenamiento}{180}{subsection.Alph4.2.2}
 \contentsline {subsection}{\numberline {D.2.3}Siguiendo a otros usuarios}{181}{subsection.Alph4.2.3}
 \contentsline {subsection}{\numberline {D.2.4}Entrenando el cerebro con juegos}{181}{subsection.Alph4.2.4}
 \contentsline {subsubsection}{Juegos monojugador}{181}{subsection.Alph4.2.4}
-\contentsline {subsubsection}{Jugando contra otros usuarios}{181}{subsection.Alph4.2.4}
-\contentsline {chapter}{\numberline {E}Licencia de uso del software}{185}{appendix.Alph5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{203}{appendix*.24}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{209}{appendix*.24}
+\contentsline {subsubsection}{Jugando contra otros usuarios}{182}{subsection.Alph4.2.4}
+\contentsline {chapter}{\numberline {E}Licencia de uso del software}{187}{appendix.Alph5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{205}{appendix*.24}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{211}{appendix*.24}
