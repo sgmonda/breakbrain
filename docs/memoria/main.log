@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  20 AUG 2013 01:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  20 AUG 2013 02:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1343,7 +1343,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<images/lobulos.jpg, id=1074, 552.0625pt x 516.93124pt>
+<images/lobulos.jpg, id=1072, 552.0625pt x 516.93124pt>
 File: images/lobulos.jpg Graphic file (type jpg)
 
 <use images/lobulos.jpg>
@@ -1375,8 +1375,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1432,24 +1432,16 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [10]
 Cap\'{\i }tulo 3.
+[11
 
-LaTeX Warning: Reference `sec::tiempo-real' on page 11 undefined on input line 
-4.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11
-
-]
-<images/minijuegos.png, id=1156, 749.80125pt x 561.09625pt>
+] <images/minijuegos.png, id=1156, 749.80125pt x 561.09625pt>
 File: images/minijuegos.png Graphic file (type png)
 
 <use images/minijuegos.png>
-Package pdftex.def Info: images/minijuegos.png used on input line 23.
+Package pdftex.def Info: images/minijuegos.png used on input line 25.
 (pdftex.def)             Requested size: 441.01773pt x 330.02509pt.
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1462,20 +1454,20 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.33 
+l.35 
       <./images/minijuegos.png>]
 <images/minijuegos-cat.png, id=1165, 566.115pt x 386.44376pt>
 File: images/minijuegos-cat.png Graphic file (type png)
 
 <use images/minijuegos-cat.png>
-Package pdftex.def Info: images/minijuegos-cat.png used on input line 36.
+Package pdftex.def Info: images/minijuegos-cat.png used on input line 38.
 (pdftex.def)             Requested size: 441.01773pt x 301.05933pt.
 
 <images/minijuegos-mul.png, id=1166, 679.53876pt x 293.095pt>
 File: images/minijuegos-mul.png Graphic file (type png)
 
 <use images/minijuegos-mul.png>
-Package pdftex.def Info: images/minijuegos-mul.png used on input line 44.
+Package pdftex.def Info: images/minijuegos-mul.png used on input line 46.
 (pdftex.def)             Requested size: 441.01773pt x 190.21878pt.
 
 
@@ -1485,14 +1477,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/miniclip.png Graphic file (type png)
 
 <use images/miniclip.png>
-Package pdftex.def Info: images/miniclip.png used on input line 60.
+Package pdftex.def Info: images/miniclip.png used on input line 62.
 (pdftex.def)             Requested size: 441.01773pt x 187.64291pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -1504,13 +1496,13 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.67 
+l.69 
       <./images/minijuegos-cat.png>]
 <images/minigamesfreak.png, id=1175, 762.85pt x 424.58624pt>
 File: images/minigamesfreak.png Graphic file (type png)
 
 <use images/minigamesfreak.png>
-Package pdftex.def Info: images/minigamesfreak.png used on input line 76.
+Package pdftex.def Info: images/minigamesfreak.png used on input line 78.
 (pdftex.def)             Requested size: 441.01773pt x 245.45683pt.
 
 
@@ -1520,7 +1512,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/juegosfan.png Graphic file (type png)
 
 <use images/juegosfan.png>
-Package pdftex.def Info: images/juegosfan.png used on input line 90.
+Package pdftex.def Info: images/juegosfan.png used on input line 92.
 (pdftex.def)             Requested size: 441.01773pt x 232.16759pt.
 
 
@@ -1529,8 +1521,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 2903) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1543,20 +1535,20 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.103 
        <./images/minijuegos-mul.png>]
 <images/minigameonline.png, id=1181, 911.405pt x 485.815pt>
 File: images/minigameonline.png Graphic file (type png)
 
 <use images/minigameonline.png>
-Package pdftex.def Info: images/minigameonline.png used on input line 104.
+Package pdftex.def Info: images/minigameonline.png used on input line 106.
 (pdftex.def)             Requested size: 441.01773pt x 235.08626pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -1568,13 +1560,13 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.122 
+l.124 
        <./images/miniclip.png>]
 <images/lumosity.png, id=1187, 1039.885pt x 538.01pt>
 File: images/lumosity.png Graphic file (type png)
 
 <use images/lumosity.png>
-Package pdftex.def Info: images/lumosity.png used on input line 127.
+Package pdftex.def Info: images/lumosity.png used on input line 129.
 (pdftex.def)             Requested size: 441.01773pt x 228.17097pt.
 
 
@@ -1584,14 +1576,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/brainarena.png Graphic file (type png)
 
 <use images/brainarena.png>
-Package pdftex.def Info: images/brainarena.png used on input line 141.
+Package pdftex.def Info: images/brainarena.png used on input line 143.
 (pdftex.def)             Requested size: 441.01773pt x 227.03369pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -1603,10 +1595,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.156 
-       <./images/minigamesfreak.png>]
+l.154 \section{Tecnologías Web}
+                                 <./images/minigamesfreak.png>]
 Package acronym Info: Label `acro:WWW' newly defined as it shall be overridden
-although it is yet undefined on input line 157.
+although it is yet undefined on input line 159.
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 
@@ -1637,20 +1629,21 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.181 \subsubsection{PHP}
-                          <./images/minigameonline.png>]
+l.181 A
+        continuación se exponen algunas de las tecnologías más utilizadas...
+ <./images/minigameonline.png>]
 (/opt/local/share/texmf-texlive-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 186.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 188.
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 186.
-LaTeX Info: Redefining \. on input line 205.
-LaTeX Info: Redefining \% on input line 205.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 188.
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1663,10 +1656,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.205 
-       <./images/lumosity.png>]
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
+l.204 \subsubsection{ASP.NET}
+                              <./images/lumosity.png>]
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1679,11 +1672,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.218 N
-       odeJS es software libre, está enfocado a la escalabilidad y permite ...
- <./images/brainarena.png>]
-LaTeX Info: Redefining \. on input line 249.
-LaTeX Info: Redefining \% on input line 249.
+l.219 
+       <./images/brainarena.png>]
+LaTeX Info: Redefining \. on input line 251.
+LaTeX Info: Redefining \% on input line 251.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1694,9 +1686,9 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [21]
 Package acronym Info: Label `acro:WORE' newly defined as it shall be overridden
 
-although it is yet undefined on input line 262.
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
+although it is yet undefined on input line 264.
+LaTeX Info: Redefining \. on input line 277.
+LaTeX Info: Redefining \% on input line 277.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1708,10 +1700,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 File: images/webgl.png Graphic file (type png)
 
 <use images/webgl.png>
-Package pdftex.def Info: images/webgl.png used on input line 284.
+Package pdftex.def Info: images/webgl.png used on input line 286.
 (pdftex.def)             Requested size: 441.01773pt x 258.37465pt.
-LaTeX Info: Redefining \. on input line 296.
-LaTeX Info: Redefining \% on input line 296.
+LaTeX Info: Redefining \. on input line 298.
+LaTeX Info: Redefining \% on input line 298.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1724,9 +1716,18 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 C
-       omo las conexiones TCP ordinarias sobre puertos diferentes al 80 suel...
- <./images/webgl.png>]
+l.298 
+       <./images/webgl.png>]
+LaTeX Info: Redefining \. on input line 333.
+LaTeX Info: Redefining \% on input line 333.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
 Package epstopdf Info: Source file: <images/neurona.eps>
 (epstopdf)                    date: 2013-07-30 22:27:39
 (epstopdf)                    size: 56990 bytes
@@ -1735,31 +1736,17 @@ Package epstopdf Info: Source file: <images/neurona.eps>
 (epstopdf)                    size: 21230 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/neurona-eps-converte
 d-to.pdf images/neurona.eps>
-(epstopdf)             \includegraphics on input line 334.
+(epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-
-<images/neurona-eps-converted-to.pdf, id=1302, 296.10625pt x 165.61874pt>
+ <images/neurona-eps-converted-to.pdf, id=1308, 296.10625pt x 165.61874pt>
 File: images/neurona-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/neurona-eps-converted-to.pdf>
 Package pdftex.def Info: images/neurona-eps-converted-to.pdf used on input line
- 334.
+ 337.
 (pdftex.def)             Requested size: 296.10551pt x 165.61833pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
-
-Package Fancyhdr Warning: \headheight is too small (13.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
+LaTeX Info: Redefining \. on input line 354.
+LaTeX Info: Redefining \% on input line 354.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1772,16 +1759,16 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.351 
+l.354 
        <./images/neurona-eps-converted-to.pdf>]
 <images/surcosygiros.jpg, id=1329, 401.5pt x 321.2pt>
 File: images/surcosygiros.jpg Graphic file (type jpg)
 
 <use images/surcosygiros.jpg>
-Package pdftex.def Info: images/surcosygiros.jpg used on input line 358.
+Package pdftex.def Info: images/surcosygiros.jpg used on input line 361.
 (pdftex.def)             Requested size: 321.20042pt x 256.96034pt.
-LaTeX Info: Redefining \. on input line 370.
-LaTeX Info: Redefining \% on input line 370.
+LaTeX Info: Redefining \. on input line 373.
+LaTeX Info: Redefining \% on input line 373.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1794,10 +1781,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 
+l.373 
        <./images/surcosygiros.jpg>]
-LaTeX Info: Redefining \. on input line 391.
-LaTeX Info: Redefining \% on input line 391.
+LaTeX Info: Redefining \. on input line 393.
+LaTeX Info: Redefining \% on input line 393.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1806,8 +1793,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-LaTeX Info: Redefining \. on input line 439.
-LaTeX Info: Redefining \% on input line 439.
+LaTeX Info: Redefining \. on input line 442.
+LaTeX Info: Redefining \% on input line 442.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1819,18 +1806,14 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 File: images/tubo-neural.png Graphic file (type png)
 
 <use images/tubo-neural.png>
-Package pdftex.def Info: images/tubo-neural.png used on input line 452.
+Package pdftex.def Info: images/tubo-neural.png used on input line 455.
 (pdftex.def)             Requested size: 441.01773pt x 238.15926pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 470.
-LaTeX Info: Redefining \% on input line 470.
-
+LaTeX Info: Redefining \. on input line 473.
+LaTeX Info: Redefining \% on input line 473.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -1838,8 +1821,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
-LaTeX Info: Redefining \. on input line 473.
-LaTeX Info: Redefining \% on input line 473.
+LaTeX Info: Redefining \. on input line 476.
+LaTeX Info: Redefining \% on input line 476.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1852,10 +1835,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.473 ...ection{Estructuras primarias del cerebro}
+l.476 ...ection{Estructuras primarias del cerebro}
                                                    <./images/tubo-neural.png>]
-LaTeX Info: Redefining \. on input line 489.
-LaTeX Info: Redefining \% on input line 489.
+LaTeX Info: Redefining \. on input line 492.
+LaTeX Info: Redefining \% on input line 492.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1866,7 +1849,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [31] <images/sna.jpg, id=1395, 527.9725pt x 473.77pt>
 File: images/sna.jpg Graphic file (type jpg)
  <use images/sna.jpg>
-Package pdftex.def Info: images/sna.jpg used on input line 500.
+Package pdftex.def Info: images/sna.jpg used on input line 503.
 (pdftex.def)             Requested size: 369.57823pt x 331.63673pt.
 
 
@@ -1876,14 +1859,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/cerebelo.jpg Graphic file (type jpg)
 
 <use images/cerebelo.jpg>
-Package pdftex.def Info: images/cerebelo.jpg used on input line 514.
+Package pdftex.def Info: images/cerebelo.jpg used on input line 517.
 (pdftex.def)             Requested size: 200.74643pt x 168.627pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 522.
-LaTeX Info: Redefining \% on input line 522.
+LaTeX Info: Redefining \. on input line 525.
+LaTeX Info: Redefining \% on input line 525.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -1893,8 +1876,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 534.
-LaTeX Info: Redefining \% on input line 534.
+LaTeX Info: Redefining \. on input line 537.
+LaTeX Info: Redefining \% on input line 537.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1907,7 +1890,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.534 \end{quote}
+l.537 \end{quote}
                   <./images/sna.jpg>]
 Package epstopdf Info: Source file: <images/brain2.eps>
 (epstopdf)                    date: 2013-07-30 22:27:38
@@ -1917,7 +1900,7 @@ Package epstopdf Info: Source file: <images/brain2.eps>
 (epstopdf)                    size: 372206 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/brain2-eps-converted
 -to.pdf images/brain2.eps>
-(epstopdf)             \includegraphics on input line 540.
+(epstopdf)             \includegraphics on input line 543.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/brain2-eps-converted-to.pdf, id=1414, 544.0325pt x 275.0275pt>
@@ -1925,10 +1908,10 @@ File: images/brain2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/brain2-eps-converted-to.pdf>
 Package pdftex.def Info: images/brain2-eps-converted-to.pdf used on input line 
-540.
+543.
 (pdftex.def)             Requested size: 284.52756pt x 143.84604pt.
-LaTeX Info: Redefining \. on input line 552.
-LaTeX Info: Redefining \% on input line 552.
+LaTeX Info: Redefining \. on input line 555.
+LaTeX Info: Redefining \% on input line 555.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1941,26 +1924,26 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.552 \subsubsection{El neocórtex}
+l.555 \subsubsection{El neocórtex}
                                    pdfTeX warning (ext4): destination with the 
 same identifier (name{figure.3.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.552 \subsubsection{El neocórtex}
+l.555 \subsubsection{El neocórtex}
                                     <./images/cerebelo.jpg> <./images/brain2-ep
 s-converted-to.pdf>] <images/cingulo.png, id=1426, 539.48029pt x 411.22649pt>
 File: images/cingulo.png Graphic file (type png)
 
 <use images/cingulo.png>
-Package pdftex.def Info: images/cingulo.png used on input line 568.
+Package pdftex.def Info: images/cingulo.png used on input line 571.
 (pdftex.def)             Requested size: 269.73949pt x 205.61273pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 578.
-LaTeX Info: Redefining \% on input line 578.
+LaTeX Info: Redefining \. on input line 581.
+LaTeX Info: Redefining \% on input line 581.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -1968,8 +1951,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35]
-LaTeX Info: Redefining \. on input line 582.
-LaTeX Info: Redefining \% on input line 582.
+LaTeX Info: Redefining \. on input line 585.
+LaTeX Info: Redefining \% on input line 585.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1982,7 +1965,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.582 
+l.585 
        <./images/cingulo.png>]
 Package epstopdf Info: Source file: <images/brain.eps>
 (epstopdf)                    date: 2013-07-30 22:27:38
@@ -1992,7 +1975,7 @@ Package epstopdf Info: Source file: <images/brain.eps>
 (epstopdf)                    size: 455895 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/brain-eps-converted-
 to.pdf images/brain.eps>
-(epstopdf)             \includegraphics on input line 593.
+(epstopdf)             \includegraphics on input line 596.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/brain-eps-converted-to.pdf, id=1444, 662.475pt x 315.1775pt>
@@ -2000,10 +1983,10 @@ File: images/brain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/brain-eps-converted-to.pdf>
 Package pdftex.def Info: images/brain-eps-converted-to.pdf used on input line 5
-93.
+96.
 (pdftex.def)             Requested size: 398.33858pt x 189.51193pt.
-LaTeX Info: Redefining \. on input line 609.
-LaTeX Info: Redefining \% on input line 609.
+LaTeX Info: Redefining \. on input line 612.
+LaTeX Info: Redefining \% on input line 612.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2016,12 +1999,12 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.609 
+l.612 
        <./images/brain-eps-converted-to.pdf>]
 Underfull \vbox (badness 3449) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 631.
-LaTeX Info: Redefining \% on input line 631.
+LaTeX Info: Redefining \. on input line 634.
+LaTeX Info: Redefining \% on input line 634.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2033,10 +2016,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 File: images/piramidal.jpg Graphic file (type jpg)
 
 <use images/piramidal.jpg>
-Package pdftex.def Info: images/piramidal.jpg used on input line 634.
+Package pdftex.def Info: images/piramidal.jpg used on input line 637.
 (pdftex.def)             Requested size: 170.71652pt x 220.58629pt.
-LaTeX Info: Redefining \. on input line 644.
-LaTeX Info: Redefining \% on input line 644.
+LaTeX Info: Redefining \. on input line 647.
+LaTeX Info: Redefining \% on input line 647.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2049,16 +2032,16 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.644 
+l.647 
        <./images/piramidal.jpg>]
 <images/orbital-frontal.jpg, id=1480, 451.6875pt x 416.55624pt>
 File: images/orbital-frontal.jpg Graphic file (type jpg)
 
 <use images/orbital-frontal.jpg>
-Package pdftex.def Info: images/orbital-frontal.jpg used on input line 649.
+Package pdftex.def Info: images/orbital-frontal.jpg used on input line 652.
 (pdftex.def)             Requested size: 256.0748pt x 236.16829pt.
-LaTeX Info: Redefining \. on input line 661.
-LaTeX Info: Redefining \% on input line 661.
+LaTeX Info: Redefining \. on input line 664.
+LaTeX Info: Redefining \% on input line 664.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2071,16 +2054,16 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.661 
+l.664 
        <./images/orbital-frontal.jpg>]
 <images/brodmann-areas.png, id=1489, 515.9275pt x 681.54625pt>
 File: images/brodmann-areas.png Graphic file (type png)
 
 <use images/brodmann-areas.png>
-Package pdftex.def Info: images/brodmann-areas.png used on input line 664.
+Package pdftex.def Info: images/brodmann-areas.png used on input line 667.
 (pdftex.def)             Requested size: 341.43306pt x 451.04906pt.
-LaTeX Info: Redefining \. on input line 673.
-LaTeX Info: Redefining \% on input line 673.
+LaTeX Info: Redefining \. on input line 676.
+LaTeX Info: Redefining \% on input line 676.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2093,12 +2076,12 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.673 
+l.676 
        <./images/brodmann-areas.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 679.
-LaTeX Info: Redefining \% on input line 679.
+LaTeX Info: Redefining \. on input line 682.
+LaTeX Info: Redefining \% on input line 682.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2108,9 +2091,9 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [42]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 685.
-LaTeX Info: Redefining \. on input line 696.
-LaTeX Info: Redefining \% on input line 696.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 688.
+LaTeX Info: Redefining \. on input line 699.
+LaTeX Info: Redefining \% on input line 699.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2119,8 +2102,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43]
-LaTeX Info: Redefining \. on input line 704.
-LaTeX Info: Redefining \% on input line 704.
+LaTeX Info: Redefining \. on input line 707.
+LaTeX Info: Redefining \% on input line 707.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2129,8 +2112,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44]
-LaTeX Info: Redefining \. on input line 721.
-LaTeX Info: Redefining \% on input line 721.
+LaTeX Info: Redefining \. on input line 724.
+LaTeX Info: Redefining \% on input line 724.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2142,16 +2125,16 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 File: images/amigdala.jpg Graphic file (type jpg)
 
 <use images/amigdala.jpg>
-Package pdftex.def Info: images/amigdala.jpg used on input line 736.
+Package pdftex.def Info: images/amigdala.jpg used on input line 739.
 (pdftex.def)             Requested size: 284.52756pt x 324.24234pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <10> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 745.
-LaTeX Info: Redefining \. on input line 749.
-LaTeX Info: Redefining \% on input line 749.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 748.
+LaTeX Info: Redefining \. on input line 752.
+LaTeX Info: Redefining \% on input line 752.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 14.49998pt.
@@ -2161,8 +2144,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [46]
 Underfull \vbox (badness 7291) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 752.
-LaTeX Info: Redefining \% on input line 752.
+LaTeX Info: Redefining \. on input line 755.
+LaTeX Info: Redefining \% on input line 755.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2175,10 +2158,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.752 
+l.755 
        <./images/amigdala.jpg>]
-LaTeX Info: Redefining \. on input line 765.
-LaTeX Info: Redefining \% on input line 765.
+LaTeX Info: Redefining \. on input line 768.
+LaTeX Info: Redefining \% on input line 768.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2187,8 +2170,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48]
-LaTeX Info: Redefining \. on input line 785.
-LaTeX Info: Redefining \% on input line 785.
+LaTeX Info: Redefining \. on input line 788.
+LaTeX Info: Redefining \% on input line 788.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2197,8 +2180,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
-LaTeX Info: Redefining \. on input line 871.
-LaTeX Info: Redefining \% on input line 871.
+LaTeX Info: Redefining \. on input line 874.
+LaTeX Info: Redefining \% on input line 874.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2208,16 +2191,16 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [50]
 Package acronym Info: Label `acro:SFC' newly defined as it shall be overridden
-although it is yet undefined on input line 876.
+although it is yet undefined on input line 879.
 Package acronym Info: Label `acro:IRM' newly defined as it shall be overridden
-although it is yet undefined on input line 876.
+although it is yet undefined on input line 879.
 Package acronym Info: Label `acro:VBM' newly defined as it shall be overridden
-although it is yet undefined on input line 876.
+although it is yet undefined on input line 879.
  <images/piano.jpg, id=1587, 504.88625pt x 275.0275pt>
 File: images/piano.jpg Graphic file (type jpg)
 
 <use images/piano.jpg>
-Package pdftex.def Info: images/piano.jpg used on input line 882.
+Package pdftex.def Info: images/piano.jpg used on input line 885.
 (pdftex.def)             Requested size: 441.01773pt x 240.2372pt.
 
 
@@ -2226,8 +2209,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 892.
-LaTeX Info: Redefining \% on input line 892.
+LaTeX Info: Redefining \. on input line 895.
+LaTeX Info: Redefining \% on input line 895.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2238,8 +2221,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [51]
 Underfull \vbox (badness 2818) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 904.
-LaTeX Info: Redefining \% on input line 904.
+LaTeX Info: Redefining \. on input line 907.
+LaTeX Info: Redefining \% on input line 907.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2252,10 +2235,10 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.904 
+l.907 
        <./images/piano.jpg>]
-LaTeX Info: Redefining \. on input line 918.
-LaTeX Info: Redefining \% on input line 918.
+LaTeX Info: Redefining \. on input line 921.
+LaTeX Info: Redefining \% on input line 921.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2265,12 +2248,12 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [53]
 Package acronym Info: Label `acro:SIP' newly defined as it shall be overridden
-although it is yet undefined on input line 926.
+although it is yet undefined on input line 929.
 
 Underfull \vbox (badness 3219) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 945.
-LaTeX Info: Redefining \% on input line 945.
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2279,8 +2262,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54]
-LaTeX Info: Redefining \. on input line 964.
-LaTeX Info: Redefining \% on input line 964.
+LaTeX Info: Redefining \. on input line 967.
+LaTeX Info: Redefining \% on input line 967.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2289,8 +2272,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [55]
-LaTeX Info: Redefining \. on input line 987.
-LaTeX Info: Redefining \% on input line 987.
+LaTeX Info: Redefining \. on input line 990.
+LaTeX Info: Redefining \% on input line 990.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3567,10 +3550,8 @@ Cap\'{\i }tulo 7.
 [135
 
 ]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3578,15 +3559,9 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[136pdfTeX warning (ext4): destination with the same identifier (name{table.7.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.66 
-     ]
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
+[136]
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3597,13 +3572,14 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 [137]
 Package acronym Info: Label `acro:HTTPS' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 99.
+although it is yet undefined on input line 107.
 Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
-although it is yet undefined on input line 101.
+although it is yet undefined on input line 109.
 Package acronym Info: Label `acro:AWS' newly defined as it shall be overridden
-although it is yet undefined on input line 111.
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
+although it is yet undefined on input line 119.
+)
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3611,7 +3587,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[138])
+[138]
 LaTeX Info: Redefining \. on input line 66.
 LaTeX Info: Redefining \% on input line 66.
 
@@ -6028,31 +6004,31 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 109--113
+Underfull \hbox (badness 10000) in paragraph at lines 114--118
 \T1/lmtt/c/n/12 com/magazine/archive/1994/09/how-[]we-[]become-[]what-[]we-[]ar
 e/
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 160--168
+Underfull \hbox (badness 1968) in paragraph at lines 165--173
 \T1/ptm/m/n/12 rrig.  Im-pro-ving fluid in-te-lli-gen-ce with trai-ning on wor-
 king me-mory.
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 160--168
+Underfull \hbox (badness 2189) in paragraph at lines 165--173
 \T1/ptm/m/it/12 Pro-cee-dings of the Na-tio-nal Aca-demy of Scien-ces of the Un
 i-ted Sta-
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 160--168
+Underfull \hbox (badness 2126) in paragraph at lines 165--173
 \T1/ptm/m/it/12 tes of Ame-ri-ca\T1/ptm/m/n/12 , 105(19):6829--33, 2008.  ISBN 
 0801268105.  ISSN
  []
 
-LaTeX Info: Redefining \. on input line 174.
-LaTeX Info: Redefining \% on input line 174.
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 15.13202pt.
@@ -6060,13 +6036,13 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [206]
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
+Underfull \hbox (badness 10000) in paragraph at lines 217--223
 \T1/lmtt/c/n/12 //scholar . google . com/scholar ? hl = en \ &btnG = Search \ &
 q = intitle :
  []
 
-LaTeX Info: Redefining \. on input line 261.
-LaTeX Info: Redefining \% on input line 261.
+LaTeX Info: Redefining \. on input line 252.
+LaTeX Info: Redefining \% on input line 252.
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 15.13202pt.
@@ -6074,8 +6050,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [207]
-LaTeX Info: Redefining \. on input line 348.
-LaTeX Info: Redefining \% on input line 348.
+LaTeX Info: Redefining \. on input line 341.
+LaTeX Info: Redefining \% on input line 341.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -6083,7 +6059,17 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[208])
+[208]
+LaTeX Info: Redefining \. on input line 419.
+LaTeX Info: Redefining \% on input line 419.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 15.13202pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[209])
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
 
@@ -6093,9 +6079,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[209] [210
+[210] (./main.ind [211
 
-] (./main.ind [211
 
 ]
 LaTeX Info: Redefining \. on input line 135.
@@ -6124,22 +6109,19 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6A93777B92F496BC9E9572C43F8841E8;10373.
+(rerunfilecheck)             Checksum: F5EEA97C8ED3805932F2ABE60D24C9F5;10369.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 22734 strings out of 494763
- 373076 string characters out of 3171442
- 766311 words of memory out of 3000000
- 23664 multiletter control sequences out of 15000+200000
- 112758 words of font info for 96 fonts, out of 3000000 for 9000
+ 22664 strings out of 494763
+ 371340 string characters out of 3171442
+ 765297 words of memory out of 3000000
+ 23594 multiletter control sequences out of 15000+200000
+ 111062 words of font info for 95 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
  63i,13n,57p,1600b,2052s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{chap:GFDL} has been referenced but does not exist
@@ -6163,10 +6145,10 @@ l/share/texmf-texlive-dist/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (246 pages, 9633037 bytes).
+Output written on main.pdf (246 pages, 9631804 bytes).
 PDF statistics:
- 4146 PDF objects out of 4296 (max. 8388607)
- 3745 compressed objects within 38 object streams
+ 4147 PDF objects out of 4296 (max. 8388607)
+ 3746 compressed objects within 38 object streams
  1684 named destinations out of 1728 (max. 500000)
  1476 words of extra memory for PDF output out of 10000 (max. 10000000)
 

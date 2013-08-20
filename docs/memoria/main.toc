@@ -23,7 +23,7 @@
 \contentsline {chapter}{\numberline {3}Antecedentes}{11}{chapter.3}
 \contentsline {section}{\numberline {3.1}Sitios web de juegos online}{11}{section.3.1}
 \contentsline {section}{\numberline {3.2}Entrenamiento cerebral mediante mini juegos}{15}{section.3.2}
-\contentsline {section}{\numberline {3.3}Desarrollo web moderno}{17}{section.3.3}
+\contentsline {section}{\numberline {3.3}Tecnolog\IeC {\'\i }as Web}{17}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Servidor web}{18}{subsection.3.3.1}
 \contentsline {subsubsection}{PHP}{19}{Item.5}
 \contentsline {subsubsection}{ASP.NET}{20}{lstnumber.3.1.12}
@@ -31,6 +31,7 @@
 \contentsline {subsubsection}{NodeJS}{20}{lstnumber.3.1.12}
 \contentsline {subsection}{\numberline {3.3.2}Cliente web}{21}{subsection.3.3.2}
 \contentsline {subsubsection}{Tecnolog\IeC {\'\i }as web para desarrollo de videojuegos}{21}{subsection.3.3.2}
+\contentsline {subsubsection}{Comunicaci\IeC {\'o}n web ininterrumpida: websockets}{23}{figure.3.10}
 \contentsline {section}{\numberline {3.4}Anatom\IeC {\'\i }a y fisiolog\IeC {\'\i }a del cerebro humano}{24}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Estructura cerebral}{24}{subsection.3.4.1}
 \contentsline {subsubsection}{Materia gris, materia blanca y c\IeC {\'e}lulas gliales}{24}{subsection.3.4.1}

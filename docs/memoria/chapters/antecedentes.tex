@@ -1,9 +1,11 @@
 \chapter{Antecedentes}
 \label{chap:antecedentes}
 
-\drop{A}{} lo largo de este capítulo se presenta el estudio previo realizado como primer paso a la hora de abordar el proyecto que nos ocupa. En primer lugar se ofrece un análisis de los sistemas software que comparten cierta similitud con BreakBrain (secciones \ref{sec::webs-de-juegos} y \ref{sec::webs-de-brain}), tanto desde el punto de vista de un usuario común como mediante una visión técnica de los mismos. Posteriormente se ofrece un repaso acerca de las tecnologías web más utilizadas y extendidas en la actualidad (sección \ref{sec::desarrollo-web}) para, por último, centrar la atención en el desarrollo de mini-juegos preparados para su ejecución web (sección \ref{sec::desarrollo-juegos}), estudiando las diferentes posibilidades de implementación de los mismos. Como colofón se realiza un estudio de las modernas posibilidades para el desarrollo web de tiempo real (sección \ref{sec::tiempo-real}).
+\drop{A}{} lo largo de este capítulo se presenta el estudio previo realizado como primer paso a la hora de abordar el proyecto que nos ocupa. En primer lugar se ofrece un análisis de los sistemas software que comparten cierta similitud con BreakBrain (secciones \ref{sec::webs-de-juegos} y \ref{sec::webs-de-brain}), tanto desde el punto de vista de un usuario común como mediante una visión técnica de los mismos. Posteriormente se ofrece un repaso acerca de las tecnologías web más utilizadas y extendidas en la actualidad (sección \ref{sec::desarrollo-web}) para, por último, centrar la atención en el desarrollo de mini-juegos preparados para su ejecución web (sección \ref{sec::desarrollo-juegos}), estudiando las diferentes posibilidades de implementación de los mismos. Como colofón se realiza un estudio de las modernas posibilidades existentes para el desarrollo web de tiempo real.
 
 Mientras que los primeros análisis tratan de resultar amenos a cualquier tipo de lector, las últimas secciones están orientadas a un público con cierto nivel de conocimientos técnicos, dado que supone un paso importante en las decisiones tecnológicas tomadas para abordar el proyecto.
+
+Para finalizar el capítulo se expone un análisis sobre la anatomía y fisiología cerebral humana, atendiendo a los aspectos más importantes para el enrenamiento cerebral ---aspectos que serán explotados por BreakBrain---.
 
 \section{Sitios web de juegos online}
 \label{sec::webs-de-juegos}
@@ -21,7 +23,7 @@ Con un {\it Pagerank}\footnote{El Pagerank, definido oficialmente como un {\it `
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minijuegos.png}
-    \caption{Página principal de {\tt http://www.minijuegos.com}}
+    \caption{Minijuegos ({\tt http://www.minijuegos.com})}
   \end{center}
 \end{figure}
 
@@ -34,7 +36,7 @@ Cada una de las categorías contiene entre 5 y 10 subcategorías diferentes, lo 
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minijuegos-cat.png}
-    \caption{Categorías de juegos de {\tt http://www.minijuegos.com}}
+    \caption{Categorías de juegos en Minijuegos ({\tt http://www.minijuegos.com})}
     \label{fig::cat-minijuegos}
   \end{center}
 \end{figure}
@@ -42,7 +44,7 @@ Cada una de las categorías contiene entre 5 y 10 subcategorías diferentes, lo 
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minijuegos-mul.png}
-    \caption{Juegos multijugador en {\tt http://www.minijuegos.com}}
+    \caption{Juegos multijugador en Minijuegos ({\tt http://www.minijuegos.com})}
     \label{fig::minijuegos-mul}
   \end{center}
 \end{figure}
@@ -58,7 +60,7 @@ Con el mismo pagerank\index{pagerank}, 6/10, Miniclip ofrece también una gran c
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/miniclip.png}
-    \caption{{\tt http://www.miniclip.com}}
+    \caption{Miniclip ({\tt http://www.miniclip.com})}
     \label{fig::miniclip}
   \end{center}
 \end{figure}
@@ -74,7 +76,7 @@ Bajando bastante el nivel, tanto en cuanto a calidad de la plataforma como a pup
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minigamesfreak.png}
-    \caption{{\tt http://www.minigamesfreak.com}}
+    \caption{Minigamesfreak ({\tt http://www.minigamesfreak.com})}
     \label{fig::minigamesfreak}
   \end{center}
 \end{figure}
@@ -88,7 +90,7 @@ Al igual que Minigamesfreak, Juegosfan ofrece una recopilación de juegos (indiv
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/juegosfan.png}
-    \caption{{\tt http://www.juegosfan.com}}
+    \caption{Juegosfan ({\tt http://www.juegosfan.com})}
     \label{fig::juegosfan}
   \end{center}
 \end{figure}
@@ -102,7 +104,7 @@ De nuevo una web de recopilación de juegos de otras páginas, de un nivel de ma
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minigameonline.png}
-    \caption{{\tt http://www.minigameonline.net}}
+    \caption{Minigameonline ({\tt http://www.minigameonline.net})}
     \label{fig::minigameonline}
   \end{center}
 \end{figure}
@@ -125,7 +127,7 @@ Lumosity está enfocada sobre todo al entrenamiento rutinario, ofreciendo un seg
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/lumosity.png}
-    \caption{{\tt http://www.lumosity.com}}
+    \caption{Lumosity ({\tt http://www.lumosity.com})}
     \label{fig::lumosity}
   \end{center}
 \end{figure}
@@ -139,7 +141,7 @@ Con menor popularidad (pagerank de 3/10), Brainarena cambia el enfoque lucrativo
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/brainarena.png}
-    \caption{{\tt http://www.brainarena.com}}
+    \caption{Brainarena ({\tt http://www.brainarena.com})}
     \label{fig::brainarena}
   \end{center}
 \end{figure}
@@ -147,9 +149,9 @@ Con menor popularidad (pagerank de 3/10), Brainarena cambia el enfoque lucrativo
 
 Son sólo 16 juegos los que están al alcance del usuario. La ausencia de categorías para clasificarlos resulta un tanto extraña.
 
-Por otro lado, la jugabilidad es estupenda: todos los juegos muestran una imagen y dan 4 opciones que pueden ser elegidas con las teclas 1, 2, 3 y 4 del teclado.
+Por otro lado, la jugabilidad es sobresaliente debido a su sencillez: todos los juegos muestran una imagen y dan 4 opciones que pueden ser elegidas con las teclas 1, 2, 3 y 4 del teclado.
 
-\section{Desarrollo web moderno}
+\section{Tecnologías Web}
 \label{sec::desarrollo-web}
 
 La imparable popularización de Internet ha sido propulsora de una gran evolución tecnológica y social desde que la {\it ``Red de redes''} fue concebida hasta nuestros días. Al principio de la década de los 90 tener un computador personal en casa era un lujo al alcance de pocos, y el acceso a Internet un lujo todavía mayor. Los teléfonos móviles no se empezarían a extender hasta 5 o 10 años después. A día de hoy cualquier persona tiene un ordenador en casa y acceso a Internet. Es más, según \cite{Accenture2012} el 69\% de los accesos a Internet en la actualidad se realizan desde teléfonos móviles.
@@ -287,7 +289,8 @@ En la figura \ref{fig::webgl} se muestra un ejemplo de la calidad gráfica ofrec
   \end{center}
 \end{figure}
 
-\subsubsection*{Comunicación web ininterrumpida: websockets}
+\subsubsection{Comunicación web ininterrumpida: websockets}
+\label{sec::tiempo-real}
 
 WebSocket es una tecnología que implementa sockets de comunicación entre servidores y navegadores web (aunque pueden utilizarse por cualquier tipo de aplicación cliente/servidor). Proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP.
 

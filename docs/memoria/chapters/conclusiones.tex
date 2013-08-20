@@ -1,7 +1,7 @@
 \chapter{Conclusiones y propuestas}
 \label{chap:conclusiones}
 
-\drop{E}{ste} capítulo pretende ofrecer un análisis de los objetivos perseguidos durante el desarrollo del proyecto, estudiando en qué medida han sido alcanzados. Así mismo, pretende ofrecer una serie de propuestas futuras para completar el desarrollo y mejorar en todo lo posible algunos aspectos importantes, como la usabilidad, el rendimiento y la seguridad.
+\drop{E}{ste} capítulo pretende ofrecer un análisis de los objetivos perseguidos durante el desarrollo del proyecto, estudiando en qué medida han sido alcanzados. Asimismo, pretende ofrecer una serie de propuestas futuras para completar el desarrollo y mejorar en todo lo posible algunos aspectos importantes, como la usabilidad, el rendimiento y la seguridad.
 
 Finalmente se expone una valoración personal del autor sobre la experiencia que ha supuesto trabajar en la construcción de BreakBrain.
 
@@ -13,49 +13,57 @@ De forma muy general, la meta era la construcción de una plataforma social dest
 
 También de forma muy general, el objetivo ha sido conseguido con creces, habiendo obtenido como resultado un proyecto maduro de software libre, disponible ya a día de hoy en la plataforma GitHub \cite{github}, y cuyo desarrollo sigue en proceso.
 
-Realizando un análisis más detallado, los objetivos específicos en los que se desglosaba el objetivo general eran los siguientes:
+Realizando un análisis más detallado, los objetivos específicos en los que se desglosaba el objetivo general, y que han sido completados durante el desarrollo de BreakBrain, son los siguientes:
 
 \begin{itemize}
+\item Estudiar y definir variables relacionadas con el estado y entrenamiento de los procesos cerebrales.
+\item Investigar y preveer relaciones entre usuarios. Crear un sistema de recomendación basado en las expectativas de entrenamiento cerebral y resultados de cada usuario.
 \item Afrontar el desarrollo de una red social desde cero, sin el uso de frameworks especializados, sino contemplando la creación de toda la plataforma paso a paso.
-\item Investigar y preveer relaciones entre usuarios. Crear un sistema de recomendación basado en las espectativas de entrenamiento cerebral y resultados de cada usuario.
 \item Crear una plataforma extensible mediante un pequeño framework de desarrollo de videojuegos sencillos. El objetivo es que cualquier desarrollador pueda extender la funcionalidad de BreakBrain mediante sus propios juegos.
+\item Crear algunos juegos de ejemplo.
+\item Ofrecer un seguimiento detallado de la evolución de los usuarios.
 \item Liderar un proyecto de software libre ambicioso, gestionando la integración de juegos de terceros.
+\end{itemize}
+
+Adicionalmente, durante el desarrollo de BreakBrain se han conseguido una serie de objetivos adicionales:
+
+\begin{itemize}
 \item Aprender a utilizar correctamente los nuevos estándares de HTML5, CSS3.
 \item Afrontar el desarrollo de aplicaciones web de tiempo real mediante el uso de WebSockets.
 \item Familiarizarse y ganar experiencia con el lenguaje JavaScript y su uso en el lado del servidor mediante NodeJS.
 \item Aprender a utilizar bases de datos documentales no basadas en el lenguaje SQL.
 \end{itemize}
 
-A continuación se valora el grado de consecución de todos estos objetivos. Para ello se especificará una valoración de entre 0 y 5 para cada uno (donde 0 significa que el objetivo no se ha alcanzado de ninguna manera y 5 que el objetivo ha sido alcanzado completamente). Un valor intermedio de 3, por ejemplo, implica que el objetivo no ha sido alcanzado del todo, pero que el desarrollo está muy cerca de hacerlo. El valor 4 implica una consecución prácticamente completa del objetivo (a falta de pequeños detalles mejorables).
+%% A continuación se valora el grado de consecución de todos estos objetivos. Para ello se especificará una valoración de entre 0 y 5 para cada uno (donde 0 significa que el objetivo no se ha alcanzado de ninguna manera y 5 que el objetivo ha sido alcanzado completamente). Un valor intermedio de 3, por ejemplo, implica que el objetivo no ha sido alcanzado del todo, pero que el desarrollo está muy cerca de hacerlo. El valor 4 implica una consecución prácticamente completa del objetivo (a falta de pequeños detalles mejorables).
 
 
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{|l|c|}
-\hline
-\tabheadformat
-\tabhead{Objetivo específico} & \tabhead{Consecución} \\
-\hline\hline
-Desarrollar una red social desde cero & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.6} \\
-\hline
-Soportar el desarrollo e integración de juegos de terceros & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
-\hline
-Crear un sistema de recomendación de usuarios y juegos & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.6}\\
-\hline
-Liderar un proyecto de software libre ambicioso & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
-\hline
-Aprender a utilizar los nuevos estándares HTML5 y CSS3 & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
-\hline
-Tiempo real en aplicaciones web mediante WebSockets & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
-\hline
-Aprender JavaScript y NodeJS & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
-\hline
-Aprender a utilizar bases de datos documentales NoSQL & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
-\hline
-\end{tabular}
-\end{center}
-\caption{Grado de consecución de objetivos específicos}
-\end{table}
+%% \begin{table}[h]
+%% \begin{center}
+%% \begin{tabular}{|l|c|}
+%% \hline
+%% \tabheadformat
+%% \tabhead{Objetivo específico} & \tabhead{Consecución} \\
+%% \hline\hline
+%% Desarrollar una red social desde cero & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.6} \\
+%% \hline
+%% Soportar el desarrollo e integración de juegos de terceros & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
+%% \hline
+%% Crear un sistema de recomendación de usuarios y juegos & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.6}\\
+%% \hline
+%% Liderar un proyecto de software libre ambicioso & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
+%% \hline
+%% Aprender a utilizar los nuevos estándares HTML5 y CSS3 & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
+%% \hline
+%% Tiempo real en aplicaciones web mediante WebSockets & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
+%% \hline
+%% Aprender JavaScript y NodeJS & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{1}\\
+%% \hline
+%% Aprender a utilizar bases de datos documentales NoSQL & \progressbar[emptycolor=white,filledcolor=gray,linecolor=black,subdivisions=5,roundnessr=0.3,tickscolor=black,tickswidth=1,ticksheight=1]{0.8}\\
+%% \hline
+%% \end{tabular}
+%% \end{center}
+%% \caption{Grado de consecución de objetivos específicos}
+%% \end{table}
 
 
 \section{Propuestas de trabajo futuro}
