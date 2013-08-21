@@ -1,15 +1,15 @@
 \begin{theindex}
 
-  \item acalculia, \hyperpage{54}
-  \item acetilcolina, \hyperpage{31}
+  \item acalculia, \hyperpage{53}
+  \item acetilcolina, \hyperpage{30}
   \item afasia, \hyperpage{38}
-  \item am\IeC {\'\i }gdala, \hyperpage{46--49}
-  \item artefacto, \hyperpage{59}, \hyperpage{61}
+  \item am\IeC {\'\i }gdala, \hyperpage{45--48}
+  \item artefacto, \hyperpage{57}, \hyperpage{59}
   \item ataxia, \hyperpage{33}
 
   \indexspace
 
-  \item bug, \hyperpage{107}
+  \item bug, \hyperpage{105}
   \item bulbo raqu\IeC {\'\i }deo, \hyperpage{29}
   \item bytecode, \hyperpage{20}
 
@@ -17,119 +17,117 @@
 
   \item c\IeC {\'o}rtex, \hyperpage{2}, \hyperpage{24}
   \item c\IeC {\'o}rtex/corteza
-    \subitem inferotemporal, \hyperpage{38}, \hyperpage{44}
-    \subitem occipitotemporal, \hyperpage{52}
-    \subitem prefrontal, \hyperpage{48}, \hyperpage{122}
-    \subitem visual asociativa, \hyperpage{44}
-    \subitem visual primaria, \hyperpage{44}
-    \subitem visual secundaria, \hyperpage{44}
-  \item cambio cualitativo, \hyperpage{52}
-  \item capas germinales, \hyperpage{28}
+    \subitem inferotemporal, \hyperpage{37}, \hyperpage{43}
+    \subitem occipitotemporal, \hyperpage{51}
+    \subitem prefrontal, \hyperpage{47}, \hyperpage{120}
+    \subitem visual asociativa, \hyperpage{43}
+    \subitem visual primaria, \hyperpage{43}
+    \subitem visual secundaria, \hyperpage{43}
+  \item cambio cualitativo, \hyperpage{51}
+  \item capas germinales, \hyperpage{27}
   \item cerebelo, \hyperpage{32}
-  \item corticosterona, \hyperpage{48}
-  \item cortisol, \hyperpage{48}
-  \item cortisona, \hyperpage{48}
+  \item corticosterona, \hyperpage{47}
+  \item cortisol, \hyperpage{47}
+  \item cortisona, \hyperpage{47}
   \item cuerpo calloso, \hyperpage{46}
-  \item cuerpo estriado, \hyperpage{42}
+  \item cuerpo estriado, \hyperpage{41}
 
   \indexspace
 
   \item dienc\IeC {\'e}falo, \hyperpage{29}
-  \item dopamina, \hyperpage{50}
+  \item dopamina, \hyperpage{49}
 
   \indexspace
 
-  \item embriolog\IeC {\'\i }a, \hyperpage{28}
-  \item express.js, \hyperpage{102}
+  \item embriolog\IeC {\'\i }a, \hyperpage{27}
+  \item express.js, \hyperpage{100}
 
   \indexspace
 
-  \item GET, \hyperpage{17}
-  \item glucorticoides, \hyperpage{48}
+  \item GET, \hyperpage{18}
+  \item glucorticoides, \hyperpage{47}
 
   \indexspace
 
-  \item hipermedia, \hyperpage{17}
+  \item hipermedia, \hyperpage{18}
   \item hipertexto, \hyperpage{17}
-  \item hipocampo, \hyperpage{46}, \hyperpage{54}
+  \item hipocampo, \hyperpage{46}, \hyperpage{53}
   \item hipot\IeC {\'a}lamo, \hyperpage{29}
-  \item HTML, \hyperpage{17}, \hyperpage{19}
-  \item HTTP, \hyperpage{17, 18}
+  \item HTML, \hyperpage{18, 19}
+  \item HTTP, \hyperpage{18}
 
   \indexspace
 
-  \item insulina, \hyperpage{48}
+  \item insulina, \hyperpage{47}
 
   \indexspace
 
   \item l\IeC {\'o}bulo
-    \subitem frontal, \hyperpage{53, 54}
-    \subitem occipital, \hyperpage{122}
-    \subitem parietal, \hyperpage{53, 54}
-    \subitem temporal, \hyperpage{122}
-  \item lumosity, \hyperpage{15}
+    \subitem frontal, \hyperpage{52, 53}
+    \subitem occipital, \hyperpage{120}
+    \subitem parietal, \hyperpage{52, 53}
+    \subitem temporal, \hyperpage{120}
+  \item lumosity, \hyperpage{16}
 
   \indexspace
 
   \item materia
-    \subitem blanca, \hyperpage{51}
-    \subitem gris, \hyperpage{51}
-  \item mesenc\IeC {\'e}falo, \hyperpage{29}, \hyperpage{31}, 
-		\hyperpage{35}
+    \subitem blanca, \hyperpage{50}
+    \subitem gris, \hyperpage{50}
+  \item mesenc\IeC {\'e}falo, \hyperpage{28--30}, \hyperpage{34}
   \item metenc\IeC {\'e}falo, \hyperpage{29}
   \item mielenc\IeC {\'e}falo, \hyperpage{29}
-  \item mongodb, \hyperpage{75}
+  \item mongodb, \hyperpage{73}
 
   \indexspace
 
   \item n\IeC {\'u}cleo, \hyperpage{24}
-  \item n\IeC {\'u}cleos del raf\IeC {\'e}, \hyperpage{31}
-  \item narcolepsia, \hyperpage{46}
-  \item neoc\IeC {\'o}rtex, \hyperpage{26}, \hyperpage{35}, 
-		\hyperpage{41, 42}
+  \item n\IeC {\'u}cleos del raf\IeC {\'e}, \hyperpage{30}
+  \item narcolepsia, \hyperpage{45}
+  \item neoc\IeC {\'o}rtex, \hyperpage{25}, \hyperpage{34}, 
+		\hyperpage{39}, \hyperpage{41}
   \item neurona
-    \subitem piramidal, \hyperpage{39}
+    \subitem piramidal, \hyperpage{38}
   \item neuroplasticidad, \hyperpage{3}, \hyperpage{42, 43}, 
-		\hyperpage{51}, \hyperpage{55}, \hyperpage{121}
-  \item neurotransmisor, \hyperpage{26, 27}, \hyperpage{49}
-  \item nodejs, \hyperpage{75}, \hyperpage{101, 102}, \hyperpage{106}
-  \item norepinefrina, \hyperpage{31}
+		\hyperpage{51}, \hyperpage{54}, \hyperpage{119}
+  \item neurotransmisor, \hyperpage{25, 26}, \hyperpage{48}
+  \item nodejs, \hyperpage{73}, \hyperpage{99, 100}, \hyperpage{104}
+  \item norepinefrina, \hyperpage{30}
 
   \indexspace
 
-  \item pagerank, \hyperpage{12--15}
+  \item pagerank, \hyperpage{12--16}
   \item PHP, \hyperpage{19}
   \item POST, \hyperpage{18}
-  \item prosenc\IeC {\'e}falo, \hyperpage{29}, \hyperpage{35}
+  \item prosenc\IeC {\'e}falo, \hyperpage{28}, \hyperpage{34}
   \item protuberancia anular, \hyperpage{29}
-  \item puente troncoencef\IeC {\'a}lico, \hyperpage{29}, 
-		\hyperpage{31}
+  \item puente troncoencef\IeC {\'a}lico, \hyperpage{29, 30}
 
   \indexspace
 
-  \item rombenc\IeC {\'e}falo, \hyperpage{29}, \hyperpage{35}
+  \item rombenc\IeC {\'e}falo, \hyperpage{28, 29}, \hyperpage{34}
 
   \indexspace
 
-  \item sistema l\IeC {\'\i }mbico, \hyperpage{35, 36}, \hyperpage{39}, 
-		\hyperpage{48}
+  \item sistema l\IeC {\'\i }mbico, \hyperpage{35}, \hyperpage{39}, 
+		\hyperpage{47, 48}
 
   \indexspace
 
   \item t\IeC {\'a}lamo, \hyperpage{29}
   \item telenc\IeC {\'e}falo, \hyperpage{29}
-  \item templo, \hyperpage{47}
+  \item templo, \hyperpage{46}
 
   \indexspace
 
-  \item usabilidad, \hyperpage{107}
+  \item usabilidad, \hyperpage{105}
 
   \indexspace
 
-  \item vows, \hyperpage{106}
+  \item vows, \hyperpage{104}
 
   \indexspace
 
-  \item websockets, \hyperpage{103}
+  \item websockets, \hyperpage{101}
 
 \end{theindex}
