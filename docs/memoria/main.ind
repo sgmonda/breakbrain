@@ -1,7 +1,7 @@
 \begin{theindex}
 
   \item acalculia, \hyperpage{53}
-  \item acetilcolina, \hyperpage{30}
+  \item acetilcolina, \hyperpage{31}
   \item afasia, \hyperpage{38}
   \item am\IeC {\'\i }gdala, \hyperpage{45--48}
   \item artefacto, \hyperpage{57}, \hyperpage{59}
@@ -10,7 +10,7 @@
   \indexspace
 
   \item bug, \hyperpage{105}
-  \item bulbo raqu\IeC {\'\i }deo, \hyperpage{29}
+  \item bulbo raqu\IeC {\'\i }deo, \hyperpage{30}
   \item bytecode, \hyperpage{20}
 
   \indexspace
@@ -18,28 +18,28 @@
   \item c\IeC {\'o}rtex, \hyperpage{2}, \hyperpage{24}
   \item c\IeC {\'o}rtex/corteza
     \subitem inferotemporal, \hyperpage{37}, \hyperpage{43}
-    \subitem occipitotemporal, \hyperpage{51}
+    \subitem occipitotemporal, \hyperpage{52}
     \subitem prefrontal, \hyperpage{47}, \hyperpage{120}
     \subitem visual asociativa, \hyperpage{43}
     \subitem visual primaria, \hyperpage{43}
     \subitem visual secundaria, \hyperpage{43}
-  \item cambio cualitativo, \hyperpage{51}
-  \item capas germinales, \hyperpage{27}
-  \item cerebelo, \hyperpage{32}
+  \item cambio cualitativo, \hyperpage{52}
+  \item capas germinales, \hyperpage{28}
+  \item cerebelo, \hyperpage{33}
   \item corticosterona, \hyperpage{47}
   \item cortisol, \hyperpage{47}
   \item cortisona, \hyperpage{47}
   \item cuerpo calloso, \hyperpage{46}
-  \item cuerpo estriado, \hyperpage{41}
+  \item cuerpo estriado, \hyperpage{42}
 
   \indexspace
 
   \item dienc\IeC {\'e}falo, \hyperpage{29}
-  \item dopamina, \hyperpage{49}
+  \item dopamina, \hyperpage{50}
 
   \indexspace
 
-  \item embriolog\IeC {\'\i }a, \hyperpage{27}
+  \item embriolog\IeC {\'\i }a, \hyperpage{28}
   \item express.js, \hyperpage{100}
 
   \indexspace
@@ -50,7 +50,7 @@
   \indexspace
 
   \item hipermedia, \hyperpage{18}
-  \item hipertexto, \hyperpage{17}
+  \item hipertexto, \hyperpage{18}
   \item hipocampo, \hyperpage{46}, \hyperpage{53}
   \item hipot\IeC {\'a}lamo, \hyperpage{29}
   \item HTML, \hyperpage{18, 19}
@@ -63,7 +63,7 @@
   \indexspace
 
   \item l\IeC {\'o}bulo
-    \subitem frontal, \hyperpage{52, 53}
+    \subitem frontal, \hyperpage{52}, \hyperpage{54}
     \subitem occipital, \hyperpage{120}
     \subitem parietal, \hyperpage{52, 53}
     \subitem temporal, \hyperpage{120}
@@ -72,27 +72,27 @@
   \indexspace
 
   \item materia
-    \subitem blanca, \hyperpage{50}
-    \subitem gris, \hyperpage{50}
+    \subitem blanca, \hyperpage{51}
+    \subitem gris, \hyperpage{51}
   \item mesenc\IeC {\'e}falo, \hyperpage{28--30}, \hyperpage{34}
   \item metenc\IeC {\'e}falo, \hyperpage{29}
-  \item mielenc\IeC {\'e}falo, \hyperpage{29}
+  \item mielenc\IeC {\'e}falo, \hyperpage{30}
   \item mongodb, \hyperpage{73}
 
   \indexspace
 
   \item n\IeC {\'u}cleo, \hyperpage{24}
-  \item n\IeC {\'u}cleos del raf\IeC {\'e}, \hyperpage{30}
+  \item n\IeC {\'u}cleos del raf\IeC {\'e}, \hyperpage{31}
   \item narcolepsia, \hyperpage{45}
   \item neoc\IeC {\'o}rtex, \hyperpage{25}, \hyperpage{34}, 
-		\hyperpage{39}, \hyperpage{41}
+		\hyperpage{40}, \hyperpage{42}
   \item neurona
     \subitem piramidal, \hyperpage{38}
   \item neuroplasticidad, \hyperpage{3}, \hyperpage{42, 43}, 
 		\hyperpage{51}, \hyperpage{54}, \hyperpage{119}
-  \item neurotransmisor, \hyperpage{25, 26}, \hyperpage{48}
+  \item neurotransmisor, \hyperpage{26, 27}, \hyperpage{49}
   \item nodejs, \hyperpage{73}, \hyperpage{99, 100}, \hyperpage{104}
-  \item norepinefrina, \hyperpage{30}
+  \item norepinefrina, \hyperpage{31}
 
   \indexspace
 
@@ -100,8 +100,8 @@
   \item PHP, \hyperpage{19}
   \item POST, \hyperpage{18}
   \item prosenc\IeC {\'e}falo, \hyperpage{28}, \hyperpage{34}
-  \item protuberancia anular, \hyperpage{29}
-  \item puente troncoencef\IeC {\'a}lico, \hyperpage{29, 30}
+  \item protuberancia anular, \hyperpage{30}
+  \item puente troncoencef\IeC {\'a}lico, \hyperpage{30}
 
   \indexspace
 
@@ -109,14 +109,14 @@
 
   \indexspace
 
-  \item sistema l\IeC {\'\i }mbico, \hyperpage{35}, \hyperpage{39}, 
-		\hyperpage{47, 48}
+  \item sistema l\IeC {\'\i }mbico, \hyperpage{35, 36}, \hyperpage{38}, 
+		\hyperpage{48}
 
   \indexspace
 
   \item t\IeC {\'a}lamo, \hyperpage{29}
   \item telenc\IeC {\'e}falo, \hyperpage{29}
-  \item templo, \hyperpage{46}
+  \item templo, \hyperpage{47}
 
   \indexspace
 

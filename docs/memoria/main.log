@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  21 AUG 2013 23:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_5) (format=pdflatex 2013.2.10)  22 AUG 2013 00:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3531,8 +3531,8 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [134]
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3548,9 +3548,8 @@ Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
 although it is yet undefined on input line 109.
 Package acronym Info: Label `acro:AWS' newly defined as it shall be overridden
 although it is yet undefined on input line 119.
-)
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -3558,7 +3557,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[136]
+[136])
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
 
@@ -6085,15 +6084,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
  22678 strings out of 494763
  371483 string characters out of 3171442
- 765487 words of memory out of 3000000
+ 765500 words of memory out of 3000000
  23611 multiletter control sequences out of 15000+200000
  111062 words of font info for 95 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
@@ -6119,10 +6115,10 @@ l/share/texmf-texlive-dist/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (244 pages, 9423466 bytes).
+Output written on main.pdf (244 pages, 9423154 bytes).
 PDF statistics:
- 4143 PDF objects out of 4296 (max. 8388607)
- 3746 compressed objects within 38 object streams
+ 4142 PDF objects out of 4296 (max. 8388607)
+ 3745 compressed objects within 38 object streams
  1680 named destinations out of 1728 (max. 500000)
  1466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
