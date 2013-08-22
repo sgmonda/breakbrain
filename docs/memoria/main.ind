@@ -4,12 +4,12 @@
   \item acetilcolina, \hyperpage{31}
   \item afasia, \hyperpage{38}
   \item am\IeC {\'\i }gdala, \hyperpage{45--48}
-  \item artefacto, \hyperpage{57}, \hyperpage{59}
+  \item artefacto, \hyperpage{61}, \hyperpage{63}
   \item ataxia, \hyperpage{33}
 
   \indexspace
 
-  \item bug, \hyperpage{105}
+  \item bug, \hyperpage{109}
   \item bulbo raqu\IeC {\'\i }deo, \hyperpage{30}
   \item bytecode, \hyperpage{20}
 
@@ -19,7 +19,7 @@
   \item c\IeC {\'o}rtex/corteza
     \subitem inferotemporal, \hyperpage{37}, \hyperpage{43}
     \subitem occipitotemporal, \hyperpage{52}
-    \subitem prefrontal, \hyperpage{47}, \hyperpage{120}
+    \subitem prefrontal, \hyperpage{47}, \hyperpage{124}
     \subitem visual asociativa, \hyperpage{43}
     \subitem visual primaria, \hyperpage{43}
     \subitem visual secundaria, \hyperpage{43}
@@ -40,7 +40,7 @@
   \indexspace
 
   \item embriolog\IeC {\'\i }a, \hyperpage{28}
-  \item express.js, \hyperpage{100}
+  \item express.js, \hyperpage{104}
 
   \indexspace
 
@@ -64,9 +64,9 @@
 
   \item l\IeC {\'o}bulo
     \subitem frontal, \hyperpage{52}, \hyperpage{54}
-    \subitem occipital, \hyperpage{120}
+    \subitem occipital, \hyperpage{124}
     \subitem parietal, \hyperpage{52, 53}
-    \subitem temporal, \hyperpage{120}
+    \subitem temporal, \hyperpage{124}
   \item lumosity, \hyperpage{16}
 
   \indexspace
@@ -77,7 +77,7 @@
   \item mesenc\IeC {\'e}falo, \hyperpage{28--30}, \hyperpage{34}
   \item metenc\IeC {\'e}falo, \hyperpage{29}
   \item mielenc\IeC {\'e}falo, \hyperpage{30}
-  \item mongodb, \hyperpage{73}
+  \item mongodb, \hyperpage{77}
 
   \indexspace
 
@@ -89,9 +89,9 @@
   \item neurona
     \subitem piramidal, \hyperpage{38}
   \item neuroplasticidad, \hyperpage{3}, \hyperpage{42, 43}, 
-		\hyperpage{51}, \hyperpage{54}, \hyperpage{119}
+		\hyperpage{51}, \hyperpage{54}, \hyperpage{123}
   \item neurotransmisor, \hyperpage{26, 27}, \hyperpage{49}
-  \item nodejs, \hyperpage{73}, \hyperpage{99, 100}, \hyperpage{104}
+  \item nodejs, \hyperpage{77}, \hyperpage{103, 104}, \hyperpage{108}
   \item norepinefrina, \hyperpage{31}
 
   \indexspace
@@ -120,14 +120,14 @@
 
   \indexspace
 
-  \item usabilidad, \hyperpage{105}
+  \item usabilidad, \hyperpage{109}
 
   \indexspace
 
-  \item vows, \hyperpage{104}
+  \item vows, \hyperpage{108}
 
   \indexspace
 
-  \item websockets, \hyperpage{101}
+  \item websockets, \hyperpage{105}
 
 \end{theindex}

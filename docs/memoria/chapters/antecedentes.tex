@@ -23,7 +23,7 @@ Con un {\it Pagerank}\footnote{El Pagerank, definido oficialmente como un {\it `
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minijuegos.png}
-    \caption{Minijuegos$^{\ref{foot-minijuegos}}$}
+    \caption[Minijuegos]{Minijuegos$^{\ref{foot-minijuegos}}$}
   \end{center}
 \end{figure}
 \addtocounter{footnote}{1}\footnotetext{\label{foot-minijuegos}{\tt http://www.minijuegos.com}}
@@ -53,7 +53,7 @@ Con el mismo pagerank\index{pagerank}, 6/10, Miniclip ofrece también una gran c
 \begin{figure}
   \begin{center}
     \includegraphics[width=\textwidth]{images/miniclip.png}
-    \caption{Miniclip$^{\ref{foot-miniclip}}$}
+    \caption[Miniclip]{Miniclip$^{\ref{foot-miniclip}}$}
     \label{fig::miniclip}
   \end{center}
 \end{figure}
@@ -70,7 +70,7 @@ Bajando bastante el nivel, tanto en cuanto a calidad de la plataforma como a pup
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minigamesfreak.png}
-    \caption{Minigamesfreak$^{\ref{foot-minigamesfreak}}$}
+    \caption[Minigamesfreak]{Minigamesfreak$^{\ref{foot-minigamesfreak}}$}
     \label{fig::minigamesfreak}
   \end{center}
 \end{figure}
@@ -84,7 +84,7 @@ Al igual que Minigamesfreak, Juegosfan ofrece una recopilación de juegos (indiv
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/juegosfan.png}
-    \caption{Juegosfan$^{\ref{foot-juegosfan}}$}
+    \caption[Juegosfan]{Juegosfan$^{\ref{foot-juegosfan}}$}
     \label{fig::juegosfan}
   \end{center}
 \end{figure}
@@ -98,7 +98,7 @@ De nuevo una web de recopilación de juegos de otras páginas, de un nivel de ma
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/minigameonline.png}
-    \caption{Minigameonline$^{\ref{foot-minigameonline}}$}
+    \caption[Minigameonline]{Minigameonline$^{\ref{foot-minigameonline}}$}
     \label{fig::minigameonline}
   \end{center}
 \end{figure}
@@ -125,7 +125,7 @@ En esta plataforma los juegos son clasificados en 5 categorías: Velocidad, Memo
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=\textwidth]{images/lumosity.png}
-    \caption{Lumosity$^{\ref{foot-lumosity}}$}
+    \caption[Lumosity]{Lumosity$^{\ref{foot-lumosity}}$}
     \label{fig::lumosity}
   \end{center}
 \end{figure}
@@ -149,7 +149,7 @@ La imparable popularización de Internet ha sido propulsora de una gran evoluci�
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=\textwidth]{images/brainarena.png}
-    \caption{Brainarena$^{\ref{foot-brainarena}}$}
+    \caption[Brainarena]{Brainarena$^{\ref{foot-brainarena}}$}
     \label{fig::brainarena}
   \end{center}
 \end{figure}
@@ -994,3 +994,105 @@ En relación con la memoria de trabajo (vista en la sección \ref{sec::memoria-t
 La fluidez verbal supone el acceso veloz al vocabulario conocido durante una conversación o tarea de escritura. Consiste en el ingenio y la capacidad de intercambio y conexión de palabras, y resulta crucial para la comunicación.
 
 Esa conocida sensación de {\it ``tener una palabra en la punta de la lengua''} está relacionada estrechamente con la fluidez verbal. Depende de multitud de factores, como la edad, cuyo efecto se analiza en \cite{Deborah2004}.
+
+\section{Sistemas de recomendación}
+
+Los sistemas de recomendación, como área de investigación independiente, surgieron a mediados de los noventa. En su fórmula más común, el problema de la recomendación se reduce a {\it la clasificación estimada de elementos que no han sido vistos por el usuario} \cite{adomavicius}. Dicha estimación se basa, entre otra información, en la valoración que el usuario ha hecho de otros elementos relacionados.
+
+Supongamos que $U$ es el conjunto total de usuarios, y $S$ el conjunto de elementos que pueden ser recomendados a cada usuario $u \in U$. Cada elemento $u$ tiene un perfil asociado con información personal como edad o sexo, intereses, etc. Por otro lado, cada elemento o artículo susceptible de ser recomendado, $s \in S$, está definido por un conjunto de características. Llamemos $f$ a la función de utilidad que, para cada usuario $u$ y cada elemento $s$, tiene como valor la utilidad del item $s$ para el usuario $u$ (lo que representaremos como $s_u$):
+
+$$
+\begin{array}{rccc}
+f: & U \times S & \longrightarrow & \mathbb{R}\\
+   & u, s & \longrightarrow & s_u
+\end{array}
+$$
+
+$f$ estará definida en aquellos puntos en los que conocemos exactamente la valoración que el usuario realiza sobre el artículo ---en el caso de una colección de películas, la valoración puede ser la puntuación que el usuario le da a la película de forma explícita---. El objetivo de un sistema de recomendación es extrapolar la función $f$ a todo el espacio $U \times S$, de forma que se pueda estimar la utilidad que cada elemento $s$ tiene para cada usuario $u$.
+
+Para extrapolar la función $f$ se suelen emplear dos métodos diferentes:
+
+\begin{enumerate}
+\item Mediante una heurística
+\item Estimando la función de utilidad que optimiza algún criterio (como el menor error cuadrático, por ejemplo)
+\end{enumerate}
+
+Una vez calculada la estimación, el elemento $s$ recomendado al usuario $u$ será aquel que mayor valoración tenga según la función $f$. Si llamamos $s'_u$ a la puntuación más alta:
+
+$$
+\forall u \in U,\quad s'_u = \max_{s \in S}\ f(u,s)
+$$
+
+\subsection{Tipos de sistemas de recomendación}
+
+En \cite{adomavicius} se realiza una clasificación de los sistemas de recomendación en base al tipo de función de utilidad:
+
+\begin{enumerate}
+
+\item {\bf Recomendación basadas en el contenido}
+
+Los artículos o items recomendados al usuario son similares a aquellos a los que el usuario mejor valoró en el pasado. Es decir, la utilidad $f(u,s)$ es estimada en base a las valoraciones $f(u,s_i)$ que el usuario $u$ realizó explícitamente sobre los items $s_i \in S$ similares a $s$.
+
+\item {\bf Recomendación colaborativas}
+
+Los items recomendados al usuario son los que las personas similares a él mejor valoraron en el pasado. Formalmente, la utilidad $f(u,s)$ es estimada en base a las valoraciones $f(u_i,s)$ realizadas por los usuarios $u_i \in U$ similares a $u$.
+\end{enumerate}
+
+Además de los dos métodos anteriores, existe la posibilidad de seguir un {\bf enfoque híbrido}, como una combinación de los dos anteriores, para superar las limitaciones de ambos. Existen diferentes formas de realizar dicha combinación:
+
+\begin{itemize}
+\item Implementar los métodos basado en contenido y colaborativo por separado y combinar sus estimaciones.
+\item Implementar algunas características de la recomendación basada en contenido sobre un sistema de recomendación colaborativa.
+\item Implementar algunas características de la recomendación colaborativa en un sistema de recomendación basada en contenido.
+\item Implementar un sistema global basado en las características de ambos.
+\end{itemize}
+
+A la vista de lo anterior, resulta evidente la necesidad de definir una función de similitud entre artículos (para el caso 1) y una función de similitud entre usuarios (para el caso 2). Dichas funciones dependerán del contexto en el que el sistema de recomendación se enmarque, es decir, de la información que haya disponible de los artículos y usuarios.
+
+Por otro lado, en \cite{burke} se contemplan tres métodos de recomendación además de los ya mencionados:
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+
+\item {\bf Recomendación demográfica}
+
+Categoriza a los usuarios en clases demográficas, en base a las características personales. En lugar de utilizar valoraciones pasadas (como los métodos anteriormente vistos), utiliza dichas clases para realizar las estimaciones de utilidad.
+
+\item {\bf Recomendación basada en utilidad}
+
+La recomendación se basa en el cálculo de una función de utilidad de cada item para cada usuario, pero teniendo en cuenta aspectos dinámicos ---como la disponibilidad de un producto en un momento dado, en el caso de una tienda---.
+
+\item {\bf Recomendación basada en conocimiento}
+
+Trata de realizar inferencias sobre las necesidades y preferencias de los usuarios, basándose en un {\it conocimiento funcional} \cite{burke}: información sobre cómo un determinado artículo coincide con una necesidad del usuario. El perfil de usuario debe contener algún tipo de estructura de conocimiento que soporte esta inferencia. En el caso sencillo de un buscador, esa información del usuario puede ser símplemente la búsqueda que ha realizado.
+
+\end{enumerate}
+
+En la tabla \ref{table::recomendacion} se muestra un resumen de los diferentes métodos de recomendación expuestos.
+
+\begin{table}
+  \label{table::recomendacion}
+  \begin{center}
+  \begin{tabular}{|l||l|l|l|}
+    \hline
+    \tabheadformat
+    \tabhead{Método} & \tabhead{Fundamento} & \tabhead{Entrada} & \tabhead{Proceso} \\
+    \hline
+    \hline
+    Basada en & a & a & a\\
+    contenido & a & a & a\\
+    \hline
+    Colaborativa & a & a & a\\
+    \hline
+    Demográfica & a & a & a\\
+    \hline
+    Basada en & a & a & a\\
+     utilidad & a & a & a\\
+    \hline
+    Basada en & a & a & a\\
+ conocimiento & a & a & a\\
+    \hline
+  \end{tabular}
+  \caption{Tipos de recomendación}
+  \end{center}
+\end{table}

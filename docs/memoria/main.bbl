@@ -32,6 +32,12 @@ AppFog.
 \newblock {AppFog}.
 \newblock \ifshowURL {\showURL \path|http://www.appfog.com/|}\fi.
 
+\bibitem[AT05]{adomavicius}
+Gediminas Adomavicius and Alexander Tuzhilinn.
+\newblock {\em {Toward the Next Generation of Recommender Systems: A Survey of
+  the State-of-the-Art and Possible Extensions}}.
+\newblock IEEE Transactions on Knowledge and Data Engineering, 2005.
+
 \bibitem[BB]{becker}
 Suzanna Becker and Neil Burgess.
 \newblock {Modelling spatial recall, mental imagery and neglect}.
@@ -53,6 +59,12 @@ Louis Bherer, Arthur~F. Kramer, Matthew~S. Peterson, Stanley Colcombe, Kirk
 Deborah~M. Burke and Meredith~A. Shafto.
 \newblock {\em {Aging and Language Production}}.
 \newblock Current Directions In Psychological Science, 2004.
+
+\bibitem[Bur]{burke}
+Robin Burke.
+\newblock {\em {Hybrid Recommender Systems: Survey and Experiments}}.
+\newblock California State University. Department of Information Systems and
+  Decision Sciences.
 
 \bibitem[Cre]{CreateJS}
 CreateJS.

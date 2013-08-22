@@ -13,6 +13,7 @@ Warning--empty year in Amazon
 Warning--empty journal in becker
 Warning--empty year in becker
 Warning--empty journal in Karlene2007
+Warning--empty year in burke
 Warning--empty journal in CreateJS
 Warning--empty year in CreateJS
 Warning--empty journal in ine-esperanza
@@ -47,45 +48,45 @@ Warning--empty journal in unity
 Warning--empty year in unity
 Warning--empty journal in w3techs
 Warning--empty year in w3techs
-You've used 70 entries,
+You've used 72 entries,
             3036 wiz_defined-function locations,
-            1008 strings with 14987 characters,
-and the built_in function-call counts, 25393 in all, are:
-= -- 2196
-> -- 1044
-< -- 46
-+ -- 338
-- -- 335
-* -- 1524
-:= -- 3975
-add.period$ -- 221
-call.type$ -- 70
-change.case$ -- 395
-chr.to.int$ -- 70
-cite$ -- 112
-duplicate$ -- 1328
-empty$ -- 2482
-format.name$ -- 442
-if$ -- 5355
+            1016 strings with 15355 characters,
+and the built_in function-call counts, 26076 in all, are:
+= -- 2247
+> -- 1071
+< -- 47
++ -- 346
+- -- 343
+* -- 1558
+:= -- 4076
+add.period$ -- 227
+call.type$ -- 72
+change.case$ -- 404
+chr.to.int$ -- 72
+cite$ -- 115
+duplicate$ -- 1373
+empty$ -- 2562
+format.name$ -- 453
+if$ -- 5505
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 75
-newline$ -- 376
-num.names$ -- 210
-pop$ -- 940
+missing$ -- 79
+newline$ -- 386
+num.names$ -- 216
+pop$ -- 976
 preamble$ -- 1
-purify$ -- 482
+purify$ -- 495
 quote$ -- 0
-skip$ -- 751
+skip$ -- 770
 stack$ -- 0
-substring$ -- 821
-swap$ -- 58
-text.length$ -- 46
-text.prefix$ -- 44
+substring$ -- 835
+swap$ -- 60
+text.length$ -- 47
+text.prefix$ -- 45
 top$ -- 0
-type$ -- 480
-warning$ -- 42
-while$ -- 197
-width$ -- 74
-write$ -- 859
-(There were 42 warnings)
+type$ -- 488
+warning$ -- 43
+while$ -- 202
+width$ -- 76
+write$ -- 882
+(There were 43 warnings)
