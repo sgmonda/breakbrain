@@ -599,8 +599,6 @@
     empleando la clase \textbf{arco-pfc} que se puede encontrar en:\\
     \url{https://bitbucket.org/arco_group/arco-pfc}
 
-    \bigskip
-    {\scriptsize [Respeta esta atribución al autor]}
   \end{center}
   \end{singlespacing}
   \cleardoublepage

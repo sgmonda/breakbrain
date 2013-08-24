@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Muestra de las posibilidades gr\IeC {\'a}ficas de HTML5 con WebGL}}{23}{figure.3.8}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama sencillo de una neurona}}{24}{figure.3.9}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Surcos y giros del cerebro humano}}{26}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Tubo neural. A la izquierda el aspecto del tubo en la etapa m\IeC {\'a}s temprana de desarrollo, donde pueden apreciarse las 3 partes principales: prosenc\IeC {\'e}falo, mesenc\IeC {\'e}falo y rombenc\IeC {\'e}falo. A la derecha, en una etapa posterior, el prosenc\IeC {\'e}falo ha pasado a formar el telenc\IeC {\'e}falo y el dienc\IeC {\'e}falo.}}{29}{figure.3.11}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Tubo neural}}{29}{figure.3.11}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Subsistemas simp\IeC {\'a}tico y parasimp\IeC {\'a}tico del SNA}}{32}{figure.3.12}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Localizaci\IeC {\'o}n del cerebelo}}{33}{figure.3.13}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Hemisferios cerebrales (vista frontal)}}{34}{figure.3.14}
@@ -26,7 +26,7 @@
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Corteza orbital-frontal}}{40}{figure.3.18}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces \IeC {\'A}reas de Brodmann}}{41}{figure.3.19}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Hipot\IeC {\'a}lamo. T\IeC {\'a}lamo. Hipocampo. Cerebelo. Cuerpo calloso. Neoc\IeC {\'o}rtex. Tallo cerebral}}{46}{figure.3.20}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Ejemplo de partitura de piano compleja, extra\IeC {\'\i }da de una pieza de Kaikhosru Shapurji Sorabji}}{51}{figure.3.21}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Partitura de piano compleja}}{51}{figure.3.21}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Proceso Unificado de Desarrollo: etapas, entregables e iteraciones}}{62}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de despliegue del sistema completo}}{78}{figure.4.2}
@@ -46,8 +46,8 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Dise\IeC {\~n}o modular del sistema}}{120}{figure.5.4}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Arquitectura detallada del sistema}}{122}{figure.5.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Decisiones de ejemplo para juegos de razonamiento cuantitativo: \IeC {\textquestiondown }Qu\IeC {\'e} cuadrado de cada pareja tiene un valor mayor?}}{126}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Situaci\IeC {\'o}n de ejemplo para un juego de concentraci\IeC {\'o}n. El jugador indica (por ejemplo mediante las teclas de direcci\IeC {\'o}n), la direcci\IeC {\'o}n en la que el elemento central apunta.}}{127}{figure.6.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Juego de razonamiento cuantitativo}}{126}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Juego de concentraci\IeC {\'o}n}}{127}{figure.6.2}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Escenario de ejemplo para un juego multijugador de orientaci\IeC {\'o}n espacial}}{128}{figure.6.3}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Ejemplo de prueba para ejercitar el control de impulsos}}{129}{figure.6.4}
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Ejemplo de prueba para entrenar la conmutaci\IeC {\'o}n de tareas}}{129}{figure.6.5}
@@ -55,33 +55,33 @@
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Juegos, partidas y actividades puntuables}}{132}{figure.6.7}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Iteracci\IeC {\'o}n I1}}{146}{figure.Alph1.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Iteracci\IeC {\'o}n E1}}{146}{figure.Alph1.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Iteracci\IeC {\'o}n E2}}{147}{figure.Alph1.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Iteracci\IeC {\'o}n C1}}{148}{figure.Alph1.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Iteracci\IeC {\'o}n C2}}{148}{figure.Alph1.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Iteracci\IeC {\'o}n C3}}{149}{figure.Alph1.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Iteracci\IeC {\'o}n C4}}{149}{figure.Alph1.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Evoluci\IeC {\'o}n iterativa del desarrollo}}{150}{figure.Alph1.8}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Iteracci\IeC {\'o}n I1}}{148}{figure.Alph1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Iteracci\IeC {\'o}n E1}}{148}{figure.Alph1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Iteracci\IeC {\'o}n E2}}{149}{figure.Alph1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Iteracci\IeC {\'o}n C1}}{150}{figure.Alph1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Iteracci\IeC {\'o}n C2}}{150}{figure.Alph1.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Iteracci\IeC {\'o}n C3}}{151}{figure.Alph1.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Iteracci\IeC {\'o}n C4}}{151}{figure.Alph1.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Evoluci\IeC {\'o}n iterativa del desarrollo}}{152}{figure.Alph1.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces P\IeC {\'a}gina de autenticaci\IeC {\'o}n de BreakBrain}}{154}{figure.Alph2.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces P\IeC {\'a}gina de autenticaci\IeC {\'o}n de BreakBrain}}{156}{figure.Alph2.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Logo del juego ``Careto''}}{161}{figure.Alph3.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Fondo del juego ``Careto''}}{161}{figure.Alph3.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Im\IeC {\'a}genes de juego para ``Careto''}}{162}{figure.Alph3.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Jerarqu\IeC {\'\i }a de directorios para ``Careto''}}{163}{figure.Alph3.4}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Logo del juego ``Careto''}}{163}{figure.Alph3.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Fondo del juego ``Careto''}}{163}{figure.Alph3.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Im\IeC {\'a}genes de juego para ``Careto''}}{164}{figure.Alph3.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Jerarqu\IeC {\'\i }a de directorios para ``Careto''}}{165}{figure.Alph3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Barra de navegaci\IeC {\'o}n de BreakBrain}}{179}{figure.Alph4.1}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces P\IeC {\'a}gina de inicio de BreakBrain}}{180}{figure.Alph4.2}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces P\IeC {\'a}gina principal de BreakBrain}}{181}{figure.Alph4.3}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces Perfil de usuario de BreakBrain}}{182}{figure.Alph4.4}
-\contentsline {figure}{\numberline {D.5}{\ignorespaces Juegos de BreakBrain}}{183}{figure.Alph4.5}
-\contentsline {figure}{\numberline {D.6}{\ignorespaces B\IeC {\'u}squeda y recomendaci\IeC {\'o}n de personas en BreakBrain}}{184}{figure.Alph4.6}
-\contentsline {figure}{\numberline {D.7}{\ignorespaces Formulario de registro de BreakBrain}}{185}{figure.Alph4.7}
-\contentsline {figure}{\numberline {D.8}{\ignorespaces Email de activaci\IeC {\'o}n de cuenta de BreakBrain}}{185}{figure.Alph4.8}
-\contentsline {figure}{\numberline {D.9}{\ignorespaces Email de recuperaci\IeC {\'o}n de contrase\IeC {\~n}a de BreakBrain}}{186}{figure.Alph4.9}
-\contentsline {figure}{\numberline {D.10}{\ignorespaces P\IeC {\'a}gina de recuperaci\IeC {\'o}n de contrase\IeC {\~n}a de BreakBrain}}{186}{figure.Alph4.10}
-\contentsline {figure}{\numberline {D.11}{\ignorespaces Configuraci\IeC {\'o}n de entrenamiento cerebral}}{187}{figure.Alph4.11}
-\contentsline {figure}{\numberline {D.12}{\ignorespaces Bot\IeC {\'o}n de seguimiento de usuarios}}{187}{figure.Alph4.12}
-\contentsline {figure}{\numberline {D.13}{\ignorespaces Usuarios online en BreakBrain. Haciendo click sobre uno de ellos se le env\IeC {\'\i }a una invitaci\IeC {\'o}n para jugar al juego multijugador abierto.}}{188}{figure.Alph4.13}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Barra de navegaci\IeC {\'o}n de BreakBrain}}{181}{figure.Alph4.1}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces P\IeC {\'a}gina de inicio de BreakBrain}}{182}{figure.Alph4.2}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces P\IeC {\'a}gina principal de BreakBrain}}{183}{figure.Alph4.3}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Perfil de usuario de BreakBrain}}{184}{figure.Alph4.4}
+\contentsline {figure}{\numberline {D.5}{\ignorespaces Juegos de BreakBrain}}{185}{figure.Alph4.5}
+\contentsline {figure}{\numberline {D.6}{\ignorespaces B\IeC {\'u}squeda y recomendaci\IeC {\'o}n de personas en BreakBrain}}{186}{figure.Alph4.6}
+\contentsline {figure}{\numberline {D.7}{\ignorespaces Formulario de registro de BreakBrain}}{187}{figure.Alph4.7}
+\contentsline {figure}{\numberline {D.8}{\ignorespaces Email de activaci\IeC {\'o}n de cuenta de BreakBrain}}{187}{figure.Alph4.8}
+\contentsline {figure}{\numberline {D.9}{\ignorespaces Email de recuperaci\IeC {\'o}n de contrase\IeC {\~n}a de BreakBrain}}{188}{figure.Alph4.9}
+\contentsline {figure}{\numberline {D.10}{\ignorespaces P\IeC {\'a}gina de recuperaci\IeC {\'o}n de contrase\IeC {\~n}a de BreakBrain}}{188}{figure.Alph4.10}
+\contentsline {figure}{\numberline {D.11}{\ignorespaces Configuraci\IeC {\'o}n de entrenamiento cerebral}}{189}{figure.Alph4.11}
+\contentsline {figure}{\numberline {D.12}{\ignorespaces Bot\IeC {\'o}n de seguimiento de usuarios}}{189}{figure.Alph4.12}
+\contentsline {figure}{\numberline {D.13}{\ignorespaces Usuarios online de BreakBrain}}{190}{figure.Alph4.13}
 \addvspace {10\p@ }

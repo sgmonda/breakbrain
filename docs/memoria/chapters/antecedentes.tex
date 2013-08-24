@@ -455,7 +455,7 @@ En las primeras etapas del desarrollo humano, sólo hay tres bultos o vesículas
   \begin{center}
     \includegraphics[width=\textwidth]{images/tubo-neural.png}
     % http://www.uoguelph.ca/zoology/devobio/210labs/neuraldevel1.html
-    \caption{Tubo neural. A la izquierda el aspecto del tubo en la etapa más temprana de desarrollo, donde pueden apreciarse las 3 partes principales: prosencéfalo, mesencéfalo y rombencéfalo. A la derecha, en una etapa posterior, el prosencéfalo ha pasado a formar el telencéfalo y el diencéfalo.}
+    \caption[Tubo neural]{Tubo neural. A la izquierda el aspecto del tubo en la etapa más temprana de desarrollo, donde pueden apreciarse las 3 partes principales: prosencéfalo, mesencéfalo y rombencéfalo. A la derecha, en una etapa posterior, el prosencéfalo ha pasado a formar el telencéfalo y el diencéfalo.}
     \label{tubo-neural}
   \end{center}
 \end{figure}
@@ -884,7 +884,7 @@ El cerebro de un músico es un objetivo de estudio perfecto para analizar la neu
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=\textwidth]{images/piano.jpg}
-    \caption{Ejemplo de partitura de piano compleja, extraída de una pieza de Kaikhosru Shapurji Sorabji}
+    \caption[Partitura de piano compleja]{Ejemplo de partitura de piano compleja, extraída de una pieza de Kaikhosru Shapurji Sorabji}
     \label{fig::partitura}
   \end{center}
 \end{figure}
@@ -996,6 +996,7 @@ La fluidez verbal supone el acceso veloz al vocabulario conocido durante una con
 Esa conocida sensación de {\it ``tener una palabra en la punta de la lengua''} está relacionada estrechamente con la fluidez verbal. Depende de multitud de factores, como la edad, cuyo efecto se analiza en \cite{Deborah2004}.
 
 \section{Sistemas de recomendación}
+\label{sec::sistemas-recomendacion}
 
 Los sistemas de recomendación, como área de investigación independiente, surgieron a mediados de los noventa. En su fórmula más común, el problema de la recomendación se reduce a {\it la clasificación estimada de elementos que no han sido vistos por el usuario} \cite{adomavicius}. Dicha estimación se basa, entre otra información, en la valoración que el usuario ha hecho de otros elementos relacionados.
 
@@ -1025,7 +1026,7 @@ $$
 
 \subsection{Tipos de sistemas de recomendación}
 
-En \cite{adomavicius} se realiza una clasificación de los sistemas de recomendación en base al tipo de función de utilidad:
+En \cite{adomavicius} se realiza una clasificación de los sistemas de recomendación en 2 grandes grupos, en base al tipo de función de utilidad que empleen:
 
 \begin{enumerate}
 
@@ -1038,7 +1039,7 @@ Los artículos o items recomendados al usuario son similares a aquellos a los qu
 Los items recomendados al usuario son los que las personas similares a él mejor valoraron en el pasado. Formalmente, la utilidad $f(u,s)$ es estimada en base a las valoraciones $f(u_i,s)$ realizadas por los usuarios $u_i \in U$ similares a $u$.
 \end{enumerate}
 
-Además de los dos métodos anteriores, existe la posibilidad de seguir un {\bf enfoque híbrido}, como una combinación de los dos anteriores, para superar las limitaciones de ambos. Existen diferentes formas de realizar dicha combinación:
+Además de los dos métodos anteriores existe la posibilidad de seguir un {\bf enfoque híbrido}, como una combinación de ambos, para superar las limitaciones de tienen. Existen diferentes formas de realizar dicha combinación:
 
 \begin{itemize}
 \item Implementar los métodos basado en contenido y colaborativo por separado y combinar sus estimaciones.
@@ -1070,29 +1071,38 @@ Trata de realizar inferencias sobre las necesidades y preferencias de los usuari
 
 En la tabla \ref{table::recomendacion} se muestra un resumen de los diferentes métodos de recomendación expuestos.
 
-\begin{table}
-  \label{table::recomendacion}
+\begin{table}[H]
   \begin{center}
-  \begin{tabular}{|l||l|l|l|}
-    \hline
-    \tabheadformat
-    \tabhead{Método} & \tabhead{Fundamento} & \tabhead{Entrada} & \tabhead{Proceso} \\
-    \hline
-    \hline
-    Basada en & a & a & a\\
-    contenido & a & a & a\\
-    \hline
-    Colaborativa & a & a & a\\
-    \hline
-    Demográfica & a & a & a\\
-    \hline
-    Basada en & a & a & a\\
-     utilidad & a & a & a\\
-    \hline
-    Basada en & a & a & a\\
- conocimiento & a & a & a\\
-    \hline
-  \end{tabular}
-  \caption{Tipos de recomendación}
-  \end{center}
+    \begin{sideways}
+      \begin{tabular}{|l||l|l|l|}
+        \hline
+        \tabheadformat
+        \tabhead{Método} & \tabhead{Información utilizada} & \tabhead{Entrada} & \tabhead{Proceso} \\
+        \hline
+        \hline
+        Basado en & Características de los items. & Valoración de $u$ sobre & Generar un clasificador de las\\
+        contenido &  & items de $S$. &  puntuaciones de $u$ y aplicarlo a los \\
+         &  &  & items de $S$.\\
+        \hline
+        Colaborativo & Valoración de $u$ sobre los & Valoración de $u$ sobre & Identificar usuarios de $U$ similares a $u$\\
+        & items. & items de $S$. &  y extrapolar sus valoraciones a partir\\
+        & &  &  de las de $u$.\\
+        \hline
+        Demográfico & Información demográfica & Información demográfica & Identifica usuarios demográficamente\\
+         & de $u$ y puntuaciones de items. & de $u$. & similares a $u$ y extrapola sus\\
+         &  &  & valoraciones de items de $s \in S$.\\
+        \hline
+        Basado en & Características de los items. & Función de utilidad de items & Aplica la función a los items de $S$\\
+        utilidad & & $s \in S$ que describa las & para asignarles una puntuación.\\
+         & & preferencias de $u$. & \\
+        \hline
+        Basado en & Características de los items y & Descripción de necesidades & Infiere coincidencias entre $s \in S$ y\\
+        conocimiento & conocimiento de cómo estos & o intereses de $u$. & las necesidades de $u$.\\
+         & cumplen las necesidades de $u$. &  & \\
+        \hline
+      \end{tabular}
+    \end{sideways}
+    \end{center}
+  \caption{Métodos de recomendación.}
+  \label{table::recomendacion}
 \end{table}

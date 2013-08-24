@@ -79,7 +79,7 @@ Los juegos de razonamiento cuantitativo consistirán en la toma de decisiones si
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.5\textwidth]{./images/quantitative-reasoning.png}
-    \caption{Decisiones de ejemplo para juegos de razonamiento cuantitativo: ¿Qué cuadrado de cada pareja tiene un valor mayor?}
+    \caption[Juego de razonamiento cuantitativo]{Decisiones de ejemplo para juegos de razonamiento cuantitativo: ¿Qué cuadrado de cada pareja tiene un valor mayor?}
   \end{center}  
 \end{figure}
 
@@ -100,7 +100,7 @@ Los juegos de concentración consistirán en el enfrentamiento del jugador a una
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.8\textwidth]{./images/game-focus.png}
-    \caption{Situación de ejemplo para un juego de concentración. El jugador indica (por ejemplo mediante las teclas de dirección), la dirección en la que el elemento central apunta.}
+    \caption[Juego de concentración]{Situación de ejemplo para un juego de concentración. El jugador indica (por ejemplo mediante las teclas de dirección), la dirección en la que el elemento central apunta.}
     \label{fig::game-focus}
   \end{center}  
 \end{figure}
@@ -292,6 +292,7 @@ Las actividades puntuables que no hayan sido completadas reciben una puntuación
 Teniendo en cuenta todo lo anterior, una partida $p$ formada por $A$ actividades puntuables tendrá una puntuación $s_p$ tal que $0 \leq s_p \leq A$.
 
 \subsection{Variables de clasificación}
+\label{sec::variables-perfil-usuario}
 
 El perfil de cada usuario contiene la puntuación de cada habilidad cerebral, calculada mediante la suma de las puntuaciones obtenidas en cada partida de cada juego destinado a estimular esa habilidad. Además de ello contiene otras variables, como la cantidad de partidas ganadas, el sexo del individuo, etc. Todas estas variables se clasifican en 3 grupos:
 
@@ -307,29 +308,29 @@ El perfil de cada usuario contiene la puntuación de cada habilidad cerebral, ca
 \subsubsection{Variables dinámicas mentales}
 
 \begin{itemize}
-\item {\tt memory}: puntuación en el área de Memoria. Se trata de la suma de las siguientes tres puntuaciones:
+\item {\tt memory}: puntuación en el área de Memoria. Se trata de la suma normalizada de las siguientes tres puntuaciones:
   \begin{itemize}
   \item {\tt working-memory}: puntuación en memoria de trabajo.
   \item {\tt spatial-memory}: puntuación en memoria espacial
   \item {\tt face-name}: puntuación en memoria de asociación nombre-cara
   \end{itemize}
-\item {\tt problem-solving}: puntuación en el área de Resolución de problemas. Se calcula mediante la suma de las siguientes tres puntuaciones:
+\item {\tt problem-solving}: puntuación en el área de Resolución de problemas. Se calcula mediante la suma normalizada de las siguientes tres puntuaciones:
   \begin{itemize}
   \item {\tt arithmetic}: puntuación en aritmética.
   \item {\tt logical-reasoning}: puntuación en razonamiento lógico.
   \item {\tt quantitative-reasoning}: puntuación en razonamiento cuantitativo.
   \end{itemize}
-\item {\tt attention}: puntuación en la capacidad de Atención. Su valor es la suma de los valores de las siguientes dos variables:
+\item {\tt attention}: puntuación en la capacidad de Atención. Su valor es la suma normalizada de los valores de las siguientes dos variables:
   \begin{itemize}
   \item {\tt focus}: puntuación en la habilidad de concentración
   \item {\tt visual-field}: puntuación en campo visual
   \end{itemize}
-\item {\tt speed}: puntuación en el área de Velocidad de procesamiento. Se trata de la suma de las siguientes dos variables:
+\item {\tt speed}: puntuación en el área de Velocidad de procesamiento. Se trata de la suma normalizada de las siguientes dos variables:
   \begin{itemize}
   \item {\tt information-processing}: puntuación en procesamiento de la información
   \item {\tt spatial-orientation}: puntuación en orientación espacial
   \end{itemize}
-\item {\tt flexibility}: puntuación en la capacidad de Flexibilidad. Se computa mediante la suma de las siguientes cuatro variables:
+\item {\tt flexibility}: puntuación en la capacidad de Flexibilidad. Se computa mediante la suma normalizada de las siguientes cuatro variables:
   \begin{itemize}
   \item {\tt response-inhibition}: puntuación en control de impulsos
   \item {\tt planning}: puntuación en planificación
@@ -348,7 +349,6 @@ El perfil de cada usuario contiene la puntuación de cada habilidad cerebral, ca
 
 \begin{table}[H]
 \begin{footnotesize}
-\label{table:capacidades}
 \begin{center}  
 \begin{sideways}
 \begin{tabular}{|c|l|l|l|}
@@ -405,6 +405,7 @@ El perfil de cada usuario contiene la puntuación de cada habilidad cerebral, ca
 \end{center}
 \end{footnotesize}
 \caption{Ficha de entrenamiento de capacidades mentales}
+\label{table:capacidades}
 \end{table}
 
 
@@ -412,6 +413,84 @@ El perfil de cada usuario contiene la puntuación de cada habilidad cerebral, ca
 
 \section{Sistema de recomendación}
 
+BreakBrain cuenta con un sistema de recomendación integrado que ha sido desarrollado para encontrar los usuarios y juegos más adecuados para cada usuario en cada instante. Los usuarios son recomendados para el seguimiento (suscripción a novedades y enfrentamiento en juegos), mientras que los juegos son recomendados para el entrenamiento que más se adecúe a cada instante, dependiendo de los intereses y evolución del usuario.
+
+Para la construcción de este sistema de recomendación se ha seguido un enfoque híbrido (ver sección \ref{sec::sistemas-recomendacion}), sacando partido a las mejores características de los métodos basado en contenido, colaborativo, demográfico, basado en conocimiento y basado en utilidad.
+
+Las variables que constituyen toda la información disponible sobre cada juego son las siguientes:
+
+\begin{itemize}
+\item {\tt capacity}: capacidad cerebral que el juego estimula (cadena de texto, enumerada).
+\item {\tt hability}: habilidad cerebral (dentro de la capacidad especificada) que el juego estimula (cadena de texto, enumerada).
+\item {\tt dedication}: partidas jugadas al juego por parte de cada usuario de la red social. Para BreakBrain, estos valores suponen la puntuación que el usuario asigna a cada juego, de forma que cada valoración $s_u$ que requiere el sistema de recomendación (ver sección \ref{sec::sistemas-recomendacion}) no tiene que realizarse mediante una acción explícita. Se trata de un número entero.
+\end{itemize}
+
+Por otro lado, las variables que constituyen la información de perfil y evolución del entrenamiento de los usuarios, basadas en la sección \ref{sec::variables-perfil-usuario} son las siguientes:
+
+\begin{itemize}
+\item {\tt sex}: sexo (cadena de texto, enumerada)
+\item {\tt age}: edad (número entero)
+\item {\tt keywords}: palabras clave (vector de cadenas de texto)
+\item {\tt training-interests}: habilidades mentales en las que el usuario está interesado. (vector de cadenas de texto)
+\item {\tt memory}: puntuación en el área de Memoria. Suma normalizada de:
+  \begin{itemize}
+  \item {\tt working-memory}: puntuación en memoria de trabajo (número entero).
+  \item {\tt spatial-memory}: puntuación en memoria espacial (número entero).
+  \item {\tt face-name}: puntuación en memoria de asociación nombre-cara (número entero).
+  \end{itemize}
+\item {\tt problem-solving}: puntuación en el área de Resolución de problemas. Suma normalizada:
+  \begin{itemize}
+  \item {\tt arithmetic}: puntuación en aritmética (número entero).
+  \item {\tt logical-reasoning}: puntuación en razonamiento lógico (número entero).
+  \item {\tt quantitative-reasoning}: puntuación en razonamiento cuantitativo (número entero).
+  \end{itemize}
+\item {\tt attention}: puntuación en la capacidad de Atención. Suma normalizada:
+  \begin{itemize}
+  \item {\tt focus}: puntuación en la habilidad de concentración (número entero).
+  \item {\tt visual-field}: puntuación en campo visual (número entero).
+  \end{itemize}
+\item {\tt speed}: puntuación en el área de Velocidad de procesamiento. Suma normalizada de:
+  \begin{itemize}
+  \item {\tt information-processing}: puntuación en procesamiento de la información (número entero).
+  \item {\tt spatial-orientation}: puntuación en orientación espacial (número entero).
+  \end{itemize}
+\item {\tt flexibility}: puntuación en la capacidad de Flexibilidad. Suma normalizada de:
+  \begin{itemize}
+  \item {\tt response-inhibition}: puntuación en control de impulsos (número entero).
+  \item {\tt planning}: puntuación en planificación (número entero).
+  \item {\tt task-switching}: puntuación en conmutación de tareas (número entero).
+  \item {\tt verbal-fluency}: puntuación en fluidez verbal (número entero).
+  \end{itemize}
+\item {\tt followers}: personas que siguen al usuario (vector de cadenas de texto, identificadores de usuario).
+\item {\tt followees}: personas a las que el usuario sigue (vector de cadenas de texto, identificadores de usuario).
+\end{itemize}
+
+La tabla \ref{table:variables-resumen} muestra el conjunto de variables que representan toda la información de la que BreakBrain dispone sobre los usuarios y los juegos.
+
+
+\begin{table}
+  \begin{center}
+    \begin{tabular}{lll}
+      \hline
+      \tabheadformat
+      a & a & a \\
+      \hline
+      a & a & a \\
+      a & a & a \\
+      \hline
+      \tabheadformat
+      a & a & a \\
+      \hline
+      a & a & a \\
+      a & a & a \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \caption{Variables de BreakBrain sobre usuarios y juegos}
+  \label{table:variables-resumen}
+\end{table}
+
+Haciendo uso de toda la información disponible se han desarrollado dos subsistemas de recomendación: uno para usuarios y otro para juegos. A continuación se expondrán los algoritmos diseñados para ambos.
 
 \subsection{Algoritmo de recomendación de usuarios}
 
