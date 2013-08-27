@@ -40,20 +40,20 @@ Gediminas Adomavicius and Alexander Tuzhilinn.
 
 \bibitem[BB]{becker}
 Suzanna Becker and Neil Burgess.
-\newblock {Modelling spatial recall, mental imagery and neglect}.
+\newblock {\em {Modelling spatial recall, mental imagery and neglect}}.
 
 \bibitem[BER07]{Karlene2007}
 Karlene Ball, Jerri~D. Edwards, and Lesley~A. Ross.
-\newblock {The Impact of Speed of Processing Training on Cognitive and Everyday
-  Functions}.
-\newblock 2007.
+\newblock {\em {The Impact of Speed of Processing Training on Cognitive and
+  Everyday Functions}}.
+\newblock Gerontology, 2007.
 
 \bibitem[BKP{\etalchar{+}}06]{Bherer2006}
 Louis Bherer, Arthur~F. Kramer, Matthew~S. Peterson, Stanley Colcombe, Kirk
   Erickson, and Ensar Becic.
-\newblock {Testing the limits of cognitive plasticity in older adults:
-  Application to attentional control}.
-\newblock {\em Elsevier B.V.}, 2006.
+\newblock {\em {Testing the limits of cognitive plasticity in older adults:
+  Application to attentional control}}.
+\newblock 2006.
 
 \bibitem[BS04]{Deborah2004}
 Deborah~M. Burke and Meredith~A. Shafto.
@@ -73,8 +73,8 @@ CreateJS.
 
 \bibitem[C.S03]{Green2003}
 Green C.S.
-\newblock {Action video game modifies visual selective attention}.
-\newblock {\em PubMed}, 2003.
+\newblock {\em {Action video game modifies visual selective attention}}.
+\newblock 2003.
 
 \bibitem[Cze01]{Czerner2001}
 Thomas~B. Czerner.
@@ -100,38 +100,33 @@ Instituto~Nacional de~Estadística.
 \bibitem[DMCW04]{Dehaene2004}
 Stanislas Dehaene, Nicolas Molko, Laurent Cohen, and Anna~J Wilson.
 \newblock {Arithmetic and the brain.}
-\newblock {\em Current opinion in neurobiology}, 14\penalty0 (2):\penalty0
-  218--24, April 2004.
-\newblock \showISSN{0959-4388}.
+\newblock {\em Current opinion in neurobiology}, 2004.
 \newblock \ifshowURL {\showURL
   \path|http://www.ncbi.nlm.nih.gov/pubmed/15082328|}\fi.
 
 \bibitem[DTHS]{Zheng2008}
 Zheng D., Oka T., Bokura H., and Yamaguchi S.
-\newblock {The key locus of common response inhibition network for no-go and
-  stop signals}.
+\newblock {\em {The key locus of common response inhibition network for no-go
+  and stop signals}}.
+\newblock Cognitive Neuroscience.
 
 \bibitem[Fac06]{Facts2006}
 Fast Facts.
-\newblock {Matters of the Brain}.
-\newblock pages 16--19, 2006.
+\newblock {\em {Matters of the Brain}}.
+\newblock 2006.
+\newblock 16--19 pp.
 
 \bibitem[FSP07]{Jing2007}
 Jing Feng, Ian Spence, and Jay Pratt.
-\newblock {Playing an Action Video Game Reduces Gender Differences in Spatial
-  Cognition}.
-\newblock 2007.
+\newblock {\em {Playing an Action Video Game Reduces Gender Differences in
+  Spatial Cognition}}.
+\newblock Psychological Science, 2007.
 
 \bibitem[Gal]{Gallagher}
 Winifred Gallagher.
-\newblock {The Atlantic Monthly}.
+\newblock {\em {The Atlantic Monthly}}.
 \newblock \ifshowURL {\showURL
   \path|http://www.theatlantic.com/magazine/archive/1994/09/how-we-become-what-we-are/303534/|}\fi.
-
-\bibitem[Git]{github}
-Inc. GitHub.
-\newblock {GitHub. Build software better, together.}
-\newblock \ifshowURL {\showURL \path|http://www.github.com/|}\fi.
 
 \bibitem[Gooa]{chrome-experiments}
 Google.
@@ -145,15 +140,14 @@ Google.
 
 \bibitem[Hac11]{Hackley2011}
 Dan Hackley.
-\newblock {Coach your cortex}.
-\newblock 24\penalty0 (8):\penalty0 586--589, 2011.
+\newblock {\em {Coach your cortex}}, volume~24.
+\newblock 2011.
+\newblock 586--589 pp.
 
 \bibitem[HHG00]{Haxby2000}
 Jv~Haxby, Ea~Hoffman, and Mi~Gobbini.
 \newblock {The distributed human neural system for face perception.}
-\newblock {\em Trends in cognitive sciences}, 4\penalty0 (6):\penalty0
-  223--233, June 2000.
-\newblock \showISSN{1879-307X}.
+\newblock {\em Trends in cognitive sciences}, 2000.
 \newblock \ifshowURL {\showURL
   \path|http://www.ncbi.nlm.nih.gov/pubmed/10827445|}\fi.
 
@@ -164,9 +158,14 @@ Mika Hirvasoja.
 
 \bibitem[II]{InstituteofNeurosciencesMentalHealth}
 Mental~Health {Institute of Neurosciences} and Addiction (INMHA).
-\newblock {The brain from top to bottom. An interactive website about the human
-  brain and behavoir.}
+\newblock {\em {The brain from top to bottom. An interactive website about the
+  human brain and behavoir.}}
 \newblock \ifshowURL {\showURL \path|http://thebrain.mcgill.ca/|}\fi.
+
+\bibitem[Inc]{github}
+GitHub Inc.
+\newblock {\em {GitHub. Building software better, together.}}
+\newblock \ifshowURL {\showURL \path|http://www.github.com/|}\fi.
 
 \bibitem[Jac09]{Jacyna2009}
 Stephen Jacyna.
@@ -177,9 +176,7 @@ Stephen Jacyna.
 Susanne~M Jaeggi, Martin Buschkuehl, John Jonides, and Walter~J Perrig.
 \newblock {Improving fluid intelligence with training on working memory.}
 \newblock {\em Proceedings of the National Academy of Sciences of the United
-  States of America}, 105\penalty0 (19):\penalty0 6829--33, 2008.
-\newblock \showISBN{0801268105}.
-\newblock \showISSN{10916490}.
+  States of America}, 2008.
 \newblock \ifshowURL {\showURL
   \path|http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2383929\&tool=pmcentrez\&rendertype=abstract|}\fi.
 
@@ -201,8 +198,8 @@ Pascual {Juli\'{a}n Iranzo}.
 
 \bibitem[KBD{\etalchar{+}}88]{Ball1988}
 Ball K.K., Beard B.L., Roenker D.L., Miller R.L., and Griggs D.S.
-\newblock {Age and visual search: expanding the useful field of view}.
-\newblock {\em PubMed}, 1988.
+\newblock {\em {Age and visual search: expanding the useful field of view}}.
+\newblock 1988.
 
 \bibitem[KJO{\etalchar{+}}05]{Wood2005}
 Wood K.M., Edwards J.D., Clay O.J., Wadley V.G., Roenker D.L., and Ball K.K.
@@ -223,7 +220,7 @@ Joseph LeDoux.
 
 \bibitem[Lin]{Lindberg.}
 Dr. Donald~A.B. Lindberg.
-\newblock {Medlineplus. Trusted Health Information for you}.
+\newblock {\em {Medlineplus. Trusted Health Information for you}}.
 
 \bibitem[Mac49]{MacLean}
 PD~MacLean.
@@ -249,17 +246,15 @@ Maciej Malecki.
 
 \bibitem[MCKV01]{Melzack2001}
 R~Melzack, T~J Coderre, J~Katz, and a~L Vaccarino.
-\newblock {Central neuroplasticity and pathological pain.}
-\newblock {\em Annals of the New York Academy of Sciences}, 933:\penalty0
-  157--74, March 2001.
-\newblock \showISSN{0077-8923}.
+\newblock {\em {Central neuroplasticity and pathological pain.}}
+\newblock 2001.
 \newblock \ifshowURL {\showURL
   \path|http://www.ncbi.nlm.nih.gov/pubmed/12000018|}\fi.
 
 \bibitem[MDB{\etalchar{+}}08]{May2008}
 Arne May, Joenna Driemeyer, Janina Boyke, Christian Gaser, and Christian Bu.
-\newblock {Changes in Gray Matter Induced by Learning}.
-\newblock Technical report, 2008.
+\newblock {\em {Changes in Gray Matter Induced by Learning}}.
+\newblock 2008.
 
 \bibitem[{Mer}]{MerckCo.}
 {Merck Co.}

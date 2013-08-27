@@ -53,7 +53,7 @@ El propósito de la fase de transición es la liberación del producto a la comu
 
 Un \emph{artefacto}\index{artefacto} es una pieza de información que es producida, modificada o utilizada por un proceso. Los artefactos son los productos tangibles del proyecto, los elementos generados durante el desarrollo hacia el producto final. Son la salida de una actividad y entrada de otra, y pueden ser modelos, documentos, archivos de código fuente, archivos ejecutables, etc.
 
-Los artefactos generados durante el desarrollo de este proyecto, los cuales serán presentados más adelante, son los siguientes:
+Los artefactos\index{artefacto} generados durante el desarrollo de este proyecto, los cuales serán presentados más adelante, son los siguientes:
 
 \begin{itemize}
 \item Especificación de requisitos
@@ -70,7 +70,7 @@ Los artefactos generados durante el desarrollo de este proyecto, los cuales ser�
 
 En el apéndice \ref{chap::iteraciones} se ofrece un análisis detallado de la evolución iteracional del proceso de desarrollo del proyecto. En total se han realizado 7 iteraciones, cubriendo las etapas de Inicio, Elaboración y Construcción.
 
-En el cuadro \ref{tabla::iteraciones} se ofrece un resumen de dichas estadísticas, mostrándose la evolución de cada artefacto con la conclusión de cada nueva iteración.
+En el cuadro \ref{tabla::iteraciones} se ofrece un resumen de dichas estadísticas, mostrándose la evolución de cada artefacto\index{artefacto} con la conclusión de cada nueva iteración.
 
 
 \begin{table}[h]  
@@ -668,7 +668,7 @@ Partiendo del análisis preliminar de requerimientos, los requisitos de soporte 
   \item \underline{Validez}:
     \begin{itemize}
     \item \textit{Medible}: Podrá conectarse un gran número de usuarios de forma simultánea y realizar varias peticiones de información, juegos, etc. sin que el sistema sufra pérdida de rendimiento.
-    \item \textit{Alcanzable}: Se empleará NodeJS\index{nodejs} para la construcción del servidor, así como MongoDB para la persistencia.
+    \item \textit{Alcanzable}: Se empleará NodeJS para la construcción del servidor, así como MongoDB para la persistencia.
     \item \textit{Relevante}: Este requisito es vital para el proyecto en construcción, dado que una red social puede sufrir un gran número de conexiones simultáneas.
     \end{itemize}
   \end{itemize}
@@ -693,15 +693,15 @@ En base a la caracterización del sistema producida por el análisis de requisit
 Como puede apreciarse en la figura \ref{fig::despliegue} se emplean servicios externos que satisfacen las necesidades del sistema:
 
 \begin{itemize}
-\item Por un lado se hace uso del servicio {\bf MongoLab} \cite{Mongolab}, que proporciona un \ac{SGBD} funcionando como lo que se conoce como \ac{SAAS}, con MongoDB \cite{MongoDB}\index{mongodb} como base de datos. La persistencia de la base de datos tiene lugar en los servicios de almacenamiento web de Amazon \cite{Amazon}.
-\item Por otro lado, el servidor del sistema es alojado en {\bf Nodester} \cite{Nodester}, una plataforma/hosting de aplicaciones web construidas con NodeJS \cite{NodeJS}\index{nodejs}. Este servicio pertenece a lo que se conoce como \ac{PAAS}, y es ofrecido por AppFog \cite{AppFog}.
+\item Por un lado se hace uso del servicio {\bf MongoLab} \cite{Mongolab}, que proporciona un \ac{SGBD} funcionando como lo que se conoce como \ac{SAAS}, con MongoDB \cite{MongoDB} como base de datos. La persistencia de la base de datos tiene lugar en los servicios de almacenamiento web de Amazon \cite{Amazon}.
+\item Por otro lado, el servidor del sistema es alojado en {\bf Nodester} \cite{Nodester}, una plataforma/hosting de aplicaciones web construidas con NodeJS \cite{NodeJS}. Este servicio pertenece a lo que se conoce como \ac{PAAS}, y es ofrecido por AppFog \cite{AppFog}.
 \end{itemize}
 
 
 \section{Análisis de casos de uso}
 \label{sec::casos}
 
-En esta sección se detalla el proceso seguido para la generación del artefacto correspondiente al análisis de casos de uso del sistema. En primer lugar se realiza una identificación de los actores que intervienen, para después dar paso a la identificación de los casos de uso. Por último éstos son especificados mediante una descripción, el listado de requisitos asociados, los actores que intervienen, las precondiciones y postcondiciones, los flujos de eventos y los posibles casos de uso asociados.
+En esta sección se detalla el proceso seguido para la generación del artefacto\index{artefacto} correspondiente al análisis de casos de uso del sistema. En primer lugar se realiza una identificación de los actores que intervienen, para después dar paso a la identificación de los casos de uso. Por último éstos son especificados mediante una descripción, el listado de requisitos asociados, los actores que intervienen, las precondiciones y postcondiciones, los flujos de eventos y los posibles casos de uso asociados.
 
 \subsection{Identificación  de actores}
 
@@ -1744,7 +1744,7 @@ A continuación se detallan todos los casos de uso identificados en la etapa ant
 
 \section{Diseño}
 
-Dada la naturaleza de la tecnología empleada para el desarrollo del sistema de BreakBrain, la implementación se lleva a cabo de forma modular sobre el núcleo que supone NodeJS\index{nodejs} ---en el lado del servidor---. Tanto a ese nivel como en el lado del cliente, se sigue el patrón MVC para la construcción del software.
+Dada la naturaleza de la tecnología empleada para el desarrollo del sistema de BreakBrain, la implementación se lleva a cabo de forma modular sobre el núcleo que supone NodeJS ---en el lado del servidor---. Tanto a ese nivel como en el lado del cliente, se sigue el patrón MVC para la construcción del software.
 
 En cuanto al servidor, las tres capas MVC son las siguientes:
 
@@ -1784,7 +1784,7 @@ A la hora de analizar las tecnologías empleadas en la construcción de BreakBra
 \item {\bf JavaScript}: Es el lenguaje empleado para la implementación de todos los componentes del servidor.
 \item {\bf NodeJS}: Entorno de ejecución de JavaScript basado en el motor V8 desarrollado por Google. Supone cierta revolución en el ámbito del desarrollo de aplicaciones web de tiempo real.
 %\item {\bf Nodester}: \acf{PAAS} de hosting para aplicaciones web implementadas con NodeJS.
-\item {\bf Express.js\index{express.js} \cite{Visionmedia}}: framework MVC para el desarrollo de aplicaciones web con NodeJS\index{nodejs}.
+\item {\bf Express.js \cite{Visionmedia}}: framework MVC para el desarrollo de aplicaciones web con NodeJS.
 \item {\bf MongoDB}:Se trata de un motor de base de datos NoSQL de gran auge en la actualidad. Ofrece muy buenas estadísticas de rendimiento y escalabilidad.
 %\item {\bf MongoLab}: \acf{SAAS} de bases de datos MongoDB.
 %\item {\bf Amazon Web Storage}: \acf{SAAS} de almacenamiento en la nube.
@@ -1802,7 +1802,7 @@ A la hora de analizar las tecnologías empleadas en la construcción de BreakBra
 \subsubsection{Tecnologías de comunicación}
 
 \begin{itemize}
-\item {\bf Websockets}\index{websockets}: Tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web.
+\item {\bf Websockets}\index{websocket}: Tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web.
 \end{itemize}
 
 
@@ -1963,9 +1963,9 @@ sgmonda@envy:~/projects/breakbrain $ node server.js -t
 
 \subsection{Pruebas funcionales}
 
-Se han llevado a cabo una serie de pruebas funcionales automatizadas, que cubren los aspectos más importantes de la funcionalidad especificada en los apartados \ref{sec::requisitos} y \ref{sec::casos}. Dada la naturaleza asíncrona y no bloqueante de la tecnología con la que ha sido desarrollado el servidor del proyecto, estas pruebas se lanzan y analizan de forma asíncrona. Para ello se ha utilizado un módulo de NodeJS\index{nodejs} llamado \emph{Vows} \cite{Maecki}\index{vows}.
+Se han llevado a cabo una serie de pruebas funcionales automatizadas, que cubren los aspectos más importantes de la funcionalidad especificada en los apartados \ref{sec::requisitos} y \ref{sec::casos}. Dada la naturaleza asíncrona y no bloqueante de la tecnología con la que ha sido desarrollado el servidor del proyecto, estas pruebas se lanzan y analizan de forma asíncrona. Para ello se ha utilizado un módulo de NodeJS llamado \emph{Vows} \cite{Maecki}.
 
-Estas pruebas se encuentran en el archivo {\tt tests-functionality.js}, y pueden lanzarse sobre el intérprete de NodeJS\index{nodejs} una vez que el servidor está en ejecución. Los resultados de estas pruebas se muestran en la figura \ref{fig::vows}.
+Estas pruebas se encuentran en el archivo {\tt tests-functionality.js}, y pueden lanzarse sobre el intérprete de NodeJS una vez que el servidor está en ejecución. Los resultados de estas pruebas se muestran en la figura \ref{fig::vows}.
 
 \begin{figure}[h]
   \begin{center}
@@ -2037,7 +2037,7 @@ Los resultados obtenidos durante estas pruebas de aceptación fueron de gran uti
 
 \begin{itemize}
 \item Corrección de pequeños errores de programación (\emph{bugs}\index{bug}).
-\item Corrección de problemas de distribución de elementos en la web (problemas de usabilidad\index{usabilidad}).
+\item Corrección de problemas de distribución de elementos en la web (problemas de usabilidad).
 \item Aceptación de críticas sobre los esquemas de color y rediseño de los mismos.
 \item Mejora de la interacción hombre-máquina ante la observación de dificultades de uso de algunos componentes por parte de ciertos individuos.
 \end{itemize}

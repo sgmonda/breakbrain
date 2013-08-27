@@ -39,45 +39,45 @@
 \contentsline {subsubsection}{Las neuronas}{25}{figure.3.10}
 \contentsline {subsubsection}{Neuronas, proyecciones y v\IeC {\'\i }as}{27}{figure.3.10}
 \contentsline {subsection}{\numberline {3.4.2}El desarrollo cerebral}{27}{subsection.3.4.2}
-\contentsline {subsubsection}{Introducci\IeC {\'o}n a la embriolog\IeC {\'\i }a}{28}{subsection.3.4.2}
+\contentsline {subsubsection}{Introducci\IeC {\'o}n a la embriolog\IeC {\'\i }a}{27}{subsection.3.4.2}
 \contentsline {subsubsection}{Tubo neural}{28}{subsection.3.4.2}
-\contentsline {subsubsection}{Integraci\IeC {\'o}n de neurocircuitos}{30}{figure.3.11}
+\contentsline {subsubsection}{Integraci\IeC {\'o}n de neurocircuitos}{29}{figure.3.11}
 \contentsline {subsection}{\numberline {3.4.3}Estructuras primarias del cerebro}{30}{subsection.3.4.3}
 \contentsline {subsubsection}{El tronco encef\IeC {\'a}lico. La formaci\IeC {\'o}n reticular}{30}{subsection.3.4.3}
-\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{31}{subsection.3.4.3}
+\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{30}{subsection.3.4.3}
 \contentsline {subsubsection}{El sistema nervioso aut\IeC {\'o}nomo (SNA)}{31}{subsection.3.4.3}
-\contentsline {subsubsection}{El cerebelo}{33}{figure.3.12}
-\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{33}{subsection.3.4.4}
+\contentsline {subsubsection}{El cerebelo}{31}{figure.3.12}
+\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{32}{subsection.3.4.4}
 \contentsline {subsection}{\numberline {3.4.5}La corteza cerebral}{34}{subsection.3.4.5}
 \contentsline {subsubsection}{El neoc\IeC {\'o}rtex}{34}{subsection.3.4.5}
-\contentsline {subsubsection}{La corteza del c\IeC {\'\i }ngulo anterior: emoci\IeC {\'o}n, atenci\IeC {\'o}n y memoria a corto plazo}{35}{subsection.3.4.5}
+\contentsline {subsubsection}{La corteza del c\IeC {\'\i }ngulo anterior: emoci\IeC {\'o}n, atenci\IeC {\'o}n y memoria a corto plazo}{34}{subsection.3.4.5}
 \contentsline {subsubsection}{Los l\IeC {\'o}bulos cerebrales}{36}{figure.3.15}
 \contentsline {subsubsection}{La corteza frontal}{38}{figure.3.16}
 \contentsline {subsubsection}{Las \IeC {\'a}reas de Brodmann}{39}{figure.3.18}
-\contentsline {subsubsection}{Mapas retinot\IeC {\'o}picos}{43}{figure.3.19}
-\contentsline {subsection}{\numberline {3.4.6}Estructuras subcorticales. El estr\IeC {\'e}s, las emociones y la enfermedad mental}{45}{subsection.3.4.6}
-\contentsline {subsubsection}{El cerebro animal}{46}{subsection.3.4.6}
-\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{47}{figure.3.20}
-\contentsline {subsubsection}{C\IeC {\'o}mo la experiencia afecta al cerebro}{49}{figure.3.20}
-\contentsline {section}{\numberline {3.5}Neuroplasticidad}{50}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Memoria (Memory)}{52}{subsection.3.5.1}
-\contentsline {subsubsection}{Memoria de trabajo}{52}{subsection.3.5.1}
+\contentsline {subsubsection}{Mapas retinot\IeC {\'o}picos}{42}{figure.3.19}
+\contentsline {subsection}{\numberline {3.4.6}Estructuras subcorticales. El estr\IeC {\'e}s, las emociones y la enfermedad mental}{44}{subsection.3.4.6}
+\contentsline {subsubsection}{El cerebro animal}{45}{subsection.3.4.6}
+\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{45}{figure.3.20}
+\contentsline {subsubsection}{C\IeC {\'o}mo la experiencia afecta al cerebro}{48}{figure.3.20}
+\contentsline {section}{\numberline {3.5}Neuroplasticidad}{49}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Memoria (Memory)}{51}{subsection.3.5.1}
+\contentsline {subsubsection}{Memoria de trabajo}{51}{subsection.3.5.1}
 \contentsline {subsubsection}{Recuerdo espacial (Spatial recall)}{52}{subsection.3.5.1}
-\contentsline {subsubsection}{Recuerdo cara-nombre (Face-name recall)}{53}{subsection.3.5.1}
+\contentsline {subsubsection}{Recuerdo cara-nombre (Face-name recall)}{52}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Resoluci\IeC {\'o}n de problemas (Problem solving)}{53}{subsection.3.5.2}
 \contentsline {subsubsection}{Aritm\IeC {\'e}tica (Arithmetic)}{53}{subsection.3.5.2}
-\contentsline {subsubsection}{Razonamiento l\IeC {\'o}gico (Logical reasoning)}{54}{subsection.3.5.2}
-\contentsline {subsubsection}{Razonamiento cuantitativo (Quantitative reasoning)}{54}{subsection.3.5.2}
+\contentsline {subsubsection}{Razonamiento l\IeC {\'o}gico (Logical reasoning)}{53}{subsection.3.5.2}
+\contentsline {subsubsection}{Razonamiento cuantitativo (Quantitative reasoning)}{53}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Atenci\IeC {\'o}n (Attention)}{54}{subsection.3.5.3}
 \contentsline {subsubsection}{Concentraci\IeC {\'o}n (Focus)}{54}{subsection.3.5.3}
 \contentsline {subsubsection}{Campo visual (Visual field)}{54}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Velocidad (Speed)}{55}{subsection.3.5.4}
-\contentsline {subsubsection}{Procesamiento de informaci\IeC {\'o}n (Information processing)}{55}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.4}Velocidad (Speed)}{54}{subsection.3.5.4}
+\contentsline {subsubsection}{Procesamiento de informaci\IeC {\'o}n (Information processing)}{54}{subsection.3.5.4}
 \contentsline {subsubsection}{Orientaci\IeC {\'o}n espacial (Spatial orientation)}{55}{subsection.3.5.4}
 \contentsline {subsection}{\numberline {3.5.5}Flexibilidad (Flexibility)}{55}{subsection.3.5.5}
 \contentsline {subsubsection}{Control de impulsos (Response inhibition)}{55}{subsection.3.5.5}
-\contentsline {subsubsection}{Planificaci\IeC {\'o}n (Planning)}{56}{subsection.3.5.5}
-\contentsline {subsubsection}{Conmutaci\IeC {\'o}n de tareas (Task switching)}{56}{subsection.3.5.5}
+\contentsline {subsubsection}{Planificaci\IeC {\'o}n (Planning)}{55}{subsection.3.5.5}
+\contentsline {subsubsection}{Conmutaci\IeC {\'o}n de tareas (Task switching)}{55}{subsection.3.5.5}
 \contentsline {subsubsection}{Fluidez verbal (Verbal fluency)}{56}{subsection.3.5.5}
 \contentsline {section}{\numberline {3.6}Sistemas de recomendaci\IeC {\'o}n}{56}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Tipos de sistemas de recomendaci\IeC {\'o}n}{57}{subsection.3.6.1}

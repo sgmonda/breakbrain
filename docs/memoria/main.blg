@@ -10,28 +10,36 @@ Warning--empty year in gpl-es
 Warning--empty journal in Accenture2012
 Warning--empty journal in Amazon
 Warning--empty year in Amazon
-Warning--empty journal in becker
+Warning--empty publisher in becker
 Warning--empty year in becker
-Warning--empty journal in Karlene2007
+Warning--empty publisher in Bherer2006
 Warning--empty year in burke
 Warning--empty journal in CreateJS
 Warning--empty year in CreateJS
+Warning--empty publisher in Green2003
 Warning--empty journal in ine-esperanza
 Warning--empty year in ine-esperanza
-Warning--empty journal in Zheng2008
 Warning--empty year in Zheng2008
-Warning--empty journal in Facts2006
-Warning--empty journal in Jing2007
-Warning--empty journal in github
-Warning--empty year in github
+Warning--empty publisher in Facts2006
+Warning--empty publisher in Gallagher
+Warning--empty year in Gallagher
 Warning--empty journal in chrome-experiments
 Warning--empty year in chrome-experiments
 Warning--empty journal in chrome
 Warning--empty year in chrome
-Warning--empty journal in Hackley2011
+Warning--can't use both volume and number fields in Hackley2011
+Warning--empty publisher in Hackley2011
 Warning--empty journal in Hirvasoja2004
+Warning--empty publisher in InstituteofNeurosciencesMentalHealth
+Warning--empty year in InstituteofNeurosciencesMentalHealth
+Warning--empty publisher in github
+Warning--empty year in github
+Warning--empty publisher in Ball1988
 Warning--empty journal in Wood2005
-Warning--empty institution in May2008
+Warning--empty publisher in Lindberg.
+Warning--empty year in Lindberg.
+Warning--empty publisher in Melzack2001
+Warning--empty publisher in May2008
 Warning--empty journal in Minijuegos
 Warning--empty year in Minijuegos
 Warning--empty journal in Nodester
@@ -50,43 +58,43 @@ Warning--empty journal in w3techs
 Warning--empty year in w3techs
 You've used 72 entries,
             3036 wiz_defined-function locations,
-            1016 strings with 15355 characters,
-and the built_in function-call counts, 26076 in all, are:
-= -- 2247
+            1004 strings with 15273 characters,
+and the built_in function-call counts, 25482 in all, are:
+= -- 2080
 > -- 1071
 < -- 47
 + -- 346
 - -- 343
-* -- 1558
-:= -- 4076
-add.period$ -- 227
+* -- 1498
+:= -- 3928
+add.period$ -- 225
 call.type$ -- 72
-change.case$ -- 404
+change.case$ -- 388
 chr.to.int$ -- 72
-cite$ -- 115
-duplicate$ -- 1373
-empty$ -- 2562
+cite$ -- 123
+duplicate$ -- 1437
+empty$ -- 2615
 format.name$ -- 453
-if$ -- 5505
+if$ -- 5401
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 79
-newline$ -- 386
+missing$ -- 98
+newline$ -- 384
 num.names$ -- 216
-pop$ -- 976
+pop$ -- 1081
 preamble$ -- 1
 purify$ -- 495
 quote$ -- 0
-skip$ -- 770
+skip$ -- 727
 stack$ -- 0
-substring$ -- 835
-swap$ -- 60
+substring$ -- 621
+swap$ -- 57
 text.length$ -- 47
 text.prefix$ -- 45
 top$ -- 0
-type$ -- 488
-warning$ -- 43
-while$ -- 202
+type$ -- 428
+warning$ -- 51
+while$ -- 182
 width$ -- 76
-write$ -- 882
-(There were 43 warnings)
+write$ -- 870
+(There were 51 warnings)
