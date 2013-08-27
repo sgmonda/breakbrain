@@ -192,7 +192,7 @@ La primera aproximación a los requisitos asociados al usuario es la siguiente:
 
 Partiendo del análisis preliminar de requerimientos, los requisitos funcionales de los que parte el desarrollo del proyecto, basándose en el estándar IEEE 830, son los detallados a continuación. 
 
-Para cada requisito se especifica una descripción sencilla del mismo, una valoración de su importancia (esencial, condicional u opcional), y una descripción de su validez, que incluye los mecanismos para medir su nivel de consecución, los medios para cumplir dicho requisito y una descripción de la relevancia que tiene dicho requisito en el desarrollo completo del sistema.
+Para cada requisito se especifica una descripción sencilla del mismo, una valoración de su importancia (esencial, condicional u opcional) y una descripción de su validez, que incluye los mecanismos para medir su nivel de consecución, los medios para cumplir dicho requisito y una descripción de la relevancia que tiene dicho requisito en el desarrollo completo del sistema.
 
 \renewcommand{\labelenumi}{\bf RF-\arabic{enumi}}
 
@@ -253,7 +253,7 @@ Para cada requisito se especifica una descripción sencilla del mismo, una valor
   \item \underline{Validez}:
     \begin{itemize}
     \item \textit{Medible}: El sistema realizará búsquedas en base a consultas textuales sencillas, obteniendo un listado con los resultados de la misma.
-    \item \textit{Alcanzable}: El servidor estará conectado a una base de datos donde se almacenen todos los usuarios, y lanzará sobre ella consultas específicas.
+    \item \textit{Alcanzable}: El servidor estará conectado a una base de datos donde se almacenen todos los usuarios y lanzará sobre ella consultas específicas.
     \item \textit{Relevante}: Este requisito es vital para que los usuarios puedan buscar a otros usuarios y empezar a seguirles, retarles a algún juego, etc.
     \end{itemize}
   \end{itemize}
@@ -325,8 +325,8 @@ Para cada requisito se especifica una descripción sencilla del mismo, una valor
   \item \underline{Importancia}: Esencial
   \item \underline{Validez}:
     \begin{itemize}
-    \item \textit{Medible}: Al cargar BreakBrain se mostrará una pantalla de inicio de sesión, y ésta será la única visible hasta que el visitante inicie una sesión válida.
-    \item \textit{Alcanzable}: El sitio web mantendrá un objeto de sesión con la información de usuario. Al iniciar sesión se creará dicho objeto, y al cerrarla se eliminará.
+    \item \textit{Medible}: Al cargar BreakBrain se mostrará una pantalla de inicio de sesión y ésta será la única visible hasta que el visitante inicie una sesión válida.
+    \item \textit{Alcanzable}: El sitio web mantendrá un objeto de sesión con la información de usuario. Al iniciar sesión se creará dicho objeto y al cerrarla se eliminará.
     \item \textit{Relevante}: Este es un requisito indispensable para que la web quede restringida a usuarios registrados y para que estos puedan consultar su evolución, seguir a otros usuarios, etc.
     \end{itemize}
   \end{itemize}
@@ -338,7 +338,7 @@ Para cada requisito se especifica una descripción sencilla del mismo, una valor
   \item \underline{Validez}:
     \begin{itemize}
     \item \textit{Medible}: En la parte superior derecha de la web (con una sesión iniciada) se mostrará un botón para cerrar sesión.
-    \item \textit{Alcanzable}: El sitio web mantendrá un objeto de sesión con la información de usuario. Al iniciar sesión se creará dicho objeto, y al cerrarla se eliminará.
+    \item \textit{Alcanzable}: El sitio web mantendrá un objeto de sesión con la información de usuario. Al iniciar sesión se creará dicho objeto y al cerrarla se eliminará.
     \item \textit{Relevante}: Este requisito es importante para que diferentes usuarios puedan utilizar el mismo navegador.
     \end{itemize}
   \end{itemize}
@@ -1775,7 +1775,7 @@ En esta sección se presentan brevemente las tecnologías empleadas para impleme
 
 \subsection{Tecnología}
 
-A la hora de analizar las tecnologías empleadas en la construcción de BreakBrain, podemos realizar una sencilla clasificación por el ámbito en el cual han sido empleadas. Así pues, a continuación se detallan los lenguajes de programación, frameworks y entornos de ejecución utilizados por el sistema, y clasificados en tres grupos: servidor, cliente y comunicación.
+A la hora de analizar las tecnologías empleadas en la construcción de BreakBrain, podemos realizar una sencilla clasificación por el ámbito en el cual han sido empleadas. Así pues, a continuación se detallan los lenguajes de programación, frameworks y entornos de ejecución utilizados por el sistema y clasificados en tres grupos: servidor, cliente y comunicación.
 
 
 \subsubsection{Tecnologías del servidor}
@@ -2219,7 +2219,7 @@ Time spent in whole stress test: 776810ms
   \end{center}
 \end{figure}
 
-A la vista de los resultados puede observarse el buen comportamiento del servidor para situaciones normales y extremas. Por supuesto, el caso de recibir gran cantidad de peticiones de registro simultáneas es muy poco probable, pero nos da una idea del rendimiento del sistema. El registro es la operación más costosa (para el subsistema de base de datos), y por ello ha sido elegida como \emph{operación estresante} para someter al sistema a ella.
+A la vista de los resultados puede observarse el buen comportamiento del servidor para situaciones normales y extremas. Por supuesto, el caso de recibir gran cantidad de peticiones de registro simultáneas es muy poco probable, pero nos da una idea del rendimiento del sistema. El registro es la operación más costosa (para el subsistema de base de datos) y por ello ha sido elegida como \emph{operación estresante} para someter al sistema a ella.
 
 
 % function drawVisualization() {
