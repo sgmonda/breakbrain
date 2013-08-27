@@ -44,12 +44,12 @@
 \contentsline {subsubsection}{Integraci\IeC {\'o}n de neurocircuitos}{29}{figure.3.11}
 \contentsline {subsection}{\numberline {3.4.3}Estructuras primarias del cerebro}{30}{subsection.3.4.3}
 \contentsline {subsubsection}{El tronco encef\IeC {\'a}lico. La formaci\IeC {\'o}n reticular}{30}{subsection.3.4.3}
-\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{30}{subsection.3.4.3}
+\contentsline {subsubsection}{Generaci\IeC {\'o}n de patrones}{31}{subsection.3.4.3}
 \contentsline {subsubsection}{El sistema nervioso aut\IeC {\'o}nomo (SNA)}{31}{subsection.3.4.3}
 \contentsline {subsubsection}{El cerebelo}{31}{figure.3.12}
-\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{32}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}La corteza cerebral}{34}{subsection.3.4.5}
-\contentsline {subsubsection}{El neoc\IeC {\'o}rtex}{34}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.4}Los hemisferios cerebrales}{33}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}La corteza cerebral}{33}{subsection.3.4.5}
+\contentsline {subsubsection}{El neoc\IeC {\'o}rtex}{33}{subsection.3.4.5}
 \contentsline {subsubsection}{La corteza del c\IeC {\'\i }ngulo anterior: emoci\IeC {\'o}n, atenci\IeC {\'o}n y memoria a corto plazo}{34}{subsection.3.4.5}
 \contentsline {subsubsection}{Los l\IeC {\'o}bulos cerebrales}{36}{figure.3.15}
 \contentsline {subsubsection}{La corteza frontal}{38}{figure.3.16}
@@ -57,9 +57,9 @@
 \contentsline {subsubsection}{Mapas retinot\IeC {\'o}picos}{42}{figure.3.19}
 \contentsline {subsection}{\numberline {3.4.6}Estructuras subcorticales. El estr\IeC {\'e}s, las emociones y la enfermedad mental}{44}{subsection.3.4.6}
 \contentsline {subsubsection}{El cerebro animal}{45}{subsection.3.4.6}
-\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{45}{figure.3.20}
+\contentsline {subsubsection}{La am\IeC {\'\i }gdala, el estr\IeC {\'e}s, el \acs {TOC} y el \acs {TEPT}}{46}{figure.3.20}
 \contentsline {subsubsection}{C\IeC {\'o}mo la experiencia afecta al cerebro}{48}{figure.3.20}
-\contentsline {section}{\numberline {3.5}Neuroplasticidad}{49}{section.3.5}
+\contentsline {section}{\numberline {3.5}Neuroplasticidad}{50}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Memoria (Memory)}{51}{subsection.3.5.1}
 \contentsline {subsubsection}{Memoria de trabajo}{51}{subsection.3.5.1}
 \contentsline {subsubsection}{Recuerdo espacial (Spatial recall)}{52}{subsection.3.5.1}
@@ -67,7 +67,7 @@
 \contentsline {subsection}{\numberline {3.5.2}Resoluci\IeC {\'o}n de problemas (Problem solving)}{53}{subsection.3.5.2}
 \contentsline {subsubsection}{Aritm\IeC {\'e}tica (Arithmetic)}{53}{subsection.3.5.2}
 \contentsline {subsubsection}{Razonamiento l\IeC {\'o}gico (Logical reasoning)}{53}{subsection.3.5.2}
-\contentsline {subsubsection}{Razonamiento cuantitativo (Quantitative reasoning)}{53}{subsection.3.5.2}
+\contentsline {subsubsection}{Razonamiento cuantitativo (Quantitative reasoning)}{54}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Atenci\IeC {\'o}n (Attention)}{54}{subsection.3.5.3}
 \contentsline {subsubsection}{Concentraci\IeC {\'o}n (Focus)}{54}{subsection.3.5.3}
 \contentsline {subsubsection}{Campo visual (Visual field)}{54}{subsection.3.5.3}
@@ -117,9 +117,9 @@
 \contentsline {chapter}{\numberline {5}Arquitectura}{117}{chapter.5}
 \contentsline {section}{\numberline {5.1}Composici\IeC {\'o}n del sistema}{117}{section.5.1}
 \contentsline {section}{\numberline {5.2}Arquitectura del sitio web}{118}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Patr\IeC {\'o}n MVC}{118}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Patr\IeC {\'o}n MVC}{119}{subsection.5.2.1}
 \contentsline {section}{\numberline {5.3}Arquitectura del servidor}{119}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Patr\IeC {\'o}n MVC}{119}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Patr\IeC {\'o}n MVC}{120}{subsection.5.3.1}
 \contentsline {section}{\numberline {5.4}Dise\IeC {\~n}o modular}{120}{section.5.4}
 \contentsline {chapter}{\numberline {6}Resultados}{123}{chapter.6}
 \contentsline {section}{\numberline {6.1}Especificaci\IeC {\'o}n del entrenamiento cerebral}{123}{section.6.1}
@@ -140,7 +140,7 @@
 \contentsline {subsubsection}{Variables din\IeC {\'a}micas sociales}{134}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Sistema de recomendaci\IeC {\'o}n}{136}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Algoritmo de recomendaci\IeC {\'o}n de usuarios}{137}{subsection.6.3.1}
-\contentsline {subsubsection}{Similitud entre usuarios}{137}{subsection.6.3.1}
+\contentsline {subsubsection}{Similitud entre usuarios}{139}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Algoritmo de recomendaci\IeC {\'o}n de juegos}{141}{subsection.6.3.2}
 \contentsline {chapter}{\numberline {7}Conclusiones y propuestas}{143}{chapter.7}
 \contentsline {section}{\numberline {7.1}Objetivos alcanzados}{143}{section.7.1}

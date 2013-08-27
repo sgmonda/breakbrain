@@ -1,0 +1,24 @@
+
+%% -- Información general --
+\title{BreakBrain: Red social para la mejora de habilidades mentales a través de juegos}
+\author{Sergio García Mondaray}{}
+
+
+%% -- Variables de la clase arco-pfc --
+
+%- datos del autor
+
+%\address{}
+%\city{}
+%\country{}
+\email{sgmonda@gmail.com}
+\phone{661 778 347}
+\homepage{http://www.sgmonda.com}
+
+
+%- datos del documento
+
+%\logo{emblema_informatica-gray.pdf}
+\advisor{Jesús Serrano Guerrero}{}
+\publishdate{2013}{Septiempre}
+%\license{Texto de licencia al gusto de cada uno.}
