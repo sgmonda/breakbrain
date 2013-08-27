@@ -470,19 +470,43 @@ La tabla \ref{table:variables-resumen} muestra el conjunto de variables que repr
 
 \begin{table}
   \begin{center}
-    \begin{tabular}{lll}
+    \begin{tabular}{lcc}
       \hline
       \tabheadformat
-      a & a & a \\
+      {\bf Variable} & {\bf Tipo} & {\bf Valores} \\
       \hline
-      a & a & a \\
-      a & a & a \\
+      {\tt capacity} & Enumeración & memory, problem-solving... \\
+      {\tt hability} & Enumeración & working-memory, spatial-memory... \\
+      {\tt dedication} & Número entero & $\geq 0$ \\
       \hline
       \tabheadformat
-      a & a & a \\
+      {\bf Variable} & {\bf Tipo} & {\bf Valores} \\
       \hline
-      a & a & a \\
-      a & a & a \\
+      {\tt sex} & Enumeración & hombre, mujer \\
+      {\tt age} & Número entero & $\geq 0$ \\
+      {\tt keywords} & Vector de cadenas & [``key1'', ``key2'', ...] \\
+      {\tt training-interests} & Vector de enumeración & [``focus'', ``visual-field'', ...] \\
+      {\tt memory} & Número decimal & $[0-1]$ \\
+      {\tt working-memory} & Número entero & $\geq 0$ \\
+      {\tt spatial-memory} & Número entero & $\geq 0$ \\
+      {\tt face-name} & Número entero & $\geq 0$ \\
+      {\tt problem-solving} & Número decimal & $[0-1]$ \\
+      {\tt arithmetic} & Número entero & $\geq 0$ \\
+      {\tt logical-reasoning} & Número entero & $\geq 0$ \\
+      {\tt quantitative-reasoning} & Número entero & $\geq 0$ \\
+      {\tt attention} & Número decimal & $[0-1]$ \\
+      {\tt focus} & Número entero & $\geq 0$ \\
+      {\tt visual-field} & Número entero & $\geq 0$ \\
+      {\tt speed} & Número decimal & $[0-1]$ \\
+      {\tt information-processing} & Número entero & $\geq 0$ \\
+      {\tt spatial-orientation} & Número entero & $\geq 0$ \\
+      {\tt flexibility} & Número decimal & $[0-1]$ \\
+      {\tt response-inhibition} & Número entero & $\geq 0$ \\
+      {\tt planning} & Número entero & $\geq 0$ \\
+      {\tt task-switching} & Número entero & $\geq 0$ \\
+      {\tt verbal-fluency} & Número entero & $\geq 0$ \\
+      {\tt followers} & Número entero & $\geq 0$ \\
+      {\tt followees} & Número entero & $\geq 0$ \\
       \hline
     \end{tabular}
   \end{center}
@@ -494,7 +518,189 @@ Haciendo uso de toda la información disponible se han desarrollado dos subsiste
 
 \subsection{Algoritmo de recomendación de usuarios}
 
+Para la realización de sugerencias de usuarios a los que seguir en BreakBrain se ha desarrollado un algoritmo de recomendación híbrido, diseñado a partir de los métodos {\it colaborativo} y {\it basado en contenido} (ver sección \ref{sec::tipos-sistemas-recomendacion}). Para recomendar usuarios a un usuario dado (al que llamaremos ``objetivo''), por tanto, el algoritmo hace uso de 2 datos:
+
+\begin{itemize}
+\item Los usuarios a los que ya sigue el objetivo
+\item Los usuarios a los que siguen aquellos con cierta similitud al objetivo
+\end{itemize}
+
+\subsubsection{Similitud entre usuarios}
+
+En base a lo anterior, el primer paso que debe seguir el algoritmo es encontrar los usuarios similares al objetivo. La función encargada de hacerlo tiene en cuenta las siguientes características de los usuarios:
+
+\begin{itemize}
+\item Keywords de descripción
+\item Intereses de entrenamiento
+\item Puntuación de capacidades mentales
+\end{itemize}
+
+En el listado \ref{pseudocodigo:similitud} se ofrece el pseudocódigo de la función encargada de encontrar usuarios similares al usuario objetivo.
+
+\begin{listing}[caption=Función que encuentra usuarios similares al objetivo, label=pseudocodigo:similitud]
+FUNCION similares (objetivo: USUARIO, usuarios: VECTOR DE USUARIO, n: INTEGER)
+VARIABLES
+    sim : FLOAT;
+    u : USUARIO;
+    similitudes : VECTOR DE (USUARIO, FLOAT)
+INICIO
+    PARA CADA u DE usuarios HACER
+        sim := similitud(u, objetivo);
+        push(similitudes, [u, sim]);
+        similitudes := ordenar(similitudes);
+        similitudes := head(similitudes, n);
+        DEVOLVER similitudes
+    FIN
+FIN
+\end{listing}
+
+La similitud entre dos usuarios es calculada en base a las similitudes entre sus keywords, intereses y perfil cerebral. El listado \ref{codigo:similitud} muestra el código JavaScript encargado de realizar dicho cálculo.
+
+\begin{listing}[caption=Algoritmo de recomendación de usuarios, label=codigo:similitud, language=JavaScript]
+/**
+ * Calcula la similitud entre 2 usuarios
+ * @param {object} user1 Primer usuario
+ * @param {object} user2 Segundo usuario
+ * @returns {number} Similitud entre usuarios [0-1]
+ */
+var usersSimilarity = function (user1, user2) {
+
+	/**
+	 * Calcula la similitud entre dos vectores de keywords
+	 */
+	var keywordsSimilarity = function (keywords1, keywords2) {
+
+		var maxLen = Math.max(keywords1.length, keywords2.length);
+		var intersection = keywords1.filter(function (elem) {
+			return keywords2.indexOf(elem) >= 0;
+		});
+		return intersection.length / maxLen;
+	};
+
+	/**
+	 * Calcula la similitud entre dos vectores de intereses
+	 */
+	var interestsSimilarity = function (interests1, interests2) {
+
+		return keywordsSimilarity(interests1, interests2);
+	};
+
+	/**
+	 * Calcula la similitud entre las capacidades mentales de dos sujetos
+	 */
+	var capacitiesSimilarity = function (brain1, brain2) {
+
+		var similarity = 0;
+		var len = 0;
+		for (var capacity in brain1) {
+			var cap1 = brain1[capacity];
+			var cap2 = brain2[capacity];
+			var diff = Math.abs(cap1 - cap2);
+			similarity += 1 - diff;
+			len ++;
+		}
+		return similarity / len;
+	};
+
+	var keywordsSim = keywordsSimilarity(user1.keywords, user2.keywords);
+	var interestsSim = interestsSimilarity(user1.interests, user2.interests);
+	var brainSim = capacitiesSimilarity(user1.brain, user2.brain);
+
+	return (keywordsSim + interestsSim + brainSim) / 3;
+};
+\end{listing}
+
+En base a lo anterior, el algoritmo diseñado para realizar las sugerencias de seguimiento de usuarios para un objetivo dado es el mostrado, mediante pseudocódigo, en el listado \ref{pseudocodigo:recomendacion-usuarios}.
+
+\begin{listing}[caption=Algoritmo de recomendación de usuarios, label=pseudocodigo:recomendacion-usuarios]
+FUNCION recomienda usuarios (objetivo: USUARIO, usuarios: VECTOR DE USUARIO, n: INTEGER)
+VARIABLES
+    sim : FLOAT;
+    u : USUARIO;
+    similares : VECTOR DE (USUARIO, FLOAT);
+    recomendacion : VECTOR DE (USUARIO, FLOAT);
+    recomendacion2 : VECTOR DE (USUARIO, FLOAT);
+    fwees : VECTOR DE (USUARIO);
+INICIO
+    PARA CADA u DE objetivo.followees HACER
+        fwees := u.followees;
+        PARA CADA u2 DE fwees HACER
+            sim := similitud(u2, objetivo);
+            push(recomendacion, [u, sim]);
+            recomendacion := ordenar(recomendacion);
+            recomendacion := head(recomendacion, n / 2);
+        FIN
+    FIN
+    similares := similares(objetivo, usuarios, n);
+    PARA CADA u DE similares HACER
+        fwees := u.followees;
+        PARA CADA u2 DE fwees HACER
+            sim := similitud(u2, objetivo);
+            push(recomendacion2, [u, sim]);
+            recomendacion2 := ordenar(recomendacion2);
+            recomendacion2 := head(recomendacion2, n / 2);
+        FIN
+    FIN
+    recomendacion := concatena(recomendacion, recomendacion2);
+    recomendacion := ordenar(recomendacion);
+    recomendacion := head(recomendacion, n);
+    DEVOLVER recomendacion;
+FIN
+\end{listing}
+
 \subsection{Algoritmo de recomendación de juegos}
+
+Para el caso de la recomendación de juegos para un usuario objetivo se ha diseñado un algoritmo híbrido basado en los métodos de utilidad y colaborativo (ver sección \ref{sec::tipos-sistemas-recomendacion}).
+
+La función de utilidad se calcula en base al estado cerebral del sujeto objetivo en el instante de ejecución del algoritmo, y tiene en cuenta todo el conjunto de juegos como items susceptibles de ser recomendados. El enfoque colaborativo hace uso de la información de seguimiento de usuarios para prestar atención a los juegos preferidos por los {\tt followees} del usuario objetivo.
+
+Por tanto, la información de la que hace uso el algoritmo es la siguiente:
+
+\begin{itemize}
+\item Conjunto de juegos (cada uno con una única capacidad y habilidad definida).
+\item Perfil cerebral del usuario objetivo (estado de todas las habilidades mentales).
+\item Usuarios a los que el objetivo sigue.
+\item Dedicación de cada usuario a cada juego.
+\end{itemize}
+
+En líneas generales, los pasos que el algoritmo diseñado sigue son los siguientes:
+
+\begin{enumerate}
+\item Ordenar las habilidades mentales del usuario objetivo por puntuación (las peor valoradas primero).
+\item Filtrar los juegos, seleccionando los que estén dedicados a las 3 habilidades peor puntuadas del individuo.
+\item Obtener la dedicación de cada usuario seguido por el objetivo para cada juego del subconjunto filtrado.
+\item Calcular una valoración global de la dedicación para cada juego.
+\item Ordenar el subconjunto de juegos en base a la dedicación.
+\item Recomendar al usuario los {\tt n} primeros juegos de la lista ordenada.
+\end{enumerate}
+
+El listado \ref{pseudocodigo:games} ofrece una descripción del algoritmo de recomendación de juegos de BreakBrain.
+
+\begin{listing}[caption=Algoritmo de recomendación de juegos, label=pseudocodigo:games]
+FUNCION recomendarJuegos (objetivo: USUARIO, todosLosJuegos: VECTOR DE JUEGO, n: INTEGER)
+VARIABLES
+    habilidades : VECTOR DE (STRING, FLOAT);
+    juegos : VECTOR DE JUEGO;
+    fwees : VECTOR DE USUARIO;
+    dedicacion : INTEGER;
+    j : JUEGO;
+INICIO
+    habilidades := objetivo.habilidades;
+    habilidades := ordenar(habilidades);
+    juegos := filter(todosLosJuegos, habilidades);
+    fwees := objetivo.followees;
+    PARA CADA j DE juegos HACER
+        dedicacion := 0;
+        PARA CADA u DE fwees HACER
+            dedicacion := dedicacion + j.dedicacion(u);
+        FIN
+        dedicacion := dedicacion / length(fwees);
+    FIN
+    juegos := ordenar(juegos, dedicacion);
+    juegos := head(juegos, n);
+    DEVOLVER juegos;
+FIN
+\end{listing}
 
 %% \subsection{Notas personales}
 
