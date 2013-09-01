@@ -423,9 +423,7 @@
       documento bajo los términos de la Licencia de Documentación
       Libre GNU, versión 1.3 o cualquier versión posterior publicada
       por la \emph{Free Software Foundation}; sin secciones
-      invariantes. Una copia de esta licencia esta incluida en el
-      apéndice titulado \hyperlink{chap:GFDL}{«GNU Free Documentation
-        License»}.
+      invariantes.
 
     \smallskip
     Muchos de los nombres usados por las compañías para diferenciar
