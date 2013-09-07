@@ -143,79 +143,151 @@
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
-		<img src="./img/neuroplasticity.png" alt="" />
+		<img src="./img/neuroplasticity.png" alt="" id="pesas0"/>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw1"
+	  <div class="step intro-step" data-scale="1" id="draw1-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw1"></div>
 		<script>
 		  draw('draw1', 0);
 		</script>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw2"
+	  <div class="step intro-step" data-scale="1" id="draw2-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw2"></div>
 		<script>
 		  draw('draw2', 0);
 		</script>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw3"
+	  <div class="step intro-step" data-scale="1" id="draw3-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw3"></div>
 		<script>
 		  draw('draw3', 0);
 		</script>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw4"
+	  <div class="step intro-step" data-scale="1" id="draw4-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw4"></div>
 		<script>
 		  draw('draw4', 0);
 		</script>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw5"
+	  <div class="step intro-step" data-scale="1" id="draw5-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw5"></div>
 		<script>
 		  draw('draw5', 0);
 		</script>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw6"
+	  <div class="step intro-step" data-scale="1" id="draw6-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw6"></div>
 		<script>
 		  draw('draw6', 0);
 		</script>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw7"
+	  <div class="step intro-step" data-scale="1" id="draw7-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw7"></div>
 		<script>
 		  draw('draw7', 0);
 		</script>
 	  </div>
 
-	  <div class="step intro-step" data-scale="1" id="draw8"
+	  <div class="step intro-step" data-scale="1" id="draw8-step"
            data-x="0" data-y="-230" data-z="-32000"
            data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
 		   data-jmpress="">
+		<div id="draw8"></div>
 		<script>
 		  draw('draw8', 0);
 		</script>
+	  </div>
+
+	  <div class="step pesas-step" data-scale="1" style="background: white; border-radius: 300px; height: 350px; width: 350px; border: solid 20px #999;" id="pesas"
+           data-x="0" data-y="-230" data-z="-31000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<img src="./img/neuroplasticity.gif" alt="" width="350" style="margin-top: 43px" />
+	  </div>
+
+	  <div class="step pesas-step" data-scale="1" style="text-align: center; font-family: 'lobster'; font-size: 40px"
+           data-x="300" data-y="-240" data-z="-30000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="" data-exclude="true">
+		<canvas id="arrows" style="margin-top: 50px; opacity: 1" width="700" height="450"></canvas>
+		<script>
+		  $('#after-arrows').on('enterStep', function () {
+		      var ctx = $('#arrows')[0].getContext('2d');
+
+			  setTimeout(function () {
+			    ctx.beginPath();
+			    ctx.lineWidth = 10;
+			    ctx.strokeStyle = "#999";
+			    ctx.moveTo(265, 110);
+			    ctx.lineTo(150, 280);
+			    ctx.stroke();
+			    
+			    ctx.beginPath();
+			    ctx.strokeStyle = "#999";
+			    ctx.moveTo(210, 380);
+			    ctx.lineTo(500, 380);
+			    ctx.stroke();
+			    
+			    ctx.beginPath();
+			    ctx.strokeStyle = "#999";
+			    ctx.moveTo(550, 285);
+			    ctx.lineTo(425, 110);
+			    ctx.stroke();
+
+			  }, 1000 * 3);
+
+
+		  });
+		</script>
+	  </div>
+
+	  <div class="step pesas-step" data-scale="1" style="text-align: center; padding-top: 130px; font-family: 'lobster'; font-size: 40px" id="after-arrows"
+           data-x="300" data-y="-240" data-z="-30000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		Entrenamiento<br/>colaborativo
+	  </div>
+
+	  <div class="step pesas-step" data-scale="1" style="background: white; border-radius: 300px; height: 350px; width: 350px; border: solid 20px #999;" id="pesas2"
+           data-x="600" data-y="-700" data-z="-31000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/neuroplasticity.gif" alt="" width="350" style="margin-top: 43px" />
+	  </div>
+
+	  <div class="step pesas-step" data-scale="1" style="background: white; border-radius: 300px; height: 350px; width: 350px; border: solid 20px #999;" id="pesas3"
+           data-x="600" data-y="200" data-z="-31000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/neuroplasticity.gif" alt="" width="350" style="margin-top: 43px" />
 	  </div>
 
 	  <!-- === INDEX ============================================================ -->

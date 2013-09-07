@@ -8,7 +8,7 @@ $(function () {
 			minScale: 0.1
 		},
 		animation: {
-			transitionDuration : '1s'
+			transitionDuration : '2s'
 		}
 	});
 
@@ -17,7 +17,7 @@ $(function () {
 		if ($(this).hasClass('intro-step')) {
 			$('.intro-step').animate({opacity: 1}, 2000, 'swing');
 		} else {
-			$('.intro-step').animate({opacity: 0}, 500, 'swing');
+			$('.intro-step').animate({opacity: 0}, 1000, 'swing');
 		}
 		if ($(this).hasClass('metodologia-step')) {
 			$('.metodologia-step').animate({opacity: 1}, 2000, 'swing');
@@ -39,6 +39,11 @@ $(function () {
 		} else {
 			$('.conclusiones-step').animate({opacity: 0}, 1000, 'swing');
 		}
+		if ($(this).hasClass('pesas-step')) {
+			$('.pesas-step').delay(1000).animate({opacity: 1}, 2000, 'swing');
+		} else {
+			$('.pesas-step').delay(1000).animate({opacity: 0}, 1000, 'swing');
+		}
 	});
 	$('.transparent').on('enterStep', function(event) {
 		$(this).delay(0).animate({opacity: 1}, 2000, 'swing');
@@ -56,11 +61,16 @@ $(function () {
 	$('.semitransparent').on('leaveStep', function(event) {
 		$(this).animate({opacity: 0.5}, 1000);
 	});
+	$('#draw8-step').on('leaveStep', function (event) {
+		for(var i = 1, len = 9; i < len; i++){
+			$('#draw' + i).lazylinepainter('destroy');
+		}
+	});
  
 });
 
 var draw = function (componentID, delay) {
-	$('#' + componentID).on('enterStep', function (event) {
+	$('#' + componentID + '-step').on('enterStep', function (event) {
 		console.log('Painting ' + componentID + '...');
 		setTimeout(function () {
 			$('#' + componentID).lazylinepainter({

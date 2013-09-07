@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5 {
 	width: 100%;
 	text-align: right;
 }
-.index, .hiden-out, .intro-step, .metodologia-step, .arquitectura-step, .resultados-step, .conclusiones-step {
+.index, .hiden-out, .intro-step, .metodologia-step, .arquitectura-step, .resultados-step, .conclusiones-step, .pesas-step {
 	opacity: 0;
 }
 p {
