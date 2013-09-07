@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+	<title>BreakBrain</title>
+
+	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+
+	<script type="text/javascript" src="./js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="./js/jmpress.js"></script>
+	<script type="text/javascript" src="./js/raphael-min.js"></script>
+	<script type="text/javascript" src="./js/jquery.lazylinepainter-1.4.1.min.js"></script>
+	<script type="text/javascript" src="./js/draws.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+
+  </head>
+
+  <body>
+
+	<div id="jmpress">
+
+	  <div class="step transparent hide-index" data-scale="1" id="start"
+           data-x="0" data-y="0" data-z="600"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+	  </div>
+
+	  <div class="step transparent hide-index" data-scale="1"
+           data-x="0" data-y="200" data-z="600"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<div style="margin-top: 220px; width: 800px; text-align: center;" class="hiden-out">
+		  <h2>BreakBrain</h2>
+		  <p>Red social para la mejora de habilidades mentales<br/>a través de juegos</p>
+		  <div style="margin-top: 50px; font-weight: bold; font-size: 25px">
+			Sergio García Mondaray
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="step hide-index" data-scale="1"
+           data-x="0" data-y="20" data-z="0"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/logo.png"/>
+	  </div>
+
+	  <!-- === INDEX ============================================================ -->
+
+	  <div class="step index show-index" data-scale="1"
+           data-x="0" data-y="-20" data-z="0"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<img src="./img/index.png" style="margin-top: 20px"/>
+	  </div>
+
+	  <!-- === INTRODUCCIÓN ===================================================== -->
+
+	  <div class="step show-index" data-scale="1"
+           data-x="0" data-y="-230" data-z="-700"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+	  </div>
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-2000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+	  </div>
+
+	  <!--
+		  TODO: Ver la infografía paso a paso
+	  -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="-80" data-y="-230" data-z="-2500"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/60seconds.png" alt="" />
+	  </div>
+
+	  <!-- == -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-6000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+	  </div>
+
+	  <!--
+		  TODO: Ver la infografía paso a paso
+	  -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-11000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/redes-sociales-v-oleada.jpeg" alt="" />
+	  </div>
+
+	  <!-- == -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-14000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+	  </div>
+
+	  <!--
+		  TODO: Ver la infografía paso a paso
+	  -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-22000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/videogames.jpg" alt="" />
+	  </div>
+
+	  <!-- == -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-26000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+	  </div>
+
+	  <!--
+		  TODO: Ver la infografía paso a paso
+	  -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-28500"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/videogame-brain.png" alt="" />
+	  </div>
+
+	  <!-- == -->
+
+	  <div class="step intro-step" data-scale="1"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<img src="./img/neuroplasticity.png" alt="" />
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw1"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw1', 0);
+		</script>
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw2"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw2', 0);
+		</script>
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw3"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw3', 0);
+		</script>
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw4"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw4', 0);
+		</script>
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw5"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw5', 0);
+		</script>
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw6"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw6', 0);
+		</script>
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw7"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw7', 0);
+		</script>
+	  </div>
+
+	  <div class="step intro-step" data-scale="1" id="draw8"
+           data-x="0" data-y="-230" data-z="-32000"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="-90"
+		   data-jmpress="">
+		<script>
+		  draw('draw8', 0);
+		</script>
+	  </div>
+
+	  <!-- === INDEX ============================================================ -->
+
+	  <div class="step index show-index" data-scale="1"
+           data-x="0" data-y="-20" data-z="0"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<img src="./img/index.png" style="margin-top: 20px"/>
+	  </div>
+
+	  <!-- === METODOLOGÍA ====================================================== -->
+
+	  <div class="step show-index" data-scale="1"
+           data-x="230" data-y="-140" data-z="-700"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="-19"
+		   data-jmpress="">
+	  </div>
+
+	  <div class="step metodologia-step" data-scale="1"
+           data-x="230" data-y="-200" data-z="-1800"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="-19"
+		   data-jmpress="">
+		<img src="./img/pud.png" alt="" style="width: 900px"/>
+	  </div>
+
+	  <!-- <div class="step metodologia-step" data-scale="1" style="width: 900px" -->
+      <!--      data-x="230" data-y="-500" data-z="-5000" -->
+      <!--      data-rotate-x="-5" data-rotate-y="0" data-rotate-z="-19" -->
+	  <!-- 	   data-jmpress=""> -->
+
+	  <!-- 	<h2>Planificación de iteraciones</h2> -->
+
+	  <!-- 	<table> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td><strong>Iteración</strong></td> -->
+	  <!-- 		<td><strong>Tareas principales</strong></td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td>I1</td> -->
+	  <!-- 		<td>Planificación, análisis de requisitos y casos de uso</td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td>E1</td> -->
+	  <!-- 		<td>Ampliación de análisis. Diseño del sistema completo. Implementación de la autenticación con base de datos.</td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td>E2</td> -->
+	  <!-- 		<td>Finalización de análisis. Ampliación del diseño. Implementación del sistema base de websockets.</td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td>C1</td> -->
+	  <!-- 		<td>Formalización de casos de uso. Implementación del servidor principal y realización de primeras pruebas unitarias.</td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td>C2</td> -->
+	  <!-- 		<td>Implementación del sistema de juegos y de la interfaz web. Ampliación de pruebas unitarias y creación de primeras pruebas funcionales.</td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td>C3</td> -->
+	  <!-- 		<td>Implementación del sistema de estadísticas de seguimiento</td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	  <tr> -->
+	  <!-- 		<td>C4</td> -->
+	  <!-- 		<td>Implementación del sistema de recomendación.</td> -->
+	  <!-- 	  </tr> -->
+	  <!-- 	</table> -->
+
+	  <!-- </div> -->
+
+	  <div class="step metodologia-step" data-scale="1" style="width: 800px"
+           data-x="230" data-y="-600" data-z="-6000"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="-19"
+		   data-jmpress="">
+
+		<h2>Entorno tecnológico</h2>
+
+		<div style="display: inline-block; width: 380px; vertical-align: top">
+		  <h4>Tecnologías web</h4>
+		  <ul style="font-size: 25px;">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		  </ul>
+
+		  <h4>Bibliotecas y módulos</h4>
+		  <ul style="font-size: 25px;">
+			<li>Socket.IO</li>
+			<li>Express</li>
+			<li>CreateJS</li>
+		  </ul>
+
+		  <h4>Entornos de desarrollo</h4>
+		  <ul style="font-size: 25px;">
+			<li>Emacs</li>
+			<li>Chrome DevTools</li>
+		  </ul>
+
+		</div>
+
+		<div style="display: inline-block; width: 380px; vertical-align: top">
+		  <h4>Tecnologías del servidor</h4>
+		  <ul style="font-size: 25px;">
+			<li>NodeJS</li>
+			<li>MongoDB</li>
+			<li>Websockets</li>
+		  </ul>
+
+		  <h4>Pruebas</h4>
+		  <ul style="font-size: 25px;">
+			<li>NodeJS Assert</li>
+			<li>Vows</li>
+		  </ul>
+
+		  <h4>Otros</h4>
+		  <ul style="font-size: 25px;">
+			<li>Amazon Web Services</li>
+			<li>MongoLab</li>
+			<li>Nodester</li>
+			<li>Git</li>
+		  </ul>
+
+		</div>
+
+	  </div>
+
+	  <!-- === INDEX ============================================================ -->
+
+	  <div class="step index show-index" data-scale="1"
+           data-x="0" data-y="-20" data-z="0"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<img src="./img/index.png" style="margin-top: 20px"/>
+	  </div>
+
+	  <!-- === ARQUITECTURA ====================================================== -->
+
+	  <div class="step show-index" data-scale="1"
+           data-x="160" data-y="150" data-z="-600"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="47"
+		   data-jmpress="">
+	  </div>
+
+	  <div class="step arquitectura-step" data-scale="1"
+           data-x="150" data-y="30" data-z="-2000"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="47"
+		   data-jmpress="">
+	  </div>
+
+	  <!--
+		  TODO: Completar acercandose a las partes
+	  -->
+
+	  <div class="step arquitectura-step" data-scale="1"
+           data-x="200" data-y="-130" data-z="-4000"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="47"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/arquitectura.svg" alt="" />
+	  </div>
+
+	  <!-- === INDEX ============================================================ -->
+
+	  <div class="step index show-index" data-scale="1"
+           data-x="0" data-y="-20" data-z="0"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<img src="./img/index.png" style="margin-top: 20px"/>
+	  </div>
+
+	  <!-- === RESULTADOS ====================================================== -->
+
+	  <div class="step show-index" data-scale="1"
+           data-x="-160" data-y="150" data-z="-600"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="-49"
+		   data-jmpress="">
+	  </div>
+
+	  <div class="step resultados-step" data-scale="1"
+           data-x="-220" data-y="100" data-z="-2000"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="-49"
+		   data-jmpress="">
+		hola
+	  </div>
+
+	  <!-- === INDEX ============================================================ -->
+
+	  <div class="step index show-index" data-scale="1"
+           data-x="0" data-y="-20" data-z="0"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<img src="./img/index.png" style="margin-top: 20px"/>
+	  </div>
+
+	  <!-- === CONCLUSIONES ====================================================== -->
+
+	  <div class="step show-index" data-scale="1"
+           data-x="-225" data-y="-100" data-z="-600"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="19"
+		   data-jmpress="">
+	  </div>
+
+	  <div class="step conclusiones-step" data-scale="1"
+           data-x="-225" data-y="-260" data-z="-2000"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="19"
+		   data-jmpress="">
+		hola
+	  </div>
+
+	  <!-- === INDEX ============================================================ -->
+
+	  <div class="step index show-index" data-scale="1"
+           data-x="0" data-y="-20" data-z="0"
+           data-rotate-x="-5" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<img src="./img/index.png" style="margin-top: 20px"/>
+	  </div>
+
+	  <div class="step hide-index" data-scale="1" style="width: 800px; text-align: center" id="gracias-step"
+           data-x="-00" data-y="100" data-z="500"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="">
+		<h3 style="margin-top: 200px; opacity: 0" id="gracias">Gracias por su atención</h3>
+		<script>
+		  $('#gracias-step').on('enterStep', function () {
+		     $('#gracias').delay(2000).animate({opacity: 1}, 1000);
+		  });
+		  $('#gracias-step').on('leaveStep', function () {
+		     $('#gracias').delay(0).animate({opacity: 0}, 1000);
+		  });
+		</script>
+	  </div>
+
+	  <div class="step hide-index" data-scale="1"
+           data-x="0" data-y="20" data-z="0"
+           data-rotate-x="0" data-rotate-y="0" data-rotate-z="0"
+		   data-jmpress="" data-exclude="true">
+		<img src="./img/logo.png"/>
+	  </div>
+
+	</div>
+
+  </body>
+  
+</html>
+
