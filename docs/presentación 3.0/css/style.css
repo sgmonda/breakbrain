@@ -1,0 +1,158 @@
+@font-face {
+	font-family: lobster;
+	src: url('../fonts/lobster.otf');
+}
+
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'lobster', sans-serif;
+	margin-bottom: 20px;
+	padding: 0;
+	line-height: 100%;
+	color: #333;
+}
+
+.flushright {
+	width: 100%;
+	text-align: right;
+}
+.index, .hiden-out, .intro-step, .metodologia-step, .arquitectura-step, .resultados-step, .conclusiones-step, .pesas-step, .diagram-step {
+	opacity: 0;
+}
+p {
+	font-family: 'lobster', sans-serif;
+	font-size: 35px;
+	margin: 0;
+	color: #555;
+}
+
+body {
+
+	/* fallback */
+	background: #f1f1f1;
+
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#f1f1f1), to(#999));
+	background: -webkit-radial-gradient(circle, #f1f1f1, #999);
+
+	background: -moz-radial-gradient(circle, #f1f1f1, #999);
+	background: -ms-radial-gradient(circle, #f1f1f1, #999);
+}
+
+.step {
+	color: #333;
+	font-size: 30px;
+}
+
+.slide {
+	background: white;
+	padding: 40px;
+	width: 700px;
+	height: 500px;
+	border-radius: 20px;
+}
+
+.transparent {
+	opacity: 0;
+}
+
+.semitransparent {
+	opacity: 0.5;
+}
+
+/* = INDEX ============================================================== */
+
+.index {
+	width: 800px;
+	text-align: center;
+
+}
+
+.index-center {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+}
+
+ul > li {
+	 margin-bottom: 10px;
+}
+
+.index-center > ul {
+	list-style: none;
+	padding: 20px;
+	padding-top: 0;
+	margin: 0;
+	height: 550px;
+}
+
+.index-center > ul > li {
+	margin-bottom: 30px;
+	font-size: 40px;
+	line-height: 45px;
+	font-family: 'lobster';
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid 3px #333;
+}
+
+.index-izquierda, .index-center, .index-derecha {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.active {
+	opacity: 1;
+}
+
+table {
+	background: white; font-size: 20px; border: solid 2px #333; display: block; margin: auto
+}
+table tr td {
+	border-bottom: solid 2px #ddd;
+}
+table tr td:nth-child(1) {
+	text-align: center;
+}
+table tr td:nth-child(2) {
+	width: 100%;
+}
+
+/* ====================================================================== */
+
+/* Debug
+.step, .slide {
+	border: solid 1px blue;
+}
+*/
+
+#etapas li,
+.conclusiones-step li {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+td {
+	padding: 10px;
+}
+
+#brain-parts {
+	list-style: none;
+	padding: 0;
+	margin: 30px 0 0 0;
+	width: 0px;
+}
+
+#brain-parts > li {
+	display: block;
+	margin-bottom: 20px;
+	border: solid 5px #666;
+	border-radius: 10px;
+	padding: 5px;
+	font-family: 'lobster';
+	font-size: 40px;
+	opacity: 0;
+}

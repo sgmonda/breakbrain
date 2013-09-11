@@ -8,7 +8,7 @@ $(function () {
 			minScale: 0.1
 		},
 		animation: {
-			transitionDuration : '2s'
+			transitionDuration : '1s'
 		}
 	});
 
@@ -61,7 +61,7 @@ $(function () {
 
 	});
 	$('.transparent').on('enterStep', function(event) {
-		$(this).delay(0).animate({opacity: 1}, 2000, 'swing');
+		$(this).delay(500).animate({opacity: 1}, 2000, 'swing');
 	});
 	$('.show-index').on('enterStep', function(event) {
 		$('.index').delay(0).animate({opacity: 1}, 1500, 'swing');
