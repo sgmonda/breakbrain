@@ -15,9 +15,9 @@ $(function () {
 	$('.step').on('enterStep', function(event) {
 		$(this).find('.hiden-out').animate({opacity: 1}, 1500);
 		if ($(this).hasClass('intro-step')) {
-			$('.intro-step').delay(500).animate({opacity: 1}, 2000, 'swing');
+			$('.intro-step').animate({opacity: 1}, 2000, 'swing');
 		} else {
-			$('.intro-step').animate({opacity: 0}, 1000, 'swing');
+			$('.intro-step').animate({opacity: 0}, 500, 'swing');
 		}
 		if ($(this).hasClass('metodologia-step')) {
 			$('.metodologia-step').delay(500).animate({opacity: 1}, 2000, 'swing');
@@ -61,7 +61,7 @@ $(function () {
 
 	});
 	$('.transparent').on('enterStep', function(event) {
-		$(this).delay(500).animate({opacity: 1}, 2000, 'swing');
+		$(this).delay(0).animate({opacity: 1}, 1000, 'swing');
 	});
 	$('.show-index').on('enterStep', function(event) {
 		$('.index').delay(0).animate({opacity: 1}, 1500, 'swing');
