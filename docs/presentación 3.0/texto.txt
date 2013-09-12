@@ -1,0 +1,108 @@
+Hola, soy Sergio García Mondaray y voy a presentar BreakBrain, una red social para la mejora de habilidades mentales a través de juegos.
+
+Índice
+------
+
+Durante la presentación abarcaré diferentes aspectos del desarrollo de BreakBrain.
+-En primer lugar ofreceré una introducción sobre redes sociales, juegos y cómo éstos afectan al cerebro.
+-Después expondré las etapas en las que se ha dividido el trabajo realizado, así como la metodología que se ha seguido para el desarrollo del software.
+-Al hablar sobre la arquitectura mostraré los componentes hardware y software del sistema, el papel que juegan y cómo es la interacción entre ellos.
+-Llegado el momento expondré los resultados obtenidos tras la investigación y desarrollo del sistema, ofreciendo una demostración de BreakBrain en funcionamiento.
+-Para finalizar, mencionaré las conclusiones obtenidas y algunas propuestas para el trabajo futuro.
+
+Introducción
+------------
+
+60 segundos
+
+¿Alguna vez han tratado de pensar qué ocurre en Internet en tan sólo 60 segundos? Es curioso! Aquí tenemos algunos datos sobre los sitios web más populares de la red: YouTube, Facebook, Skype, Flickr, Spotify, Blog posts, Tumblr, Email, Instagram, Pinterest, LinkedIn, Amazon, Twitter
+La mayoría de estas webs tienen algo muy importante en común para el objetivo que nos ocupa (twitter, flickr, facebook, youtube, tumblr...): El aspecto social es absoluto protagonista y causante del éxito de ellas.
+
+Redes sociales
+
+Hay gran cantidad de redes sociales, como hemos visto. Podríamos decir que hoy en día la mayoría de plataformas de éxito se centran, al menos en parte, en proveer de ese aspecto social al contenido, permitiendo compartirlo con otros usuarios.
+Concretamente en España, el 93% de internautas acceden a redes sociales. Twitter un 42%, facebook un 83%, tuenti un 27%. Twitter es la única que los encuestados afirman utilizar cada vez más, mientras que en Tuenti es muy común tener un perfil registrado pero utilizarlas cada vez menos. En Facebook también ocurre, pero a menor escala.
+Algunos de los servicios integrados (mensajería) son utilizados cada vez menos, debido al absoluto éxito de Whatsapp. El 84% de personas con smartphone lo utilizan a diario. Su éxito viene propiciado en gran medida por el aumento de uso de smartphones y tablets.
+En general, el acceso a redes sociales es cada vez mayor en dispositivos portables y, aunque el acceso desde computadores tradicionales siga siendo mayor, es posible que en el futuro quede por debajo.
+He mencionado redes sociales como Twitter, Facebook y Tuenti, pero existen otras importantes de considerable éxito: linkedin, instagram, flickr, google+, pinterest, tumblr.
+
+Juegos
+
+Dejando un poco de lado las redes sociales, si nos centramos en el ámbito de los videojuegos, aquí tenemos algunos datos interesantes.
+Los videojuegos son un campo poco afectado por la crisis. Se trata de un mercado en continuo crecimiento, pero con una peculiaridad. Mientras que los juegos distribuidos en soporte físico habían sido prácticamente la única opción hasta hace poco, últimamente los videojuegos online o bien vendidos mediante descarga están haciendo que las ventas de juegos en soporte físico disminuyan. La progresión es clara: los juegos distribuidos a través de Internet suponene una masa cada vez mayor.
+De entre este tipo de juegos, los más utilizados son los juegos casuales, como puzzles, juegos de mesa, juegos tipo trivial, etc. Tanto atendiendo a juegos online como a juegos para móviles.
+No obstante, aunque los juegos casuales sean los más utilizados, si atendemos al número de ventas la gente es algo reticente a gastarse dinero en este tipo de juegos. Son los juegos de acción y comúnmente con gráficos 3D en los que más dinero invierte la gente.
+Para ilustrar esto podemos comparar los beneficios de Angry Birds con los de Call of Duty MW3. Angry birds obtuvo 100 millones de $ en un año, mientras que COD obtuvo 1000 millones en 16 días.
+
+Juegos -> Cerebro
+
+Los juegos son utilizados por diversión. No obstante, existen estudios que demuestran como el empleo de determinados juegos influyen de alguna forma en el comportamiento cerebral de los jugadores.
+Por ejemplo, las acciones repetitivas en juegos hacen que las conexiones entre neuronas relacionadas con la memoria y el aprendizaje se fortalezcan.
+Los juegos que requieren acciones rápidas (space invaders) activan la corteza premotora y parietal, relacionada con el movimiento sensorial. El Movimiento Sensorial nos permite trabajar la "sensibilidad" corporal, mejorando nuestra capacidad de percepción, descubriendo nuestro ritmo interno y reforzando y " poniendo en movimiento " nuestra identidad profunda.
+Pero no todo es bueno. Hay estudios que sostienen que algunos jugadores frecuentes pueden llegar a sufrir alteraciones en el estado de ánimo, provocadas por la disminución de uso del lóbulo frontal.
+Los juegos tipo tetris estimulan el cortex prefrontal, lo que mejora la habilidad de toma de decisiones.
+Durante la práctica de determinados juegos se libera dopamina, lo que mejora la capacidad de aprendizaje.
+La corteza del cíngulo anterior, relacionada con la planificación, es estimulada durante la práctica de juegos con armas de fuego. No obstante esto produce una disminución de la actividad emocional. Algunos estudios afirman que las acciones violentas suprimen la capacidad de sentir emociones.
+Por lo tanto, la práctica de videojuegos afecta al cerebro.
+
+Cerebrito
+
+Explotando esa oportunidad, es posible mejorar el rendimiento cerebral mediante juegos específicamente diseñados para cada capacidad. No sólo mediante la práctica reiterada, sino también mediante la práctica de juegos nuevos.
+Hay 5 capacidades cerebrales que podemos trabajar mediante ejercicios: memoria, resolución de problemas, atención, velocidad de procesamiento y flexibilidad.
+La cualidad del cerebro que le permite sufrir modificaciones, a cualquier edad, es lo que se conoce como neuroplasticidad.
+Haciendo uso de la neuroplasticidad podemos, por lo tanto, entrenar el cerebro mediante juegos. Lo que pretendo con BreakBrain es ir un poco más allá, con el entrenamiento colaborativo. De esta forma se puede entrenar el cerebro mientras mantenemos relaciones sociales, utilizando juegos colaborativos o competitivos en los que dos o más jugadores se vean beneficiados mientras pasan un rato divertido.
+
+Metodología
+-----------
+
+Para construir BreakBrain ha sido necesario un primer paso importante de estudio de algunos aspectos: webs de minijuegos, tecnologías web, fisiología del cerebro humano (especialmente, dado que este campo era completamente desconocido para mí) y sistemas de recomendación.
+A continuación se realizó la definición de objetivos, para dar paso al desarrollo de la plataforma.
+
+Se ha seguido un desarrollo iterativo basado en el proceso unificado de desarrollo, de tal forma que no ha hecho falta concluir una etapa para poder pasar a la siguiente, sino que éstas se han solapado a lo largo de las iteraciones que se han seguido.
+La fase de inicio se centró en la definición de los requisitos del sistema, la elaboración en la formalización de casos de uso y creación del diseño de la aplicación, y la de construcción en la finalización del diseño y la implementación del mismo.
+
+Centrándonos en lo más importante de cada iteración, podemos destacar algunos aspectos (no son los únicos).
+
+En cuanto a las herramientas y tecnologías utilizadas para desarrollar BreakBrain, podemos destacar algunas...
+
+Arquitectura
+------------
+
+En este punto resulta interesante estudiar la composición del sistema desarrollado.
+
+BreakBrain sigue una arquitectura cliente servidor típica, con la peculiaridad de que los clientes interactúan entre sí (mediante juegos multijugador, invitaciones, relaciones sociales, etc), por supuesto a través del servidor.
+
+Si analizamos detalladamente el cliente, se trata de una web dinámica con un módulo de tiempo real mediante websockets. Las conexiones con el servidor se realizan todas mediante HTTP. Los websockets son una tecnología que implementa sockets full-duplex sobre HTTP. Es muy útil para utilizar el puerto 80, que siempre está abierto. Los juegos de la plataforma tienen dos partes, un cliente y un servidor. Las partes cliente de los juegos son servidas junto con la web.
+
+El servidor consta de 3 capas principales: la comunicación mediante websockets, la lógica del sistema y la persistencia. La comunicación http común y la de websockets está multiplexada, de forma que para ambas se utiliza el puerto 80.
+
+Un componente importante de la lógica del servidor es el módulo de juegos: consta de un cargador dinámico y las partes servidor de los juegos.
+
+En cuanto a la persistencia, se ha empleado una base de datos MongoDB. MongoDB es noSQL y sirve para albergar documentos no estructurados. Utiliza JSON como codificación de almacenamiento, por lo que es muy cómoda de utilizar mediante JavaScript.
+
+Resultados
+----------
+
+Llegados hasta aquí, es momento de recordar las capacidades mentales en las que se desglosaba el comportamiento cerebral: memoria, resolución de problemas, atención, velocidad de procesamiento y flexibilidad. Se trata de capacidades complejas, a su vez divisibles en todo el espectro de habilidades con las que BreakBrain trabaja.
+
+Veamos de qué habilidades se compone cada capacidad y cómo deben entrenarse según la especificación creada para BreakBrain.
+
+Aquí soltar todo el rollo...
+
+Una parte importante del sistema desarrollado es la recomendación. Se han desarrollado dos algoritmos de recomendación: uno para usuarios y otro para juegos. Se trata de algoritmos híbridos que tienen en cuenta: intereses propios, intereses de usuarios similares...
+
+Recomendación de usuarios
+
+Recomendación de juegos
+
+Demo
+
+Conclusiones
+------------
+
+objetivos
+
+objetivos académicos adicionales
+
+propuestas
+
